@@ -1,0 +1,924 @@
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_Mask.gbs' ----   Sun Mar 27 18:46:06 2022
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D20   --> D110
+D22   --> D111
+D23   --> D112
+D24   --> D113
+D25   --> D114
+D26   --> D115
+D27   --> D116
+D28   --> D117
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_Paste.gbp' ----   Sun Mar 27 18:46:06 2022
+
+D10   --> D118
+D11   --> D119
+D12   --> D120
+D14   --> D121
+D15   --> D122
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_SilkS.gbo' ----   Sun Mar 27 18:46:06 2022
+
+D10   --> D123
+D11   --> D124
+D12   --> D125
+D13   --> D126
+D14   --> D127
+D15   --> D128
+D16   --> D129
+D17   --> D130
+D18   --> D131
+D19   --> D132
+D20   --> D133
+D22   --> D134
+D24   --> D135
+D25   --> D136
+D26   --> D137
+D27   --> D138
+D28   --> D139
+D29   --> D140
+D30   --> D141
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-Edge_Cuts.gm1' ----   Sun Mar 27 18:46:06 2022
+
+D10   --> D142
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Cu.gtl' ----   Sun Mar 27 18:46:06 2022
+
+D12   --> D143
+D13   --> D144
+D14   --> D145
+D15   --> D146
+D16   --> D147
+D17   --> D148
+D18   --> D149
+D19   --> D150
+D20   --> D151
+D22   --> D152
+D23   --> D153
+D24   --> D154
+D25   --> D155
+D26   --> D156
+D27   --> D157
+D28   --> D158
+D29   --> D159
+D30   --> D160
+D31   --> D161
+D32   --> D162
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Mask.gts' ----   Sun Mar 27 18:46:06 2022
+
+D10   --> D163
+D11   --> D164
+D12   --> D165
+D13   --> D166
+D14   --> D167
+D15   --> D168
+D16   --> D169
+D17   --> D170
+D18   --> D171
+D19   --> D172
+D20   --> D173
+D22   --> D174
+D23   --> D175
+D24   --> D176
+D25   --> D177
+D26   --> D178
+D27   --> D179
+D28   --> D180
+D29   --> D181
+D30   --> D182
+D31   --> D183
+D32   --> D184
+D33   --> D185
+D34   --> D186
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Paste.gtp' ----   Sun Mar 27 18:46:06 2022
+
+D10   --> D187
+D11   --> D188
+D12   --> D189
+D13   --> D190
+D14   --> D191
+D15   --> D192
+D17   --> D193
+D18   --> D194
+D19   --> D195
+D20   --> D196
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_SilkS.gto' ----   Sun Mar 27 18:46:06 2022
+
+D10   --> D197
+D11   --> D198
+D12   --> D199
+D13   --> D200
+D14   --> D201
+D15   --> D202
+D16   --> D203
+D17   --> D204
+D18   --> D205
+D19   --> D206
+D20   --> D207
+D21   --> D208
+D22   --> D209
+D23   --> D210
+D24   --> D211
+D25   --> D212
+D26   --> D213
+D27   --> D214
+D29   --> D215
+D30   --> D216
+D31   --> D217
+D32   --> D218
+D33   --> D219
+D34   --> D220
+D35   --> D221
+D36   --> D222
+D37   --> D223
+D38   --> D224
+D39   --> D225
+D40   --> D226
+D41   --> D227
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-NPTH-drl_map.gbr' ----   Sun Mar 27 18:46:14 2022
+
+D10   --> D228
+D11   --> D229
+D12   --> D230
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-PTH-drl_map.gbr' ----   Sun Mar 27 18:46:14 2022
+
+D10   --> D231
+D11   --> D232
+D12   --> D233
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_Mask.gbs' ----   Sun Mar 27 18:51:30 2022
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D20   --> D110
+D22   --> D111
+D23   --> D112
+D24   --> D113
+D25   --> D114
+D26   --> D115
+D27   --> D116
+D28   --> D117
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_Paste.gbp' ----   Sun Mar 27 18:51:30 2022
+
+D10   --> D118
+D11   --> D119
+D12   --> D120
+D14   --> D121
+D15   --> D122
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_SilkS.gbo' ----   Sun Mar 27 18:51:30 2022
+
+D10   --> D123
+D11   --> D124
+D12   --> D125
+D13   --> D126
+D14   --> D127
+D15   --> D128
+D16   --> D129
+D17   --> D130
+D18   --> D131
+D19   --> D132
+D20   --> D133
+D22   --> D134
+D24   --> D135
+D25   --> D136
+D26   --> D137
+D27   --> D138
+D28   --> D139
+D29   --> D140
+D30   --> D141
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-Edge_Cuts.gm1' ----   Sun Mar 27 18:51:30 2022
+
+D10   --> D142
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Cu.gtl' ----   Sun Mar 27 18:51:30 2022
+
+D12   --> D143
+D13   --> D144
+D14   --> D145
+D15   --> D146
+D16   --> D147
+D17   --> D148
+D18   --> D149
+D19   --> D150
+D20   --> D151
+D22   --> D152
+D23   --> D153
+D24   --> D154
+D25   --> D155
+D26   --> D156
+D27   --> D157
+D28   --> D158
+D29   --> D159
+D30   --> D160
+D31   --> D161
+D32   --> D162
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Mask.gts' ----   Sun Mar 27 18:51:30 2022
+
+D10   --> D163
+D11   --> D164
+D12   --> D165
+D13   --> D166
+D14   --> D167
+D15   --> D168
+D16   --> D169
+D17   --> D170
+D18   --> D171
+D19   --> D172
+D20   --> D173
+D22   --> D174
+D23   --> D175
+D24   --> D176
+D25   --> D177
+D26   --> D178
+D27   --> D179
+D28   --> D180
+D29   --> D181
+D30   --> D182
+D31   --> D183
+D32   --> D184
+D33   --> D185
+D34   --> D186
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Paste.gtp' ----   Sun Mar 27 18:51:30 2022
+
+D10   --> D187
+D11   --> D188
+D12   --> D189
+D13   --> D190
+D14   --> D191
+D15   --> D192
+D17   --> D193
+D18   --> D194
+D19   --> D195
+D20   --> D196
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_SilkS.gto' ----   Sun Mar 27 18:51:30 2022
+
+D10   --> D197
+D11   --> D198
+D12   --> D199
+D13   --> D200
+D14   --> D201
+D15   --> D202
+D16   --> D203
+D17   --> D204
+D18   --> D205
+D19   --> D206
+D20   --> D207
+D21   --> D208
+D22   --> D209
+D23   --> D210
+D24   --> D211
+D25   --> D212
+D26   --> D213
+D27   --> D214
+D29   --> D215
+D30   --> D216
+D31   --> D217
+D32   --> D218
+D33   --> D219
+D34   --> D220
+D35   --> D221
+D36   --> D222
+D37   --> D223
+D38   --> D224
+D39   --> D225
+D40   --> D226
+D41   --> D227
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-PTH.drl' ----   Sun Mar 27 18:51:47 2022
+
+T1   --> T2
+T2   --> T3
+T3   --> T4
+T4   --> T5
+T5   --> T6
+T6   --> T7
+T7   --> T8
+T8   --> T9
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-PTH.drl' ----   Sun Mar 27 18:52:44 2022
+
+T1   --> T2
+T2   --> T3
+T3   --> T4
+T4   --> T5
+T5   --> T6
+T6   --> T7
+T7   --> T8
+T8   --> T9
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_Mask.gbs' ----   Sun Mar 27 18:53:04 2022
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D20   --> D110
+D22   --> D111
+D23   --> D112
+D24   --> D113
+D25   --> D114
+D26   --> D115
+D27   --> D116
+D28   --> D117
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_Paste.gbp' ----   Sun Mar 27 18:53:04 2022
+
+D10   --> D118
+D11   --> D119
+D12   --> D120
+D14   --> D121
+D15   --> D122
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_SilkS.gbo' ----   Sun Mar 27 18:53:04 2022
+
+D10   --> D123
+D11   --> D124
+D12   --> D125
+D13   --> D126
+D14   --> D127
+D15   --> D128
+D16   --> D129
+D17   --> D130
+D18   --> D131
+D19   --> D132
+D20   --> D133
+D22   --> D134
+D24   --> D135
+D25   --> D136
+D26   --> D137
+D27   --> D138
+D28   --> D139
+D29   --> D140
+D30   --> D141
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-Edge_Cuts.gm1' ----   Sun Mar 27 18:53:04 2022
+
+D10   --> D142
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Cu.gtl' ----   Sun Mar 27 18:53:04 2022
+
+D12   --> D143
+D13   --> D144
+D14   --> D145
+D15   --> D146
+D16   --> D147
+D17   --> D148
+D18   --> D149
+D19   --> D150
+D20   --> D151
+D22   --> D152
+D23   --> D153
+D24   --> D154
+D25   --> D155
+D26   --> D156
+D27   --> D157
+D28   --> D158
+D29   --> D159
+D30   --> D160
+D31   --> D161
+D32   --> D162
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Mask.gts' ----   Sun Mar 27 18:53:04 2022
+
+D10   --> D163
+D11   --> D164
+D12   --> D165
+D13   --> D166
+D14   --> D167
+D15   --> D168
+D16   --> D169
+D17   --> D170
+D18   --> D171
+D19   --> D172
+D20   --> D173
+D22   --> D174
+D23   --> D175
+D24   --> D176
+D25   --> D177
+D26   --> D178
+D27   --> D179
+D28   --> D180
+D29   --> D181
+D30   --> D182
+D31   --> D183
+D32   --> D184
+D33   --> D185
+D34   --> D186
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Paste.gtp' ----   Sun Mar 27 18:53:04 2022
+
+D10   --> D187
+D11   --> D188
+D12   --> D189
+D13   --> D190
+D14   --> D191
+D15   --> D192
+D17   --> D193
+D18   --> D194
+D19   --> D195
+D20   --> D196
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_SilkS.gto' ----   Sun Mar 27 18:53:04 2022
+
+D10   --> D197
+D11   --> D198
+D12   --> D199
+D13   --> D200
+D14   --> D201
+D15   --> D202
+D16   --> D203
+D17   --> D204
+D18   --> D205
+D19   --> D206
+D20   --> D207
+D21   --> D208
+D22   --> D209
+D23   --> D210
+D24   --> D211
+D25   --> D212
+D26   --> D213
+D27   --> D214
+D29   --> D215
+D30   --> D216
+D31   --> D217
+D32   --> D218
+D33   --> D219
+D34   --> D220
+D35   --> D221
+D36   --> D222
+D37   --> D223
+D38   --> D224
+D39   --> D225
+D40   --> D226
+D41   --> D227
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_Mask.gbs' ----   Sun Mar 27 18:55:37 2022
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D20   --> D110
+D22   --> D111
+D23   --> D112
+D24   --> D113
+D25   --> D114
+D26   --> D115
+D27   --> D116
+D28   --> D117
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_Paste.gbp' ----   Sun Mar 27 18:55:37 2022
+
+D10   --> D118
+D11   --> D119
+D12   --> D120
+D14   --> D121
+D15   --> D122
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_SilkS.gbo' ----   Sun Mar 27 18:55:37 2022
+
+D10   --> D123
+D11   --> D124
+D12   --> D125
+D13   --> D126
+D14   --> D127
+D15   --> D128
+D16   --> D129
+D17   --> D130
+D18   --> D131
+D19   --> D132
+D20   --> D133
+D22   --> D134
+D24   --> D135
+D25   --> D136
+D26   --> D137
+D27   --> D138
+D28   --> D139
+D29   --> D140
+D30   --> D141
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-Edge_Cuts.gm1' ----   Sun Mar 27 18:55:37 2022
+
+D10   --> D142
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Cu.gtl' ----   Sun Mar 27 18:55:37 2022
+
+D12   --> D143
+D13   --> D144
+D14   --> D145
+D15   --> D146
+D16   --> D147
+D17   --> D148
+D18   --> D149
+D19   --> D150
+D20   --> D151
+D22   --> D152
+D23   --> D153
+D24   --> D154
+D25   --> D155
+D26   --> D156
+D27   --> D157
+D28   --> D158
+D29   --> D159
+D30   --> D160
+D31   --> D161
+D32   --> D162
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Mask.gts' ----   Sun Mar 27 18:55:37 2022
+
+D10   --> D163
+D11   --> D164
+D12   --> D165
+D13   --> D166
+D14   --> D167
+D15   --> D168
+D16   --> D169
+D17   --> D170
+D18   --> D171
+D19   --> D172
+D20   --> D173
+D22   --> D174
+D23   --> D175
+D24   --> D176
+D25   --> D177
+D26   --> D178
+D27   --> D179
+D28   --> D180
+D29   --> D181
+D30   --> D182
+D31   --> D183
+D32   --> D184
+D33   --> D185
+D34   --> D186
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Paste.gtp' ----   Sun Mar 27 18:55:37 2022
+
+D10   --> D187
+D11   --> D188
+D12   --> D189
+D13   --> D190
+D14   --> D191
+D15   --> D192
+D17   --> D193
+D18   --> D194
+D19   --> D195
+D20   --> D196
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_SilkS.gto' ----   Sun Mar 27 18:55:37 2022
+
+D10   --> D197
+D11   --> D198
+D12   --> D199
+D13   --> D200
+D14   --> D201
+D15   --> D202
+D16   --> D203
+D17   --> D204
+D18   --> D205
+D19   --> D206
+D20   --> D207
+D21   --> D208
+D22   --> D209
+D23   --> D210
+D24   --> D211
+D25   --> D212
+D26   --> D213
+D27   --> D214
+D29   --> D215
+D30   --> D216
+D31   --> D217
+D32   --> D218
+D33   --> D219
+D34   --> D220
+D35   --> D221
+D36   --> D222
+D37   --> D223
+D38   --> D224
+D39   --> D225
+D40   --> D226
+D41   --> D227
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-PTH.drl' ----   Sun Mar 27 18:55:55 2022
+
+T1   --> T2
+T2   --> T3
+T3   --> T4
+T4   --> T5
+T5   --> T6
+T6   --> T7
+T7   --> T8
+T8   --> T9
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_Mask.gbs' ----   Sun Mar 27 18:56:34 2022
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D20   --> D110
+D22   --> D111
+D23   --> D112
+D24   --> D113
+D25   --> D114
+D26   --> D115
+D27   --> D116
+D28   --> D117
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_Paste.gbp' ----   Sun Mar 27 18:56:34 2022
+
+D10   --> D118
+D11   --> D119
+D12   --> D120
+D14   --> D121
+D15   --> D122
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-B_SilkS.gbo' ----   Sun Mar 27 18:56:34 2022
+
+D10   --> D123
+D11   --> D124
+D12   --> D125
+D13   --> D126
+D14   --> D127
+D15   --> D128
+D16   --> D129
+D17   --> D130
+D18   --> D131
+D19   --> D132
+D20   --> D133
+D22   --> D134
+D24   --> D135
+D25   --> D136
+D26   --> D137
+D27   --> D138
+D28   --> D139
+D29   --> D140
+D30   --> D141
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-Edge_Cuts.gm1' ----   Sun Mar 27 18:56:34 2022
+
+D10   --> D142
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Cu.gtl' ----   Sun Mar 27 18:56:34 2022
+
+D12   --> D143
+D13   --> D144
+D14   --> D145
+D15   --> D146
+D16   --> D147
+D17   --> D148
+D18   --> D149
+D19   --> D150
+D20   --> D151
+D22   --> D152
+D23   --> D153
+D24   --> D154
+D25   --> D155
+D26   --> D156
+D27   --> D157
+D28   --> D158
+D29   --> D159
+D30   --> D160
+D31   --> D161
+D32   --> D162
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Mask.gts' ----   Sun Mar 27 18:56:34 2022
+
+D10   --> D163
+D11   --> D164
+D12   --> D165
+D13   --> D166
+D14   --> D167
+D15   --> D168
+D16   --> D169
+D17   --> D170
+D18   --> D171
+D19   --> D172
+D20   --> D173
+D22   --> D174
+D23   --> D175
+D24   --> D176
+D25   --> D177
+D26   --> D178
+D27   --> D179
+D28   --> D180
+D29   --> D181
+D30   --> D182
+D31   --> D183
+D32   --> D184
+D33   --> D185
+D34   --> D186
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_Paste.gtp' ----   Sun Mar 27 18:56:34 2022
+
+D10   --> D187
+D11   --> D188
+D12   --> D189
+D13   --> D190
+D14   --> D191
+D15   --> D192
+D17   --> D193
+D18   --> D194
+D19   --> D195
+D20   --> D196
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-F_SilkS.gto' ----   Sun Mar 27 18:56:34 2022
+
+D10   --> D197
+D11   --> D198
+D12   --> D199
+D13   --> D200
+D14   --> D201
+D15   --> D202
+D16   --> D203
+D17   --> D204
+D18   --> D205
+D19   --> D206
+D20   --> D207
+D21   --> D208
+D22   --> D209
+D23   --> D210
+D24   --> D211
+D25   --> D212
+D26   --> D213
+D27   --> D214
+D29   --> D215
+D30   --> D216
+D31   --> D217
+D32   --> D218
+D33   --> D219
+D34   --> D220
+D35   --> D221
+D36   --> D222
+D37   --> D223
+D38   --> D224
+D39   --> D225
+D40   --> D226
+D41   --> D227
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-PTH.drl' ----   Sun Mar 27 18:56:42 2022
+
+T1   --> T2
+T2   --> T3
+T3   --> T4
+T4   --> T5
+T5   --> T6
+T6   --> T7
+T7   --> T8
+T8   --> T9
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-NPTH-drl_map.gbr' ----   Sun Mar 27 19:03:34 2022
+
+D10   --> D228
+D11   --> D229
+D12   --> D230
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\v2.0\signalization_by_fireplace_v2\export\gerber\signalization_by_fireplace-PTH-drl_map.gbr' ----   Sun Mar 27 19:03:51 2022
+
+D10   --> D231
+D11   --> D232
+D12   --> D233
+-----------------------------------------------------------------
