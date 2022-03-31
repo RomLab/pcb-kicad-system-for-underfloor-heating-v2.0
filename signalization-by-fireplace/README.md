@@ -1,1 +1,0 @@
-# Signalization by the fireplace
