@@ -153,8 +153,6 @@ Wire Wire Line
 Wire Wire Line
 	2500 2600 2500 2700
 Wire Wire Line
-	2300 1100 2300 950 
-Wire Wire Line
 	13850 3400 13850 3450
 $Comp
 L power_rl:GND #PWR040
@@ -294,7 +292,7 @@ L passive_component_rl:capacitor C14
 U 1 1 5F24E72A
 P 13900 5950
 F 0 "C14" V 13854 6060 50  0000 L CNN
-F 1 "1,2n" V 13945 6060 50  0000 L CNN
+F 1 "1.2nF" V 13945 6060 50  0000 L CNN
 F 2 "capacitor_smd_rl:c_1206" H 13900 5950 50  0001 C CNN
 F 3 "" H 13900 5950 50  0001 C CNN
 	1    13900 5950
@@ -424,8 +422,6 @@ $EndComp
 Text Notes 13800 3100 0    50   ~ 0
 +5 V
 Wire Wire Line
-	2050 2500 2550 2500
-Wire Wire Line
 	2150 1750 2550 1750
 Wire Wire Line
 	2300 950  2550 950 
@@ -444,8 +440,6 @@ Wire Wire Line
 	3950 1350 3950 1300
 Wire Wire Line
 	3150 1050 3750 1050
-Wire Wire Line
-	1050 1100 2300 1100
 Wire Wire Line
 	3950 1750 3950 1800
 Wire Wire Line
@@ -476,8 +470,6 @@ Wire Wire Line
 	3950 2900 3950 2850
 Wire Wire Line
 	3150 2600 3750 2600
-Wire Wire Line
-	1050 900  2050 900 
 $Comp
 L unipolar_transistor_rl:n_mosfet_gsd Q3
 U 1 1 5E715E04
@@ -767,8 +759,6 @@ F 3 "" H 4400 3000 50  0001 C CNN
 	1    4400 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 900  2050 2500
 Wire Wire Line
 	2150 1000 2150 1750
 $Comp
@@ -2746,4 +2736,30 @@ Text Notes 9650 4750 0    50   ~ 0
 Overvoltage: 5,25 V
 Text Notes 9650 5600 0    50   ~ 0
 Undervoltage: 4,75 V
+Wire Wire Line
+	1050 900  2300 900 
+Wire Wire Line
+	2300 900  2300 950 
+Wire Wire Line
+	2000 2500 2000 1100
+Wire Wire Line
+	2000 1100 1050 1100
+Wire Wire Line
+	2000 2500 2550 2500
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6260C236
+P 15300 4850
+F 0 "#FLG?" H 15300 4925 50  0001 C CNN
+F 1 "PWR_FLAG" H 15300 5023 50  0000 C CNN
+F 2 "" H 15300 4850 50  0001 C CNN
+F 3 "~" H 15300 4850 50  0001 C CNN
+	1    15300 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 5000 15300 5000
+Wire Wire Line
+	15300 5000 15300 4850
+Connection ~ 15000 5000
 $EndSCHEMATC
