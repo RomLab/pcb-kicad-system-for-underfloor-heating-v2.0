@@ -1,0 +1,504 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L connector_rl:2x20_pin_socket P?
+U 1 1 67BE9D7F
+P 4450 2100
+AR Path="/67BE9D7F" Ref="P?"  Part="1" 
+AR Path="/67BAB8C7/67BE9D7F" Ref="P115"  Part="1" 
+F 0 "P115" V 3283 2125 50  0000 C CNN
+F 1 "2x20_pin_socket" V 3374 2125 50  0000 C CNN
+F 2 "raspberry_pi_rl:module_raspberry_pi_4b" H 4450 2100 50  0001 C CNN
+F 3 "" H 4450 2100 50  0001 C CNN
+	1    4450 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 1250 4300 1250
+Wire Wire Line
+	4200 1350 4300 1350
+Wire Wire Line
+	4200 1450 4300 1450
+Wire Wire Line
+	4650 1450 4750 1450
+Wire Wire Line
+	4650 1650 4750 1650
+Wire Wire Line
+	4650 1550 4750 1550
+Wire Wire Line
+	4650 1850 4750 1850
+Wire Wire Line
+	4650 1950 4750 1950
+Wire Wire Line
+	4650 2150 4750 2150
+Wire Wire Line
+	4650 2250 4750 2250
+Wire Wire Line
+	4650 2350 4750 2350
+Wire Wire Line
+	4650 2650 4750 2650
+Wire Wire Line
+	4200 2950 4300 2950
+Wire Wire Line
+	4200 2850 4300 2850
+Wire Wire Line
+	4200 2750 4300 2750
+Wire Wire Line
+	4200 2650 4300 2650
+Wire Wire Line
+	4200 2550 4300 2550
+Wire Wire Line
+	4300 2250 4200 2250
+Wire Wire Line
+	4300 2150 4200 2150
+Wire Wire Line
+	4300 2050 4200 2050
+Wire Wire Line
+	4200 1750 4300 1750
+Wire Wire Line
+	4300 1850 4200 1850
+Wire Wire Line
+	4300 1650 4200 1650
+$Comp
+L connector_rl:2x20_pin_header P?
+U 1 1 67BE9DC4
+P 8650 2100
+AR Path="/67BE9DC4" Ref="P?"  Part="1" 
+AR Path="/67BAB8C7/67BE9DC4" Ref="P116"  Part="1" 
+F 0 "P116" V 7483 2125 50  0000 C CNN
+F 1 "2x20_pin_header" V 7574 2125 50  0000 C CNN
+F 2 "connector_rl:2x20_pinheader_2.54mm_rpi_rl" H 8650 2100 50  0001 C CNN
+F 3 "" H 8650 2100 50  0001 C CNN
+	1    8650 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 1250 8500 1250
+Wire Wire Line
+	8400 1450 8500 1450
+Wire Wire Line
+	8850 1450 8950 1450
+Wire Wire Line
+	8850 1650 8950 1650
+Wire Wire Line
+	8850 1550 8950 1550
+Wire Wire Line
+	8850 1850 8950 1850
+Wire Wire Line
+	8850 1950 8950 1950
+Wire Wire Line
+	8850 2150 8950 2150
+Wire Wire Line
+	8850 2250 8950 2250
+Wire Wire Line
+	8850 2350 8950 2350
+Wire Wire Line
+	8850 2650 8950 2650
+Wire Wire Line
+	8400 2950 8500 2950
+Wire Wire Line
+	8400 2850 8500 2850
+Wire Wire Line
+	8400 2750 8500 2750
+Wire Wire Line
+	8400 2650 8500 2650
+Wire Wire Line
+	8400 2550 8500 2550
+Wire Wire Line
+	8500 2250 8400 2250
+Wire Wire Line
+	8500 2150 8400 2150
+Wire Wire Line
+	8500 2050 8400 2050
+Wire Wire Line
+	8400 1750 8500 1750
+Wire Wire Line
+	8500 1850 8400 1850
+Wire Wire Line
+	8500 1650 8400 1650
+$Comp
+L passive_component_rl:resistor_us R?
+U 1 1 67BE9E09
+P 1300 1250
+AR Path="/67BE9E09" Ref="R?"  Part="1" 
+AR Path="/647E24EB/67BE9E09" Ref="R?"  Part="1" 
+AR Path="/67BAB8C7/67BE9E09" Ref="R227"  Part="1" 
+F 0 "R227" V 1254 1318 50  0000 L CNN
+F 1 "10k" V 1345 1318 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 1300 1250 50  0001 C CNN
+F 3 "" H 1300 1250 50  0001 C CNN
+	1    1300 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R?
+U 1 1 67BE9E0F
+P 1700 1250
+AR Path="/67BE9E0F" Ref="R?"  Part="1" 
+AR Path="/647E24EB/67BE9E0F" Ref="R?"  Part="1" 
+AR Path="/67BAB8C7/67BE9E0F" Ref="R228"  Part="1" 
+F 0 "R228" V 1654 1318 50  0000 L CNN
+F 1 "10k" V 1745 1318 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 1700 1250 50  0001 C CNN
+F 3 "" H 1700 1250 50  0001 C CNN
+	1    1700 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 1100 1300 1000
+Wire Wire Line
+	1300 1000 1500 1000
+Wire Wire Line
+	1700 1000 1700 1100
+$Comp
+L power_rl:SYS_+3V3 #PWR?
+U 1 1 67BE9E18
+P 1500 900
+AR Path="/67BE9E18" Ref="#PWR?"  Part="1" 
+AR Path="/647E24EB/67BE9E18" Ref="#PWR?"  Part="1" 
+AR Path="/67BAB8C7/67BE9E18" Ref="#PWR0318"  Part="1" 
+F 0 "#PWR0318" H 1510 840 50  0001 C CNN
+F 1 "SYS_+3V3" H 1515 1073 50  0000 C CNN
+F 2 "" H 1500 900 50  0001 C CNN
+F 3 "" H 1500 900 50  0001 C CNN
+	1    1500 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 900  1500 1000
+Connection ~ 1500 1000
+Wire Wire Line
+	1500 1000 1700 1000
+NoConn ~ 4300 3050
+NoConn ~ 4650 2750
+NoConn ~ 4650 2450
+NoConn ~ 4650 2550
+NoConn ~ 4300 2450
+NoConn ~ 4300 2350
+NoConn ~ 4300 1950
+NoConn ~ 4300 1550
+NoConn ~ 4300 1150
+NoConn ~ 4650 1150
+NoConn ~ 4650 1250
+NoConn ~ 4650 1350
+NoConn ~ 4650 1750
+NoConn ~ 4650 2050
+NoConn ~ 8850 2750
+NoConn ~ 8850 2550
+NoConn ~ 8850 2450
+NoConn ~ 8500 2450
+NoConn ~ 8500 2350
+NoConn ~ 8500 1950
+NoConn ~ 8850 2050
+NoConn ~ 8850 1750
+NoConn ~ 8500 1550
+NoConn ~ 8850 1350
+NoConn ~ 8850 1250
+NoConn ~ 8850 1150
+NoConn ~ 8500 1150
+Text GLabel 1300 1700 3    50   Input ~ 0
+I2C_SCL
+Text GLabel 1700 1700 3    50   Input ~ 0
+I2C_SDA
+Text GLabel 4200 1250 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 4200 1350 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 4200 1450 0    50   Input ~ 0
+1WIRE_MERGE_CONNECTION_DATA_3V3
+Text GLabel 4200 1650 0    50   Input ~ 0
+1WIRE_CELLAR_FIREPLACE_DATA_3V3
+Text GLabel 4200 1750 0    50   Input ~ 0
+1WIRE_FIRST_FLOOR_FIREPLACE_DATA_3V3
+Text GLabel 4200 1850 0    50   Input ~ 0
+1WIRE_SECOND_FLOOR_FIREPLACE_DATA_3V3
+Text GLabel 4200 2050 0    50   Input ~ 0
+SPI_MOSI
+Text GLabel 4200 2150 0    50   Input ~ 0
+SPI_MISO
+Text GLabel 4200 2250 0    50   Input ~ 0
+SPI_CLK
+Text GLabel 4750 1650 2    50   Input ~ 0
+RPI_BOILER_3V3
+Text GLabel 4750 3050 2    50   Input ~ 0
+RPI_BLUE_LED_3V3
+Text GLabel 4750 2950 2    50   Input ~ 0
+RPI_ORANGE_LED_3V3
+Text GLabel 4750 2250 2    50   Input ~ 0
+SPI_CS
+Text GLabel 4750 2850 2    50   Input ~ 0
+RPI_RED_LED_3V3
+Text GLabel 4750 2650 2    50   Input ~ 0
+RPI_PUMP_UNDERFLOOR_HEATING_SECOND_FOOR_3V3
+Text GLabel 4750 2350 2    50   Input ~ 0
+RPI_PUMP_UNDERFLOOR_HEATING_FIRST_FOOR_3V3
+Text GLabel 4750 2150 2    50   Input ~ 0
+RPI_PUMP_FIREPLACE_SECOND_FLOOR_3V3
+Text GLabel 4750 1850 2    50   Input ~ 0
+RPI_PUMP_FIREPLACE_CELLAR_3V3
+Text GLabel 4750 1950 2    50   Input ~ 0
+RPI_PUMP_FIREPLACE_FIRST_FLOOR_3V3
+Text GLabel 8400 1250 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 8400 1350 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 8400 1450 0    50   Input ~ 0
+1WIRE_MERGE_CONNECTION_DATA_3V3
+Text GLabel 8400 1650 0    50   Input ~ 0
+1WIRE_CELLAR_FIREPLACE_DATA_3V3
+Text GLabel 8400 1750 0    50   Input ~ 0
+1WIRE_FIRST_FLOOR_FIREPLACE_DATA_3V3
+Text GLabel 8400 1850 0    50   Input ~ 0
+1WIRE_SECOND_FLOOR_FIREPLACE_DATA_3V3
+Text GLabel 8400 2050 0    50   Input ~ 0
+SPI_MOSI
+Text GLabel 8400 2150 0    50   Input ~ 0
+SPI_MISO
+Text GLabel 8400 2250 0    50   Input ~ 0
+SPI_CLK
+Text GLabel 8400 2550 0    50   Input ~ 0
+1WIRE_OUTDOOR_SENSOR_DATA_3V3
+Text GLabel 8400 2750 0    50   Input ~ 0
+1WIRE_FREE1_DATA_3V3
+Text GLabel 8400 2850 0    50   Input ~ 0
+1WIRE_FREE2_DATA_3V3
+Text GLabel 8400 2950 0    50   Input ~ 0
+1WIRE_FREE3_DATA_3V3
+Text GLabel 8950 1650 2    50   Input ~ 0
+RPI_BOILER_3V3
+Text GLabel 8950 3050 2    50   Input ~ 0
+RPI_BLUE_LED_3V3
+Text GLabel 8950 2950 2    50   Input ~ 0
+RPI_ORANGE_LED_3V3
+Text GLabel 8950 2250 2    50   Input ~ 0
+SPI_CS
+Text GLabel 8950 2850 2    50   Input ~ 0
+RPI_RED_LED_3V3
+Text GLabel 8950 2650 2    50   Input ~ 0
+RPI_PUMP_UNDERFLOOR_HEATING_SECOND_FOOR_3V3
+Text GLabel 8950 2350 2    50   Input ~ 0
+RPI_PUMP_UNDERFLOOR_HEATING_FIRST_FOOR_3V3
+Text GLabel 8950 2150 2    50   Input ~ 0
+RPI_PUMP_FIREPLACE_SECOND_FLOOR_3V3
+Text GLabel 8950 1850 2    50   Input ~ 0
+RPI_PUMP_FIREPLACE_CELLAR_3V3
+Text GLabel 8950 1950 2    50   Input ~ 0
+RPI_PUMP_FIREPLACE_FIRST_FLOOR_3V3
+NoConn ~ 8500 3050
+Wire Wire Line
+	4650 2850 4750 2850
+Wire Wire Line
+	8850 2850 8950 2850
+Text GLabel 8950 1450 2    50   Input ~ 0
+1WIRE_FREE4_DATA_3V3
+Text GLabel 4200 2550 0    50   Input ~ 0
+1WIRE_OUTDOOR_SENSOR_DATA_3V3
+Text GLabel 4200 2650 0    50   Input ~ 0
+1WIRE_HOT_WATER_TANK_DATA_3V3
+Text GLabel 4750 1450 2    50   Input ~ 0
+1WIRE_FREE4_DATA_3V3
+Text GLabel 4200 2950 0    50   Input ~ 0
+1WIRE_FREE3_DATA_3V3
+Text GLabel 4200 2850 0    50   Input ~ 0
+1WIRE_FREE2_DATA_3V3
+Text GLabel 4200 2750 0    50   Input ~ 0
+1WIRE_FREE1_DATA_3V3
+Wire Wire Line
+	4650 2950 4750 2950
+Text GLabel 8400 2650 0    50   Input ~ 0
+1WIRE_HOT_WATER_TANK_DATA_3V3
+Wire Wire Line
+	8850 2950 8950 2950
+Wire Wire Line
+	4650 3050 4750 3050
+Text GLabel 4750 1550 2    50   Input ~ 0
+1WIRE_FREE5_DATA_3V3
+Wire Wire Line
+	8850 3050 8950 3050
+Text GLabel 8950 1550 2    50   Input ~ 0
+1WIRE_FREE5_DATA_3V3
+Wire Wire Line
+	8400 1350 8500 1350
+$Comp
+L connector_rl:1x20_pin_socket P?
+U 1 1 63DCDA3D
+P 850 6300
+AR Path="/63DCDA3D" Ref="P?"  Part="1" 
+AR Path="/67BAB8C7/63DCDA3D" Ref="P4"  Part="1" 
+F 0 "P4" V -317 6231 50  0000 C CNN
+F 1 "1x20_pin_socket" V -226 6231 50  0000 C CNN
+F 2 "connector_tht_pinsocket_2.54mm_rl:1x20_pinsocket_2.54mm_vertical_8.5mm" H 650 6300 50  0001 C CNN
+F 3 "" H 650 6300 50  0001 C CNN
+	1    850  6300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1000 5550 1100 5550
+Wire Wire Line
+	1000 5750 1100 5750
+NoConn ~ 1000 5950
+$Comp
+L power_rl:OTHER_+5V_A #PWR?
+U 1 1 63DCDA46
+P 1350 5200
+AR Path="/63DCDA46" Ref="#PWR?"  Part="1" 
+AR Path="/67BAB8C7/63DCDA46" Ref="#PWR0342"  Part="1" 
+F 0 "#PWR0342" H 1350 5200 50  0001 C CNN
+F 1 "OTHER_+5V_A" H 1335 5373 50  0000 C CNN
+F 2 "" H 1350 5200 50  0001 C CNN
+F 3 "" H 1350 5200 50  0001 C CNN
+	1    1350 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 5350 1350 5200
+Wire Wire Line
+	1000 5350 1350 5350
+$Comp
+L power_rl:OTHER_+3V3 #PWR?
+U 1 1 63DCDA4E
+P 1950 5200
+AR Path="/63DCDA4E" Ref="#PWR?"  Part="1" 
+AR Path="/67BAB8C7/63DCDA4E" Ref="#PWR0343"  Part="1" 
+F 0 "#PWR0343" H 1950 5200 50  0001 C CNN
+F 1 "OTHER_+3V3" H 1935 5373 50  0000 C CNN
+F 2 "" H 1950 5200 50  0001 C CNN
+F 3 "" H 1950 5200 50  0001 C CNN
+	1    1950 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 5450 1950 5200
+Wire Wire Line
+	1000 5450 1950 5450
+Text GLabel 1100 5550 2    50   Input ~ 0
+I2C_SCL
+Wire Wire Line
+	1650 5850 1650 5750
+$Comp
+L power_rl:GND_A #PWR?
+U 1 1 63DCDA58
+P 1900 5800
+AR Path="/63DCDA58" Ref="#PWR?"  Part="1" 
+AR Path="/67BAB8C7/63DCDA58" Ref="#PWR0344"  Part="1" 
+F 0 "#PWR0344" H 1900 5600 50  0001 C CNN
+F 1 "GND_A" H 1900 5650 50  0000 C CNN
+F 2 "" H 1900 5800 50  0001 C CNN
+F 3 "" H 1900 5800 50  0001 C CNN
+	1    1900 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5750 1900 5750
+Wire Wire Line
+	1900 5750 1900 5800
+Connection ~ 1650 5750
+Wire Wire Line
+	1650 5750 1650 5650
+Text GLabel 1100 5750 2    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	1000 5850 1650 5850
+Wire Wire Line
+	1000 5650 1650 5650
+Text GLabel 1100 6150 2    50   Input ~ 0
+SWITCH_PUMP_UNDERFLOOR_HEATING_FIRST_FOOR_3V3
+Wire Wire Line
+	1100 6150 1000 6150
+Wire Wire Line
+	1000 6050 2150 6050
+Wire Wire Line
+	2150 6050 2150 5450
+Wire Wire Line
+	2150 5450 1950 5450
+Connection ~ 1950 5450
+Text GLabel 1100 6250 2    50   Input ~ 0
+SWITCH_PUMP_UNDERFLOOR_HEATING_SECOND_FOOR_3V3
+Wire Wire Line
+	1100 6250 1000 6250
+Text GLabel 1100 6350 2    50   Input ~ 0
+SWITCH_PUMP_FIREPLACE_CELLAR_3V3
+Wire Wire Line
+	1000 6350 1100 6350
+Text GLabel 1100 6450 2    50   Input ~ 0
+SWITCH_PUMP_FIREPLACE_FIRST_FLOOR_3V3
+Wire Wire Line
+	1000 6450 1100 6450
+Text GLabel 1100 6550 2    50   Input ~ 0
+SWITCH_PUMP_FIREPLACE_SECOND_FLOOR_3V3
+Wire Wire Line
+	1000 6550 1100 6550
+Text GLabel 1100 6650 2    50   Input ~ 0
+SWITCH_BOILER_3V3
+Wire Wire Line
+	1000 6650 1100 6650
+Text GLabel 1100 6750 2    50   Input ~ 0
+SWITCH_FREE1_3V3
+Wire Wire Line
+	1000 6750 1100 6750
+Text GLabel 1100 6850 2    50   Input ~ 0
+SWITCH_FREE2_3V3
+Text GLabel 1100 6950 2    50   Input ~ 0
+SWITCH_FREE3_3V3
+Text GLabel 1100 7050 2    50   Input ~ 0
+SWITCH_FREE4_3V3
+Wire Wire Line
+	1000 6850 1100 6850
+Wire Wire Line
+	1000 6950 1100 6950
+Wire Wire Line
+	1000 7050 1100 7050
+$Comp
+L power_rl:GND_A #PWR?
+U 1 1 63DCDA7D
+P 1500 7350
+AR Path="/63DCDA7D" Ref="#PWR?"  Part="1" 
+AR Path="/67BAB8C7/63DCDA7D" Ref="#PWR0345"  Part="1" 
+F 0 "#PWR0345" H 1500 7150 50  0001 C CNN
+F 1 "GND_A" H 1500 7200 50  0000 C CNN
+F 2 "" H 1500 7350 50  0001 C CNN
+F 3 "" H 1500 7350 50  0001 C CNN
+	1    1500 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 7150 1500 7150
+$Comp
+L power_rl:Earth_Protective #PWR?
+U 1 1 63DCDA84
+P 1150 7300
+AR Path="/63DCDA84" Ref="#PWR?"  Part="1" 
+AR Path="/67BAB8C7/63DCDA84" Ref="#PWR0346"  Part="1" 
+F 0 "#PWR0346" H 1400 7050 50  0001 C CNN
+F 1 "Earth_Protective" H 1600 7150 50  0001 C CNN
+F 2 "" H 1150 7200 50  0001 C CNN
+F 3 "~" H 1150 7200 50  0001 C CNN
+	1    1150 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 7250 1150 7250
+Wire Wire Line
+	1150 7250 1150 7300
+Wire Wire Line
+	1500 7350 1500 7150
+Text Notes 900  4700 0    50   ~ 0
+Second PCB – display with switches
+Wire Wire Line
+	1700 1400 1700 1700
+Wire Wire Line
+	1300 1400 1300 1700
+$EndSCHEMATC
