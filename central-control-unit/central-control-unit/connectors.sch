@@ -3559,4 +3559,14 @@ F 3 "" H 24500 18550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	23900 18550 23900 18500
+Text Notes 20900 21400 0    50   ~ 0
+Local thermostat on the ground floor.
+Text Notes 20500 17550 0    50   ~ 0
+Local thermostat on the first floor.
+Text Notes 14650 6550 0    50   ~ 0
+Local thermostat on the ground floor.
+Text Notes 14750 6650 0    50   ~ 0
+Local thermostat on the first floor.
+Text Notes 14450 6350 0    50   ~ 0
+Zde fyzicky přerušit a napojit na vstup RPI.
 $EndSCHEMATC

@@ -501,4 +501,8 @@ Wire Wire Line
 	1700 1400 1700 1700
 Wire Wire Line
 	1300 1400 1300 1700
+Text Notes 5550 1600 0    50   ~ 0
+Local thermostat on the ground floor.
+Text Notes 5500 1450 0    50   ~ 0
+Local thermostat on the first floor.
 $EndSCHEMATC

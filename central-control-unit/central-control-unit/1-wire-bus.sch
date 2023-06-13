@@ -3585,4 +3585,6 @@ F 3 "" H 15400 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	15100 5050 15250 5050
+Text Notes 1650 3950 0    50   ~ 0
+Propojka 0R
 $EndSCHEMATC
