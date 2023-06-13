@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name esd_protection_1_wire_end_devices-rescue)(type Legacy)(uri ${KIPRJMOD}/esd_protection_1_wire_end_devices-rescue.lib)(options "")(descr ""))
+  (lib (name distributor-1-wire-bus-4-device-rescue)(type Legacy)(uri ${KIPRJMOD}/distributor-1-wire-bus-4-device-rescue.lib)(options "")(descr ""))
+)

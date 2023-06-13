@@ -1,0 +1,86 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# DS9503_rl-diodes_rl-esd_protection_1_wire_end_devices-rescue
+#
+DEF DS9503_rl-diodes_rl-esd_protection_1_wire_end_devices-rescue D 0 40 Y N 1 F N
+F0 "D" -80 210 50 H V C CNN
+F1 "DS9503_rl-diodes_rl-esd_protection_1_wire_end_devices-rescue" 90 -250 50 H V C CNN
+F2 "" 50 50 50 H I C CNN
+F3 "" 50 50 50 H I C CNN
+DRAW
+C 50 -120 10 0 1 0 F
+C 50 100 10 0 1 0 F
+S 300 170 -100 170 0 1 0 N
+P 2 0 1 0 -110 100 -80 100 N
+P 2 0 1 0 -100 -190 -100 170 N
+P 2 0 1 0 0 60 100 60 N
+P 2 0 1 0 50 100 -90 100 N
+P 2 0 1 0 50 100 50 60 N
+P 2 0 1 8 50 100 50 100 N
+P 2 0 1 8 50 100 50 100 N
+P 2 0 1 0 80 -120 90 -120 N
+P 2 0 1 0 90 100 30 100 N
+P 2 0 1 0 100 50 110 40 N
+P 2 0 1 0 210 -120 250 -120 N
+P 2 0 1 0 210 100 250 100 N
+P 2 0 1 0 250 100 300 100 N
+P 2 0 1 0 300 -190 -100 -190 N
+P 2 0 1 0 300 -190 300 170 N
+P 3 0 1 0 100 60 105 60 115 50 N
+P 3 0 1 0 250 -120 250 0 300 0 N
+P 4 0 1 0 50 -20 50 -120 60 -120 80 -120 N
+P 5 0 1 0 50 -120 20 -120 -50 -120 -50 0 -100 0 N
+P 2 1 1 0 50 -50 50 50 N
+P 2 1 1 0 100 50 0 50 N
+P 4 1 1 0 100 -50 0 -50 50 50 100 -50 N
+P 5 1 1 0 90 -120 105 -80 120 -120 135 -160 150 -120 N
+P 5 1 1 0 90 100 105 140 120 100 135 60 150 100 N
+P 5 1 1 0 150 -120 165 -80 180 -120 195 -160 210 -120 N
+P 5 1 1 0 150 100 165 140 180 100 195 60 210 100 N
+X ~ 3 -200 -100 100 R 50 50 0 0 N N
+X ~ 4 400 -100 100 L 50 50 0 0 N N
+X A 5 400 0 100 L 50 50 0 0 P
+X K 6 400 100 100 L 50 50 0 0 P
+X K 1 -200 100 100 R 50 50 1 1 P
+X A 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_rl-passive_components_rl-esd_protection_1_wire_end_devices-rescue
+#
+DEF capacitor_rl-passive_components_rl-esd_protection_1_wire_end_devices-rescue C 0 40 N N 1 F N
+F0 "C" 0 150 50 H V C CNN
+F1 "capacitor_rl-passive_components_rl-esd_protection_1_wire_end_devices-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 1 1 10 -30 -80 -30 80 N
+P 2 1 1 10 30 -80 30 80 N
+X ~ 1 -150 0 114 R 50 50 1 1 P
+X ~ 2 150 0 114 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# undir_transil-diodes_rl-esd_protection_1_wire_end_devices-rescue
+#
+DEF undir_transil-diodes_rl-esd_protection_1_wire_end_devices-rescue D 0 40 N N 1 F N
+F0 "D" -50 150 50 H V C CNN
+F1 "undir_transil-diodes_rl-esd_protection_1_wire_end_devices-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 8 -50 50 -65 35 N
+P 2 0 1 8 50 50 65 65 N
+P 2 1 1 0 0 -50 0 50 N
+P 2 1 1 8 50 50 -50 50 N
+P 4 1 1 8 50 -50 -50 -50 0 50 50 -50 N
+X K 1 0 150 100 D 50 50 1 1 P
+X A 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

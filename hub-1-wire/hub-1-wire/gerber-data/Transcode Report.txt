@@ -1,0 +1,89 @@
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\hub-1-wire\hub-1-wire\gerber-data\hub-1-wire-B_Paste.gbp' ----   Sun Apr 30 23:30:55 2023
+
+D12   --> D100
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\hub-1-wire\hub-1-wire\gerber-data\hub-1-wire-B_SilkS.gbo' ----   Sun Apr 30 23:30:55 2023
+
+D10   --> D101
+D11   --> D102
+D12   --> D103
+D13   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D20   --> D110
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\hub-1-wire\hub-1-wire\gerber-data\hub-1-wire-Edge_Cuts.gm1' ----   Sun Apr 30 23:30:55 2023
+
+D10   --> D111
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\hub-1-wire\hub-1-wire\gerber-data\hub-1-wire-F_Cu.gtl' ----   Sun Apr 30 23:30:55 2023
+
+D10   --> D112
+D11   --> D113
+D12   --> D114
+D13   --> D115
+D14   --> D116
+D15   --> D117
+D16   --> D118
+D17   --> D119
+D18   --> D120
+D19   --> D121
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\hub-1-wire\hub-1-wire\gerber-data\hub-1-wire-F_Paste.gtp' ----   Sun Apr 30 23:30:55 2023
+
+D10   --> D122
+D11   --> D123
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\hub-1-wire\hub-1-wire\gerber-data\hub-1-wire-F_SilkS.gto' ----   Sun Apr 30 23:30:55 2023
+
+D10   --> D124
+D11   --> D125
+D12   --> D126
+D13   --> D127
+D15   --> D128
+D16   --> D129
+D17   --> D130
+D18   --> D131
+D19   --> D132
+D20   --> D133
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\hub-1-wire\hub-1-wire\gerber-data\hub-1-wire-NPTH-drl_map.gbr' ----   Sun Apr 30 23:30:55 2023
+
+D10   --> D134
+D11   --> D135
+D12   --> D136
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\hub-1-wire\hub-1-wire\gerber-data\hub-1-wire-PTH-drl_map.gbr' ----   Sun Apr 30 23:30:55 2023
+
+D10   --> D137
+D11   --> D138
+D12   --> D139
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\hub-1-wire\hub-1-wire\gerber-data\hub-1-wire-PTH.drl' ----   Sun Apr 30 23:31:06 2023
+
+T1   --> T2
+T2   --> T3
+T3   --> T4
+T4   --> T5
+-----------------------------------------------------------------
