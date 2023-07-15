@@ -94,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	-8650 -5650 -8250 -5650
 Text Notes -7400 -5100 0    50   ~ 0
-Red LED\n3.3 V - 3 V (typ.) = 0.3 V\nI = 0.3 V / 0.01 A = 30 R
+Red LED\n3.3 V - 3 V (typ.) = 0.3 V\nI = 0.3 V / 0.0048 A = 62 R
 $Comp
 L passive_component_rl:resistor_us R2
 U 1 1 6948FB55
@@ -102,7 +102,7 @@ P -7700 -5450
 AR Path="/6948FB55" Ref="R2"  Part="1" 
 AR Path="/69344E39/6948FB55" Ref="R?"  Part="1" 
 F 0 "R2" V -7746 -5382 50  0000 L CNN
-F 1 "30R" V -7655 -5382 50  0000 L CNN
+F 1 "62R" V -7655 -5382 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -7700 -5450 50  0001 C CNN
 F 3 "" H -7700 -5450 50  0001 C CNN
 	1    -7700 -5450
