@@ -12139,7 +12139,7 @@ F 3 "" H -4200 6200 50  0001 C CNN
 $EndComp
 Connection ~ -4200 7250
 Wire Wire Line
-	-4200 7250 -4100 7250
+	-4200 7250 -4150 7250
 $Comp
 L unipolar_transistor_rl:n_mosfet_gsd Q42
 U 1 1 71340049
@@ -12547,4 +12547,7 @@ $EndComp
 Connection ~ -4150 3150
 Wire Wire Line
 	-4150 3150 -4100 3150
+Connection ~ -4150 7250
+Wire Wire Line
+	-4150 7250 -4100 7250
 $EndSCHEMATC
