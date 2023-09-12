@@ -1424,7 +1424,7 @@ $EndComp
 Wire Wire Line
 	-9900 -8100 -9900 -8400
 Text Notes -10400 -9150 0    50   ~ 0
-24 V - 1.55 V (typ.) = 22.45 V\nI = 22.45 / 0.003 A = 7 483 R
+24 V - 1.55 V (typ.) = 22.45 V\nI = 22.45 / 0.0048 A = 4 677 R
 Wire Wire Line
 	7200 7300 7200 6950
 $Comp
@@ -2038,7 +2038,7 @@ L passive_component_rl:resistor_us R26
 U 1 1 62C194A8
 P -10150 -4950
 F 0 "R26" H -10150 -5050 50  0000 L CNN
-F 1 "7k5" H -10200 -4850 50  0000 L CNN
+F 1 "4k7" H -10200 -4850 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -10150 -4950 50  0001 C CNN
 F 3 "" H -10150 -4950 50  0001 C CNN
 	1    -10150 -4950
@@ -2383,7 +2383,7 @@ L passive_component_rl:resistor_us R27
 U 1 1 62D605BE
 P -10100 -650
 F 0 "R27" H -10100 -750 50  0000 L CNN
-F 1 "7k5" H -10150 -550 50  0000 L CNN
+F 1 "4k7" H -10150 -550 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -10100 -650 50  0001 C CNN
 F 3 "" H -10100 -650 50  0001 C CNN
 	1    -10100 -650
@@ -2728,7 +2728,7 @@ L passive_component_rl:resistor_us R28
 U 1 1 62EC9512
 P -10100 3300
 F 0 "R28" H -10100 3200 50  0000 L CNN
-F 1 "7k5" H -10150 3400 50  0000 L CNN
+F 1 "4k7" H -10150 3400 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -10100 3300 50  0001 C CNN
 F 3 "" H -10100 3300 50  0001 C CNN
 	1    -10100 3300
@@ -3073,7 +3073,7 @@ L passive_component_rl:resistor_us R29
 U 1 1 6304C0A4
 P -9700 7800
 F 0 "R29" H -9700 7700 50  0000 L CNN
-F 1 "7k5" H -9750 7900 50  0000 L CNN
+F 1 "4k7" H -9750 7900 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -9700 7800 50  0001 C CNN
 F 3 "" H -9700 7800 50  0001 C CNN
 	1    -9700 7800
@@ -3418,7 +3418,7 @@ L passive_component_rl:resistor_us R30
 U 1 1 631F9A3C
 P -9750 12000
 F 0 "R30" H -9750 11900 50  0000 L CNN
-F 1 "7k5" H -9800 12100 50  0000 L CNN
+F 1 "4k7" H -9800 12100 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -9750 12000 50  0001 C CNN
 F 3 "" H -9750 12000 50  0001 C CNN
 	1    -9750 12000
@@ -3752,7 +3752,7 @@ L passive_component_rl:resistor_us R63
 U 1 1 6366A504
 P -100 -8750
 F 0 "R63" H -100 -8850 50  0000 L CNN
-F 1 "7k5" H -150 -8650 50  0000 L CNN
+F 1 "4k7" H -150 -8650 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -100 -8750 50  0001 C CNN
 F 3 "" H -100 -8750 50  0001 C CNN
 	1    -100 -8750
@@ -3811,7 +3811,7 @@ Wire Wire Line
 Text Notes -7600 -9150 0    50   ~ 0
 5 V - 1.55 V (typ.) = 3.45 V\nI = 3.45 V / 0.003 A = 1 150 R
 Text Notes -950 -9100 0    50   ~ 0
-24 V - 1.55 V (typ.) = 22.45 V\nI = 22.45 / 0.003 A = 7 483 R
+24 V - 1.55 V (typ.) = 22.45 V\nI = 22.45 / 0.0048 A = 4 677 R
 $Comp
 L unipolar_transistor_rl:n_mosfet_gsd Q7
 U 1 1 6366A527
@@ -4101,7 +4101,7 @@ L passive_component_rl:resistor_us R64
 U 1 1 6366A5CA
 P -250 -4800
 F 0 "R64" H -250 -4900 50  0000 L CNN
-F 1 "7k5" H -300 -4700 50  0000 L CNN
+F 1 "4k7" H -300 -4700 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -250 -4800 50  0001 C CNN
 F 3 "" H -250 -4800 50  0001 C CNN
 	1    -250 -4800
@@ -4446,7 +4446,7 @@ L passive_component_rl:resistor_us R65
 U 1 1 6366A68E
 P -300 -900
 F 0 "R65" H -300 -1000 50  0000 L CNN
-F 1 "7k5" H -350 -800 50  0000 L CNN
+F 1 "4k7" H -350 -800 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -300 -900 50  0001 C CNN
 F 3 "" H -300 -900 50  0001 C CNN
 	1    -300 -900
@@ -4789,7 +4789,7 @@ L passive_component_rl:resistor_us R66
 U 1 1 6366A752
 P -350 3050
 F 0 "R66" H -350 2950 50  0000 L CNN
-F 1 "7k5" H -400 3150 50  0000 L CNN
+F 1 "4k7" H -400 3150 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -350 3050 50  0001 C CNN
 F 3 "" H -350 3050 50  0001 C CNN
 	1    -350 3050
@@ -5134,7 +5134,7 @@ L passive_component_rl:resistor_us R67
 U 1 1 6366A816
 P -450 7400
 F 0 "R67" H -450 7300 50  0000 L CNN
-F 1 "7k5" H -500 7500 50  0000 L CNN
+F 1 "4k7" H -500 7500 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -450 7400 50  0001 C CNN
 F 3 "" H -450 7400 50  0001 C CNN
 	1    -450 7400
@@ -5479,7 +5479,7 @@ L passive_component_rl:resistor_us R68
 U 1 1 6366A8DA
 P -350 11950
 F 0 "R68" H -350 11850 50  0000 L CNN
-F 1 "7k5" H -400 12050 50  0000 L CNN
+F 1 "4k7" H -400 12050 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -350 11950 50  0001 C CNN
 F 3 "" H -350 11950 50  0001 C CNN
 	1    -350 11950
@@ -7463,17 +7463,17 @@ Wire Wire Line
 	13150 2350 13150 2300
 Connection ~ 13150 2300
 Text Notes -2550 -9200 0    50   ~ 0
-Green LED\n24 V - 3 V (typ.) = 21 V\nI = 21 V / 0.0045 A = 4 700 R\n
+Green LED\n24 V - 3 V (typ.) = 21 V\nI = 21 V / 0.0045 A = 4 666 R
 Wire Wire Line
 	7850 7750 8500 7750
 Connection ~ 8500 7750
 Wire Wire Line
 	6350 7750 7200 7750
 Connection ~ 7200 7750
-Text Notes 5150 7450 0    50   ~ 0
-Green LED\n5 V - 1.55 V (typ.) = 3.45 V\nI = 3 V / 0.005 A = 576 R\n
+Text Notes 4950 7400 0    50   ~ 0
+Green LED\n5 V - 1.55 V (typ.) = 3.45 V\nI = 3.45 V / 0.005 A = 690 R\n
 Text Notes 2650 12500 0    50   ~ 0
-Green LED\n5 V - 1.55 V (typ.) = 3.45 V\nI = 3 V / 0.005 A = 576 R\n
+Green LED\n5 V - 1.55 V (typ.) = 3.45 V\nI = 3.45 V / 0.005 A = 690 R\n
 $Comp
 L diode_rl:LED D42
 U 1 1 62B1A7F5
@@ -9718,7 +9718,7 @@ F 3 "" H -14550 -8400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes -12100 -8800 0    50   ~ 0
-Green LED\n24 V - 3 V (typ.) = 21 V\nI = 21 V / 0.0045 A = 4 700 R\n
+Green LED\n24 V - 3 V (typ.) = 21 V\nI = 21 V / 0.0045 A = 4 666 R\n
 $Comp
 L unipolar_transistor_rl:n_mosfet_gsd Q1
 U 1 1 5FA08F52
@@ -10753,7 +10753,7 @@ L passive_component_rl:resistor_us R139
 U 1 1 6510B81C
 P -13150 -7350
 F 0 "R139" V -13196 -7282 50  0000 L CNN
-F 1 "10k" V -13105 -7282 50  0000 L CNN
+F 1 "24k" V -13105 -7282 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13150 -7350 50  0001 C CNN
 F 3 "" H -13150 -7350 50  0001 C CNN
 	1    -13150 -7350
@@ -10816,7 +10816,7 @@ L passive_component_rl:resistor_us R128
 U 1 1 66EFA530
 P -13550 -9450
 F 0 "R128" V -13596 -9382 50  0000 L CNN
-F 1 "2k2/0.5W" V -13505 -9382 50  0000 L CNN
+F 1 "5k36" V -13505 -9382 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13550 -9450 50  0001 C CNN
 F 3 "" H -13550 -9450 50  0001 C CNN
 	1    -13550 -9450
@@ -10845,7 +10845,7 @@ L passive_component_rl:resistor_us R127
 U 1 1 67419F58
 P -13650 -6650
 F 0 "R127" V -13696 -6582 50  0000 L CNN
-F 1 "10k" V -13605 -6582 50  0000 L CNN
+F 1 "24k" V -13605 -6582 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13650 -6650 50  0001 C CNN
 F 3 "" H -13650 -6650 50  0001 C CNN
 	1    -13650 -6650
@@ -10905,7 +10905,7 @@ L passive_component_rl:resistor_us R142
 U 1 1 65FAFF79
 P -13000 -3200
 F 0 "R142" V -13046 -3132 50  0000 L CNN
-F 1 "10k" V -12955 -3132 50  0000 L CNN
+F 1 "24k" V -12955 -3132 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13000 -3200 50  0001 C CNN
 F 3 "" H -13000 -3200 50  0001 C CNN
 	1    -13000 -3200
@@ -10968,7 +10968,7 @@ L passive_component_rl:resistor_us R131
 U 1 1 65FAFF9B
 P -13500 -2500
 F 0 "R131" V -13546 -2432 50  0000 L CNN
-F 1 "10k" V -13455 -2432 50  0000 L CNN
+F 1 "24k" V -13455 -2432 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13500 -2500 50  0001 C CNN
 F 3 "" H -13500 -2500 50  0001 C CNN
 	1    -13500 -2500
@@ -11006,7 +11006,7 @@ L passive_component_rl:resistor_us R134
 U 1 1 6677FD65
 P -13400 -5650
 F 0 "R134" V -13446 -5582 50  0000 L CNN
-F 1 "2k2/0.5W" V -13355 -5582 50  0000 L CNN
+F 1 "5k36" V -13355 -5582 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13400 -5650 50  0001 C CNN
 F 3 "" H -13400 -5650 50  0001 C CNN
 	1    -13400 -5650
@@ -11057,7 +11057,7 @@ L passive_component_rl:resistor_us R140
 U 1 1 67CC77D7
 P -13050 850
 F 0 "R140" V -13096 918 50  0000 L CNN
-F 1 "10k" V -13005 918 50  0000 L CNN
+F 1 "24k" V -13005 918 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13050 850 50  0001 C CNN
 F 3 "" H -13050 850 50  0001 C CNN
 	1    -13050 850 
@@ -11118,7 +11118,7 @@ L passive_component_rl:resistor_us R129
 U 1 1 67CC77F9
 P -13550 1550
 F 0 "R129" V -13596 1618 50  0000 L CNN
-F 1 "10k" V -13505 1618 50  0000 L CNN
+F 1 "24k" V -13505 1618 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13550 1550 50  0001 C CNN
 F 3 "" H -13550 1550 50  0001 C CNN
 	1    -13550 1550
@@ -11180,7 +11180,7 @@ L passive_component_rl:resistor_us R141
 U 1 1 6879BC64
 P -13050 4850
 F 0 "R141" V -13096 4918 50  0000 L CNN
-F 1 "10k" V -13005 4918 50  0000 L CNN
+F 1 "24k" V -13005 4918 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13050 4850 50  0001 C CNN
 F 3 "" H -13050 4850 50  0001 C CNN
 	1    -13050 4850
@@ -11241,7 +11241,7 @@ L passive_component_rl:resistor_us R130
 U 1 1 6879BC85
 P -13550 5550
 F 0 "R130" V -13596 5618 50  0000 L CNN
-F 1 "10k" V -13505 5618 50  0000 L CNN
+F 1 "24k" V -13505 5618 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13550 5550 50  0001 C CNN
 F 3 "" H -13550 5550 50  0001 C CNN
 	1    -13550 5550
@@ -11274,7 +11274,7 @@ L passive_component_rl:resistor_us R132
 U 1 1 68A52036
 P -13500 -1500
 F 0 "R132" V -13546 -1432 50  0000 L CNN
-F 1 "2k2/0.5W" V -13455 -1432 50  0000 L CNN
+F 1 "5k36" V -13455 -1432 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13500 -1500 50  0001 C CNN
 F 3 "" H -13500 -1500 50  0001 C CNN
 	1    -13500 -1500
@@ -11306,7 +11306,7 @@ L passive_component_rl:resistor_us R133
 U 1 1 6953956E
 P -13500 2500
 F 0 "R133" V -13546 2568 50  0000 L CNN
-F 1 "2k2/0.5W" V -13455 2568 50  0000 L CNN
+F 1 "5k36" V -13455 2568 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13500 2500 50  0001 C CNN
 F 3 "" H -13500 2500 50  0001 C CNN
 	1    -13500 2500
@@ -11339,7 +11339,7 @@ L passive_component_rl:resistor_us R138
 U 1 1 6A038D3C
 P -13250 6950
 F 0 "R138" V -13296 7018 50  0000 L CNN
-F 1 "2k2/0.5W" V -13205 7018 50  0000 L CNN
+F 1 "5k36" V -13205 7018 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13250 6950 50  0001 C CNN
 F 3 "" H -13250 6950 50  0001 C CNN
 	1    -13250 6950
@@ -11390,7 +11390,7 @@ L passive_component_rl:resistor_us R143
 U 1 1 6A5BB5DF
 P -12850 9300
 F 0 "R143" V -12896 9368 50  0000 L CNN
-F 1 "10k" V -12805 9368 50  0000 L CNN
+F 1 "24k" V -12805 9368 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -12850 9300 50  0001 C CNN
 F 3 "" H -12850 9300 50  0001 C CNN
 	1    -12850 9300
@@ -11451,7 +11451,7 @@ L passive_component_rl:resistor_us R135
 U 1 1 6A5BB600
 P -13350 10000
 F 0 "R135" V -13396 10068 50  0000 L CNN
-F 1 "10k" V -13305 10068 50  0000 L CNN
+F 1 "24k" V -13305 10068 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13350 10000 50  0001 C CNN
 F 3 "" H -13350 10000 50  0001 C CNN
 	1    -13350 10000
@@ -11491,7 +11491,7 @@ L passive_component_rl:resistor_us R137
 U 1 1 6AE32965
 P -13300 11100
 F 0 "R137" V -13346 11168 50  0000 L CNN
-F 1 "2k2/0.5W" V -13255 11168 50  0000 L CNN
+F 1 "5k36" V -13255 11168 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13300 11100 50  0001 C CNN
 F 3 "" H -13300 11100 50  0001 C CNN
 	1    -13300 11100
@@ -11542,7 +11542,7 @@ L passive_component_rl:resistor_us R144
 U 1 1 6B10655E
 P -12850 13450
 F 0 "R144" V -12896 13518 50  0000 L CNN
-F 1 "10k" V -12805 13518 50  0000 L CNN
+F 1 "24k" V -12805 13518 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -12850 13450 50  0001 C CNN
 F 3 "" H -12850 13450 50  0001 C CNN
 	1    -12850 13450
@@ -11603,7 +11603,7 @@ L passive_component_rl:resistor_us R136
 U 1 1 6B10657F
 P -13350 14150
 F 0 "R136" V -13396 14218 50  0000 L CNN
-F 1 "10k" V -13305 14218 50  0000 L CNN
+F 1 "24k" V -13305 14218 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -13350 14150 50  0001 C CNN
 F 3 "" H -13350 14150 50  0001 C CNN
 	1    -13350 14150
@@ -11665,7 +11665,7 @@ L passive_component_rl:resistor_us R162
 U 1 1 6CB03A78
 P -3650 -7350
 F 0 "R162" V -3696 -7282 50  0000 L CNN
-F 1 "10k" V -3605 -7282 50  0000 L CNN
+F 1 "24k" V -3605 -7282 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -3650 -7350 50  0001 C CNN
 F 3 "" H -3650 -7350 50  0001 C CNN
 	1    -3650 -7350
@@ -11695,7 +11695,7 @@ L passive_component_rl:resistor_us R152
 U 1 1 6CB03A9A
 P -4150 -6650
 F 0 "R152" V -4196 -6582 50  0000 L CNN
-F 1 "10k" V -4105 -6582 50  0000 L CNN
+F 1 "24k" V -4105 -6582 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -4150 -6650 50  0001 C CNN
 F 3 "" H -4150 -6650 50  0001 C CNN
 	1    -4150 -6650
@@ -11722,7 +11722,7 @@ L passive_component_rl:resistor_us R154
 U 1 1 6D3BD167
 P -4100 -9650
 F 0 "R154" V -4146 -9582 50  0000 L CNN
-F 1 "2k2/0.5W" V -4055 -9582 50  0000 L CNN
+F 1 "5k36" V -4055 -9582 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -4100 -9650 50  0001 C CNN
 F 3 "" H -4100 -9650 50  0001 C CNN
 	1    -4100 -9650
@@ -11762,7 +11762,7 @@ L passive_component_rl:resistor_us R155
 U 1 1 6DF868DB
 P -4100 -5500
 F 0 "R155" V -4146 -5432 50  0000 L CNN
-F 1 "2k2/0.5W" V -4055 -5432 50  0000 L CNN
+F 1 "5k36" V -4055 -5432 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -4100 -5500 50  0001 C CNN
 F 3 "" H -4100 -5500 50  0001 C CNN
 	1    -4100 -5500
@@ -11813,7 +11813,7 @@ L passive_component_rl:resistor_us R160
 U 1 1 6E2781A0
 P -3700 -3250
 F 0 "R160" V -3746 -3182 50  0000 L CNN
-F 1 "10k" V -3655 -3182 50  0000 L CNN
+F 1 "24k" V -3655 -3182 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -3700 -3250 50  0001 C CNN
 F 3 "" H -3700 -3250 50  0001 C CNN
 	1    -3700 -3250
@@ -11841,7 +11841,7 @@ L passive_component_rl:resistor_us R148
 U 1 1 6E2781BC
 P -4200 -2550
 F 0 "R148" V -4246 -2482 50  0000 L CNN
-F 1 "10k" V -4155 -2482 50  0000 L CNN
+F 1 "24k" V -4155 -2482 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -4200 -2550 50  0001 C CNN
 F 3 "" H -4200 -2550 50  0001 C CNN
 	1    -4200 -2550
@@ -11881,7 +11881,7 @@ L passive_component_rl:resistor_us R153
 U 1 1 6EE75B47
 P -4150 -1600
 F 0 "R153" V -4196 -1532 50  0000 L CNN
-F 1 "2k2/0.5W" V -4105 -1532 50  0000 L CNN
+F 1 "5k36" V -4105 -1532 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -4150 -1600 50  0001 C CNN
 F 3 "" H -4150 -1600 50  0001 C CNN
 	1    -4150 -1600
@@ -11932,7 +11932,7 @@ L passive_component_rl:resistor_us R159
 U 1 1 6F174991
 P -3750 650
 F 0 "R159" V -3796 718 50  0000 L CNN
-F 1 "10k" V -3705 718 50  0000 L CNN
+F 1 "24k" V -3705 718 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -3750 650 50  0001 C CNN
 F 3 "" H -3750 650 50  0001 C CNN
 	1    -3750 650 
@@ -11960,7 +11960,7 @@ L passive_component_rl:resistor_us R147
 U 1 1 6F1749AC
 P -4250 1350
 F 0 "R147" V -4296 1418 50  0000 L CNN
-F 1 "10k" V -4205 1418 50  0000 L CNN
+F 1 "24k" V -4205 1418 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -4250 1350 50  0001 C CNN
 F 3 "" H -4250 1350 50  0001 C CNN
 	1    -4250 1350
@@ -12000,7 +12000,7 @@ L passive_component_rl:resistor_us R149
 U 1 1 700A9F15
 P -4200 2350
 F 0 "R149" V -4246 2418 50  0000 L CNN
-F 1 "2k2/0.5W" V -4155 2418 50  0000 L CNN
+F 1 "5k36" V -4155 2418 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -4200 2350 50  0001 C CNN
 F 3 "" H -4200 2350 50  0001 C CNN
 	1    -4200 2350
@@ -12051,7 +12051,7 @@ L passive_component_rl:resistor_us R157
 U 1 1 703B650E
 P -3800 4600
 F 0 "R157" V -3846 4668 50  0000 L CNN
-F 1 "10k" V -3755 4668 50  0000 L CNN
+F 1 "24k" V -3755 4668 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -3800 4600 50  0001 C CNN
 F 3 "" H -3800 4600 50  0001 C CNN
 	1    -3800 4600
@@ -12079,7 +12079,7 @@ L passive_component_rl:resistor_us R145
 U 1 1 703B6529
 P -4300 5300
 F 0 "R145" V -4346 5368 50  0000 L CNN
-F 1 "10k" V -4255 5368 50  0000 L CNN
+F 1 "24k" V -4255 5368 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -4300 5300 50  0001 C CNN
 F 3 "" H -4300 5300 50  0001 C CNN
 	1    -4300 5300
@@ -12116,7 +12116,7 @@ L passive_component_rl:resistor_us R150
 U 1 1 71027F3D
 P -4200 6450
 F 0 "R150" V -4246 6518 50  0000 L CNN
-F 1 "2k2/0.5W" V -4155 6518 50  0000 L CNN
+F 1 "5k36" V -4155 6518 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -4200 6450 50  0001 C CNN
 F 3 "" H -4200 6450 50  0001 C CNN
 	1    -4200 6450
@@ -12167,7 +12167,7 @@ L passive_component_rl:resistor_us R158
 U 1 1 71340055
 P -3800 8700
 F 0 "R158" V -3846 8768 50  0000 L CNN
-F 1 "10k" V -3755 8768 50  0000 L CNN
+F 1 "24k" V -3755 8768 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -3800 8700 50  0001 C CNN
 F 3 "" H -3800 8700 50  0001 C CNN
 	1    -3800 8700
@@ -12195,7 +12195,7 @@ L passive_component_rl:resistor_us R146
 U 1 1 71340070
 P -4300 9400
 F 0 "R146" V -4346 9468 50  0000 L CNN
-F 1 "10k" V -4255 9468 50  0000 L CNN
+F 1 "24k" V -4255 9468 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -4300 9400 50  0001 C CNN
 F 3 "" H -4300 9400 50  0001 C CNN
 	1    -4300 9400
@@ -12254,7 +12254,7 @@ L passive_component_rl:resistor_us R161
 U 1 1 71982955
 P -3700 13250
 F 0 "R161" V -3746 13318 50  0000 L CNN
-F 1 "10k" V -3655 13318 50  0000 L CNN
+F 1 "24k" V -3655 13318 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -3700 13250 50  0001 C CNN
 F 3 "" H -3700 13250 50  0001 C CNN
 	1    -3700 13250
@@ -12282,7 +12282,7 @@ L passive_component_rl:resistor_us R151
 U 1 1 71982970
 P -4200 13950
 F 0 "R151" V -4246 14018 50  0000 L CNN
-F 1 "10k" V -4155 14018 50  0000 L CNN
+F 1 "24k" V -4155 14018 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -4200 13950 50  0001 C CNN
 F 3 "" H -4200 13950 50  0001 C CNN
 	1    -4200 13950
@@ -12322,7 +12322,7 @@ L passive_component_rl:resistor_us R156
 U 1 1 71CB2953
 P -4100 11000
 F 0 "R156" V -4146 11068 50  0000 L CNN
-F 1 "2k2/0.5W" V -4055 11068 50  0000 L CNN
+F 1 "5k36" V -4055 11068 50  0000 L CNN
 F 2 "resistor_smd_rl:r_1206" H -4100 11000 50  0001 C CNN
 F 3 "" H -4100 11000 50  0001 C CNN
 	1    -4100 11000
