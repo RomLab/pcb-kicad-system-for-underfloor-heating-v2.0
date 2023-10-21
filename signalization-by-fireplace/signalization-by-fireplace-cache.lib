@@ -586,34 +586,11 @@ X GND4 1 0 50 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# thermocouple_rl_MAX31850K_rl
+# signalization-by-fireplace-rescue_n_mosfet_gsd-unipolar_transistor_rl
 #
-DEF thermocouple_rl_MAX31850K_rl U 0 40 Y Y 1 F N
-F0 "U" -300 300 50 H V C CNN
-F1 "thermocouple_rl_MAX31850K_rl" 100 300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -350 250 350 -250 1 1 0 f
-X GND 1 -450 200 100 R 50 50 1 1 W
-X DNC 10 450 200 100 L 50 50 1 1 N
-X EP 11 0 -350 100 U 50 50 1 1 w
-X T- 2 -450 100 100 R 50 50 1 1 I
-X T+ 3 -450 0 100 R 50 50 1 1 I
-X VDD 4 -450 -100 100 R 50 50 1 1 W
-X DQ 5 -450 -200 100 R 50 50 1 1 B
-X AD0 6 450 -200 100 L 50 50 1 1 I
-X AD1 7 450 -100 100 L 50 50 1 1 I
-X AD2 8 450 0 100 L 50 50 1 1 I
-X AD3 9 450 100 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# unipolar_transistor_rl_n_mosfet_gsd
-#
-DEF unipolar_transistor_rl_n_mosfet_gsd Q 0 20 Y N 1 F N
+DEF signalization-by-fireplace-rescue_n_mosfet_gsd-unipolar_transistor_rl Q 0 20 Y N 1 F N
 F0 "Q" 150 50 50 H V C CNN
-F1 "unipolar_transistor_rl_n_mosfet_gsd" 0 -300 50 H V C CNN
+F1 "signalization-by-fireplace-rescue_n_mosfet_gsd-unipolar_transistor_rl" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -637,11 +614,11 @@ X D 3 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# unipolar_transistor_rl_p_mosfet
+# signalization-by-fireplace-rescue_p_mosfet_gsd-unipolar_transistor_rl
 #
-DEF unipolar_transistor_rl_p_mosfet Q 0 40 Y N 1 F N
+DEF signalization-by-fireplace-rescue_p_mosfet_gsd-unipolar_transistor_rl Q 0 40 Y N 1 F N
 F0 "Q" 0 200 50 H V C CNN
-F1 "unipolar_transistor_rl_p_mosfet" 300 -150 50 H V C CNN
+F1 "signalization-by-fireplace-rescue_p_mosfet_gsd-unipolar_transistor_rl" 300 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -662,6 +639,29 @@ P 4 1 1 0 130 -15 115 10 145 10 130 -15 N
 X G 1 -200 0 100 R 50 50 1 1 I
 X S 2 100 -200 100 U 50 50 1 1 P
 X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# thermocouple_rl_MAX31850K_rl
+#
+DEF thermocouple_rl_MAX31850K_rl U 0 40 Y Y 1 F N
+F0 "U" -300 300 50 H V C CNN
+F1 "thermocouple_rl_MAX31850K_rl" 100 300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 250 350 -250 1 1 0 f
+X GND 1 -450 200 100 R 50 50 1 1 W
+X DNC 10 450 200 100 L 50 50 1 1 N
+X EP 11 0 -350 100 U 50 50 1 1 w
+X T- 2 -450 100 100 R 50 50 1 1 I
+X T+ 3 -450 0 100 R 50 50 1 1 I
+X VDD 4 -450 -100 100 R 50 50 1 1 W
+X DQ 5 -450 -200 100 R 50 50 1 1 B
+X AD0 6 450 -200 100 L 50 50 1 1 I
+X AD1 7 450 -100 100 L 50 50 1 1 I
+X AD2 8 450 0 100 L 50 50 1 1 I
+X AD3 9 450 100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
