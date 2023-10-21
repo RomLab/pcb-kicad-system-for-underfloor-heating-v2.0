@@ -1,4 +1,4 @@
-18834288889518544
+18835963820819417
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82250,6 +82250,13 @@ Through hole pin header THT 2x20 2.54mm double row
 40
 40
 connector_tht_pinsocket_2.54mm_rl
+1x3_pinsocket_2.54mm_vertical_8.4mm
+1x3 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
+1x3 pin socket 8.4 mm
+0
+3
+3
+connector_tht_pinsocket_2.54mm_rl
 1x4_pinsocket_2.54mm_vertical_8.4mm
 1x4 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
 1x4 pin socket 8.4 mm
@@ -82825,11 +82832,11 @@ ss_12f51_g6_wm
 3
 terminal_block_tht_rl
 AKZ770_3-5.08-V-GREEN
-
-
+Screw terminal block 3x3 (https://ptr.ptr-hartmann.com/no_cache/en/components/produkt-pdf-generator-ak/?cat_id=389)
+screw terminal block 3x3
 0
-0
-0
+9
+9
 terminal_block_tht_rl
 DG301-5.0-02P-12-00A(H)
 Screw terminal block 1x2 (https://cstest.degson.com/content/details_552_2491796.html?lang=cs)
