@@ -1,4 +1,4 @@
-update=22.01.2023 0:09:24
+update=19.10.2023 8:37:43
 version=1
 last_client=kicad
 [general]
@@ -244,3 +244,13 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=C:/Users/Roman Labovský/Desktop/podklady/central_control_unit/central_control_unit/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
