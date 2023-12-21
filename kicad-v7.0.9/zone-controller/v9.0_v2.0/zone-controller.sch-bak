@@ -1,0 +1,12553 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L driver_LED_rl:PCA9685PW U3
+U 1 1 602C4EDE
+P 19000 3800
+F 0 "U3" H 18650 4700 50  0000 C CNN
+F 1 "PCA9685PW" H 19350 2800 50  0000 C CNN
+F 2 "package_tssop_rl:tssop_28" H 19025 2825 50  0001 L CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 18600 4500 50  0001 C CNN
+	1    19000 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19000 4900 19000 5050
+Wire Wire Line
+	19700 3100 19800 3100
+Wire Wire Line
+	19700 3200 19800 3200
+Wire Wire Line
+	19700 3300 19800 3300
+Wire Wire Line
+	19700 3400 19800 3400
+Wire Wire Line
+	19700 3500 19800 3500
+Wire Wire Line
+	19700 3600 19800 3600
+Wire Wire Line
+	19700 3700 19800 3700
+Wire Wire Line
+	19700 3800 19800 3800
+Wire Wire Line
+	19700 3900 19800 3900
+Wire Wire Line
+	19700 4000 19800 4000
+Wire Wire Line
+	19700 4100 19800 4100
+Wire Wire Line
+	19700 4200 19800 4200
+Text Label 19800 3100 0    50   ~ 0
+LED0
+Text Label 19800 3200 0    50   ~ 0
+LED1
+Text Label 19800 3300 0    50   ~ 0
+LED2
+Text Label 19800 3400 0    50   ~ 0
+LED3
+Text Label 19800 3500 0    50   ~ 0
+LED4
+Text Label 19800 3600 0    50   ~ 0
+LED5
+Text Label 19800 3700 0    50   ~ 0
+LED6
+Text Label 19800 3800 0    50   ~ 0
+LED7
+Text Label 19800 3900 0    50   ~ 0
+LED8
+Text Label 19800 4000 0    50   ~ 0
+LED9
+Text Label 19800 4100 0    50   ~ 0
+LED10
+Text Label 19800 4200 0    50   ~ 0
+LED11
+Wire Wire Line
+	18300 4500 18250 4500
+Wire Wire Line
+	18250 4400 18300 4400
+Wire Wire Line
+	18300 4300 18250 4300
+Wire Wire Line
+	18300 4200 18250 4200
+Wire Wire Line
+	18300 4100 18250 4100
+Wire Wire Line
+	18300 4000 18250 4000
+Text Label 18250 4000 2    50   ~ 0
+A0
+Text Label 18250 4100 2    50   ~ 0
+A1
+Text Label 18250 4200 2    50   ~ 0
+A2
+Text Label 18250 4300 2    50   ~ 0
+A3
+Text Label 18250 4400 2    50   ~ 0
+A4
+Text Label 18250 4500 2    50   ~ 0
+A5
+$Comp
+L power_rl:GND #PWR065
+U 1 1 61907CC1
+P 17450 3600
+F 0 "#PWR065" H 17450 3350 50  0001 C CNN
+F 1 "GND" H 17450 3500 50  0000 C CNN
+F 2 "" H 17450 3600 50  0001 C CNN
+F 3 "" H 17450 3600 50  0001 C CNN
+	1    17450 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18300 3300 17450 3300
+Wire Wire Line
+	17450 3300 17450 3550
+Text Label 17650 3100 2    50   ~ 0
+SCL
+Text Label 17650 3200 2    50   ~ 0
+SDA
+$Comp
+L passive_component_rl:capacitor C8
+U 1 1 61E21F36
+P 20100 2350
+F 0 "C8" V 20050 2550 50  0000 C CNN
+F 1 "10uF" V 20200 2550 50  0000 C CNN
+F 2 "capacitor_smd_rl:c_1206" H 20100 2350 50  0001 C CNN
+F 3 "" H 20100 2350 50  0001 C CNN
+	1    20100 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND #PWR069
+U 1 1 61E5D33A
+P 19850 2650
+F 0 "#PWR069" H 19850 2400 50  0001 C CNN
+F 1 "GND" H 19850 2550 50  0000 C CNN
+F 2 "" H 19850 2650 50  0001 C CNN
+F 3 "" H 19850 2650 50  0001 C CNN
+	1    19850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L connector_rl:1x2_screw_term_block J14
+U 1 1 61E9BA79
+P 16650 6450
+F 0 "J14" V 16614 6312 50  0000 R CNN
+F 1 "EBBA-02-C-SS-BU" V 16523 6312 50  0000 R CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H 16650 6450 50  0001 C CNN
+F 3 "" H 16650 6450 50  0001 C CNN
+	1    16650 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16600 6650 16600 6700
+$Comp
+L power_rl:GND #PWR068
+U 1 1 61F17336
+P 16700 6800
+F 0 "#PWR068" H 16700 6550 50  0001 C CNN
+F 1 "GND" H 16700 6700 50  0000 C CNN
+F 2 "" H 16700 6800 50  0001 C CNN
+F 3 "" H 16700 6800 50  0001 C CNN
+	1    16700 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16700 6650 16700 6700
+$Comp
+L power_rl:PWR_FLAG #FLG07
+U 1 1 61F54B9D
+P 17050 6750
+F 0 "#FLG07" H 17050 6825 50  0001 C CNN
+F 1 "PWR_FLAG" H 17050 6923 50  0000 C CNN
+F 2 "" H 17050 6750 50  0001 C CNN
+F 3 "~" H 17050 6750 50  0001 C CNN
+	1    17050 6750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16700 6700 17050 6700
+Wire Wire Line
+	17050 6700 17050 6750
+Connection ~ 16700 6700
+Wire Wire Line
+	16700 6700 16700 6750
+$Comp
+L passive_component_rl:capacitor C9
+U 1 1 602EC528
+P 19550 2350
+F 0 "C9" V 19500 2500 50  0000 C CNN
+F 1 "100nF" V 19650 2550 50  0000 C CNN
+F 2 "capacitor_smd_rl:c_1206" H 19550 2350 50  0001 C CNN
+F 3 "" H 19550 2350 50  0001 C CNN
+	1    19550 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND #PWR066
+U 1 1 60718163
+P 18000 3850
+F 0 "#PWR066" H 18000 3600 50  0001 C CNN
+F 1 "GND" H 18000 3750 50  0000 C CNN
+F 2 "" H 18000 3850 50  0001 C CNN
+F 3 "" H 18000 3850 50  0001 C CNN
+	1    18000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R45
+U 1 1 607176ED
+P 18000 3600
+F 0 "R45" V 17954 3668 50  0000 L CNN
+F 1 "10k" V 18045 3668 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 18000 3600 50  0001 C CNN
+F 3 "" H 18000 3600 50  0001 C CNN
+	1    18000 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18000 3800 18000 3750
+Wire Wire Line
+	18300 3400 18000 3400
+Wire Wire Line
+	18000 3400 18000 3450
+$Comp
+L power_rl:GND #PWR062
+U 1 1 5E79F69F
+P 15750 9900
+F 0 "#PWR062" H 15750 9650 50  0001 C CNN
+F 1 "GND" H 15750 9750 50  0000 C CNN
+F 2 "" H 15750 9900 50  0001 C CNN
+F 3 "" H 15750 9900 50  0001 C CNN
+	1    15750 9900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16950 7900 17250 7900
+Wire Wire Line
+	17250 7800 17250 7900
+$Comp
+L passive_component_rl:resistor_us R46
+U 1 1 5F151ECA
+P 14550 7800
+F 0 "R46" V 14504 7868 50  0000 L CNN
+F 1 "100k" V 14595 7868 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 14550 7800 50  0001 C CNN
+F 3 "" H 14550 7800 50  0001 C CNN
+	1    14550 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R47
+U 1 1 5F1529E8
+P 14550 8250
+F 0 "R47" V 14504 8318 50  0000 L CNN
+F 1 "3k16" V 14595 8318 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 14550 8250 50  0001 C CNN
+F 3 "" H 14550 8250 50  0001 C CNN
+	1    14550 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R48
+U 1 1 6057FAF6
+P 14550 8700
+F 0 "R48" V 14504 8768 50  0000 L CNN
+F 1 "30k" V 14595 8768 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 14550 8700 50  0001 C CNN
+F 3 "" H 14550 8700 50  0001 C CNN
+	1    14550 8700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14550 7650 14550 7300
+Wire Wire Line
+	16050 8200 15850 8200
+Wire Wire Line
+	15850 8200 15850 8450
+Wire Wire Line
+	14550 8400 14550 8450
+Connection ~ 14550 8450
+Wire Wire Line
+	14550 8450 14550 8550
+Wire Wire Line
+	16950 8300 17300 8300
+$Comp
+L passive_component_rl:capacitor C7
+U 1 1 6057FAFB
+P 15750 7950
+F 0 "C7" V 15650 7800 50  0000 L CNN
+F 1 "1uF" V 15850 7750 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 15750 7950 50  0001 C CNN
+F 3 "" H 15750 7950 50  0001 C CNN
+	1    15750 7950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14550 7950 14550 8000
+Wire Wire Line
+	16050 7800 15900 7800
+Wire Wire Line
+	15900 7800 15900 7600
+Wire Wire Line
+	15900 7600 15750 7600
+Connection ~ 15750 7600
+Wire Wire Line
+	15750 7600 15750 7800
+Wire Wire Line
+	16050 7900 15900 7900
+Wire Wire Line
+	15900 7900 15900 7800
+Connection ~ 15900 7800
+$Comp
+L passive_component_rl:capacitor C11
+U 1 1 6057FAFC
+P 18750 8000
+F 0 "C11" V 18704 8110 50  0000 L CNN
+F 1 "1uF" V 18795 8110 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 18750 8000 50  0001 C CNN
+F 3 "" H 18750 8000 50  0001 C CNN
+	1    18750 8000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18750 7800 18750 7850
+Wire Wire Line
+	14550 7300 15750 7300
+Wire Wire Line
+	15750 7300 15750 7600
+Wire Wire Line
+	14550 8450 15850 8450
+Wire Wire Line
+	17250 7800 18250 7800
+$Comp
+L passive_component_rl:capacitor C10
+U 1 1 6057FAFD
+P 17850 8750
+F 0 "C10" V 17804 8860 50  0000 L CNN
+F 1 "1.2nF" V 17895 8860 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 17850 8750 50  0001 C CNN
+F 3 "" H 17850 8750 50  0001 C CNN
+	1    17850 8750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16950 8200 17850 8200
+Wire Wire Line
+	17850 8200 17850 8600
+Wire Wire Line
+	16950 8500 17000 8500
+$Comp
+L passive_component_rl:resistor_us R52
+U 1 1 5F275CEF
+P 18250 8050
+F 0 "R52" V 18204 8118 50  0000 L CNN
+F 1 "604R" V 18295 8118 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 18250 8050 50  0001 C CNN
+F 3 "" H 18250 8050 50  0001 C CNN
+	1    18250 8050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18250 7900 18250 7800
+Connection ~ 18250 7800
+Wire Wire Line
+	18250 8700 18100 8700
+Wire Wire Line
+	18100 8700 18100 8000
+Wire Wire Line
+	18100 8000 16950 8000
+$Comp
+L passive_component_rl:resistor_variable_us R50
+U 1 1 5F2C46C6
+P 17300 8700
+F 0 "R50" V 17254 8838 50  0000 L CNN
+F 1 "200k" V 17350 8800 50  0000 L CNN
+F 2 "trimmer_tht_rl:trimmer_t93yb" H 17300 8700 50  0001 C CNN
+F 3 "" H 17300 8700 50  0001 C CNN
+	1    17300 8700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17300 8300 17300 8550
+Wire Wire Line
+	17300 8850 17300 8950
+Wire Wire Line
+	17200 8850 17200 8950
+Wire Wire Line
+	17200 8950 17300 8950
+Connection ~ 17300 8950
+Wire Wire Line
+	17300 8950 17300 9050
+Wire Wire Line
+	17300 9350 17300 9550
+Wire Wire Line
+	17300 9550 17850 9550
+Wire Wire Line
+	17850 8900 17850 9550
+Connection ~ 17300 9550
+Text Notes 17400 9000 0    50   ~ 0
+I=0,073 A (0,13 A) => max. current\n120k - 5k36 = 114,64k
+$Comp
+L passive_component_rl:resistor_us R49
+U 1 1 5F131126
+P 14550 9100
+F 0 "R49" V 14504 9168 50  0000 L CNN
+F 1 "200R" V 14595 9168 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 14550 9100 50  0001 C CNN
+F 3 "" H 14550 9100 50  0001 C CNN
+	1    14550 9100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14550 8850 14550 8950
+Wire Wire Line
+	14550 8000 15300 8000
+Wire Wire Line
+	15300 8000 15300 8150
+Wire Wire Line
+	15300 8150 15900 8150
+Wire Wire Line
+	15900 8150 15900 8000
+Wire Wire Line
+	15900 8000 16050 8000
+Connection ~ 14550 8000
+Wire Wire Line
+	14550 8000 14550 8100
+Wire Wire Line
+	17250 7800 16950 7800
+Connection ~ 17250 7800
+$Comp
+L power_management_rl:TPS26600 U4
+U 1 1 6057FAF9
+P 16500 8000
+F 0 "U4" H 16500 8425 50  0000 C CNN
+F 1 "TPS26600" H 16500 8334 50  0000 C CNN
+F 2 "package_htssop_rl:htssop_16_6.6mm×5.1mm" H 16500 8000 50  0001 C CNN
+F 3 "" H 16500 8000 50  0001 C CNN
+	1    16500 8000
+	1    0    0    -1  
+$EndComp
+Connection ~ 14550 7300
+Wire Wire Line
+	18750 8150 18750 9750
+Wire Wire Line
+	17000 8500 17000 9350
+Wire Wire Line
+	14550 9550 14550 9250
+Text Notes 16550 6300 0    50   ~ 0
+Input\nvoltage \n+5 V
+$Comp
+L passive_component_rl:resistor_us R51
+U 1 1 6057FAFA
+P 17300 9200
+F 0 "R51" V 17346 9132 50  0000 R CNN
+F 1 "5k36" V 17255 9132 50  0000 R CNN
+F 2 "resistor_smd_rl:r_1206" H 17300 9200 50  0001 C CNN
+F 3 "" H 17300 9200 50  0001 C CNN
+	1    17300 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14550 9550 15950 9550
+Wire Wire Line
+	16050 8500 15950 8500
+Wire Wire Line
+	15950 8500 15950 9550
+Connection ~ 15950 9550
+Wire Wire Line
+	15950 9550 17300 9550
+Text Notes 19050 7750 0    50   ~ 0
+Output voltage +5 V
+Connection ~ 18750 7800
+Wire Wire Line
+	18250 8200 18250 8400
+NoConn ~ 16050 8300
+NoConn ~ 16050 8400
+NoConn ~ 16950 8400
+Text Notes 14700 7600 0    50   ~ 0
+Overvoltage 5,25 V\nUndervoltage 4,75
+$Comp
+L diode_rl:bidir_transil D50
+U 1 1 6262F06D
+P 15900 7100
+F 0 "D50" H 15994 7196 50  0000 L CNN
+F 1 "SMCJ5.0CA-13-F" H 15994 7105 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H 15900 7100 50  0001 C CNN
+F 3 "" H 15900 7100 50  0001 C CNN
+	1    15900 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15900 7300 15900 7250
+Wire Wire Line
+	15900 6850 15900 6700
+Connection ~ 15900 6700
+Wire Wire Line
+	15900 6700 16600 6700
+$Comp
+L power_rl:+5V #PWR0102
+U 1 1 6262E4F8
+P 20000 7600
+F 0 "#PWR0102" H 20010 7540 50  0001 C CNN
+F 1 "+5V" H 20000 7773 50  0000 C CNN
+F 2 "" H 20000 7600 50  0001 C CNN
+F 3 "" H 20000 7600 50  0001 C CNN
+	1    20000 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20000 7800 20000 7600
+Wire Wire Line
+	18750 7800 20000 7800
+Wire Wire Line
+	18250 7800 18750 7800
+$Comp
+L interface_i2c_rl:PCA9615 U31
+U 1 1 62834EA6
+P 19350 12300
+F 0 "U31" H 19350 12725 50  0000 C CNN
+F 1 "PCA9615" H 19350 12634 50  0000 C CNN
+F 2 "package_tssop_rl:tssop_10" H 19150 12700 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9615.pdf" H 19150 12700 50  0001 C CNN
+F 4 "NXP Semiconductors" H 19350 12300 50  0001 C CNN "Manufacture"
+	1    19350 12300
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:capacitor C67
+U 1 1 62836F31
+P 18200 12000
+F 0 "C67" V 18154 12110 50  0000 L CNN
+F 1 "100nF" V 18245 12110 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 18200 12000 50  0001 C CNN
+F 3 "" H 18200 12000 50  0001 C CNN
+	1    18200 12000
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C66
+U 1 1 62838A3F
+P 17800 12000
+F 0 "C66" V 17754 12110 50  0000 L CNN
+F 1 "1uF" V 17845 12110 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 17800 12000 50  0001 C CNN
+F 3 "" H 17800 12000 50  0001 C CNN
+	1    17800 12000
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C68
+U 1 1 6283A29D
+P 20400 12000
+F 0 "C68" V 20354 12110 50  0000 L CNN
+F 1 "100nF" V 20445 12110 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 20400 12000 50  0001 C CNN
+F 3 "" H 20400 12000 50  0001 C CNN
+	1    20400 12000
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C70
+U 1 1 6283B9F2
+P 20900 12000
+F 0 "C70" V 20854 12110 50  0000 L CNN
+F 1 "1uF" V 20945 12110 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 20900 12000 50  0001 C CNN
+F 3 "" H 20900 12000 50  0001 C CNN
+	1    20900 12000
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND #PWR0104
+U 1 1 6283D13F
+P 18850 12650
+F 0 "#PWR0104" H 18850 12450 50  0001 C CNN
+F 1 "GND" H 18855 12527 50  0000 C CNN
+F 2 "" H 18850 12650 50  0001 C CNN
+F 3 "" H 18850 12650 50  0001 C CNN
+	1    18850 12650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18900 12500 18850 12500
+Wire Wire Line
+	18850 12500 18850 12600
+$Comp
+L power_rl:GND #PWR0105
+U 1 1 628931A7
+P 18000 12300
+F 0 "#PWR0105" H 18000 12100 50  0001 C CNN
+F 1 "GND" H 18005 12177 50  0000 C CNN
+F 2 "" H 18000 12300 50  0001 C CNN
+F 3 "" H 18000 12300 50  0001 C CNN
+	1    18000 12300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND #PWR0106
+U 1 1 62894905
+P 20650 12300
+F 0 "#PWR0106" H 20650 12100 50  0001 C CNN
+F 1 "GND" H 20655 12177 50  0000 C CNN
+F 2 "" H 20650 12300 50  0001 C CNN
+F 3 "" H 20650 12300 50  0001 C CNN
+	1    20650 12300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20900 11800 20900 11850
+Wire Wire Line
+	20400 11850 20400 11800
+Wire Wire Line
+	20400 11800 20900 11800
+Wire Wire Line
+	20400 12150 20400 12200
+Wire Wire Line
+	20400 12200 20650 12200
+Wire Wire Line
+	20900 12200 20900 12150
+Wire Wire Line
+	20650 12250 20650 12200
+Connection ~ 20650 12200
+Wire Wire Line
+	20650 12200 20900 12200
+Wire Wire Line
+	18900 12100 18750 12100
+Wire Wire Line
+	18750 12100 18750 11800
+Wire Wire Line
+	18750 11800 19350 11800
+Wire Wire Line
+	19950 11800 19950 12100
+Wire Wire Line
+	19950 12100 19800 12100
+Wire Wire Line
+	19950 11800 20400 11800
+Connection ~ 19950 11800
+Connection ~ 20400 11800
+Wire Wire Line
+	18200 11850 18200 11800
+Wire Wire Line
+	18200 11800 17800 11800
+Wire Wire Line
+	17800 11800 17800 11850
+Wire Wire Line
+	17800 12150 17800 12200
+Wire Wire Line
+	17800 12200 18000 12200
+Wire Wire Line
+	18200 12200 18200 12150
+Wire Wire Line
+	18000 12250 18000 12200
+Connection ~ 18000 12200
+Wire Wire Line
+	18000 12200 18200 12200
+Wire Wire Line
+	18200 11800 18750 11800
+Connection ~ 18200 11800
+Connection ~ 18750 11800
+Wire Wire Line
+	18900 12200 18750 12200
+Wire Wire Line
+	18900 12400 18750 12400
+Wire Wire Line
+	19800 12200 19950 12200
+Wire Wire Line
+	19800 12300 19950 12300
+Wire Wire Line
+	19800 12400 19950 12400
+Wire Wire Line
+	19800 12500 19950 12500
+Text Label 18750 12200 2    50   ~ 0
+SDA
+Text Label 18750 12400 2    50   ~ 0
+SCL
+Text Label 19950 12200 0    50   ~ 0
+DSDA_N
+Text Label 19950 12300 0    50   ~ 0
+DSDA_P
+Text Label 19950 12400 0    50   ~ 0
+DSCL_P
+Text Label 19950 12500 0    50   ~ 0
+DSCL_N
+$Comp
+L power_rl:+5V #PWR0107
+U 1 1 62F32611
+P 19350 11750
+F 0 "#PWR0107" H 19360 11690 50  0001 C CNN
+F 1 "+5V" H 19350 11923 50  0000 C CNN
+F 2 "" H 19350 11750 50  0001 C CNN
+F 3 "" H 19350 11750 50  0001 C CNN
+	1    19350 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19350 11750 19350 11800
+Connection ~ 19350 11800
+Wire Wire Line
+	19350 11800 19950 11800
+NoConn ~ 18900 12300
+$Comp
+L passive_component_rl:resistor_us R100
+U 1 1 62FEF534
+P 19150 13450
+F 0 "R100" V 19104 13518 50  0000 L CNN
+F 1 "4k7" V 19195 13518 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 19150 13450 50  0001 C CNN
+F 3 "" H 19150 13450 50  0001 C CNN
+	1    19150 13450
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R101
+U 1 1 62FEFB75
+P 19650 13450
+F 0 "R101" V 19604 13518 50  0000 L CNN
+F 1 "4k7" V 19695 13518 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 19650 13450 50  0001 C CNN
+F 3 "" H 19650 13450 50  0001 C CNN
+	1    19650 13450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19150 13300 19150 13250
+Wire Wire Line
+	19150 13250 19400 13250
+Wire Wire Line
+	19650 13250 19650 13300
+$Comp
+L power_rl:+5V #PWR0108
+U 1 1 6304D9DA
+P 19400 13200
+F 0 "#PWR0108" H 19410 13140 50  0001 C CNN
+F 1 "+5V" H 19400 13373 50  0000 C CNN
+F 2 "" H 19400 13200 50  0001 C CNN
+F 3 "" H 19400 13200 50  0001 C CNN
+	1    19400 13200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19400 13200 19400 13250
+Connection ~ 19400 13250
+Wire Wire Line
+	19400 13250 19650 13250
+$Comp
+L connector_rl:1x2_pin_header P7
+U 1 1 630ACE16
+P 19000 13750
+F 0 "P7" V 19100 13850 50  0000 C CNN
+F 1 "1x2_pin_header" H 18750 13850 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x2_pinheader_2.54mm_vertical" H 19050 13750 50  0001 C CNN
+F 3 "" H 19050 13750 50  0001 C CNN
+	1    19000 13750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L connector_rl:1x2_pin_header P8
+U 1 1 630AD815
+P 19500 13750
+F 0 "P8" V 19550 13810 50  0000 L CNN
+F 1 "1x2_pin_header" H 18900 13850 50  0000 L CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x2_pinheader_2.54mm_vertical" H 19550 13750 50  0001 C CNN
+F 3 "" H 19550 13750 50  0001 C CNN
+	1    19500 13750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19650 13700 19650 13600
+Wire Wire Line
+	19150 13700 19150 13600
+Wire Wire Line
+	19150 13800 19150 13950
+Wire Wire Line
+	19650 13800 19650 13950
+Text Label 19150 13950 3    50   ~ 0
+SCL
+Text Label 19650 13950 3    50   ~ 0
+SDA
+$Comp
+L connector_rl:rj45 J17
+U 1 1 63343935
+P 15850 14050
+F 0 "J17" H 15907 14717 50  0000 C CNN
+F 1 "54601-908WPLF" H 15907 14626 50  0000 C CNN
+F 2 "connector_rl:rj45_54601-908WPLF" H 15850 14050 50  0001 C CNN
+F 3 "" H 15850 14050 50  0001 C CNN
+	1    15850 14050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16250 13650 16400 13650
+Wire Wire Line
+	16250 13750 16400 13750
+Wire Wire Line
+	16250 14350 16400 14350
+Wire Wire Line
+	16250 14250 16400 14250
+Text Label 16400 13650 0    50   ~ 0
+DSDA_P_CON
+Text Label 16400 13750 0    50   ~ 0
+DSDA_N_CON
+Text Label 16400 14250 0    50   ~ 0
+DSCL_P_CON
+Text Label 16400 14350 0    50   ~ 0
+DSCL_N_CON
+$Comp
+L passive_component_rl:resistor_us R94
+U 1 1 634CA1D9
+P 17850 13600
+F 0 "R94" H 17850 13805 50  0000 C CNN
+F 1 "10R/0.5W" H 17850 13714 50  0000 C CNN
+F 2 "resistor_smd_rl:r_1206" H 17850 13600 50  0001 C CNN
+F 3 "" H 17850 13600 50  0001 C CNN
+	1    17850 13600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17700 13600 17550 13600
+Wire Wire Line
+	18000 13600 18150 13600
+Text Label 17550 13600 2    50   ~ 0
+DSDA_P_CON
+Text Label 18150 13600 0    50   ~ 0
+DSDA_P
+$Comp
+L passive_component_rl:resistor_us R95
+U 1 1 635EC8F5
+P 17850 13950
+F 0 "R95" H 17850 14155 50  0000 C CNN
+F 1 "10R/0.5W" H 17850 14064 50  0000 C CNN
+F 2 "resistor_smd_rl:r_1206" H 17850 13950 50  0001 C CNN
+F 3 "" H 17850 13950 50  0001 C CNN
+	1    17850 13950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17700 13950 17550 13950
+Wire Wire Line
+	18000 13950 18150 13950
+Text Label 17550 13950 2    50   ~ 0
+DSDA_N_CON
+Text Label 18150 13950 0    50   ~ 0
+DSDA_N
+$Comp
+L passive_component_rl:resistor_us R96
+U 1 1 636AB79E
+P 17850 14450
+F 0 "R96" H 17850 14655 50  0000 C CNN
+F 1 "10R/0.5W" H 17850 14564 50  0000 C CNN
+F 2 "resistor_smd_rl:r_1206" H 17850 14450 50  0001 C CNN
+F 3 "" H 17850 14450 50  0001 C CNN
+	1    17850 14450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17700 14450 17550 14450
+Wire Wire Line
+	18000 14450 18150 14450
+Text Label 17550 14450 2    50   ~ 0
+DSCL_P_CON
+Text Label 18150 14450 0    50   ~ 0
+DSCL_P
+$Comp
+L passive_component_rl:resistor_us R97
+U 1 1 636AB7AC
+P 17850 14800
+F 0 "R97" H 17850 15005 50  0000 C CNN
+F 1 "10R/0.5W" H 17850 14914 50  0000 C CNN
+F 2 "resistor_smd_rl:r_1206" H 17850 14800 50  0001 C CNN
+F 3 "" H 17850 14800 50  0001 C CNN
+	1    17850 14800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17700 14800 17550 14800
+Wire Wire Line
+	18000 14800 18150 14800
+Text Label 17550 14800 2    50   ~ 0
+DSCL_N_CON
+Text Label 18150 14800 0    50   ~ 0
+DSCL_N
+$Comp
+L diode_rl:SMDA05CDR2G D52
+U 1 1 6370F29C
+P 17500 15800
+F 0 "D52" H 17778 15871 50  0000 L CNN
+F 1 "SMDA05CDR2G" H 17778 15780 50  0000 L CNN
+F 2 "package_soic_rl:soic_8_3.9mmx4.9mm" H 17500 15800 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/smda05c-d.pdf" H 17500 15800 50  0001 C CNN
+	1    17500 15800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17350 15950 17350 16000
+Wire Wire Line
+	17350 16000 17450 16000
+Wire Wire Line
+	17650 16000 17650 15950
+Wire Wire Line
+	17550 15950 17550 16000
+Connection ~ 17550 16000
+Wire Wire Line
+	17550 16000 17650 16000
+Wire Wire Line
+	17450 15950 17450 16000
+Connection ~ 17450 16000
+Wire Wire Line
+	17450 16000 17500 16000
+$Comp
+L power_rl:GND #PWR0109
+U 1 1 6383869E
+P 17500 16100
+F 0 "#PWR0109" H 17500 15900 50  0001 C CNN
+F 1 "GND" H 17505 15977 50  0000 C CNN
+F 2 "" H 17500 16100 50  0001 C CNN
+F 3 "" H 17500 16100 50  0001 C CNN
+	1    17500 16100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17500 16050 17500 16000
+Connection ~ 17500 16000
+Wire Wire Line
+	17500 16000 17550 16000
+Wire Wire Line
+	17350 15450 17350 15600
+Wire Wire Line
+	17450 15450 17450 15600
+Wire Wire Line
+	17550 15450 17550 15600
+Wire Wire Line
+	17650 15450 17650 15600
+Text Label 17350 15450 1    50   ~ 0
+DSCL_N
+Text Label 17450 15450 1    50   ~ 0
+DSCL_P
+Text Label 17650 15450 1    50   ~ 0
+DSDA_P
+Text Label 17550 15450 1    50   ~ 0
+DSDA_N
+$Comp
+L connector_rl:1x4_idc_lsa J16
+U 1 1 63BC7796
+P 15350 15450
+F 0 "J16" H 15588 15414 50  0000 L CNN
+F 1 "1x4_idc_lsa" H 15588 15323 50  0000 L CNN
+F 2 "connector_rl:1x4_idc_lsa_connector_general" V 15300 15450 50  0001 C CNN
+F 3 "~" V 15300 15450 50  0001 C CNN
+	1    15350 15450
+	1    0    0    -1  
+$EndComp
+$Comp
+L connector_rl:1x4_idc_lsa J18
+U 1 1 63BC95F8
+P 16300 15450
+F 0 "J18" H 16538 15414 50  0000 L CNN
+F 1 "1x4_idc_lsa" H 16538 15323 50  0000 L CNN
+F 2 "connector_rl:1x4_idc_lsa_connector_general" V 16250 15450 50  0001 C CNN
+F 3 "~" V 16250 15450 50  0001 C CNN
+	1    16300 15450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15200 15650 15200 15800
+Wire Wire Line
+	15300 15650 15300 15800
+Wire Wire Line
+	15400 15650 15400 15800
+Wire Wire Line
+	15500 15650 15500 15800
+Text Label 15200 15800 3    50   ~ 0
+DSCL_N_CON
+Text Label 15300 15800 3    50   ~ 0
+DSCL_P_CON
+Text Label 15400 15800 3    50   ~ 0
+DSDA_N_CON
+Text Label 15500 15800 3    50   ~ 0
+DSDA_P_CON
+Wire Wire Line
+	17650 3200 18300 3200
+Wire Wire Line
+	17650 3100 18300 3100
+$Comp
+L power_rl:+5V #PWR0110
+U 1 1 643CE366
+P 19000 2750
+F 0 "#PWR0110" H 19010 2690 50  0001 C CNN
+F 1 "+5V" H 19000 2923 50  0000 C CNN
+F 2 "" H 19000 2750 50  0001 C CNN
+F 3 "" H 19000 2750 50  0001 C CNN
+	1    19000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND #PWR0111
+U 1 1 643D14C7
+P 19000 5100
+F 0 "#PWR0111" H 19000 4900 50  0001 C CNN
+F 1 "GND" H 19005 4977 50  0000 C CNN
+F 2 "" H 19000 5100 50  0001 C CNN
+F 3 "" H 19000 5100 50  0001 C CNN
+	1    19000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17000 9350 15750 9350
+Connection ~ 15750 9350
+Wire Wire Line
+	15750 9350 15750 9750
+Wire Wire Line
+	18750 9750 15750 9750
+Connection ~ 15750 9750
+Wire Wire Line
+	15750 9750 15750 9850
+Wire Wire Line
+	15750 8100 15750 9350
+Text Label -10050 -8800 2    50   ~ 0
+LED0_24V
+Wire Wire Line
+	10400 2100 10300 2100
+Wire Wire Line
+	10300 2200 10400 2200
+Wire Wire Line
+	10300 2300 10400 2300
+Wire Wire Line
+	10300 2400 10400 2400
+Wire Wire Line
+	10300 2800 10400 2800
+Wire Wire Line
+	10300 2900 10400 2900
+Wire Wire Line
+	10300 3000 10400 3000
+Wire Wire Line
+	10300 3100 10400 3100
+$Comp
+L power_rl:+5V #PWR0112
+U 1 1 6360DFCB
+P 10600 3850
+F 0 "#PWR0112" H 10610 3790 50  0001 C CNN
+F 1 "+5V" H 10600 4023 50  0000 C CNN
+F 2 "" H 10600 3850 50  0001 C CNN
+F 3 "" H 10600 3850 50  0001 C CNN
+	1    10600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND #PWR0113
+U 1 1 637CCA37
+P 10600 5000
+F 0 "#PWR0113" H 10600 4800 50  0001 C CNN
+F 1 "GND" H 10605 4877 50  0000 C CNN
+F 2 "" H 10600 5000 50  0001 C CNN
+F 3 "" H 10600 5000 50  0001 C CNN
+	1    10600 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 4950 10600 4900
+Text Label 10300 2100 2    50   ~ 0
+LED0_5V
+Text Label 10300 2200 2    50   ~ 0
+LED1_5V
+Text Label 10300 2300 2    50   ~ 0
+LED2_5V
+Text Label 10300 2400 2    50   ~ 0
+LED3_5V
+Text Label 10300 2800 2    50   ~ 0
+LED4_5V
+Text Label 10300 2900 2    50   ~ 0
+LED5_5V
+Text Label 10300 3000 2    50   ~ 0
+LED6_5V
+Text Label 10300 3100 2    50   ~ 0
+LED7_5V
+Wire Wire Line
+	10500 6300 10400 6300
+Wire Wire Line
+	10500 6400 10400 6400
+Wire Wire Line
+	10500 6500 10400 6500
+Wire Wire Line
+	10500 6600 10400 6600
+Text Label 10400 6300 2    50   ~ 0
+LED8_5V
+Text Label 10400 6400 2    50   ~ 0
+LED9_5V
+Text Label 10400 6500 2    50   ~ 0
+LED10_5V
+Text Label 10400 6600 2    50   ~ 0
+LED11_5V
+$Comp
+L power_rl:+5V #PWR0114
+U 1 1 63EE7D98
+P 10700 8100
+F 0 "#PWR0114" H 10710 8040 50  0001 C CNN
+F 1 "+5V" H 10700 8273 50  0000 C CNN
+F 2 "" H 10700 8100 50  0001 C CNN
+F 3 "" H 10700 8100 50  0001 C CNN
+	1    10700 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND #PWR0115
+U 1 1 63FCA9A1
+P 10700 9250
+F 0 "#PWR0115" H 10700 9050 50  0001 C CNN
+F 1 "GND" H 10705 9127 50  0000 C CNN
+F 2 "" H 10700 9250 50  0001 C CNN
+F 3 "" H 10700 9250 50  0001 C CNN
+	1    10700 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 9200 10700 9150
+Wire Wire Line
+	11000 2250 11100 2250
+Wire Wire Line
+	11000 2950 11100 2950
+Text Label 11100 2250 0    50   ~ 0
+AND_OUT_0_3
+Text Label 11100 2950 0    50   ~ 0
+AND_OUT_4_7
+Text Label 11200 6450 0    50   ~ 0
+AND_OUT_8_11
+Wire Wire Line
+	11100 6450 11200 6450
+Wire Wire Line
+	10500 7000 10400 7000
+Wire Wire Line
+	10500 7100 10400 7100
+Wire Wire Line
+	10500 7200 10400 7200
+Text Label 10400 7100 2    50   ~ 0
+AND_OUT_4_7
+Text Label 10400 7000 2    50   ~ 0
+AND_OUT_0_3
+Text Label 10400 7200 2    50   ~ 0
+AND_OUT_8_11
+Wire Wire Line
+	11100 7150 11200 7150
+Text Label 11200 7150 0    50   ~ 0
+AND_OUT_PUMP
+$Comp
+L connector_rl:1x2_screw_term_block J15
+U 1 1 64A8BFE9
+P 12850 12900
+F 0 "J15" H 12930 12942 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" H 12930 12851 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H 12850 12900 50  0001 C CNN
+F 3 "" H 12850 12900 50  0001 C CNN
+	1    12850 12900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12650 12950 12600 12950
+Wire Wire Line
+	12600 12850 12650 12850
+$Comp
+L diode_rl:undir_transil D46
+U 1 1 64D481FA
+P 12100 13200
+F 0 "D46" H 12194 13246 50  0000 L CNN
+F 1 "SD05-7" H 12194 13155 50  0000 L CNN
+F 2 "package_sod_rl:sod_323" H 12100 13200 50  0001 C CNN
+F 3 "" H 12100 13200 50  0001 C CNN
+	1    12100 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND #PWR0119
+U 1 1 65001266
+P 12100 13450
+F 0 "#PWR0119" H 12100 13250 50  0001 C CNN
+F 1 "GND" H 12105 13327 50  0000 C CNN
+F 2 "" H 12100 13450 50  0001 C CNN
+F 3 "" H 12100 13450 50  0001 C CNN
+	1    12100 13450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 13400 12100 13350
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q13
+U 1 1 650EA161
+P 2300 13350
+F 0 "Q13" H 2405 13396 50  0000 L CNN
+F 1 "PMV213SN,215" H 2405 13305 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H 2300 13350 50  0001 C CNN
+F 3 "" H 2300 13350 50  0001 C CNN
+	1    2300 13350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND #PWR0120
+U 1 1 650ECD22
+P 2300 13650
+F 0 "#PWR0120" H 2300 13450 50  0001 C CNN
+F 1 "GND" H 2305 13527 50  0000 C CNN
+F 2 "" H 2300 13650 50  0001 C CNN
+F 3 "" H 2300 13650 50  0001 C CNN
+	1    2300 13650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 13600 2300 13550
+Text Label 1900 13350 2    50   ~ 0
+PUMP_ACTIVE_0
+$Comp
+L diode_rl:LED D38
+U 1 1 653AD57F
+P 2300 12850
+F 0 "D38" V 2339 12732 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V 2248 12732 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H 2300 12850 50  0001 C CNN
+F 3 "~" H 2300 12850 50  0001 C CNN
+	1    2300 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 13150 2300 13000
+$Comp
+L passive_component_rl:resistor_us R69
+U 1 1 65499F8F
+P 2300 12450
+F 0 "R69" V 2254 12518 50  0000 L CNN
+F 1 "348R" V 2345 12518 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 2300 12450 50  0001 C CNN
+F 3 "" H 2300 12450 50  0001 C CNN
+	1    2300 12450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 12600 2300 12700
+$Comp
+L power_rl:+5V #PWR0121
+U 1 1 65586D47
+P 2300 12250
+F 0 "#PWR0121" H 2310 12190 50  0001 C CNN
+F 1 "+5V" H 2300 12423 50  0000 C CNN
+F 2 "" H 2300 12250 50  0001 C CNN
+F 3 "" H 2300 12250 50  0001 C CNN
+	1    2300 12250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 12250 2300 12300
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q14
+U 1 1 65A2BDA2
+P 5050 13400
+F 0 "Q14" H 5155 13446 50  0000 L CNN
+F 1 "PMV213SN,215" H 5155 13355 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H 5050 13400 50  0001 C CNN
+F 3 "" H 5050 13400 50  0001 C CNN
+	1    5050 13400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 13650 5050 13600
+$Comp
+L passive_component_rl:resistor_us R72
+U 1 1 65DEBAC7
+P 5050 12850
+F 0 "R72" V 5004 12918 50  0000 L CNN
+F 1 "250R" V 5095 12918 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 5050 12850 50  0001 C CNN
+F 3 "" H 5050 12850 50  0001 C CNN
+	1    5050 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 13000 5050 13100
+Wire Wire Line
+	4800 13400 4600 13400
+Connection ~ 5050 13100
+Wire Wire Line
+	5050 13100 5050 13200
+Text Label 4600 13400 2    50   ~ 0
+AND_OUT_PUMP
+$Comp
+L power_rl:+5V #PWR0123
+U 1 1 66398245
+P 5050 12650
+F 0 "#PWR0123" H 5060 12590 50  0001 C CNN
+F 1 "+5V" H 5050 12823 50  0000 C CNN
+F 2 "" H 5050 12650 50  0001 C CNN
+F 3 "" H 5050 12650 50  0001 C CNN
+	1    5050 12650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 12650 5050 12700
+Text Label 12250 7200 0    50   ~ 0
+AND_OUT_PUMP
+$Comp
+L passive_component_rl:resistor_us R85
+U 1 1 66883BF1
+P 12250 6900
+F 0 "R85" V 12204 6968 50  0000 L CNN
+F 1 "NC (10k)" V 12295 6968 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 12250 6900 50  0001 C CNN
+F 3 "" H 12250 6900 50  0001 C CNN
+	1    12250 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12250 7050 12250 7200
+$Comp
+L power_rl:+5V #PWR0125
+U 1 1 66978352
+P 12250 6650
+F 0 "#PWR0125" H 12260 6590 50  0001 C CNN
+F 1 "+5V" H 12250 6823 50  0000 C CNN
+F 2 "" H 12250 6650 50  0001 C CNN
+F 3 "" H 12250 6650 50  0001 C CNN
+	1    12250 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12250 6650 12250 6750
+Text Label 5200 13100 0    50   ~ 0
+PUMP_ACTIVE_0
+Text Label 9850 12900 2    50   ~ 0
+PUMP_ACTIVE_0
+$Comp
+L optocoupler_rl:TLP2345 U9
+U 1 1 63FE4C4C
+P -8900 -8600
+F 0 "U9" H -9200 -8200 50  0000 L CNN
+F 1 "TLP2345" H -8850 -8950 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -8900 -8600 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -8900 -8600 50  0001 C CNN
+	1    -8900 -8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0129
+U 1 1 640FDD41
+P -9350 -8100
+F 0 "#PWR0129" H -9350 -8300 50  0001 C CNN
+F 1 "GND_A" H -9345 -8273 50  0000 C CNN
+F 2 "" H -9350 -8100 50  0001 C CNN
+F 3 "" H -9350 -8100 50  0001 C CNN
+	1    -9350 -8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9300 -8400 -9350 -8400
+Wire Wire Line
+	-9350 -8400 -9350 -8100
+$Comp
+L power_rl:GND #PWR0131
+U 1 1 64212E20
+P -8900 -8050
+F 0 "#PWR0131" H -8900 -8250 50  0001 C CNN
+F 1 "GND" H -8895 -8173 50  0000 C CNN
+F 2 "" H -8900 -8050 50  0001 C CNN
+F 3 "" H -8900 -8050 50  0001 C CNN
+	1    -8900 -8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-8900 -8100 -8900 -8200
+$Comp
+L passive_component_rl:resistor_us R25
+U 1 1 6432804C
+P -9550 -8800
+F 0 "R25" H -9550 -8900 50  0000 L CNN
+F 1 "4k7" H -9600 -8700 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -9550 -8800 50  0001 C CNN
+F 3 "" H -9550 -8800 50  0001 C CNN
+	1    -9550 -8800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-9400 -8800 -9300 -8800
+$Comp
+L power_rl:+5V #PWR0132
+U 1 1 6455325F
+P -8900 -9100
+F 0 "#PWR0132" H -8890 -9160 50  0001 C CNN
+F 1 "+5V" H -8900 -8927 50  0000 C CNN
+F 2 "" H -8900 -9100 50  0001 C CNN
+F 3 "" H -8900 -9100 50  0001 C CNN
+	1    -8900 -9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-8900 -9100 -8900 -9000
+Text Label -8400 -8600 0    50   ~ 0
+LED0_5V
+Wire Wire Line
+	-8400 -8600 -8500 -8600
+$Comp
+L diode_rl:undir_transil D13
+U 1 1 64781F74
+P -9900 -8550
+F 0 "D13" H -9806 -8504 50  0000 L CNN
+F 1 "SMCJ24A-CD" H -9806 -8595 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H -9900 -8550 50  0001 C CNN
+F 3 "" H -9900 -8550 50  0001 C CNN
+	1    -9900 -8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9900 -8700 -9900 -8800
+Wire Wire Line
+	-9900 -8800 -9700 -8800
+Wire Wire Line
+	-9900 -8800 -10050 -8800
+Connection ~ -9900 -8800
+$Comp
+L power_rl:GND_A #PWR0133
+U 1 1 649B161A
+P -9900 -8100
+F 0 "#PWR0133" H -9900 -8300 50  0001 C CNN
+F 1 "GND_A" H -9895 -8273 50  0000 C CNN
+F 2 "" H -9900 -8100 50  0001 C CNN
+F 3 "" H -9900 -8100 50  0001 C CNN
+	1    -9900 -8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9900 -8100 -9900 -8400
+Text Notes -10400 -9150 0    50   ~ 0
+24 V - 1.55 V (typ.) = 22.45 V\nI = 22.45 / 0.0048 A = 4 677 R
+Wire Wire Line
+	7200 7300 7200 6950
+$Comp
+L power_rl:+5V #PWR0134
+U 1 1 65946513
+P 7200 6950
+F 0 "#PWR0134" H 7210 6890 50  0001 C CNN
+F 1 "+5V" H 7200 7123 50  0000 C CNN
+F 2 "" H 7200 6950 50  0001 C CNN
+F 3 "" H 7200 6950 50  0001 C CNN
+	1    7200 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 7750 7200 7600
+$Comp
+L passive_component_rl:resistor_us R80
+U 1 1 658261A6
+P 7200 7450
+F 0 "R80" V 7154 7518 50  0000 L CNN
+F 1 "10k" V 7245 7518 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 7200 7450 50  0001 C CNN
+F 3 "" H 7200 7450 50  0001 C CNN
+	1    7200 7450
+	0    1    1    0   
+$EndComp
+Connection ~ 9050 8250
+Wire Wire Line
+	9050 8250 8500 8250
+Wire Wire Line
+	9150 7750 9150 7800
+Wire Wire Line
+	9350 7750 9350 8250
+Wire Wire Line
+	9350 7750 9150 7750
+Wire Wire Line
+	8950 7800 8950 7750
+Wire Wire Line
+	9050 8250 9350 8250
+Wire Wire Line
+	9050 8200 9050 8250
+Wire Wire Line
+	9250 8400 9250 8200
+Wire Wire Line
+	8850 8200 8850 8400
+Wire Wire Line
+	9050 8400 9250 8400
+Connection ~ 9050 8400
+Wire Wire Line
+	9050 8450 9050 8400
+Wire Wire Line
+	8850 8400 9050 8400
+$Comp
+L switch_rl:SMTS-102-2C2T SW13
+U 1 1 655E8D28
+P 9050 7950
+F 0 "SW13" V 9300 7950 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V 9400 7950 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H 9050 7950 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H 9050 7950 50  0001 C CNN
+	1    9050 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0135
+U 1 1 655E8D1E
+P 9050 8450
+F 0 "#PWR0135" H 9300 8200 50  0001 C CNN
+F 1 "Earth_Protective" H 9500 8300 50  0001 C CNN
+F 2 "" H 9050 8350 50  0001 C CNN
+F 3 "~" H 9050 8350 50  0001 C CNN
+	1    9050 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 7750 7350 7750
+$Comp
+L power_rl:GND #PWR0136
+U 1 1 65EE799E
+P 8500 8300
+F 0 "#PWR0136" H 8500 8100 50  0001 C CNN
+F 1 "GND" H 8505 8177 50  0000 C CNN
+F 2 "" H 8500 8300 50  0001 C CNN
+F 3 "" H 8500 8300 50  0001 C CNN
+	1    8500 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 7300 10400 7300
+Text Label 10400 7300 2    50   ~ 0
+PUMP_SWITCH
+Text Label 8500 7650 1    50   ~ 0
+PUMP_SWITCH
+Wire Wire Line
+	8500 7650 8500 7750
+Wire Wire Line
+	8500 7750 8950 7750
+$Comp
+L passive_component_rl:capacitor C57
+U 1 1 66247B21
+P 7350 8000
+F 0 "C57" V 7304 8110 50  0000 L CNN
+F 1 "100nF" V 7395 8110 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 7350 8000 50  0001 C CNN
+F 3 "" H 7350 8000 50  0001 C CNN
+	1    7350 8000
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND #PWR0137
+U 1 1 6624815B
+P 7350 8300
+F 0 "#PWR0137" H 7350 8100 50  0001 C CNN
+F 1 "GND" H 7355 8177 50  0000 C CNN
+F 2 "" H 7350 8300 50  0001 C CNN
+F 3 "" H 7350 8300 50  0001 C CNN
+	1    7350 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 8250 7350 8150
+Wire Wire Line
+	7350 7850 7350 7750
+Connection ~ 7350 7750
+$Comp
+L power_rl:GND #PWR0138
+U 1 1 665AB3D6
+P 7850 8300
+F 0 "#PWR0138" H 7850 8100 50  0001 C CNN
+F 1 "GND" H 7855 8177 50  0000 C CNN
+F 2 "" H 7850 8300 50  0001 C CNN
+F 3 "" H 7850 8300 50  0001 C CNN
+	1    7850 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 8250 7850 8150
+Wire Wire Line
+	7350 7750 7850 7750
+Wire Wire Line
+	7850 7850 7850 7750
+Connection ~ 7850 7750
+$Comp
+L connector_rl:1x3_pin_header P2
+U 1 1 66A449B5
+P 13650 2050
+F 0 "P2" V 13850 2050 50  0000 C CNN
+F 1 "1x3_pin_header" V 13450 2150 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x3_pinheader_2.54mm_vertical" H 13650 2050 50  0001 C CNN
+F 3 "" H 13650 2050 50  0001 C CNN
+	1    13650 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L connector_rl:1x3_pin_header P3
+U 1 1 66A456E2
+P 14350 2050
+F 0 "P3" V 14550 2050 50  0000 C CNN
+F 1 "1x3_pin_header" V 14150 2150 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x3_pinheader_2.54mm_vertical" H 14350 2050 50  0001 C CNN
+F 3 "" H 14350 2050 50  0001 C CNN
+	1    14350 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L connector_rl:1x3_pin_header P4
+U 1 1 66A48A92
+P 15050 2050
+F 0 "P4" V 15250 2050 50  0000 C CNN
+F 1 "1x3_pin_header" V 14850 2150 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x3_pinheader_2.54mm_vertical" H 15050 2050 50  0001 C CNN
+F 3 "" H 15050 2050 50  0001 C CNN
+	1    15050 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L connector_rl:1x3_pin_header P5
+U 1 1 66A4B251
+P 15750 2050
+F 0 "P5" V 15950 2050 50  0000 C CNN
+F 1 "1x3_pin_header" V 15550 2150 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x3_pinheader_2.54mm_vertical" H 15750 2050 50  0001 C CNN
+F 3 "" H 15750 2050 50  0001 C CNN
+	1    15750 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L connector_rl:1x3_pin_header P6
+U 1 1 66A4D99B
+P 16450 2050
+F 0 "P6" V 16650 2050 50  0000 C CNN
+F 1 "1x3_pin_header" V 16250 2150 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x3_pinheader_2.54mm_vertical" H 16450 2050 50  0001 C CNN
+F 3 "" H 16450 2050 50  0001 C CNN
+	1    16450 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L connector_rl:1x3_pin_header P1
+U 1 1 66A5015B
+P 12950 2050
+F 0 "P1" V 13150 2050 50  0000 C CNN
+F 1 "1x3_pin_header" V 12750 2150 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x3_pinheader_2.54mm_vertical" H 12950 2050 50  0001 C CNN
+F 3 "" H 12950 2050 50  0001 C CNN
+	1    12950 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13100 2050 13200 2050
+Wire Wire Line
+	13800 2050 13900 2050
+Wire Wire Line
+	14500 2050 14600 2050
+Wire Wire Line
+	15200 2050 15300 2050
+Wire Wire Line
+	15900 2050 16000 2050
+Wire Wire Line
+	16600 2050 16700 2050
+Text Label 13200 2050 0    50   ~ 0
+A0
+Text Label 13900 2050 0    50   ~ 0
+A1
+Text Label 14600 2050 0    50   ~ 0
+A2
+Text Label 15300 2050 0    50   ~ 0
+A3
+Text Label 16000 2050 0    50   ~ 0
+A4
+Text Label 16700 2050 0    50   ~ 0
+A5
+Wire Wire Line
+	13100 2150 13150 2150
+Wire Wire Line
+	13150 2150 13150 2300
+Wire Wire Line
+	13150 2300 13850 2300
+Wire Wire Line
+	13850 2300 13850 2150
+Wire Wire Line
+	13850 2150 13800 2150
+Wire Wire Line
+	13850 2300 14550 2300
+Wire Wire Line
+	14550 2300 14550 2150
+Wire Wire Line
+	14550 2150 14500 2150
+Connection ~ 13850 2300
+Wire Wire Line
+	14550 2300 15250 2300
+Wire Wire Line
+	15250 2300 15250 2150
+Wire Wire Line
+	15250 2150 15200 2150
+Connection ~ 14550 2300
+Wire Wire Line
+	15250 2300 15950 2300
+Wire Wire Line
+	15950 2300 15950 2150
+Wire Wire Line
+	15950 2150 15900 2150
+Connection ~ 15250 2300
+Wire Wire Line
+	15950 2300 16650 2300
+Wire Wire Line
+	16650 2300 16650 2150
+Wire Wire Line
+	16650 2150 16600 2150
+Connection ~ 15950 2300
+Wire Wire Line
+	16600 1950 16650 1950
+Wire Wire Line
+	16650 1950 16650 1750
+Wire Wire Line
+	16650 1750 15950 1750
+Wire Wire Line
+	12850 1750 12850 1700
+Wire Wire Line
+	13100 1950 13150 1950
+Wire Wire Line
+	13150 1950 13150 1750
+Connection ~ 13150 1750
+Wire Wire Line
+	13150 1750 12850 1750
+Wire Wire Line
+	13850 1950 13850 1750
+Connection ~ 13850 1750
+Wire Wire Line
+	13850 1750 13150 1750
+Wire Wire Line
+	13800 1950 13850 1950
+Wire Wire Line
+	14500 1950 14550 1950
+Wire Wire Line
+	14550 1950 14550 1750
+Connection ~ 14550 1750
+Wire Wire Line
+	14550 1750 13850 1750
+Wire Wire Line
+	15200 1950 15250 1950
+Wire Wire Line
+	15250 1950 15250 1750
+Connection ~ 15250 1750
+Wire Wire Line
+	15250 1750 14550 1750
+Wire Wire Line
+	15900 1950 15950 1950
+Wire Wire Line
+	15950 1950 15950 1750
+Connection ~ 15950 1750
+Wire Wire Line
+	15950 1750 15250 1750
+$Comp
+L passive_component_rl:resistor_us R86
+U 1 1 681926DF
+P 12850 1550
+F 0 "R86" V 12804 1618 50  0000 L CNN
+F 1 "10k" V 12895 1618 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 12850 1550 50  0001 C CNN
+F 3 "" H 12850 1550 50  0001 C CNN
+	1    12850 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:+5V #PWR0139
+U 1 1 68192E44
+P 12850 1350
+F 0 "#PWR0139" H 12860 1290 50  0001 C CNN
+F 1 "+5V" H 12850 1523 50  0000 C CNN
+F 2 "" H 12850 1350 50  0001 C CNN
+F 3 "" H 12850 1350 50  0001 C CNN
+	1    12850 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 1400 12850 1350
+Wire Wire Line
+	-13850 -4350 -13850 -4400
+Connection ~ -13850 -4350
+Wire Wire Line
+	-13850 -4100 -13850 -4350
+$Comp
+L connector_rl:1x2_screw_term_block J2
+U 1 1 62C1940E
+P -13650 -5000
+F 0 "J2" H -13550 -5000 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" V -13650 -4850 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -13650 -5000 50  0001 C CNN
+F 3 "" H -13650 -5000 50  0001 C CNN
+	1    -13650 -5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-14700 -4100 -14700 -4200
+Wire Wire Line
+	-14700 -4600 -14700 -4500
+$Comp
+L passive_component_rl:resistor_us R8
+U 1 1 62C19418
+P -14700 -4350
+F 0 "R8" V -14746 -4282 50  0000 L CNN
+F 1 "NC (10k)" V -14655 -4282 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -14700 -4350 50  0001 C CNN
+F 3 "" H -14700 -4350 50  0001 C CNN
+	1    -14700 -4350
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R20
+U 1 1 62C1941E
+P -12150 -4750
+F 0 "R20" V -12196 -4682 50  0000 L CNN
+F 1 "4k7" V -12105 -4682 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -12150 -4750 50  0001 C CNN
+F 3 "" H -12150 -4750 50  0001 C CNN
+	1    -12150 -4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-12150 -4900 -12150 -5200
+$Comp
+L diode_rl:LED D8
+U 1 1 62C19425
+P -12150 -4350
+F 0 "D8" V -12111 -4468 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V -12202 -4468 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H -12150 -4350 50  0001 C CNN
+F 3 "~" H -12150 -4350 50  0001 C CNN
+	1    -12150 -4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-12150 -4500 -12150 -4600
+Text Label -16250 -4800 2    50   ~ 0
+LED1
+$Comp
+L power_rl:GND_A #PWR0140
+U 1 1 62C1942D
+P -14700 -4100
+F 0 "#PWR0140" H -14700 -4350 50  0001 C CNN
+F 1 "GND_A" H -14695 -4273 50  0000 C CNN
+F 2 "" H -14700 -4100 50  0001 C CNN
+F 3 "" H -14700 -4100 50  0001 C CNN
+	1    -14700 -4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0141
+U 1 1 62C19433
+P -12750 -4150
+F 0 "#PWR0141" H -12500 -4400 50  0001 C CNN
+F 1 "Earth_Protective" H -12300 -4300 50  0001 C CNN
+F 2 "" H -12750 -4250 50  0001 C CNN
+F 3 "~" H -12750 -4250 50  0001 C CNN
+	1    -12750 -4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0150
+U 1 1 62C19439
+P -13850 -5350
+F 0 "#PWR0150" H -13850 -5450 50  0001 C CNN
+F 1 "+24V_A" H -13850 -5177 50  0000 C CNN
+F 2 "" H -13850 -5350 50  0001 C CNN
+F 3 "" H -13850 -5350 50  0001 C CNN
+	1    -13850 -5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0151
+U 1 1 62C1943F
+P -13850 -4100
+F 0 "#PWR0151" H -13850 -4350 50  0001 C CNN
+F 1 "GND_A" H -13845 -4273 50  0000 C CNN
+F 2 "" H -13850 -4100 50  0001 C CNN
+F 3 "" H -13850 -4100 50  0001 C CNN
+	1    -13850 -4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0152
+U 1 1 62C19445
+P -12150 -5200
+F 0 "#PWR0152" H -12150 -5300 50  0001 C CNN
+F 1 "+24V_A" H -12150 -5027 50  0000 C CNN
+F 2 "" H -12150 -5200 50  0001 C CNN
+F 3 "" H -12150 -5200 50  0001 C CNN
+	1    -12150 -5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L switch_rl:SMTS-102-2C2T SW2
+U 1 1 62C1944B
+P -12750 -4650
+F 0 "SW2" V -12500 -4650 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V -12400 -4650 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H -12750 -4650 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H -12750 -4650 50  0001 C CNN
+	1    -12750 -4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-12950 -4200 -12750 -4200
+Wire Wire Line
+	-12750 -4150 -12750 -4200
+Connection ~ -12750 -4200
+Wire Wire Line
+	-12750 -4200 -12550 -4200
+Wire Wire Line
+	-12950 -4400 -12950 -4200
+Wire Wire Line
+	-13850 -4350 -12750 -4350
+Wire Wire Line
+	-12550 -4200 -12550 -4400
+Wire Wire Line
+	-12750 -4400 -12750 -4350
+Connection ~ -12750 -4350
+Wire Wire Line
+	-12750 -4350 -12450 -4350
+Wire Wire Line
+	-13850 -4850 -13400 -4850
+Connection ~ -13850 -4850
+Wire Wire Line
+	-13850 -4850 -13850 -4800
+Wire Wire Line
+	-12850 -4800 -12850 -4850
+Wire Wire Line
+	-12450 -4850 -12650 -4850
+Wire Wire Line
+	-12450 -4850 -12450 -4350
+Wire Wire Line
+	-12650 -4850 -12650 -4800
+Wire Wire Line
+	-13850 -4950 -13850 -4850
+Text Label -10650 -4950 2    50   ~ 0
+LED1_24V
+Text Label -13300 -4950 1    50   ~ 0
+LED1_24V
+Wire Wire Line
+	-13300 -4950 -13300 -4850
+Connection ~ -13300 -4850
+$Comp
+L optocoupler_rl:TLP2345 U2
+U 1 1 62C1946E
+P -15300 -4600
+F 0 "U2" H -15600 -4200 50  0000 L CNN
+F 1 "TLP2345" H -15250 -4950 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -15300 -4600 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -15300 -4600 50  0001 C CNN
+	1    -15300 -4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0153
+U 1 1 62C19475
+P -15300 -5200
+F 0 "#PWR0153" H -15300 -5300 50  0001 C CNN
+F 1 "+24V_A" H -15300 -5027 50  0000 C CNN
+F 2 "" H -15300 -5200 50  0001 C CNN
+F 3 "" H -15300 -5200 50  0001 C CNN
+	1    -15300 -5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15300 -5000 -15300 -5200
+$Comp
+L power_rl:GND_A #PWR0154
+U 1 1 62C1947C
+P -15300 -4100
+F 0 "#PWR0154" H -15300 -4350 50  0001 C CNN
+F 1 "GND_A" H -15295 -4273 50  0000 C CNN
+F 2 "" H -15300 -4100 50  0001 C CNN
+F 3 "" H -15300 -4100 50  0001 C CNN
+	1    -15300 -4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15300 -4100 -15300 -4200
+$Comp
+L power_rl:GND #PWR0155
+U 1 1 62C19483
+P -15800 -4050
+F 0 "#PWR0155" H -15800 -4250 50  0001 C CNN
+F 1 "GND" H -15795 -4173 50  0000 C CNN
+F 2 "" H -15800 -4050 50  0001 C CNN
+F 3 "" H -15800 -4050 50  0001 C CNN
+	1    -15800 -4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15700 -4400 -15800 -4400
+Wire Wire Line
+	-15800 -4400 -15800 -4100
+$Comp
+L passive_component_rl:resistor_us R3
+U 1 1 62C1948B
+P -15950 -4800
+F 0 "R3" H -15950 -4900 50  0000 L CNN
+F 1 "1k15" H -16050 -4700 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -15950 -4800 50  0001 C CNN
+F 3 "" H -15950 -4800 50  0001 C CNN
+	1    -15950 -4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-15800 -4800 -15700 -4800
+Wire Wire Line
+	-16100 -4800 -16250 -4800
+$Comp
+L optocoupler_rl:TLP2345 U10
+U 1 1 62C19493
+P -9500 -4750
+F 0 "U10" H -9800 -4350 50  0000 L CNN
+F 1 "TLP2345" H -9450 -5100 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -9500 -4750 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -9500 -4750 50  0001 C CNN
+	1    -9500 -4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0156
+U 1 1 62C19499
+P -9950 -4250
+F 0 "#PWR0156" H -9950 -4450 50  0001 C CNN
+F 1 "GND_A" H -9945 -4423 50  0000 C CNN
+F 2 "" H -9950 -4250 50  0001 C CNN
+F 3 "" H -9950 -4250 50  0001 C CNN
+	1    -9950 -4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9900 -4550 -9950 -4550
+Wire Wire Line
+	-9950 -4550 -9950 -4250
+$Comp
+L power_rl:GND #PWR0157
+U 1 1 62C194A1
+P -9500 -4200
+F 0 "#PWR0157" H -9500 -4400 50  0001 C CNN
+F 1 "GND" H -9495 -4323 50  0000 C CNN
+F 2 "" H -9500 -4200 50  0001 C CNN
+F 3 "" H -9500 -4200 50  0001 C CNN
+	1    -9500 -4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9500 -4250 -9500 -4350
+$Comp
+L passive_component_rl:resistor_us R26
+U 1 1 62C194A8
+P -10150 -4950
+F 0 "R26" H -10150 -5050 50  0000 L CNN
+F 1 "4k7" H -10200 -4850 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -10150 -4950 50  0001 C CNN
+F 3 "" H -10150 -4950 50  0001 C CNN
+	1    -10150 -4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-10000 -4950 -9900 -4950
+$Comp
+L power_rl:+5V #PWR0158
+U 1 1 62C194AF
+P -9500 -5250
+F 0 "#PWR0158" H -9490 -5310 50  0001 C CNN
+F 1 "+5V" H -9500 -5077 50  0000 C CNN
+F 2 "" H -9500 -5250 50  0001 C CNN
+F 3 "" H -9500 -5250 50  0001 C CNN
+	1    -9500 -5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9500 -5250 -9500 -5150
+Text Label -9000 -4750 0    50   ~ 0
+LED1_5V
+Wire Wire Line
+	-9000 -4750 -9100 -4750
+$Comp
+L diode_rl:undir_transil D14
+U 1 1 62C194B8
+P -10500 -4700
+F 0 "D14" H -10406 -4654 50  0000 L CNN
+F 1 "SMCJ24A-CD" H -10406 -4745 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H -10500 -4700 50  0001 C CNN
+F 3 "" H -10500 -4700 50  0001 C CNN
+	1    -10500 -4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10500 -4850 -10500 -4950
+Wire Wire Line
+	-10500 -4950 -10300 -4950
+Wire Wire Line
+	-10500 -4950 -10650 -4950
+Connection ~ -10500 -4950
+$Comp
+L power_rl:GND_A #PWR0159
+U 1 1 62C194C2
+P -10500 -4250
+F 0 "#PWR0159" H -10500 -4450 50  0001 C CNN
+F 1 "GND_A" H -10495 -4423 50  0000 C CNN
+F 2 "" H -10500 -4250 50  0001 C CNN
+F 3 "" H -10500 -4250 50  0001 C CNN
+	1    -10500 -4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10500 -4250 -10500 -4550
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q2
+U 1 1 62C194CB
+P -13850 -4600
+F 0 "Q2" H -13750 -4550 50  0000 L CNN
+F 1 "AOD458" H -13750 -4650 50  0000 L CNN
+F 2 "package_to_rl:to_252_2" H -13650 -4500 50  0001 C CNN
+F 3 "~" H -13850 -4600 50  0001 C CNN
+	1    -13850 -4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13900 -200 -13900 -250
+Connection ~ -13900 -200
+Wire Wire Line
+	-13900 50   -13900 -200
+$Comp
+L connector_rl:1x2_screw_term_block J3
+U 1 1 62D60524
+P -13700 -850
+F 0 "J3" H -13600 -850 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" V -13700 -700 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -13700 -850 50  0001 C CNN
+F 3 "" H -13700 -850 50  0001 C CNN
+	1    -13700 -850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-14750 50   -14750 -50 
+Wire Wire Line
+	-14750 -450 -14750 -350
+$Comp
+L passive_component_rl:resistor_us R9
+U 1 1 62D6052E
+P -14750 -200
+F 0 "R9" V -14796 -132 50  0000 L CNN
+F 1 "NC (10k)" V -14705 -132 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -14750 -200 50  0001 C CNN
+F 3 "" H -14750 -200 50  0001 C CNN
+	1    -14750 -200
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R21
+U 1 1 62D60534
+P -12200 -600
+F 0 "R21" V -12246 -532 50  0000 L CNN
+F 1 "4k7" V -12155 -532 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -12200 -600 50  0001 C CNN
+F 3 "" H -12200 -600 50  0001 C CNN
+	1    -12200 -600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-12200 -750 -12200 -1050
+$Comp
+L diode_rl:LED D9
+U 1 1 62D6053B
+P -12200 -200
+F 0 "D9" V -12161 -318 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V -12252 -318 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H -12200 -200 50  0001 C CNN
+F 3 "~" H -12200 -200 50  0001 C CNN
+	1    -12200 -200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-12200 -350 -12200 -450
+Text Label -16300 -650 2    50   ~ 0
+LED2
+$Comp
+L power_rl:GND_A #PWR0160
+U 1 1 62D60543
+P -14750 50
+F 0 "#PWR0160" H -14750 -200 50  0001 C CNN
+F 1 "GND_A" H -14745 -123 50  0000 C CNN
+F 2 "" H -14750 50  50  0001 C CNN
+F 3 "" H -14750 50  50  0001 C CNN
+	1    -14750 50  
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0161
+U 1 1 62D60549
+P -12800 0
+F 0 "#PWR0161" H -12550 -250 50  0001 C CNN
+F 1 "Earth_Protective" H -12350 -150 50  0001 C CNN
+F 2 "" H -12800 -100 50  0001 C CNN
+F 3 "~" H -12800 -100 50  0001 C CNN
+	1    -12800 0   
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0162
+U 1 1 62D6054F
+P -13900 -1200
+F 0 "#PWR0162" H -13900 -1300 50  0001 C CNN
+F 1 "+24V_A" H -13900 -1027 50  0000 C CNN
+F 2 "" H -13900 -1200 50  0001 C CNN
+F 3 "" H -13900 -1200 50  0001 C CNN
+	1    -13900 -1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0163
+U 1 1 62D60555
+P -13900 50
+F 0 "#PWR0163" H -13900 -200 50  0001 C CNN
+F 1 "GND_A" H -13895 -123 50  0000 C CNN
+F 2 "" H -13900 50  50  0001 C CNN
+F 3 "" H -13900 50  50  0001 C CNN
+	1    -13900 50  
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0164
+U 1 1 62D6055B
+P -12200 -1050
+F 0 "#PWR0164" H -12200 -1150 50  0001 C CNN
+F 1 "+24V_A" H -12200 -877 50  0000 C CNN
+F 2 "" H -12200 -1050 50  0001 C CNN
+F 3 "" H -12200 -1050 50  0001 C CNN
+	1    -12200 -1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L switch_rl:SMTS-102-2C2T SW3
+U 1 1 62D60561
+P -12800 -500
+F 0 "SW3" V -12550 -500 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V -12450 -500 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H -12800 -500 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H -12800 -500 50  0001 C CNN
+	1    -12800 -500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-13000 -50  -12800 -50 
+Wire Wire Line
+	-12800 0    -12800 -50 
+Connection ~ -12800 -50 
+Wire Wire Line
+	-12800 -50  -12600 -50 
+Wire Wire Line
+	-13000 -250 -13000 -50 
+Wire Wire Line
+	-13900 -200 -12800 -200
+Wire Wire Line
+	-12600 -50  -12600 -250
+Wire Wire Line
+	-12800 -250 -12800 -200
+Connection ~ -12800 -200
+Wire Wire Line
+	-12800 -200 -12500 -200
+Wire Wire Line
+	-13900 -700 -13500 -700
+Connection ~ -13900 -700
+Wire Wire Line
+	-13900 -700 -13900 -650
+Wire Wire Line
+	-12900 -650 -12900 -700
+Wire Wire Line
+	-12500 -700 -12700 -700
+Wire Wire Line
+	-12500 -700 -12500 -200
+Wire Wire Line
+	-12700 -700 -12700 -650
+Wire Wire Line
+	-13900 -800 -13900 -700
+Wire Wire Line
+	-13900 -1200 -13900 -1100
+Text Label -10600 -650 2    50   ~ 0
+LED2_24V
+Text Label -13350 -800 1    50   ~ 0
+LED2_24V
+Wire Wire Line
+	-13350 -800 -13350 -700
+Connection ~ -13350 -700
+$Comp
+L optocoupler_rl:TLP2345 U5
+U 1 1 62D60584
+P -15350 -450
+F 0 "U5" H -15650 -50 50  0000 L CNN
+F 1 "TLP2345" H -15300 -800 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -15350 -450 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -15350 -450 50  0001 C CNN
+	1    -15350 -450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0165
+U 1 1 62D6058B
+P -15350 -1050
+F 0 "#PWR0165" H -15350 -1150 50  0001 C CNN
+F 1 "+24V_A" H -15350 -877 50  0000 C CNN
+F 2 "" H -15350 -1050 50  0001 C CNN
+F 3 "" H -15350 -1050 50  0001 C CNN
+	1    -15350 -1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15350 -850 -15350 -1050
+$Comp
+L power_rl:GND_A #PWR0166
+U 1 1 62D60592
+P -15350 50
+F 0 "#PWR0166" H -15350 -200 50  0001 C CNN
+F 1 "GND_A" H -15345 -123 50  0000 C CNN
+F 2 "" H -15350 50  50  0001 C CNN
+F 3 "" H -15350 50  50  0001 C CNN
+	1    -15350 50  
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15350 50   -15350 -50 
+$Comp
+L power_rl:GND #PWR0167
+U 1 1 62D60599
+P -15850 100
+F 0 "#PWR0167" H -15850 -100 50  0001 C CNN
+F 1 "GND" H -15845 -23 50  0000 C CNN
+F 2 "" H -15850 100 50  0001 C CNN
+F 3 "" H -15850 100 50  0001 C CNN
+	1    -15850 100 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15750 -250 -15850 -250
+Wire Wire Line
+	-15850 -250 -15850 50  
+$Comp
+L passive_component_rl:resistor_us R4
+U 1 1 62D605A1
+P -16000 -650
+F 0 "R4" H -16000 -750 50  0000 L CNN
+F 1 "1k15" H -16100 -550 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -16000 -650 50  0001 C CNN
+F 3 "" H -16000 -650 50  0001 C CNN
+	1    -16000 -650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-15850 -650 -15750 -650
+Wire Wire Line
+	-16150 -650 -16300 -650
+$Comp
+L optocoupler_rl:TLP2345 U11
+U 1 1 62D605A9
+P -9450 -450
+F 0 "U11" H -9750 -50 50  0000 L CNN
+F 1 "TLP2345" H -9400 -800 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -9450 -450 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -9450 -450 50  0001 C CNN
+	1    -9450 -450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0168
+U 1 1 62D605AF
+P -9900 50
+F 0 "#PWR0168" H -9900 -150 50  0001 C CNN
+F 1 "GND_A" H -9895 -123 50  0000 C CNN
+F 2 "" H -9900 50  50  0001 C CNN
+F 3 "" H -9900 50  50  0001 C CNN
+	1    -9900 50  
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9850 -250 -9900 -250
+Wire Wire Line
+	-9900 -250 -9900 50  
+$Comp
+L power_rl:GND #PWR0169
+U 1 1 62D605B7
+P -9450 100
+F 0 "#PWR0169" H -9450 -100 50  0001 C CNN
+F 1 "GND" H -9445 -23 50  0000 C CNN
+F 2 "" H -9450 100 50  0001 C CNN
+F 3 "" H -9450 100 50  0001 C CNN
+	1    -9450 100 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 50   -9450 -50 
+$Comp
+L passive_component_rl:resistor_us R27
+U 1 1 62D605BE
+P -10100 -650
+F 0 "R27" H -10100 -750 50  0000 L CNN
+F 1 "4k7" H -10150 -550 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -10100 -650 50  0001 C CNN
+F 3 "" H -10100 -650 50  0001 C CNN
+	1    -10100 -650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-9950 -650 -9850 -650
+$Comp
+L power_rl:+5V #PWR0170
+U 1 1 62D605C5
+P -9450 -950
+F 0 "#PWR0170" H -9440 -1010 50  0001 C CNN
+F 1 "+5V" H -9450 -777 50  0000 C CNN
+F 2 "" H -9450 -950 50  0001 C CNN
+F 3 "" H -9450 -950 50  0001 C CNN
+	1    -9450 -950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 -950 -9450 -850
+Text Label -8950 -450 0    50   ~ 0
+LED2_5V
+Wire Wire Line
+	-8950 -450 -9050 -450
+$Comp
+L diode_rl:undir_transil D15
+U 1 1 62D605CE
+P -10450 -400
+F 0 "D15" H -10356 -354 50  0000 L CNN
+F 1 "SMCJ24A-CD" H -10356 -445 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H -10450 -400 50  0001 C CNN
+F 3 "" H -10450 -400 50  0001 C CNN
+	1    -10450 -400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10450 -550 -10450 -650
+Wire Wire Line
+	-10450 -650 -10250 -650
+Wire Wire Line
+	-10450 -650 -10600 -650
+Connection ~ -10450 -650
+$Comp
+L power_rl:GND_A #PWR0171
+U 1 1 62D605D8
+P -10450 50
+F 0 "#PWR0171" H -10450 -150 50  0001 C CNN
+F 1 "GND_A" H -10445 -123 50  0000 C CNN
+F 2 "" H -10450 50  50  0001 C CNN
+F 3 "" H -10450 50  50  0001 C CNN
+	1    -10450 50  
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10450 50   -10450 -250
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q3
+U 1 1 62D605DF
+P -13900 -450
+F 0 "Q3" H -13800 -400 50  0000 L CNN
+F 1 "AOD458" H -13800 -500 50  0000 L CNN
+F 2 "package_to_rl:to_252_2" H -13700 -350 50  0001 C CNN
+F 3 "~" H -13900 -450 50  0001 C CNN
+	1    -13900 -450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13900 3800 -13900 3750
+Connection ~ -13900 3800
+Wire Wire Line
+	-13900 4050 -13900 3800
+$Comp
+L connector_rl:1x2_screw_term_block J4
+U 1 1 62EC9478
+P -13700 3150
+F 0 "J4" H -13600 3150 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" V -13700 3300 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -13700 3150 50  0001 C CNN
+F 3 "" H -13700 3150 50  0001 C CNN
+	1    -13700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-14750 4050 -14750 3950
+Wire Wire Line
+	-14750 3550 -14750 3650
+$Comp
+L passive_component_rl:resistor_us R11
+U 1 1 62EC9482
+P -14750 3800
+F 0 "R11" V -14796 3868 50  0000 L CNN
+F 1 "NC (10k)" V -14705 3868 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -14750 3800 50  0001 C CNN
+F 3 "" H -14750 3800 50  0001 C CNN
+	1    -14750 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R22
+U 1 1 62EC9488
+P -12200 3400
+F 0 "R22" V -12246 3468 50  0000 L CNN
+F 1 "4k7" V -12155 3468 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -12200 3400 50  0001 C CNN
+F 3 "" H -12200 3400 50  0001 C CNN
+	1    -12200 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-12200 3250 -12200 2950
+$Comp
+L diode_rl:LED D10
+U 1 1 62EC948F
+P -12200 3800
+F 0 "D10" V -12161 3682 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V -12252 3682 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H -12200 3800 50  0001 C CNN
+F 3 "~" H -12200 3800 50  0001 C CNN
+	1    -12200 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-12200 3650 -12200 3550
+Text Label -16300 3350 2    50   ~ 0
+LED3
+$Comp
+L power_rl:GND_A #PWR0172
+U 1 1 62EC9497
+P -14750 4050
+F 0 "#PWR0172" H -14750 3800 50  0001 C CNN
+F 1 "GND_A" H -14745 3877 50  0000 C CNN
+F 2 "" H -14750 4050 50  0001 C CNN
+F 3 "" H -14750 4050 50  0001 C CNN
+	1    -14750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0173
+U 1 1 62EC949D
+P -12800 4000
+F 0 "#PWR0173" H -12550 3750 50  0001 C CNN
+F 1 "Earth_Protective" H -12350 3850 50  0001 C CNN
+F 2 "" H -12800 3900 50  0001 C CNN
+F 3 "~" H -12800 3900 50  0001 C CNN
+	1    -12800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0174
+U 1 1 62EC94A3
+P -13900 2800
+F 0 "#PWR0174" H -13900 2700 50  0001 C CNN
+F 1 "+24V_A" H -13900 2973 50  0000 C CNN
+F 2 "" H -13900 2800 50  0001 C CNN
+F 3 "" H -13900 2800 50  0001 C CNN
+	1    -13900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0175
+U 1 1 62EC94A9
+P -13900 4050
+F 0 "#PWR0175" H -13900 3800 50  0001 C CNN
+F 1 "GND_A" H -13895 3877 50  0000 C CNN
+F 2 "" H -13900 4050 50  0001 C CNN
+F 3 "" H -13900 4050 50  0001 C CNN
+	1    -13900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0176
+U 1 1 62EC94AF
+P -12200 2950
+F 0 "#PWR0176" H -12200 2850 50  0001 C CNN
+F 1 "+24V_A" H -12200 3123 50  0000 C CNN
+F 2 "" H -12200 2950 50  0001 C CNN
+F 3 "" H -12200 2950 50  0001 C CNN
+	1    -12200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L switch_rl:SMTS-102-2C2T SW4
+U 1 1 62EC94B5
+P -12800 3500
+F 0 "SW4" V -12550 3500 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V -12450 3500 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H -12800 3500 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H -12800 3500 50  0001 C CNN
+	1    -12800 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-13000 3950 -12800 3950
+Wire Wire Line
+	-12800 4000 -12800 3950
+Connection ~ -12800 3950
+Wire Wire Line
+	-12800 3950 -12600 3950
+Wire Wire Line
+	-13000 3750 -13000 3950
+Wire Wire Line
+	-13900 3800 -12800 3800
+Wire Wire Line
+	-12600 3950 -12600 3750
+Wire Wire Line
+	-12800 3750 -12800 3800
+Connection ~ -12800 3800
+Wire Wire Line
+	-12800 3800 -12500 3800
+Wire Wire Line
+	-13900 3300 -13500 3300
+Connection ~ -13900 3300
+Wire Wire Line
+	-13900 3300 -13900 3350
+Wire Wire Line
+	-12900 3350 -12900 3300
+Wire Wire Line
+	-12500 3300 -12700 3300
+Wire Wire Line
+	-12500 3300 -12500 3800
+Wire Wire Line
+	-12700 3300 -12700 3350
+Wire Wire Line
+	-13900 3200 -13900 3300
+Wire Wire Line
+	-13900 2800 -13900 2900
+Text Label -10600 3300 2    50   ~ 0
+LED3_24V
+Text Label -13350 3200 1    50   ~ 0
+LED3_24V
+Wire Wire Line
+	-13350 3200 -13350 3300
+Connection ~ -13350 3300
+$Comp
+L optocoupler_rl:TLP2345 U6
+U 1 1 62EC94D8
+P -15350 3550
+F 0 "U6" H -15650 3950 50  0000 L CNN
+F 1 "TLP2345" H -15300 3200 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -15350 3550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -15350 3550 50  0001 C CNN
+	1    -15350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0177
+U 1 1 62EC94DF
+P -15350 2950
+F 0 "#PWR0177" H -15350 2850 50  0001 C CNN
+F 1 "+24V_A" H -15350 3123 50  0000 C CNN
+F 2 "" H -15350 2950 50  0001 C CNN
+F 3 "" H -15350 2950 50  0001 C CNN
+	1    -15350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15350 3150 -15350 2950
+$Comp
+L power_rl:GND_A #PWR0178
+U 1 1 62EC94E6
+P -15350 4050
+F 0 "#PWR0178" H -15350 3800 50  0001 C CNN
+F 1 "GND_A" H -15345 3877 50  0000 C CNN
+F 2 "" H -15350 4050 50  0001 C CNN
+F 3 "" H -15350 4050 50  0001 C CNN
+	1    -15350 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15350 4050 -15350 3950
+$Comp
+L power_rl:GND #PWR0179
+U 1 1 62EC94ED
+P -15850 4100
+F 0 "#PWR0179" H -15850 3900 50  0001 C CNN
+F 1 "GND" H -15845 3977 50  0000 C CNN
+F 2 "" H -15850 4100 50  0001 C CNN
+F 3 "" H -15850 4100 50  0001 C CNN
+	1    -15850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15750 3750 -15850 3750
+Wire Wire Line
+	-15850 3750 -15850 4050
+$Comp
+L passive_component_rl:resistor_us R5
+U 1 1 62EC94F5
+P -16000 3350
+F 0 "R5" H -16000 3250 50  0000 L CNN
+F 1 "1k15" H -16100 3450 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -16000 3350 50  0001 C CNN
+F 3 "" H -16000 3350 50  0001 C CNN
+	1    -16000 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-15850 3350 -15750 3350
+Wire Wire Line
+	-16150 3350 -16300 3350
+$Comp
+L optocoupler_rl:TLP2345 U12
+U 1 1 62EC94FD
+P -9450 3500
+F 0 "U12" H -9750 3900 50  0000 L CNN
+F 1 "TLP2345" H -9400 3150 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -9450 3500 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -9450 3500 50  0001 C CNN
+	1    -9450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0180
+U 1 1 62EC9503
+P -9900 4000
+F 0 "#PWR0180" H -9900 3800 50  0001 C CNN
+F 1 "GND_A" H -9895 3827 50  0000 C CNN
+F 2 "" H -9900 4000 50  0001 C CNN
+F 3 "" H -9900 4000 50  0001 C CNN
+	1    -9900 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9850 3700 -9900 3700
+Wire Wire Line
+	-9900 3700 -9900 4000
+$Comp
+L power_rl:GND #PWR0181
+U 1 1 62EC950B
+P -9450 4050
+F 0 "#PWR0181" H -9450 3850 50  0001 C CNN
+F 1 "GND" H -9445 3927 50  0000 C CNN
+F 2 "" H -9450 4050 50  0001 C CNN
+F 3 "" H -9450 4050 50  0001 C CNN
+	1    -9450 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 4000 -9450 3900
+$Comp
+L passive_component_rl:resistor_us R28
+U 1 1 62EC9512
+P -10100 3300
+F 0 "R28" H -10100 3200 50  0000 L CNN
+F 1 "4k7" H -10150 3400 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -10100 3300 50  0001 C CNN
+F 3 "" H -10100 3300 50  0001 C CNN
+	1    -10100 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-9950 3300 -9850 3300
+$Comp
+L power_rl:+5V #PWR0182
+U 1 1 62EC9519
+P -9450 3000
+F 0 "#PWR0182" H -9440 2940 50  0001 C CNN
+F 1 "+5V" H -9450 3173 50  0000 C CNN
+F 2 "" H -9450 3000 50  0001 C CNN
+F 3 "" H -9450 3000 50  0001 C CNN
+	1    -9450 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 3000 -9450 3100
+Text Label -8950 3500 0    50   ~ 0
+LED3_5V
+Wire Wire Line
+	-8950 3500 -9050 3500
+$Comp
+L diode_rl:undir_transil D16
+U 1 1 62EC9522
+P -10450 3550
+F 0 "D16" H -10356 3596 50  0000 L CNN
+F 1 "SMCJ24A-CD" H -10356 3505 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H -10450 3550 50  0001 C CNN
+F 3 "" H -10450 3550 50  0001 C CNN
+	1    -10450 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10450 3400 -10450 3300
+Wire Wire Line
+	-10450 3300 -10250 3300
+Wire Wire Line
+	-10450 3300 -10600 3300
+Connection ~ -10450 3300
+$Comp
+L power_rl:GND_A #PWR0183
+U 1 1 62EC952C
+P -10450 4000
+F 0 "#PWR0183" H -10450 3800 50  0001 C CNN
+F 1 "GND_A" H -10445 3827 50  0000 C CNN
+F 2 "" H -10450 4000 50  0001 C CNN
+F 3 "" H -10450 4000 50  0001 C CNN
+	1    -10450 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10450 4000 -10450 3700
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q4
+U 1 1 62EC9533
+P -13900 3550
+F 0 "Q4" H -13800 3600 50  0000 L CNN
+F 1 "AOD458" H -13800 3500 50  0000 L CNN
+F 2 "package_to_rl:to_252_2" H -13700 3650 50  0001 C CNN
+F 3 "~" H -13900 3550 50  0001 C CNN
+	1    -13900 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13700 8250 -13700 8200
+Connection ~ -13700 8250
+Wire Wire Line
+	-13700 8500 -13700 8250
+$Comp
+L connector_rl:1x2_screw_term_block J5
+U 1 1 6304C00A
+P -13500 7600
+F 0 "J5" H -13400 7600 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" V -13500 7750 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -13500 7600 50  0001 C CNN
+F 3 "" H -13500 7600 50  0001 C CNN
+	1    -13500 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-14550 8500 -14550 8400
+Wire Wire Line
+	-14550 8000 -14550 8100
+$Comp
+L passive_component_rl:resistor_us R12
+U 1 1 6304C014
+P -14550 8250
+F 0 "R12" V -14596 8318 50  0000 L CNN
+F 1 "NC (10k)" V -14505 8318 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -14550 8250 50  0001 C CNN
+F 3 "" H -14550 8250 50  0001 C CNN
+	1    -14550 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R23
+U 1 1 6304C01A
+P -12000 7850
+F 0 "R23" V -12046 7918 50  0000 L CNN
+F 1 "4k7" V -11955 7918 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -12000 7850 50  0001 C CNN
+F 3 "" H -12000 7850 50  0001 C CNN
+	1    -12000 7850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-12000 7700 -12000 7400
+$Comp
+L diode_rl:LED D11
+U 1 1 6304C021
+P -12000 8250
+F 0 "D11" V -11961 8132 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V -12052 8132 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H -12000 8250 50  0001 C CNN
+F 3 "~" H -12000 8250 50  0001 C CNN
+	1    -12000 8250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-12000 8100 -12000 8000
+Text Label -16100 7800 2    50   ~ 0
+LED4
+$Comp
+L power_rl:GND_A #PWR0184
+U 1 1 6304C029
+P -14550 8500
+F 0 "#PWR0184" H -14550 8250 50  0001 C CNN
+F 1 "GND_A" H -14545 8327 50  0000 C CNN
+F 2 "" H -14550 8500 50  0001 C CNN
+F 3 "" H -14550 8500 50  0001 C CNN
+	1    -14550 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0185
+U 1 1 6304C02F
+P -12600 8450
+F 0 "#PWR0185" H -12350 8200 50  0001 C CNN
+F 1 "Earth_Protective" H -12150 8300 50  0001 C CNN
+F 2 "" H -12600 8350 50  0001 C CNN
+F 3 "~" H -12600 8350 50  0001 C CNN
+	1    -12600 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0186
+U 1 1 6304C035
+P -13700 7250
+F 0 "#PWR0186" H -13700 7150 50  0001 C CNN
+F 1 "+24V_A" H -13700 7423 50  0000 C CNN
+F 2 "" H -13700 7250 50  0001 C CNN
+F 3 "" H -13700 7250 50  0001 C CNN
+	1    -13700 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0187
+U 1 1 6304C03B
+P -13700 8500
+F 0 "#PWR0187" H -13700 8250 50  0001 C CNN
+F 1 "GND_A" H -13695 8327 50  0000 C CNN
+F 2 "" H -13700 8500 50  0001 C CNN
+F 3 "" H -13700 8500 50  0001 C CNN
+	1    -13700 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0188
+U 1 1 6304C041
+P -12000 7400
+F 0 "#PWR0188" H -12000 7300 50  0001 C CNN
+F 1 "+24V_A" H -12000 7573 50  0000 C CNN
+F 2 "" H -12000 7400 50  0001 C CNN
+F 3 "" H -12000 7400 50  0001 C CNN
+	1    -12000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L switch_rl:SMTS-102-2C2T SW5
+U 1 1 6304C047
+P -12600 7950
+F 0 "SW5" V -12350 7950 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V -12250 7950 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H -12600 7950 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H -12600 7950 50  0001 C CNN
+	1    -12600 7950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-12800 8400 -12600 8400
+Wire Wire Line
+	-12600 8450 -12600 8400
+Connection ~ -12600 8400
+Wire Wire Line
+	-12600 8400 -12400 8400
+Wire Wire Line
+	-12800 8200 -12800 8400
+Wire Wire Line
+	-13700 8250 -12600 8250
+Wire Wire Line
+	-12400 8400 -12400 8200
+Wire Wire Line
+	-12600 8200 -12600 8250
+Connection ~ -12600 8250
+Wire Wire Line
+	-12600 8250 -12300 8250
+Wire Wire Line
+	-13700 7750 -13250 7750
+Connection ~ -13700 7750
+Wire Wire Line
+	-13700 7750 -13700 7800
+Wire Wire Line
+	-12700 7800 -12700 7750
+Wire Wire Line
+	-12300 7750 -12500 7750
+Wire Wire Line
+	-12300 7750 -12300 8250
+Wire Wire Line
+	-12500 7750 -12500 7800
+Wire Wire Line
+	-13700 7650 -13700 7750
+Wire Wire Line
+	-13700 7250 -13700 7350
+Text Label -10200 7800 2    50   ~ 0
+LED4_24V
+Text Label -13150 7650 1    50   ~ 0
+LED4_24V
+Wire Wire Line
+	-13150 7650 -13150 7750
+Connection ~ -13150 7750
+$Comp
+L optocoupler_rl:TLP2345 U7
+U 1 1 6304C06A
+P -15150 8000
+F 0 "U7" H -15450 8400 50  0000 L CNN
+F 1 "TLP2345" H -15100 7650 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -15150 8000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -15150 8000 50  0001 C CNN
+	1    -15150 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0189
+U 1 1 6304C071
+P -15150 7400
+F 0 "#PWR0189" H -15150 7300 50  0001 C CNN
+F 1 "+24V_A" H -15150 7573 50  0000 C CNN
+F 2 "" H -15150 7400 50  0001 C CNN
+F 3 "" H -15150 7400 50  0001 C CNN
+	1    -15150 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15150 7600 -15150 7400
+$Comp
+L power_rl:GND_A #PWR0190
+U 1 1 6304C078
+P -15150 8500
+F 0 "#PWR0190" H -15150 8250 50  0001 C CNN
+F 1 "GND_A" H -15145 8327 50  0000 C CNN
+F 2 "" H -15150 8500 50  0001 C CNN
+F 3 "" H -15150 8500 50  0001 C CNN
+	1    -15150 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15150 8500 -15150 8400
+$Comp
+L power_rl:GND #PWR0191
+U 1 1 6304C07F
+P -15650 8550
+F 0 "#PWR0191" H -15650 8350 50  0001 C CNN
+F 1 "GND" H -15645 8427 50  0000 C CNN
+F 2 "" H -15650 8550 50  0001 C CNN
+F 3 "" H -15650 8550 50  0001 C CNN
+	1    -15650 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15550 8200 -15650 8200
+Wire Wire Line
+	-15650 8200 -15650 8500
+$Comp
+L passive_component_rl:resistor_us R6
+U 1 1 6304C087
+P -15800 7800
+F 0 "R6" H -15800 7700 50  0000 L CNN
+F 1 "1k15" H -15900 7900 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -15800 7800 50  0001 C CNN
+F 3 "" H -15800 7800 50  0001 C CNN
+	1    -15800 7800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-15650 7800 -15550 7800
+Wire Wire Line
+	-15950 7800 -16100 7800
+$Comp
+L optocoupler_rl:TLP2345 U13
+U 1 1 6304C08F
+P -9050 8000
+F 0 "U13" H -9350 8400 50  0000 L CNN
+F 1 "TLP2345" H -9000 7650 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -9050 8000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -9050 8000 50  0001 C CNN
+	1    -9050 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0192
+U 1 1 6304C095
+P -9500 8500
+F 0 "#PWR0192" H -9500 8300 50  0001 C CNN
+F 1 "GND_A" H -9495 8327 50  0000 C CNN
+F 2 "" H -9500 8500 50  0001 C CNN
+F 3 "" H -9500 8500 50  0001 C CNN
+	1    -9500 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 8200 -9500 8200
+Wire Wire Line
+	-9500 8200 -9500 8500
+$Comp
+L power_rl:GND #PWR0193
+U 1 1 6304C09D
+P -9050 8550
+F 0 "#PWR0193" H -9050 8350 50  0001 C CNN
+F 1 "GND" H -9045 8427 50  0000 C CNN
+F 2 "" H -9050 8550 50  0001 C CNN
+F 3 "" H -9050 8550 50  0001 C CNN
+	1    -9050 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9050 8500 -9050 8400
+$Comp
+L passive_component_rl:resistor_us R29
+U 1 1 6304C0A4
+P -9700 7800
+F 0 "R29" H -9700 7700 50  0000 L CNN
+F 1 "4k7" H -9750 7900 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -9700 7800 50  0001 C CNN
+F 3 "" H -9700 7800 50  0001 C CNN
+	1    -9700 7800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-9550 7800 -9450 7800
+$Comp
+L power_rl:+5V #PWR0194
+U 1 1 6304C0AB
+P -9050 7500
+F 0 "#PWR0194" H -9040 7440 50  0001 C CNN
+F 1 "+5V" H -9050 7673 50  0000 C CNN
+F 2 "" H -9050 7500 50  0001 C CNN
+F 3 "" H -9050 7500 50  0001 C CNN
+	1    -9050 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9050 7500 -9050 7600
+Text Label -8550 8000 0    50   ~ 0
+LED4_5V
+Wire Wire Line
+	-8550 8000 -8650 8000
+$Comp
+L diode_rl:undir_transil D18
+U 1 1 6304C0B4
+P -10050 8050
+F 0 "D18" H -9956 8096 50  0000 L CNN
+F 1 "SMCJ24A-CD" H -9956 8005 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H -10050 8050 50  0001 C CNN
+F 3 "" H -10050 8050 50  0001 C CNN
+	1    -10050 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10050 7900 -10050 7800
+Wire Wire Line
+	-10050 7800 -9850 7800
+Wire Wire Line
+	-10050 7800 -10200 7800
+Connection ~ -10050 7800
+$Comp
+L power_rl:GND_A #PWR0195
+U 1 1 6304C0BE
+P -10050 8500
+F 0 "#PWR0195" H -10050 8300 50  0001 C CNN
+F 1 "GND_A" H -10045 8327 50  0000 C CNN
+F 2 "" H -10050 8500 50  0001 C CNN
+F 3 "" H -10050 8500 50  0001 C CNN
+	1    -10050 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10050 8500 -10050 8200
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q5
+U 1 1 6304C0C5
+P -13700 8000
+F 0 "Q5" H -13600 8050 50  0000 L CNN
+F 1 "AOD458" H -13600 7950 50  0000 L CNN
+F 2 "package_to_rl:to_252_2" H -13500 8100 50  0001 C CNN
+F 3 "~" H -13700 8000 50  0001 C CNN
+	1    -13700 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13700 12400 -13700 12350
+Connection ~ -13700 12400
+Wire Wire Line
+	-13700 12650 -13700 12400
+$Comp
+L connector_rl:1x2_screw_term_block J6
+U 1 1 631F99A2
+P -13500 11750
+F 0 "J6" H -13400 11750 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" V -13500 11900 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -13500 11750 50  0001 C CNN
+F 3 "" H -13500 11750 50  0001 C CNN
+	1    -13500 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-14550 12650 -14550 12550
+Wire Wire Line
+	-14550 12150 -14550 12250
+$Comp
+L passive_component_rl:resistor_us R13
+U 1 1 631F99AC
+P -14550 12400
+F 0 "R13" V -14596 12468 50  0000 L CNN
+F 1 "NC (10k)" V -14505 12468 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -14550 12400 50  0001 C CNN
+F 3 "" H -14550 12400 50  0001 C CNN
+	1    -14550 12400
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R24
+U 1 1 631F99B2
+P -12000 12000
+F 0 "R24" V -12046 12068 50  0000 L CNN
+F 1 "4k7" V -11955 12068 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -12000 12000 50  0001 C CNN
+F 3 "" H -12000 12000 50  0001 C CNN
+	1    -12000 12000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-12000 11850 -12000 11550
+$Comp
+L diode_rl:LED D12
+U 1 1 631F99B9
+P -12000 12400
+F 0 "D12" V -11961 12282 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V -12052 12282 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H -12000 12400 50  0001 C CNN
+F 3 "~" H -12000 12400 50  0001 C CNN
+	1    -12000 12400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-12000 12250 -12000 12150
+Text Label -16100 11950 2    50   ~ 0
+LED5
+$Comp
+L power_rl:GND_A #PWR0196
+U 1 1 631F99C1
+P -14550 12650
+F 0 "#PWR0196" H -14550 12400 50  0001 C CNN
+F 1 "GND_A" H -14545 12477 50  0000 C CNN
+F 2 "" H -14550 12650 50  0001 C CNN
+F 3 "" H -14550 12650 50  0001 C CNN
+	1    -14550 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0197
+U 1 1 631F99C7
+P -12600 12600
+F 0 "#PWR0197" H -12350 12350 50  0001 C CNN
+F 1 "Earth_Protective" H -12150 12450 50  0001 C CNN
+F 2 "" H -12600 12500 50  0001 C CNN
+F 3 "~" H -12600 12500 50  0001 C CNN
+	1    -12600 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0198
+U 1 1 631F99CD
+P -13700 11400
+F 0 "#PWR0198" H -13700 11300 50  0001 C CNN
+F 1 "+24V_A" H -13700 11573 50  0000 C CNN
+F 2 "" H -13700 11400 50  0001 C CNN
+F 3 "" H -13700 11400 50  0001 C CNN
+	1    -13700 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0199
+U 1 1 631F99D3
+P -13700 12650
+F 0 "#PWR0199" H -13700 12400 50  0001 C CNN
+F 1 "GND_A" H -13695 12477 50  0000 C CNN
+F 2 "" H -13700 12650 50  0001 C CNN
+F 3 "" H -13700 12650 50  0001 C CNN
+	1    -13700 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0200
+U 1 1 631F99D9
+P -12000 11550
+F 0 "#PWR0200" H -12000 11450 50  0001 C CNN
+F 1 "+24V_A" H -12000 11723 50  0000 C CNN
+F 2 "" H -12000 11550 50  0001 C CNN
+F 3 "" H -12000 11550 50  0001 C CNN
+	1    -12000 11550
+	1    0    0    -1  
+$EndComp
+$Comp
+L switch_rl:SMTS-102-2C2T SW6
+U 1 1 631F99DF
+P -12600 12100
+F 0 "SW6" V -12350 12100 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V -12250 12100 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H -12600 12100 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H -12600 12100 50  0001 C CNN
+	1    -12600 12100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-12800 12550 -12600 12550
+Wire Wire Line
+	-12600 12600 -12600 12550
+Connection ~ -12600 12550
+Wire Wire Line
+	-12600 12550 -12400 12550
+Wire Wire Line
+	-12800 12350 -12800 12550
+Wire Wire Line
+	-13700 12400 -12600 12400
+Wire Wire Line
+	-12400 12550 -12400 12350
+Wire Wire Line
+	-12600 12350 -12600 12400
+Connection ~ -12600 12400
+Wire Wire Line
+	-12600 12400 -12300 12400
+Wire Wire Line
+	-13700 11900 -13300 11900
+Connection ~ -13700 11900
+Wire Wire Line
+	-13700 11900 -13700 11950
+Wire Wire Line
+	-12700 11950 -12700 11900
+Wire Wire Line
+	-12300 11900 -12500 11900
+Wire Wire Line
+	-12300 11900 -12300 12400
+Wire Wire Line
+	-12500 11900 -12500 11950
+Wire Wire Line
+	-13700 11800 -13700 11900
+Wire Wire Line
+	-13700 11400 -13700 11500
+Text Label -10250 12000 2    50   ~ 0
+LED5_24V
+Text Label -13150 11800 1    50   ~ 0
+LED5_24V
+Wire Wire Line
+	-13150 11800 -13150 11900
+Connection ~ -13150 11900
+$Comp
+L optocoupler_rl:TLP2345 U8
+U 1 1 631F9A02
+P -15150 12150
+F 0 "U8" H -15450 12550 50  0000 L CNN
+F 1 "TLP2345" H -15100 11800 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -15150 12150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -15150 12150 50  0001 C CNN
+	1    -15150 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0201
+U 1 1 631F9A09
+P -15150 11550
+F 0 "#PWR0201" H -15150 11450 50  0001 C CNN
+F 1 "+24V_A" H -15150 11723 50  0000 C CNN
+F 2 "" H -15150 11550 50  0001 C CNN
+F 3 "" H -15150 11550 50  0001 C CNN
+	1    -15150 11550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15150 11750 -15150 11550
+$Comp
+L power_rl:GND_A #PWR0202
+U 1 1 631F9A10
+P -15150 12650
+F 0 "#PWR0202" H -15150 12400 50  0001 C CNN
+F 1 "GND_A" H -15145 12477 50  0000 C CNN
+F 2 "" H -15150 12650 50  0001 C CNN
+F 3 "" H -15150 12650 50  0001 C CNN
+	1    -15150 12650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15150 12650 -15150 12550
+$Comp
+L power_rl:GND #PWR0203
+U 1 1 631F9A17
+P -15650 12700
+F 0 "#PWR0203" H -15650 12500 50  0001 C CNN
+F 1 "GND" H -15645 12577 50  0000 C CNN
+F 2 "" H -15650 12700 50  0001 C CNN
+F 3 "" H -15650 12700 50  0001 C CNN
+	1    -15650 12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15550 12350 -15650 12350
+Wire Wire Line
+	-15650 12350 -15650 12650
+$Comp
+L passive_component_rl:resistor_us R7
+U 1 1 631F9A1F
+P -15800 11950
+F 0 "R7" H -15800 11850 50  0000 L CNN
+F 1 "1k15" H -15900 12050 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -15800 11950 50  0001 C CNN
+F 3 "" H -15800 11950 50  0001 C CNN
+	1    -15800 11950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-15650 11950 -15550 11950
+Wire Wire Line
+	-15950 11950 -16100 11950
+$Comp
+L optocoupler_rl:TLP2345 U14
+U 1 1 631F9A27
+P -9100 12200
+F 0 "U14" H -9400 12600 50  0000 L CNN
+F 1 "TLP2345" H -9050 11850 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -9100 12200 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -9100 12200 50  0001 C CNN
+	1    -9100 12200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0204
+U 1 1 631F9A2D
+P -9550 12700
+F 0 "#PWR0204" H -9550 12500 50  0001 C CNN
+F 1 "GND_A" H -9545 12527 50  0000 C CNN
+F 2 "" H -9550 12700 50  0001 C CNN
+F 3 "" H -9550 12700 50  0001 C CNN
+	1    -9550 12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9500 12400 -9550 12400
+Wire Wire Line
+	-9550 12400 -9550 12700
+$Comp
+L power_rl:GND #PWR0205
+U 1 1 631F9A35
+P -9100 12750
+F 0 "#PWR0205" H -9100 12550 50  0001 C CNN
+F 1 "GND" H -9095 12627 50  0000 C CNN
+F 2 "" H -9100 12750 50  0001 C CNN
+F 3 "" H -9100 12750 50  0001 C CNN
+	1    -9100 12750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9100 12700 -9100 12600
+$Comp
+L passive_component_rl:resistor_us R30
+U 1 1 631F9A3C
+P -9750 12000
+F 0 "R30" H -9750 11900 50  0000 L CNN
+F 1 "4k7" H -9800 12100 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -9750 12000 50  0001 C CNN
+F 3 "" H -9750 12000 50  0001 C CNN
+	1    -9750 12000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-9600 12000 -9500 12000
+$Comp
+L power_rl:+5V #PWR0206
+U 1 1 631F9A43
+P -9100 11700
+F 0 "#PWR0206" H -9090 11640 50  0001 C CNN
+F 1 "+5V" H -9100 11873 50  0000 C CNN
+F 2 "" H -9100 11700 50  0001 C CNN
+F 3 "" H -9100 11700 50  0001 C CNN
+	1    -9100 11700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9100 11700 -9100 11800
+Text Label -8600 12200 0    50   ~ 0
+LED5_5V
+Wire Wire Line
+	-8600 12200 -8700 12200
+$Comp
+L diode_rl:undir_transil D19
+U 1 1 631F9A4C
+P -10100 12250
+F 0 "D19" H -10006 12296 50  0000 L CNN
+F 1 "SMCJ24A-CD" H -10006 12205 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H -10100 12250 50  0001 C CNN
+F 3 "" H -10100 12250 50  0001 C CNN
+	1    -10100 12250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10100 12100 -10100 12000
+Wire Wire Line
+	-10100 12000 -9900 12000
+Wire Wire Line
+	-10100 12000 -10250 12000
+Connection ~ -10100 12000
+$Comp
+L power_rl:GND_A #PWR0207
+U 1 1 631F9A56
+P -10100 12700
+F 0 "#PWR0207" H -10100 12500 50  0001 C CNN
+F 1 "GND_A" H -10095 12527 50  0000 C CNN
+F 2 "" H -10100 12700 50  0001 C CNN
+F 3 "" H -10100 12700 50  0001 C CNN
+	1    -10100 12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10100 12700 -10100 12400
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q6
+U 1 1 631F9A5D
+P -13700 12150
+F 0 "Q6" H -13600 12200 50  0000 L CNN
+F 1 "AOD458" H -13600 12100 50  0000 L CNN
+F 2 "package_to_rl:to_252_2" H -13500 12250 50  0001 C CNN
+F 3 "~" H -13700 12150 50  0001 C CNN
+	1    -13700 12150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4500 -8350 -4500 -8400
+Connection ~ -4500 -8350
+Wire Wire Line
+	-4500 -8100 -4500 -8350
+$Comp
+L connector_rl:1x2_screw_term_block J7
+U 1 1 6366A46A
+P -4300 -9000
+F 0 "J7" H -4200 -9000 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" V -4300 -8850 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -4300 -9000 50  0001 C CNN
+F 3 "" H -4300 -9000 50  0001 C CNN
+	1    -4300 -9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5350 -8100 -5350 -8200
+Wire Wire Line
+	-5350 -8600 -5350 -8500
+$Comp
+L passive_component_rl:resistor_us R42
+U 1 1 6366A474
+P -5350 -8350
+F 0 "R42" V -5396 -8282 50  0000 L CNN
+F 1 "NC (10k)" V -5305 -8282 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -5350 -8350 50  0001 C CNN
+F 3 "" H -5350 -8350 50  0001 C CNN
+	1    -5350 -8350
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R57
+U 1 1 6366A47A
+P -2800 -8750
+F 0 "R57" V -2846 -8682 50  0000 L CNN
+F 1 "4k7" V -2755 -8682 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -2800 -8750 50  0001 C CNN
+F 3 "" H -2800 -8750 50  0001 C CNN
+	1    -2800 -8750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2800 -8900 -2800 -9200
+$Comp
+L diode_rl:LED D26
+U 1 1 6366A481
+P -2800 -8350
+F 0 "D26" V -2761 -8468 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V -2852 -8468 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H -2800 -8350 50  0001 C CNN
+F 3 "~" H -2800 -8350 50  0001 C CNN
+	1    -2800 -8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-2800 -8500 -2800 -8600
+Text Label -6950 -8800 2    50   ~ 0
+LED6
+$Comp
+L power_rl:GND_B #PWR0208
+U 1 1 6366A489
+P -5350 -8100
+F 0 "#PWR0208" H -5350 -8350 50  0001 C CNN
+F 1 "GND_B" H -5345 -8273 50  0000 C CNN
+F 2 "" H -5350 -8100 50  0001 C CNN
+F 3 "" H -5350 -8100 50  0001 C CNN
+	1    -5350 -8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0209
+U 1 1 6366A48F
+P -3400 -8150
+F 0 "#PWR0209" H -3150 -8400 50  0001 C CNN
+F 1 "Earth_Protective" H -2950 -8300 50  0001 C CNN
+F 2 "" H -3400 -8250 50  0001 C CNN
+F 3 "~" H -3400 -8250 50  0001 C CNN
+	1    -3400 -8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0210
+U 1 1 6366A495
+P -4500 -9350
+F 0 "#PWR0210" H -4500 -9450 50  0001 C CNN
+F 1 "+24V_B" H -4500 -9177 50  0000 C CNN
+F 2 "" H -4500 -9350 50  0001 C CNN
+F 3 "" H -4500 -9350 50  0001 C CNN
+	1    -4500 -9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0211
+U 1 1 6366A49B
+P -4500 -8100
+F 0 "#PWR0211" H -4500 -8350 50  0001 C CNN
+F 1 "GND_B" H -4495 -8273 50  0000 C CNN
+F 2 "" H -4500 -8100 50  0001 C CNN
+F 3 "" H -4500 -8100 50  0001 C CNN
+	1    -4500 -8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0212
+U 1 1 6366A4A1
+P -2800 -9200
+F 0 "#PWR0212" H -2800 -9300 50  0001 C CNN
+F 1 "+24V_B" H -2800 -9027 50  0000 C CNN
+F 2 "" H -2800 -9200 50  0001 C CNN
+F 3 "" H -2800 -9200 50  0001 C CNN
+	1    -2800 -9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L switch_rl:SMTS-102-2C2T SW7
+U 1 1 6366A4A7
+P -3400 -8650
+F 0 "SW7" V -3150 -8650 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V -3050 -8650 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H -3400 -8650 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H -3400 -8650 50  0001 C CNN
+	1    -3400 -8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-3600 -8200 -3400 -8200
+Wire Wire Line
+	-3400 -8150 -3400 -8200
+Connection ~ -3400 -8200
+Wire Wire Line
+	-3400 -8200 -3200 -8200
+Wire Wire Line
+	-3600 -8400 -3600 -8200
+Wire Wire Line
+	-4500 -8350 -3400 -8350
+Wire Wire Line
+	-3200 -8200 -3200 -8400
+Wire Wire Line
+	-3400 -8400 -3400 -8350
+Connection ~ -3400 -8350
+Wire Wire Line
+	-3400 -8350 -3100 -8350
+Wire Wire Line
+	-4500 -8850 -4100 -8850
+Connection ~ -4500 -8850
+Wire Wire Line
+	-4500 -8850 -4500 -8800
+Wire Wire Line
+	-3500 -8800 -3500 -8850
+Wire Wire Line
+	-3100 -8850 -3300 -8850
+Wire Wire Line
+	-3100 -8850 -3100 -8350
+Wire Wire Line
+	-3300 -8850 -3300 -8800
+Wire Wire Line
+	-4500 -8950 -4500 -8850
+Wire Wire Line
+	-4500 -9350 -4500 -9250
+Text Label -600 -8750 2    50   ~ 0
+LED6_24V
+Text Label -3950 -8950 1    50   ~ 0
+LED6_24V
+Wire Wire Line
+	-3950 -8950 -3950 -8850
+Connection ~ -3950 -8850
+$Comp
+L optocoupler_rl:TLP2345 U15
+U 1 1 6366A4CA
+P -6000 -8600
+F 0 "U15" H -6300 -8200 50  0000 L CNN
+F 1 "TLP2345" H -5950 -8950 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -6000 -8600 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -6000 -8600 50  0001 C CNN
+	1    -6000 -8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0213
+U 1 1 6366A4D1
+P -6000 -9050
+F 0 "#PWR0213" H -6000 -9150 50  0001 C CNN
+F 1 "+24V_B" H -6000 -8877 50  0000 C CNN
+F 2 "" H -6000 -9050 50  0001 C CNN
+F 3 "" H -6000 -9050 50  0001 C CNN
+	1    -6000 -9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6000 -9000 -6000 -9050
+$Comp
+L power_rl:GND_B #PWR0214
+U 1 1 6366A4D8
+P -6000 -8100
+F 0 "#PWR0214" H -6000 -8350 50  0001 C CNN
+F 1 "GND_B" H -5995 -8273 50  0000 C CNN
+F 2 "" H -6000 -8100 50  0001 C CNN
+F 3 "" H -6000 -8100 50  0001 C CNN
+	1    -6000 -8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6000 -8100 -6000 -8200
+$Comp
+L power_rl:GND #PWR0215
+U 1 1 6366A4DF
+P -6500 -8050
+F 0 "#PWR0215" H -6500 -8250 50  0001 C CNN
+F 1 "GND" H -6495 -8173 50  0000 C CNN
+F 2 "" H -6500 -8050 50  0001 C CNN
+F 3 "" H -6500 -8050 50  0001 C CNN
+	1    -6500 -8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6400 -8400 -6500 -8400
+Wire Wire Line
+	-6500 -8400 -6500 -8100
+$Comp
+L passive_component_rl:resistor_us R31
+U 1 1 6366A4E7
+P -6650 -8800
+F 0 "R31" H -6650 -8900 50  0000 L CNN
+F 1 "1k15" H -6750 -8700 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -6650 -8800 50  0001 C CNN
+F 3 "" H -6650 -8800 50  0001 C CNN
+	1    -6650 -8800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-6500 -8800 -6400 -8800
+Wire Wire Line
+	-6800 -8800 -6950 -8800
+$Comp
+L optocoupler_rl:TLP2345 U21
+U 1 1 6366A4EF
+P 550 -8550
+F 0 "U21" H 250 -8150 50  0000 L CNN
+F 1 "TLP2345" H 600 -8900 50  0000 L CNN
+F 2 "package_so_rl:so_6" H 550 -8550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H 550 -8550 50  0001 C CNN
+	1    550  -8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	150  -8350 100  -8350
+Wire Wire Line
+	100  -8350 100  -8050
+$Comp
+L power_rl:GND #PWR0216
+U 1 1 6366A4FD
+P 550 -8000
+F 0 "#PWR0216" H 550 -8200 50  0001 C CNN
+F 1 "GND" H 555 -8123 50  0000 C CNN
+F 2 "" H 550 -8000 50  0001 C CNN
+F 3 "" H 550 -8000 50  0001 C CNN
+	1    550  -8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  -8050 550  -8150
+$Comp
+L passive_component_rl:resistor_us R63
+U 1 1 6366A504
+P -100 -8750
+F 0 "R63" H -100 -8850 50  0000 L CNN
+F 1 "4k7" H -150 -8650 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -100 -8750 50  0001 C CNN
+F 3 "" H -100 -8750 50  0001 C CNN
+	1    -100 -8750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	50   -8750 150  -8750
+$Comp
+L power_rl:+5V #PWR0217
+U 1 1 6366A50B
+P 550 -9050
+F 0 "#PWR0217" H 560 -9110 50  0001 C CNN
+F 1 "+5V" H 550 -8877 50  0000 C CNN
+F 2 "" H 550 -9050 50  0001 C CNN
+F 3 "" H 550 -9050 50  0001 C CNN
+	1    550  -9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  -9050 550  -8950
+Text Label 1050 -8550 0    50   ~ 0
+LED6_5V
+Wire Wire Line
+	1050 -8550 950  -8550
+$Comp
+L diode_rl:undir_transil D32
+U 1 1 6366A514
+P -450 -8500
+F 0 "D32" H -356 -8454 50  0000 L CNN
+F 1 "SMCJ24A-CD" H -356 -8545 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H -450 -8500 50  0001 C CNN
+F 3 "" H -450 -8500 50  0001 C CNN
+	1    -450 -8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-450 -8650 -450 -8750
+Wire Wire Line
+	-450 -8750 -250 -8750
+Wire Wire Line
+	-450 -8750 -600 -8750
+Connection ~ -450 -8750
+$Comp
+L power_rl:GND_B #PWR0218
+U 1 1 6366A51E
+P -450 -8050
+F 0 "#PWR0218" H -450 -8250 50  0001 C CNN
+F 1 "GND_B" H -445 -8223 50  0000 C CNN
+F 2 "" H -450 -8050 50  0001 C CNN
+F 3 "" H -450 -8050 50  0001 C CNN
+	1    -450 -8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-450 -8050 -450 -8350
+Text Notes -7600 -9150 0    50   ~ 0
+5 V - 1.55 V (typ.) = 3.45 V\nI = 3.45 V / 0.003 A = 1 150 R
+Text Notes -950 -9100 0    50   ~ 0
+24 V - 1.55 V (typ.) = 22.45 V\nI = 22.45 / 0.0048 A = 4 677 R
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q7
+U 1 1 6366A527
+P -4500 -8600
+F 0 "Q7" H -4400 -8550 50  0000 L CNN
+F 1 "AOD458" H -4400 -8650 50  0000 L CNN
+F 2 "package_to_rl:to_252_2" H -4300 -8500 50  0001 C CNN
+F 3 "~" H -4500 -8600 50  0001 C CNN
+	1    -4500 -8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4550 -4200 -4550 -4250
+Connection ~ -4550 -4200
+Wire Wire Line
+	-4550 -3950 -4550 -4200
+$Comp
+L connector_rl:1x2_screw_term_block J8
+U 1 1 6366A530
+P -4350 -4850
+F 0 "J8" H -4250 -4850 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" V -4350 -4700 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -4350 -4850 50  0001 C CNN
+F 3 "" H -4350 -4850 50  0001 C CNN
+	1    -4350 -4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5450 -3950 -5450 -4050
+Wire Wire Line
+	-5450 -4450 -5450 -4350
+$Comp
+L passive_component_rl:resistor_us R37
+U 1 1 6366A53A
+P -5450 -4200
+F 0 "R37" V -5496 -4132 50  0000 L CNN
+F 1 "NC (10k)" V -5405 -4132 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -5450 -4200 50  0001 C CNN
+F 3 "" H -5450 -4200 50  0001 C CNN
+	1    -5450 -4200
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R58
+U 1 1 6366A540
+P -2850 -4600
+F 0 "R58" V -2896 -4532 50  0000 L CNN
+F 1 "4k7" V -2805 -4532 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -2850 -4600 50  0001 C CNN
+F 3 "" H -2850 -4600 50  0001 C CNN
+	1    -2850 -4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2850 -4750 -2850 -5050
+$Comp
+L diode_rl:LED D27
+U 1 1 6366A547
+P -2850 -4200
+F 0 "D27" V -2811 -4318 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V -2902 -4318 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H -2850 -4200 50  0001 C CNN
+F 3 "~" H -2850 -4200 50  0001 C CNN
+	1    -2850 -4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-2850 -4350 -2850 -4450
+Text Label -7000 -4650 2    50   ~ 0
+LED7
+$Comp
+L power_rl:GND_B #PWR0219
+U 1 1 6366A54F
+P -5450 -3950
+F 0 "#PWR0219" H -5450 -4200 50  0001 C CNN
+F 1 "GND_B" H -5445 -4123 50  0000 C CNN
+F 2 "" H -5450 -3950 50  0001 C CNN
+F 3 "" H -5450 -3950 50  0001 C CNN
+	1    -5450 -3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0220
+U 1 1 6366A555
+P -3450 -4000
+F 0 "#PWR0220" H -3200 -4250 50  0001 C CNN
+F 1 "Earth_Protective" H -3000 -4150 50  0001 C CNN
+F 2 "" H -3450 -4100 50  0001 C CNN
+F 3 "~" H -3450 -4100 50  0001 C CNN
+	1    -3450 -4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0221
+U 1 1 6366A55B
+P -4550 -5200
+F 0 "#PWR0221" H -4550 -5300 50  0001 C CNN
+F 1 "+24V_B" H -4550 -5027 50  0000 C CNN
+F 2 "" H -4550 -5200 50  0001 C CNN
+F 3 "" H -4550 -5200 50  0001 C CNN
+	1    -4550 -5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0222
+U 1 1 6366A561
+P -4550 -3950
+F 0 "#PWR0222" H -4550 -4200 50  0001 C CNN
+F 1 "GND_B" H -4545 -4123 50  0000 C CNN
+F 2 "" H -4550 -3950 50  0001 C CNN
+F 3 "" H -4550 -3950 50  0001 C CNN
+	1    -4550 -3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0223
+U 1 1 6366A567
+P -2850 -5050
+F 0 "#PWR0223" H -2850 -5150 50  0001 C CNN
+F 1 "+24V_B" H -2850 -4877 50  0000 C CNN
+F 2 "" H -2850 -5050 50  0001 C CNN
+F 3 "" H -2850 -5050 50  0001 C CNN
+	1    -2850 -5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L switch_rl:SMTS-102-2C2T SW8
+U 1 1 6366A56D
+P -3450 -4500
+F 0 "SW8" V -3200 -4500 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V -3100 -4500 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H -3450 -4500 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H -3450 -4500 50  0001 C CNN
+	1    -3450 -4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-3650 -4050 -3450 -4050
+Wire Wire Line
+	-3450 -4000 -3450 -4050
+Connection ~ -3450 -4050
+Wire Wire Line
+	-3450 -4050 -3250 -4050
+Wire Wire Line
+	-3650 -4250 -3650 -4050
+Wire Wire Line
+	-4550 -4200 -3450 -4200
+Wire Wire Line
+	-3250 -4050 -3250 -4250
+Wire Wire Line
+	-3450 -4250 -3450 -4200
+Connection ~ -3450 -4200
+Wire Wire Line
+	-3450 -4200 -3150 -4200
+Wire Wire Line
+	-4550 -4700 -4100 -4700
+Connection ~ -4550 -4700
+Wire Wire Line
+	-4550 -4700 -4550 -4650
+Wire Wire Line
+	-3550 -4650 -3550 -4700
+Wire Wire Line
+	-3150 -4700 -3350 -4700
+Wire Wire Line
+	-3150 -4700 -3150 -4200
+Wire Wire Line
+	-3350 -4700 -3350 -4650
+Wire Wire Line
+	-4550 -4800 -4550 -4700
+Wire Wire Line
+	-4550 -5200 -4550 -5100
+Text Label -750 -4800 2    50   ~ 0
+LED7_24V
+Text Label -4000 -4800 1    50   ~ 0
+LED7_24V
+Wire Wire Line
+	-4000 -4800 -4000 -4700
+Connection ~ -4000 -4700
+$Comp
+L optocoupler_rl:TLP2345 U16
+U 1 1 6366A590
+P -6050 -4450
+F 0 "U16" H -6350 -4050 50  0000 L CNN
+F 1 "TLP2345" H -6000 -4800 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -6050 -4450 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -6050 -4450 50  0001 C CNN
+	1    -6050 -4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0224
+U 1 1 6366A597
+P -6050 -4900
+F 0 "#PWR0224" H -6050 -5000 50  0001 C CNN
+F 1 "+24V_B" H -6050 -4727 50  0000 C CNN
+F 2 "" H -6050 -4900 50  0001 C CNN
+F 3 "" H -6050 -4900 50  0001 C CNN
+	1    -6050 -4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6050 -4850 -6050 -4900
+$Comp
+L power_rl:GND_B #PWR0225
+U 1 1 6366A59E
+P -6050 -3950
+F 0 "#PWR0225" H -6050 -4200 50  0001 C CNN
+F 1 "GND_B" H -6045 -4123 50  0000 C CNN
+F 2 "" H -6050 -3950 50  0001 C CNN
+F 3 "" H -6050 -3950 50  0001 C CNN
+	1    -6050 -3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6050 -3950 -6050 -4050
+$Comp
+L power_rl:GND #PWR0226
+U 1 1 6366A5A5
+P -6550 -3900
+F 0 "#PWR0226" H -6550 -4100 50  0001 C CNN
+F 1 "GND" H -6545 -4023 50  0000 C CNN
+F 2 "" H -6550 -3900 50  0001 C CNN
+F 3 "" H -6550 -3900 50  0001 C CNN
+	1    -6550 -3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6450 -4250 -6550 -4250
+Wire Wire Line
+	-6550 -4250 -6550 -3950
+$Comp
+L passive_component_rl:resistor_us R32
+U 1 1 6366A5AD
+P -6700 -4650
+F 0 "R32" H -6700 -4750 50  0000 L CNN
+F 1 "1k15" H -6800 -4550 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -6700 -4650 50  0001 C CNN
+F 3 "" H -6700 -4650 50  0001 C CNN
+	1    -6700 -4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-6550 -4650 -6450 -4650
+Wire Wire Line
+	-6850 -4650 -7000 -4650
+$Comp
+L optocoupler_rl:TLP2345 U22
+U 1 1 6366A5B5
+P 400 -4600
+F 0 "U22" H 100 -4200 50  0000 L CNN
+F 1 "TLP2345" H 450 -4950 50  0000 L CNN
+F 2 "package_so_rl:so_6" H 400 -4600 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H 400 -4600 50  0001 C CNN
+	1    400  -4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0227
+U 1 1 6366A5BB
+P -50 -4100
+F 0 "#PWR0227" H -50 -4300 50  0001 C CNN
+F 1 "GND_B" H -45 -4273 50  0000 C CNN
+F 2 "" H -50 -4100 50  0001 C CNN
+F 3 "" H -50 -4100 50  0001 C CNN
+	1    -50  -4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	0    -4400 -50  -4400
+Wire Wire Line
+	-50  -4400 -50  -4100
+$Comp
+L power_rl:GND #PWR0228
+U 1 1 6366A5C3
+P 400 -4050
+F 0 "#PWR0228" H 400 -4250 50  0001 C CNN
+F 1 "GND" H 405 -4173 50  0000 C CNN
+F 2 "" H 400 -4050 50  0001 C CNN
+F 3 "" H 400 -4050 50  0001 C CNN
+	1    400  -4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	400  -4100 400  -4200
+$Comp
+L passive_component_rl:resistor_us R64
+U 1 1 6366A5CA
+P -250 -4800
+F 0 "R64" H -250 -4900 50  0000 L CNN
+F 1 "4k7" H -300 -4700 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -250 -4800 50  0001 C CNN
+F 3 "" H -250 -4800 50  0001 C CNN
+	1    -250 -4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-100 -4800 0    -4800
+$Comp
+L power_rl:+5V #PWR0229
+U 1 1 6366A5D1
+P 400 -5100
+F 0 "#PWR0229" H 410 -5160 50  0001 C CNN
+F 1 "+5V" H 400 -4927 50  0000 C CNN
+F 2 "" H 400 -5100 50  0001 C CNN
+F 3 "" H 400 -5100 50  0001 C CNN
+	1    400  -5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	400  -5100 400  -5000
+Text Label 900  -4600 0    50   ~ 0
+LED7_5V
+Wire Wire Line
+	900  -4600 800  -4600
+$Comp
+L diode_rl:undir_transil D33
+U 1 1 6366A5DA
+P -600 -4550
+F 0 "D33" H -506 -4504 50  0000 L CNN
+F 1 "SMCJ24A-CD" H -506 -4595 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H -600 -4550 50  0001 C CNN
+F 3 "" H -600 -4550 50  0001 C CNN
+	1    -600 -4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-600 -4700 -600 -4800
+Wire Wire Line
+	-600 -4800 -400 -4800
+Wire Wire Line
+	-600 -4800 -750 -4800
+Connection ~ -600 -4800
+$Comp
+L power_rl:GND_B #PWR0230
+U 1 1 6366A5E4
+P -600 -4100
+F 0 "#PWR0230" H -600 -4300 50  0001 C CNN
+F 1 "GND_B" H -595 -4273 50  0000 C CNN
+F 2 "" H -600 -4100 50  0001 C CNN
+F 3 "" H -600 -4100 50  0001 C CNN
+	1    -600 -4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-600 -4100 -600 -4400
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q8
+U 1 1 6366A5EB
+P -4550 -4450
+F 0 "Q8" H -4450 -4400 50  0000 L CNN
+F 1 "AOD458" H -4450 -4500 50  0000 L CNN
+F 2 "package_to_rl:to_252_2" H -4350 -4350 50  0001 C CNN
+F 3 "~" H -4550 -4450 50  0001 C CNN
+	1    -4550 -4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4600 -300 -4600 -350
+Connection ~ -4600 -300
+Wire Wire Line
+	-4600 -50  -4600 -300
+$Comp
+L connector_rl:1x2_screw_term_block J9
+U 1 1 6366A5F4
+P -4400 -950
+F 0 "J9" H -4300 -950 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" V -4400 -800 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -4400 -950 50  0001 C CNN
+F 3 "" H -4400 -950 50  0001 C CNN
+	1    -4400 -950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5500 -50  -5500 -150
+Wire Wire Line
+	-5500 -550 -5500 -450
+$Comp
+L passive_component_rl:resistor_us R38
+U 1 1 6366A5FE
+P -5500 -300
+F 0 "R38" V -5546 -232 50  0000 L CNN
+F 1 "NC (10k)" V -5455 -232 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -5500 -300 50  0001 C CNN
+F 3 "" H -5500 -300 50  0001 C CNN
+	1    -5500 -300
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R59
+U 1 1 6366A604
+P -2900 -700
+F 0 "R59" V -2946 -632 50  0000 L CNN
+F 1 "4k7" V -2855 -632 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -2900 -700 50  0001 C CNN
+F 3 "" H -2900 -700 50  0001 C CNN
+	1    -2900 -700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2900 -850 -2900 -1150
+$Comp
+L diode_rl:LED D28
+U 1 1 6366A60B
+P -2900 -300
+F 0 "D28" V -2861 -418 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V -2952 -418 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H -2900 -300 50  0001 C CNN
+F 3 "~" H -2900 -300 50  0001 C CNN
+	1    -2900 -300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-2900 -450 -2900 -550
+Text Label -7050 -750 2    50   ~ 0
+LED8
+$Comp
+L power_rl:GND_B #PWR0231
+U 1 1 6366A613
+P -5500 -50
+F 0 "#PWR0231" H -5500 -300 50  0001 C CNN
+F 1 "GND_B" H -5495 -223 50  0000 C CNN
+F 2 "" H -5500 -50 50  0001 C CNN
+F 3 "" H -5500 -50 50  0001 C CNN
+	1    -5500 -50 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0232
+U 1 1 6366A619
+P -3500 -100
+F 0 "#PWR0232" H -3250 -350 50  0001 C CNN
+F 1 "Earth_Protective" H -3050 -250 50  0001 C CNN
+F 2 "" H -3500 -200 50  0001 C CNN
+F 3 "~" H -3500 -200 50  0001 C CNN
+	1    -3500 -100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0233
+U 1 1 6366A61F
+P -4600 -1300
+F 0 "#PWR0233" H -4600 -1400 50  0001 C CNN
+F 1 "+24V_B" H -4600 -1127 50  0000 C CNN
+F 2 "" H -4600 -1300 50  0001 C CNN
+F 3 "" H -4600 -1300 50  0001 C CNN
+	1    -4600 -1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0234
+U 1 1 6366A625
+P -4600 -50
+F 0 "#PWR0234" H -4600 -300 50  0001 C CNN
+F 1 "GND_B" H -4595 -223 50  0000 C CNN
+F 2 "" H -4600 -50 50  0001 C CNN
+F 3 "" H -4600 -50 50  0001 C CNN
+	1    -4600 -50 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0235
+U 1 1 6366A62B
+P -2900 -1150
+F 0 "#PWR0235" H -2900 -1250 50  0001 C CNN
+F 1 "+24V_B" H -2900 -977 50  0000 C CNN
+F 2 "" H -2900 -1150 50  0001 C CNN
+F 3 "" H -2900 -1150 50  0001 C CNN
+	1    -2900 -1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L switch_rl:SMTS-102-2C2T SW9
+U 1 1 6366A631
+P -3500 -600
+F 0 "SW9" V -3250 -600 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V -3150 -600 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H -3500 -600 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H -3500 -600 50  0001 C CNN
+	1    -3500 -600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-3700 -150 -3500 -150
+Wire Wire Line
+	-3500 -100 -3500 -150
+Connection ~ -3500 -150
+Wire Wire Line
+	-3500 -150 -3300 -150
+Wire Wire Line
+	-3700 -350 -3700 -150
+Wire Wire Line
+	-4600 -300 -3500 -300
+Wire Wire Line
+	-3300 -150 -3300 -350
+Wire Wire Line
+	-3500 -350 -3500 -300
+Connection ~ -3500 -300
+Wire Wire Line
+	-3500 -300 -3200 -300
+Wire Wire Line
+	-4600 -800 -4150 -800
+Connection ~ -4600 -800
+Wire Wire Line
+	-4600 -800 -4600 -750
+Wire Wire Line
+	-3600 -750 -3600 -800
+Wire Wire Line
+	-3200 -800 -3400 -800
+Wire Wire Line
+	-3200 -800 -3200 -300
+Wire Wire Line
+	-3400 -800 -3400 -750
+Wire Wire Line
+	-4600 -900 -4600 -800
+Wire Wire Line
+	-4600 -1300 -4600 -1200
+Text Label -800 -900 2    50   ~ 0
+LED8_24V
+Text Label -4050 -900 1    50   ~ 0
+LED8_24V
+Wire Wire Line
+	-4050 -900 -4050 -800
+Connection ~ -4050 -800
+$Comp
+L optocoupler_rl:TLP2345 U17
+U 1 1 6366A654
+P -6100 -550
+F 0 "U17" H -6400 -150 50  0000 L CNN
+F 1 "TLP2345" H -6050 -900 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -6100 -550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -6100 -550 50  0001 C CNN
+	1    -6100 -550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0236
+U 1 1 6366A65B
+P -6100 -1000
+F 0 "#PWR0236" H -6100 -1100 50  0001 C CNN
+F 1 "+24V_B" H -6100 -827 50  0000 C CNN
+F 2 "" H -6100 -1000 50  0001 C CNN
+F 3 "" H -6100 -1000 50  0001 C CNN
+	1    -6100 -1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6100 -950 -6100 -1000
+$Comp
+L power_rl:GND_B #PWR0237
+U 1 1 6366A662
+P -6100 -50
+F 0 "#PWR0237" H -6100 -300 50  0001 C CNN
+F 1 "GND_B" H -6095 -223 50  0000 C CNN
+F 2 "" H -6100 -50 50  0001 C CNN
+F 3 "" H -6100 -50 50  0001 C CNN
+	1    -6100 -50 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6100 -50  -6100 -150
+$Comp
+L power_rl:GND #PWR0238
+U 1 1 6366A669
+P -6600 0
+F 0 "#PWR0238" H -6600 -200 50  0001 C CNN
+F 1 "GND" H -6595 -123 50  0000 C CNN
+F 2 "" H -6600 0   50  0001 C CNN
+F 3 "" H -6600 0   50  0001 C CNN
+	1    -6600 0   
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6500 -350 -6600 -350
+Wire Wire Line
+	-6600 -350 -6600 -50 
+$Comp
+L passive_component_rl:resistor_us R33
+U 1 1 6366A671
+P -6750 -750
+F 0 "R33" H -6750 -850 50  0000 L CNN
+F 1 "1k15" H -6850 -650 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -6750 -750 50  0001 C CNN
+F 3 "" H -6750 -750 50  0001 C CNN
+	1    -6750 -750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-6600 -750 -6500 -750
+Wire Wire Line
+	-6900 -750 -7050 -750
+$Comp
+L optocoupler_rl:TLP2345 U23
+U 1 1 6366A679
+P 350 -700
+F 0 "U23" H 50  -300 50  0000 L CNN
+F 1 "TLP2345" H 400 -1050 50  0000 L CNN
+F 2 "package_so_rl:so_6" H 350 -700 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H 350 -700 50  0001 C CNN
+	1    350  -700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0239
+U 1 1 6366A67F
+P -100 -200
+F 0 "#PWR0239" H -100 -400 50  0001 C CNN
+F 1 "GND_B" H -95 -373 50  0000 C CNN
+F 2 "" H -100 -200 50  0001 C CNN
+F 3 "" H -100 -200 50  0001 C CNN
+	1    -100 -200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-50  -500 -100 -500
+Wire Wire Line
+	-100 -500 -100 -200
+$Comp
+L power_rl:GND #PWR0240
+U 1 1 6366A687
+P 350 -150
+F 0 "#PWR0240" H 350 -350 50  0001 C CNN
+F 1 "GND" H 355 -273 50  0000 C CNN
+F 2 "" H 350 -150 50  0001 C CNN
+F 3 "" H 350 -150 50  0001 C CNN
+	1    350  -150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	350  -200 350  -300
+$Comp
+L passive_component_rl:resistor_us R65
+U 1 1 6366A68E
+P -300 -900
+F 0 "R65" H -300 -1000 50  0000 L CNN
+F 1 "4k7" H -350 -800 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -300 -900 50  0001 C CNN
+F 3 "" H -300 -900 50  0001 C CNN
+	1    -300 -900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-150 -900 -50  -900
+$Comp
+L power_rl:+5V #PWR0241
+U 1 1 6366A695
+P 350 -1200
+F 0 "#PWR0241" H 360 -1260 50  0001 C CNN
+F 1 "+5V" H 350 -1027 50  0000 C CNN
+F 2 "" H 350 -1200 50  0001 C CNN
+F 3 "" H 350 -1200 50  0001 C CNN
+	1    350  -1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	350  -1200 350  -1100
+Text Label 850  -700 0    50   ~ 0
+LED8_5V
+Wire Wire Line
+	850  -700 750  -700
+$Comp
+L diode_rl:undir_transil D34
+U 1 1 6366A69E
+P -650 -650
+F 0 "D34" H -556 -604 50  0000 L CNN
+F 1 "SMCJ24A-CD" H -556 -695 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H -650 -650 50  0001 C CNN
+F 3 "" H -650 -650 50  0001 C CNN
+	1    -650 -650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-650 -800 -650 -900
+Wire Wire Line
+	-650 -900 -450 -900
+Wire Wire Line
+	-650 -900 -800 -900
+Connection ~ -650 -900
+$Comp
+L power_rl:GND_B #PWR0242
+U 1 1 6366A6A8
+P -650 -200
+F 0 "#PWR0242" H -650 -400 50  0001 C CNN
+F 1 "GND_B" H -645 -373 50  0000 C CNN
+F 2 "" H -650 -200 50  0001 C CNN
+F 3 "" H -650 -200 50  0001 C CNN
+	1    -650 -200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-650 -200 -650 -500
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q9
+U 1 1 6366A6AF
+P -4600 -550
+F 0 "Q9" H -4500 -500 50  0000 L CNN
+F 1 "AOD458" H -4500 -600 50  0000 L CNN
+F 2 "package_to_rl:to_252_2" H -4400 -450 50  0001 C CNN
+F 3 "~" H -4600 -550 50  0001 C CNN
+	1    -4600 -550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4650 3650 -4650 3600
+Connection ~ -4650 3650
+Wire Wire Line
+	-4650 3900 -4650 3650
+$Comp
+L connector_rl:1x2_screw_term_block J10
+U 1 1 6366A6B8
+P -4450 3000
+F 0 "J10" H -4350 3000 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" V -4450 3150 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -4450 3000 50  0001 C CNN
+F 3 "" H -4450 3000 50  0001 C CNN
+	1    -4450 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5550 3900 -5550 3800
+Wire Wire Line
+	-5550 3400 -5550 3500
+$Comp
+L passive_component_rl:resistor_us R39
+U 1 1 6366A6C2
+P -5550 3650
+F 0 "R39" V -5596 3718 50  0000 L CNN
+F 1 "NC (10k)" V -5505 3718 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -5550 3650 50  0001 C CNN
+F 3 "" H -5550 3650 50  0001 C CNN
+	1    -5550 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R60
+U 1 1 6366A6C8
+P -2950 3250
+F 0 "R60" V -2996 3318 50  0000 L CNN
+F 1 "4k7" V -2905 3318 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -2950 3250 50  0001 C CNN
+F 3 "" H -2950 3250 50  0001 C CNN
+	1    -2950 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2950 3100 -2950 2800
+$Comp
+L diode_rl:LED D29
+U 1 1 6366A6CF
+P -2950 3650
+F 0 "D29" V -2911 3532 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V -3002 3532 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H -2950 3650 50  0001 C CNN
+F 3 "~" H -2950 3650 50  0001 C CNN
+	1    -2950 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-2950 3500 -2950 3400
+Text Label -7100 3200 2    50   ~ 0
+LED9
+$Comp
+L power_rl:GND_B #PWR0243
+U 1 1 6366A6D7
+P -5550 3900
+F 0 "#PWR0243" H -5550 3650 50  0001 C CNN
+F 1 "GND_B" H -5545 3727 50  0000 C CNN
+F 2 "" H -5550 3900 50  0001 C CNN
+F 3 "" H -5550 3900 50  0001 C CNN
+	1    -5550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0244
+U 1 1 6366A6DD
+P -3550 3850
+F 0 "#PWR0244" H -3300 3600 50  0001 C CNN
+F 1 "Earth_Protective" H -3100 3700 50  0001 C CNN
+F 2 "" H -3550 3750 50  0001 C CNN
+F 3 "~" H -3550 3750 50  0001 C CNN
+	1    -3550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0245
+U 1 1 6366A6E3
+P -4650 2650
+F 0 "#PWR0245" H -4650 2550 50  0001 C CNN
+F 1 "+24V_B" H -4650 2823 50  0000 C CNN
+F 2 "" H -4650 2650 50  0001 C CNN
+F 3 "" H -4650 2650 50  0001 C CNN
+	1    -4650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0246
+U 1 1 6366A6E9
+P -4650 3900
+F 0 "#PWR0246" H -4650 3650 50  0001 C CNN
+F 1 "GND_B" H -4645 3727 50  0000 C CNN
+F 2 "" H -4650 3900 50  0001 C CNN
+F 3 "" H -4650 3900 50  0001 C CNN
+	1    -4650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0247
+U 1 1 6366A6EF
+P -2950 2800
+F 0 "#PWR0247" H -2950 2700 50  0001 C CNN
+F 1 "+24V_B" H -2950 2973 50  0000 C CNN
+F 2 "" H -2950 2800 50  0001 C CNN
+F 3 "" H -2950 2800 50  0001 C CNN
+	1    -2950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L switch_rl:SMTS-102-2C2T SW10
+U 1 1 6366A6F5
+P -3550 3350
+F 0 "SW10" V -3300 3350 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V -3200 3350 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H -3550 3350 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H -3550 3350 50  0001 C CNN
+	1    -3550 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-3750 3800 -3550 3800
+Wire Wire Line
+	-3550 3850 -3550 3800
+Connection ~ -3550 3800
+Wire Wire Line
+	-3550 3800 -3350 3800
+Wire Wire Line
+	-3750 3600 -3750 3800
+Wire Wire Line
+	-4650 3650 -3550 3650
+Wire Wire Line
+	-3350 3800 -3350 3600
+Wire Wire Line
+	-3550 3600 -3550 3650
+Connection ~ -3550 3650
+Wire Wire Line
+	-3550 3650 -3250 3650
+Wire Wire Line
+	-4650 3150 -4200 3150
+Connection ~ -4650 3150
+Wire Wire Line
+	-4650 3150 -4650 3200
+Wire Wire Line
+	-3650 3200 -3650 3150
+Wire Wire Line
+	-3250 3150 -3450 3150
+Wire Wire Line
+	-3250 3150 -3250 3650
+Wire Wire Line
+	-3450 3150 -3450 3200
+Wire Wire Line
+	-4650 3050 -4650 3150
+Wire Wire Line
+	-4650 2650 -4650 2750
+Text Label -850 3050 2    50   ~ 0
+LED9_24V
+Text Label -4100 3050 1    50   ~ 0
+LED9_24V
+Wire Wire Line
+	-4100 3050 -4100 3150
+Connection ~ -4100 3150
+$Comp
+L optocoupler_rl:TLP2345 U18
+U 1 1 6366A718
+P -6150 3400
+F 0 "U18" H -6450 3800 50  0000 L CNN
+F 1 "TLP2345" H -6100 3050 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -6150 3400 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -6150 3400 50  0001 C CNN
+	1    -6150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0248
+U 1 1 6366A71F
+P -6150 2950
+F 0 "#PWR0248" H -6150 2850 50  0001 C CNN
+F 1 "+24V_B" H -6150 3123 50  0000 C CNN
+F 2 "" H -6150 2950 50  0001 C CNN
+F 3 "" H -6150 2950 50  0001 C CNN
+	1    -6150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0249
+U 1 1 6366A726
+P -6150 3900
+F 0 "#PWR0249" H -6150 3650 50  0001 C CNN
+F 1 "GND_B" H -6145 3727 50  0000 C CNN
+F 2 "" H -6150 3900 50  0001 C CNN
+F 3 "" H -6150 3900 50  0001 C CNN
+	1    -6150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6150 3900 -6150 3800
+$Comp
+L power_rl:GND #PWR0250
+U 1 1 6366A72D
+P -6650 3950
+F 0 "#PWR0250" H -6650 3750 50  0001 C CNN
+F 1 "GND" H -6645 3827 50  0000 C CNN
+F 2 "" H -6650 3950 50  0001 C CNN
+F 3 "" H -6650 3950 50  0001 C CNN
+	1    -6650 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6550 3600 -6650 3600
+Wire Wire Line
+	-6650 3600 -6650 3900
+$Comp
+L passive_component_rl:resistor_us R34
+U 1 1 6366A735
+P -6800 3200
+F 0 "R34" H -6800 3100 50  0000 L CNN
+F 1 "1k15" H -6900 3300 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -6800 3200 50  0001 C CNN
+F 3 "" H -6800 3200 50  0001 C CNN
+	1    -6800 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-6650 3200 -6550 3200
+Wire Wire Line
+	-6950 3200 -7100 3200
+$Comp
+L optocoupler_rl:TLP2345 U24
+U 1 1 6366A73D
+P 300 3250
+F 0 "U24" H 0   3650 50  0000 L CNN
+F 1 "TLP2345" H 350 2900 50  0000 L CNN
+F 2 "package_so_rl:so_6" H 300 3250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H 300 3250 50  0001 C CNN
+	1    300  3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0251
+U 1 1 6366A743
+P -150 3750
+F 0 "#PWR0251" H -150 3550 50  0001 C CNN
+F 1 "GND_B" H -145 3577 50  0000 C CNN
+F 2 "" H -150 3750 50  0001 C CNN
+F 3 "" H -150 3750 50  0001 C CNN
+	1    -150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-100 3450 -150 3450
+Wire Wire Line
+	-150 3450 -150 3750
+$Comp
+L power_rl:GND #PWR0252
+U 1 1 6366A74B
+P 300 3800
+F 0 "#PWR0252" H 300 3600 50  0001 C CNN
+F 1 "GND" H 305 3677 50  0000 C CNN
+F 2 "" H 300 3800 50  0001 C CNN
+F 3 "" H 300 3800 50  0001 C CNN
+	1    300  3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	300  3750 300  3650
+$Comp
+L passive_component_rl:resistor_us R66
+U 1 1 6366A752
+P -350 3050
+F 0 "R66" H -350 2950 50  0000 L CNN
+F 1 "4k7" H -400 3150 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -350 3050 50  0001 C CNN
+F 3 "" H -350 3050 50  0001 C CNN
+	1    -350 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-200 3050 -100 3050
+$Comp
+L power_rl:+5V #PWR0253
+U 1 1 6366A759
+P 300 2750
+F 0 "#PWR0253" H 310 2690 50  0001 C CNN
+F 1 "+5V" H 300 2923 50  0000 C CNN
+F 2 "" H 300 2750 50  0001 C CNN
+F 3 "" H 300 2750 50  0001 C CNN
+	1    300  2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	300  2750 300  2850
+Text Label 800  3250 0    50   ~ 0
+LED9_5V
+Wire Wire Line
+	800  3250 700  3250
+$Comp
+L diode_rl:undir_transil D35
+U 1 1 6366A762
+P -700 3300
+F 0 "D35" H -606 3346 50  0000 L CNN
+F 1 "SMCJ24A-CD" H -606 3255 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H -700 3300 50  0001 C CNN
+F 3 "" H -700 3300 50  0001 C CNN
+	1    -700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-700 3150 -700 3050
+Wire Wire Line
+	-700 3050 -500 3050
+Wire Wire Line
+	-700 3050 -850 3050
+Connection ~ -700 3050
+$Comp
+L power_rl:GND_B #PWR0254
+U 1 1 6366A76C
+P -700 3750
+F 0 "#PWR0254" H -700 3550 50  0001 C CNN
+F 1 "GND_B" H -695 3577 50  0000 C CNN
+F 2 "" H -700 3750 50  0001 C CNN
+F 3 "" H -700 3750 50  0001 C CNN
+	1    -700 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-700 3750 -700 3450
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q10
+U 1 1 6366A773
+P -4650 3400
+F 0 "Q10" H -4550 3450 50  0000 L CNN
+F 1 "AOD458" H -4550 3350 50  0000 L CNN
+F 2 "package_to_rl:to_252_2" H -4450 3500 50  0001 C CNN
+F 3 "~" H -4650 3400 50  0001 C CNN
+	1    -4650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4650 7750 -4650 7700
+Connection ~ -4650 7750
+Wire Wire Line
+	-4650 8000 -4650 7750
+$Comp
+L connector_rl:1x2_screw_term_block J11
+U 1 1 6366A77C
+P -4450 7100
+F 0 "J11" H -4350 7100 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" V -4450 7250 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -4450 7100 50  0001 C CNN
+F 3 "" H -4450 7100 50  0001 C CNN
+	1    -4450 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5550 8000 -5550 7900
+Wire Wire Line
+	-5550 7500 -5550 7600
+$Comp
+L passive_component_rl:resistor_us R40
+U 1 1 6366A786
+P -5550 7750
+F 0 "R40" V -5596 7818 50  0000 L CNN
+F 1 "NC (10k)" V -5505 7818 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -5550 7750 50  0001 C CNN
+F 3 "" H -5550 7750 50  0001 C CNN
+	1    -5550 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R61
+U 1 1 6366A78C
+P -2950 7350
+F 0 "R61" V -2996 7418 50  0000 L CNN
+F 1 "4k7" V -2905 7418 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -2950 7350 50  0001 C CNN
+F 3 "" H -2950 7350 50  0001 C CNN
+	1    -2950 7350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2950 7200 -2950 6900
+$Comp
+L diode_rl:LED D30
+U 1 1 6366A793
+P -2950 7750
+F 0 "D30" V -2911 7632 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V -3002 7632 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H -2950 7750 50  0001 C CNN
+F 3 "~" H -2950 7750 50  0001 C CNN
+	1    -2950 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-2950 7600 -2950 7500
+Text Label -7100 7300 2    50   ~ 0
+LED10
+$Comp
+L power_rl:GND_B #PWR0255
+U 1 1 6366A79B
+P -5550 8000
+F 0 "#PWR0255" H -5550 7750 50  0001 C CNN
+F 1 "GND_B" H -5545 7827 50  0000 C CNN
+F 2 "" H -5550 8000 50  0001 C CNN
+F 3 "" H -5550 8000 50  0001 C CNN
+	1    -5550 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0256
+U 1 1 6366A7A1
+P -3550 7950
+F 0 "#PWR0256" H -3300 7700 50  0001 C CNN
+F 1 "Earth_Protective" H -3100 7800 50  0001 C CNN
+F 2 "" H -3550 7850 50  0001 C CNN
+F 3 "~" H -3550 7850 50  0001 C CNN
+	1    -3550 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0257
+U 1 1 6366A7A7
+P -4650 6750
+F 0 "#PWR0257" H -4650 6650 50  0001 C CNN
+F 1 "+24V_B" H -4650 6923 50  0000 C CNN
+F 2 "" H -4650 6750 50  0001 C CNN
+F 3 "" H -4650 6750 50  0001 C CNN
+	1    -4650 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0258
+U 1 1 6366A7AD
+P -4650 8000
+F 0 "#PWR0258" H -4650 7750 50  0001 C CNN
+F 1 "GND_B" H -4645 7827 50  0000 C CNN
+F 2 "" H -4650 8000 50  0001 C CNN
+F 3 "" H -4650 8000 50  0001 C CNN
+	1    -4650 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0259
+U 1 1 6366A7B3
+P -2950 6900
+F 0 "#PWR0259" H -2950 6800 50  0001 C CNN
+F 1 "+24V_B" H -2950 7073 50  0000 C CNN
+F 2 "" H -2950 6900 50  0001 C CNN
+F 3 "" H -2950 6900 50  0001 C CNN
+	1    -2950 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L switch_rl:SMTS-102-2C2T SW11
+U 1 1 6366A7B9
+P -3550 7450
+F 0 "SW11" V -3300 7450 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V -3200 7450 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H -3550 7450 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H -3550 7450 50  0001 C CNN
+	1    -3550 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-3750 7900 -3550 7900
+Wire Wire Line
+	-3550 7950 -3550 7900
+Connection ~ -3550 7900
+Wire Wire Line
+	-3550 7900 -3350 7900
+Wire Wire Line
+	-3750 7700 -3750 7900
+Wire Wire Line
+	-4650 7750 -3550 7750
+Wire Wire Line
+	-3350 7900 -3350 7700
+Wire Wire Line
+	-3550 7700 -3550 7750
+Connection ~ -3550 7750
+Wire Wire Line
+	-3550 7750 -3250 7750
+Wire Wire Line
+	-4650 7250 -4200 7250
+Connection ~ -4650 7250
+Wire Wire Line
+	-4650 7250 -4650 7300
+Wire Wire Line
+	-3650 7300 -3650 7250
+Wire Wire Line
+	-3250 7250 -3450 7250
+Wire Wire Line
+	-3250 7250 -3250 7750
+Wire Wire Line
+	-3450 7250 -3450 7300
+Wire Wire Line
+	-4650 7150 -4650 7250
+Wire Wire Line
+	-4650 6750 -4650 6850
+Text Label -950 7400 2    50   ~ 0
+LED10_24V
+Text Label -4100 7150 1    50   ~ 0
+LED10_24V
+Wire Wire Line
+	-4100 7150 -4100 7250
+Connection ~ -4100 7250
+$Comp
+L optocoupler_rl:TLP2345 U19
+U 1 1 6366A7DC
+P -6150 7500
+F 0 "U19" H -6450 7900 50  0000 L CNN
+F 1 "TLP2345" H -6100 7150 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -6150 7500 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -6150 7500 50  0001 C CNN
+	1    -6150 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0260
+U 1 1 6366A7E3
+P -6150 7050
+F 0 "#PWR0260" H -6150 6950 50  0001 C CNN
+F 1 "+24V_B" H -6150 7223 50  0000 C CNN
+F 2 "" H -6150 7050 50  0001 C CNN
+F 3 "" H -6150 7050 50  0001 C CNN
+	1    -6150 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6150 7100 -6150 7050
+$Comp
+L power_rl:GND_B #PWR0261
+U 1 1 6366A7EA
+P -6150 8000
+F 0 "#PWR0261" H -6150 7750 50  0001 C CNN
+F 1 "GND_B" H -6145 7827 50  0000 C CNN
+F 2 "" H -6150 8000 50  0001 C CNN
+F 3 "" H -6150 8000 50  0001 C CNN
+	1    -6150 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6150 8000 -6150 7900
+$Comp
+L power_rl:GND #PWR0262
+U 1 1 6366A7F1
+P -6650 8050
+F 0 "#PWR0262" H -6650 7850 50  0001 C CNN
+F 1 "GND" H -6645 7927 50  0000 C CNN
+F 2 "" H -6650 8050 50  0001 C CNN
+F 3 "" H -6650 8050 50  0001 C CNN
+	1    -6650 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6550 7700 -6650 7700
+Wire Wire Line
+	-6650 7700 -6650 8000
+$Comp
+L passive_component_rl:resistor_us R35
+U 1 1 6366A7F9
+P -6800 7300
+F 0 "R35" H -6800 7200 50  0000 L CNN
+F 1 "1k15" H -6900 7400 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -6800 7300 50  0001 C CNN
+F 3 "" H -6800 7300 50  0001 C CNN
+	1    -6800 7300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-6650 7300 -6550 7300
+Wire Wire Line
+	-6950 7300 -7100 7300
+$Comp
+L optocoupler_rl:TLP2345 U25
+U 1 1 6366A801
+P 200 7600
+F 0 "U25" H -100 8000 50  0000 L CNN
+F 1 "TLP2345" H 250 7250 50  0000 L CNN
+F 2 "package_so_rl:so_6" H 200 7600 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H 200 7600 50  0001 C CNN
+	1    200  7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0263
+U 1 1 6366A807
+P -250 8100
+F 0 "#PWR0263" H -250 7900 50  0001 C CNN
+F 1 "GND_B" H -245 7927 50  0000 C CNN
+F 2 "" H -250 8100 50  0001 C CNN
+F 3 "" H -250 8100 50  0001 C CNN
+	1    -250 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-200 7800 -250 7800
+Wire Wire Line
+	-250 7800 -250 8100
+$Comp
+L power_rl:GND #PWR0264
+U 1 1 6366A80F
+P 200 8150
+F 0 "#PWR0264" H 200 7950 50  0001 C CNN
+F 1 "GND" H 205 8027 50  0000 C CNN
+F 2 "" H 200 8150 50  0001 C CNN
+F 3 "" H 200 8150 50  0001 C CNN
+	1    200  8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	200  8100 200  8000
+$Comp
+L passive_component_rl:resistor_us R67
+U 1 1 6366A816
+P -450 7400
+F 0 "R67" H -450 7300 50  0000 L CNN
+F 1 "4k7" H -500 7500 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -450 7400 50  0001 C CNN
+F 3 "" H -450 7400 50  0001 C CNN
+	1    -450 7400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-300 7400 -200 7400
+$Comp
+L power_rl:+5V #PWR0265
+U 1 1 6366A81D
+P 200 7100
+F 0 "#PWR0265" H 210 7040 50  0001 C CNN
+F 1 "+5V" H 200 7273 50  0000 C CNN
+F 2 "" H 200 7100 50  0001 C CNN
+F 3 "" H 200 7100 50  0001 C CNN
+	1    200  7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	200  7100 200  7200
+Text Label 700  7600 0    50   ~ 0
+LED10_5V
+Wire Wire Line
+	700  7600 600  7600
+$Comp
+L diode_rl:undir_transil D36
+U 1 1 6366A826
+P -800 7650
+F 0 "D36" H -706 7696 50  0000 L CNN
+F 1 "SMCJ24A-CD" H -706 7605 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H -800 7650 50  0001 C CNN
+F 3 "" H -800 7650 50  0001 C CNN
+	1    -800 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-800 7500 -800 7400
+Wire Wire Line
+	-800 7400 -600 7400
+Wire Wire Line
+	-800 7400 -950 7400
+Connection ~ -800 7400
+$Comp
+L power_rl:GND_B #PWR0266
+U 1 1 6366A830
+P -800 8100
+F 0 "#PWR0266" H -800 7900 50  0001 C CNN
+F 1 "GND_B" H -795 7927 50  0000 C CNN
+F 2 "" H -800 8100 50  0001 C CNN
+F 3 "" H -800 8100 50  0001 C CNN
+	1    -800 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-800 8100 -800 7800
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q11
+U 1 1 6366A837
+P -4650 7500
+F 0 "Q11" H -4550 7550 50  0000 L CNN
+F 1 "AOD458" H -4550 7450 50  0000 L CNN
+F 2 "package_to_rl:to_252_2" H -4450 7600 50  0001 C CNN
+F 3 "~" H -4650 7500 50  0001 C CNN
+	1    -4650 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4550 12300 -4550 12250
+Connection ~ -4550 12300
+Wire Wire Line
+	-4550 12550 -4550 12300
+$Comp
+L connector_rl:1x2_screw_term_block J12
+U 1 1 6366A840
+P -4350 11650
+F 0 "J12" H -4250 11650 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" V -4350 11750 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -4350 11650 50  0001 C CNN
+F 3 "" H -4350 11650 50  0001 C CNN
+	1    -4350 11650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5450 12550 -5450 12450
+Wire Wire Line
+	-5450 12050 -5450 12150
+$Comp
+L passive_component_rl:resistor_us R41
+U 1 1 6366A84A
+P -5450 12300
+F 0 "R41" V -5496 12368 50  0000 L CNN
+F 1 "NC (10k)" V -5405 12368 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -5450 12300 50  0001 C CNN
+F 3 "" H -5450 12300 50  0001 C CNN
+	1    -5450 12300
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R62
+U 1 1 6366A850
+P -2850 11900
+F 0 "R62" V -2896 11968 50  0000 L CNN
+F 1 "4k7" V -2805 11968 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -2850 11900 50  0001 C CNN
+F 3 "" H -2850 11900 50  0001 C CNN
+	1    -2850 11900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2850 11750 -2850 11450
+$Comp
+L diode_rl:LED D31
+U 1 1 6366A857
+P -2850 12300
+F 0 "D31" V -2811 12182 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V -2902 12182 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H -2850 12300 50  0001 C CNN
+F 3 "~" H -2850 12300 50  0001 C CNN
+	1    -2850 12300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-2850 12150 -2850 12050
+Text Label -7000 11850 2    50   ~ 0
+LED11
+$Comp
+L power_rl:GND_B #PWR0267
+U 1 1 6366A85F
+P -5450 12550
+F 0 "#PWR0267" H -5450 12300 50  0001 C CNN
+F 1 "GND_B" H -5445 12377 50  0000 C CNN
+F 2 "" H -5450 12550 50  0001 C CNN
+F 3 "" H -5450 12550 50  0001 C CNN
+	1    -5450 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0268
+U 1 1 6366A865
+P -3450 12500
+F 0 "#PWR0268" H -3200 12250 50  0001 C CNN
+F 1 "Earth_Protective" H -3000 12350 50  0001 C CNN
+F 2 "" H -3450 12400 50  0001 C CNN
+F 3 "~" H -3450 12400 50  0001 C CNN
+	1    -3450 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0269
+U 1 1 6366A86B
+P -4550 11300
+F 0 "#PWR0269" H -4550 11200 50  0001 C CNN
+F 1 "+24V_B" H -4550 11473 50  0000 C CNN
+F 2 "" H -4550 11300 50  0001 C CNN
+F 3 "" H -4550 11300 50  0001 C CNN
+	1    -4550 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0270
+U 1 1 6366A871
+P -4550 12550
+F 0 "#PWR0270" H -4550 12300 50  0001 C CNN
+F 1 "GND_B" H -4545 12377 50  0000 C CNN
+F 2 "" H -4550 12550 50  0001 C CNN
+F 3 "" H -4550 12550 50  0001 C CNN
+	1    -4550 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0271
+U 1 1 6366A877
+P -2850 11450
+F 0 "#PWR0271" H -2850 11350 50  0001 C CNN
+F 1 "+24V_B" H -2850 11623 50  0000 C CNN
+F 2 "" H -2850 11450 50  0001 C CNN
+F 3 "" H -2850 11450 50  0001 C CNN
+	1    -2850 11450
+	1    0    0    -1  
+$EndComp
+$Comp
+L switch_rl:SMTS-102-2C2T SW12
+U 1 1 6366A87D
+P -3450 12000
+F 0 "SW12" V -3200 12000 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V -3100 12000 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H -3450 12000 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H -3450 12000 50  0001 C CNN
+	1    -3450 12000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-3650 12450 -3450 12450
+Wire Wire Line
+	-3450 12500 -3450 12450
+Connection ~ -3450 12450
+Wire Wire Line
+	-3450 12450 -3250 12450
+Wire Wire Line
+	-3650 12250 -3650 12450
+Wire Wire Line
+	-4550 12300 -3450 12300
+Wire Wire Line
+	-3250 12450 -3250 12250
+Wire Wire Line
+	-3450 12250 -3450 12300
+Connection ~ -3450 12300
+Wire Wire Line
+	-3450 12300 -3150 12300
+Wire Wire Line
+	-4550 11800 -4100 11800
+Connection ~ -4550 11800
+Wire Wire Line
+	-4550 11800 -4550 11850
+Wire Wire Line
+	-3550 11850 -3550 11800
+Wire Wire Line
+	-3150 11800 -3350 11800
+Wire Wire Line
+	-3150 11800 -3150 12300
+Wire Wire Line
+	-3350 11800 -3350 11850
+Wire Wire Line
+	-4550 11700 -4550 11800
+Wire Wire Line
+	-4550 11300 -4550 11400
+Text Label -850 11950 2    50   ~ 0
+LED11_24V
+Text Label -4000 11700 1    50   ~ 0
+LED11_24V
+Wire Wire Line
+	-4000 11700 -4000 11800
+Connection ~ -4000 11800
+$Comp
+L optocoupler_rl:TLP2345 U20
+U 1 1 6366A8A0
+P -6050 12050
+F 0 "U20" H -6350 12450 50  0000 L CNN
+F 1 "TLP2345" H -6000 11700 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -6050 12050 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -6050 12050 50  0001 C CNN
+	1    -6050 12050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0272
+U 1 1 6366A8A7
+P -6050 11600
+F 0 "#PWR0272" H -6050 11500 50  0001 C CNN
+F 1 "+24V_B" H -6050 11773 50  0000 C CNN
+F 2 "" H -6050 11600 50  0001 C CNN
+F 3 "" H -6050 11600 50  0001 C CNN
+	1    -6050 11600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6050 11650 -6050 11600
+$Comp
+L power_rl:GND_B #PWR0273
+U 1 1 6366A8AE
+P -6050 12550
+F 0 "#PWR0273" H -6050 12300 50  0001 C CNN
+F 1 "GND_B" H -6045 12377 50  0000 C CNN
+F 2 "" H -6050 12550 50  0001 C CNN
+F 3 "" H -6050 12550 50  0001 C CNN
+	1    -6050 12550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6050 12550 -6050 12450
+$Comp
+L power_rl:GND #PWR0274
+U 1 1 6366A8B5
+P -6550 12600
+F 0 "#PWR0274" H -6550 12400 50  0001 C CNN
+F 1 "GND" H -6545 12477 50  0000 C CNN
+F 2 "" H -6550 12600 50  0001 C CNN
+F 3 "" H -6550 12600 50  0001 C CNN
+	1    -6550 12600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6450 12250 -6550 12250
+Wire Wire Line
+	-6550 12250 -6550 12550
+$Comp
+L passive_component_rl:resistor_us R36
+U 1 1 6366A8BD
+P -6700 11850
+F 0 "R36" H -6700 11750 50  0000 L CNN
+F 1 "1k15" H -6800 11950 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -6700 11850 50  0001 C CNN
+F 3 "" H -6700 11850 50  0001 C CNN
+	1    -6700 11850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-6550 11850 -6450 11850
+Wire Wire Line
+	-6850 11850 -7000 11850
+$Comp
+L optocoupler_rl:TLP2345 U26
+U 1 1 6366A8C5
+P 300 12150
+F 0 "U26" H 0   12550 50  0000 L CNN
+F 1 "TLP2345" H 350 11800 50  0000 L CNN
+F 2 "package_so_rl:so_6" H 300 12150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H 300 12150 50  0001 C CNN
+	1    300  12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0275
+U 1 1 6366A8CB
+P -150 12650
+F 0 "#PWR0275" H -150 12450 50  0001 C CNN
+F 1 "GND_B" H -145 12477 50  0000 C CNN
+F 2 "" H -150 12650 50  0001 C CNN
+F 3 "" H -150 12650 50  0001 C CNN
+	1    -150 12650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-100 12350 -150 12350
+Wire Wire Line
+	-150 12350 -150 12650
+$Comp
+L power_rl:GND #PWR0276
+U 1 1 6366A8D3
+P 300 12700
+F 0 "#PWR0276" H 300 12500 50  0001 C CNN
+F 1 "GND" H 305 12577 50  0000 C CNN
+F 2 "" H 300 12700 50  0001 C CNN
+F 3 "" H 300 12700 50  0001 C CNN
+	1    300  12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	300  12650 300  12550
+$Comp
+L passive_component_rl:resistor_us R68
+U 1 1 6366A8DA
+P -350 11950
+F 0 "R68" H -350 11850 50  0000 L CNN
+F 1 "4k7" H -400 12050 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -350 11950 50  0001 C CNN
+F 3 "" H -350 11950 50  0001 C CNN
+	1    -350 11950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-200 11950 -100 11950
+$Comp
+L power_rl:+5V #PWR0277
+U 1 1 6366A8E1
+P 300 11650
+F 0 "#PWR0277" H 310 11590 50  0001 C CNN
+F 1 "+5V" H 300 11823 50  0000 C CNN
+F 2 "" H 300 11650 50  0001 C CNN
+F 3 "" H 300 11650 50  0001 C CNN
+	1    300  11650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	300  11650 300  11750
+Text Label 800  12150 0    50   ~ 0
+LED11_5V
+Wire Wire Line
+	800  12150 700  12150
+$Comp
+L diode_rl:undir_transil D37
+U 1 1 6366A8EA
+P -700 12200
+F 0 "D37" H -606 12246 50  0000 L CNN
+F 1 "SMCJ24A-CD" H -606 12155 50  0000 L CNN
+F 2 "diode_smd_rl:smc" H -700 12200 50  0001 C CNN
+F 3 "" H -700 12200 50  0001 C CNN
+	1    -700 12200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-700 12050 -700 11950
+Wire Wire Line
+	-700 11950 -500 11950
+Wire Wire Line
+	-700 11950 -850 11950
+Connection ~ -700 11950
+$Comp
+L power_rl:GND_B #PWR0278
+U 1 1 6366A8F4
+P -700 12650
+F 0 "#PWR0278" H -700 12450 50  0001 C CNN
+F 1 "GND_B" H -695 12477 50  0000 C CNN
+F 2 "" H -700 12650 50  0001 C CNN
+F 3 "" H -700 12650 50  0001 C CNN
+	1    -700 12650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-700 12650 -700 12350
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q12
+U 1 1 6366A8FB
+P -4550 12050
+F 0 "Q12" H -4450 12100 50  0000 L CNN
+F 1 "AOD458" H -4450 12000 50  0000 L CNN
+F 2 "package_to_rl:to_252_2" H -4350 12150 50  0001 C CNN
+F 3 "~" H -4550 12050 50  0001 C CNN
+	1    -4550 12050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND #PWR0279
+U 1 1 65A32639
+P 5050 13700
+F 0 "#PWR0279" H 5050 13500 50  0001 C CNN
+F 1 "GND" H 5055 13577 50  0000 C CNN
+F 2 "" H 5050 13700 50  0001 C CNN
+F 3 "" H 5050 13700 50  0001 C CNN
+	1    5050 13700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND #PWR0280
+U 1 1 642474A3
+P 15900 7350
+F 0 "#PWR0280" H 15900 7150 50  0001 C CNN
+F 1 "GND" H 15905 7227 50  0000 C CNN
+F 2 "" H 15900 7350 50  0001 C CNN
+F 3 "" H 15900 7350 50  0001 C CNN
+	1    15900 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R77
+U 1 1 62B1939E
+P 6350 7150
+F 0 "R77" V 6304 7218 50  0000 L CNN
+F 1 "340R" V 6395 7218 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 6350 7150 50  0001 C CNN
+F 3 "" H 6350 7150 50  0001 C CNN
+	1    6350 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 7750 6350 7650
+Wire Wire Line
+	6350 7350 6350 7300
+$Comp
+L power_rl:+5V #PWR0281
+U 1 1 62D79328
+P 6350 6950
+F 0 "#PWR0281" H 6360 6890 50  0001 C CNN
+F 1 "+5V" H 6350 7123 50  0000 C CNN
+F 2 "" H 6350 6950 50  0001 C CNN
+F 3 "" H 6350 6950 50  0001 C CNN
+	1    6350 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 6950 6350 7000
+$Comp
+L passive_component_rl:capacitor C59
+U 1 1 62B55BBD
+P 11600 4450
+F 0 "C59" V 11646 4340 50  0000 R CNN
+F 1 "100nF" V 11555 4340 50  0000 R CNN
+F 2 "capacitor_smd_rl:c_1206" H 11600 4450 50  0001 C CNN
+F 3 "" H 11600 4450 50  0001 C CNN
+	1    11600 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C61
+U 1 1 62B5892B
+P 12200 4450
+F 0 "C61" V 12246 4340 50  0000 R CNN
+F 1 "1uF" V 12155 4340 50  0000 R CNN
+F 2 "capacitor_smd_rl:c_1206" H 12200 4450 50  0001 C CNN
+F 3 "" H 12200 4450 50  0001 C CNN
+	1    12200 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power_rl:GND #PWR0282
+U 1 1 6313FB01
+P 11900 4750
+F 0 "#PWR0282" H 11900 4550 50  0001 C CNN
+F 1 "GND" H 11905 4627 50  0000 C CNN
+F 2 "" H 11900 4750 50  0001 C CNN
+F 3 "" H 11900 4750 50  0001 C CNN
+	1    11900 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 4250 12200 4300
+$Comp
+L passive_component_rl:capacitor C60
+U 1 1 638679AA
+P 11700 8700
+F 0 "C60" V 11746 8590 50  0000 R CNN
+F 1 "100nF" V 11655 8590 50  0000 R CNN
+F 2 "capacitor_smd_rl:c_1206" H 11700 8700 50  0001 C CNN
+F 3 "" H 11700 8700 50  0001 C CNN
+	1    11700 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C62
+U 1 1 638679B4
+P 12300 8700
+F 0 "C62" V 12346 8590 50  0000 R CNN
+F 1 "1uF" V 12255 8590 50  0000 R CNN
+F 2 "capacitor_smd_rl:c_1206" H 12300 8700 50  0001 C CNN
+F 3 "" H 12300 8700 50  0001 C CNN
+	1    12300 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power_rl:GND #PWR0283
+U 1 1 638679BE
+P 12000 9000
+F 0 "#PWR0283" H 12000 8800 50  0001 C CNN
+F 1 "GND" H 12005 8877 50  0000 C CNN
+F 2 "" H 12000 9000 50  0001 C CNN
+F 3 "" H 12000 9000 50  0001 C CNN
+	1    12000 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 8850 12300 8900
+Wire Wire Line
+	12300 8500 12300 8550
+$Comp
+L passive_component_rl:capacitor C1
+U 1 1 62C4EE55
+P -15000 15150
+F 0 "C1" V -15046 15260 50  0000 L CNN
+F 1 "100nF" V -14955 15260 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -15000 15150 50  0001 C CNN
+F 3 "" H -15000 15150 50  0001 C CNN
+	1    -15000 15150
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C4
+U 1 1 62C51F82
+P -14500 15150
+F 0 "C4" V -14546 15260 50  0000 L CNN
+F 1 "1uF" V -14455 15260 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -14500 15150 50  0001 C CNN
+F 3 "" H -14500 15150 50  0001 C CNN
+	1    -14500 15150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-15000 15300 -15000 15400
+Wire Wire Line
+	-15000 15400 -14750 15400
+Wire Wire Line
+	-14500 15400 -14500 15300
+Wire Wire Line
+	-15000 15000 -15000 14900
+Wire Wire Line
+	-15000 14900 -14750 14900
+Wire Wire Line
+	-14500 14900 -14500 15000
+$Comp
+L power_rl:+24V_A #PWR0284
+U 1 1 62EC8992
+P -14750 14850
+F 0 "#PWR0284" H -14750 14750 50  0001 C CNN
+F 1 "+24V_A" H -14750 15023 50  0000 C CNN
+F 2 "" H -14750 14850 50  0001 C CNN
+F 3 "" H -14750 14850 50  0001 C CNN
+	1    -14750 14850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-14750 14850 -14750 14900
+Connection ~ -14750 14900
+Wire Wire Line
+	-14750 14900 -14500 14900
+$Comp
+L power_rl:GND_A #PWR0285
+U 1 1 63141299
+P -14750 15450
+F 0 "#PWR0285" H -14750 15250 50  0001 C CNN
+F 1 "GND_A" H -14745 15277 50  0000 C CNN
+F 2 "" H -14750 15450 50  0001 C CNN
+F 3 "" H -14750 15450 50  0001 C CNN
+	1    -14750 15450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-14750 15450 -14750 15400
+Connection ~ -14750 15400
+Wire Wire Line
+	-14750 15400 -14500 15400
+$Comp
+L passive_component_rl:capacitor C12
+U 1 1 638AAC07
+P -13800 15150
+F 0 "C12" V -13846 15260 50  0000 L CNN
+F 1 "100nF" V -13755 15260 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -13800 15150 50  0001 C CNN
+F 3 "" H -13800 15150 50  0001 C CNN
+	1    -13800 15150
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C15
+U 1 1 638AAC11
+P -13300 15150
+F 0 "C15" V -13346 15260 50  0000 L CNN
+F 1 "1uF" V -13255 15260 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -13300 15150 50  0001 C CNN
+F 3 "" H -13300 15150 50  0001 C CNN
+	1    -13300 15150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13800 15300 -13800 15400
+Wire Wire Line
+	-13800 15400 -13550 15400
+Wire Wire Line
+	-13300 15400 -13300 15300
+Wire Wire Line
+	-13800 15000 -13800 14900
+Wire Wire Line
+	-13800 14900 -13550 14900
+Wire Wire Line
+	-13300 14900 -13300 15000
+$Comp
+L power_rl:+5V #PWR0286
+U 1 1 638AAC21
+P -13550 14850
+F 0 "#PWR0286" H -13550 14750 50  0001 C CNN
+F 1 "+5V" H -13550 15023 50  0000 C CNN
+F 2 "" H -13550 14850 50  0001 C CNN
+F 3 "" H -13550 14850 50  0001 C CNN
+	1    -13550 14850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13550 14850 -13550 14900
+Connection ~ -13550 14900
+Wire Wire Line
+	-13550 14900 -13300 14900
+$Comp
+L power_rl:GND #PWR0287
+U 1 1 638AAC2E
+P -13550 15500
+F 0 "#PWR0287" H -13550 15300 50  0001 C CNN
+F 1 "GND" H -13545 15377 50  0000 C CNN
+F 2 "" H -13550 15500 50  0001 C CNN
+F 3 "" H -13550 15500 50  0001 C CNN
+	1    -13550 15500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13550 15450 -13550 15400
+Connection ~ -13550 15400
+Wire Wire Line
+	-13550 15400 -13300 15400
+$Comp
+L passive_component_rl:capacitor C30
+U 1 1 6429E835
+P -5750 15000
+F 0 "C30" V -5796 15110 50  0000 L CNN
+F 1 "100nF" V -5705 15110 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -5750 15000 50  0001 C CNN
+F 3 "" H -5750 15000 50  0001 C CNN
+	1    -5750 15000
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C33
+U 1 1 6429E83F
+P -5250 15000
+F 0 "C33" V -5296 15110 50  0000 L CNN
+F 1 "1uF" V -5205 15110 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -5250 15000 50  0001 C CNN
+F 3 "" H -5250 15000 50  0001 C CNN
+	1    -5250 15000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5750 15150 -5750 15250
+Wire Wire Line
+	-5750 15250 -5500 15250
+Wire Wire Line
+	-5250 15250 -5250 15150
+Wire Wire Line
+	-5750 14850 -5750 14750
+Wire Wire Line
+	-5750 14750 -5500 14750
+Wire Wire Line
+	-5250 14750 -5250 14850
+$Comp
+L power_rl:+24V_B #PWR0288
+U 1 1 6429E84F
+P -5500 14700
+F 0 "#PWR0288" H -5500 14600 50  0001 C CNN
+F 1 "+24V_B" H -5500 14873 50  0000 C CNN
+F 2 "" H -5500 14700 50  0001 C CNN
+F 3 "" H -5500 14700 50  0001 C CNN
+	1    -5500 14700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5500 14700 -5500 14750
+Connection ~ -5500 14750
+Wire Wire Line
+	-5500 14750 -5250 14750
+$Comp
+L power_rl:GND_B #PWR0289
+U 1 1 6429E85C
+P -5500 15300
+F 0 "#PWR0289" H -5500 15100 50  0001 C CNN
+F 1 "GND_B" H -5495 15127 50  0000 C CNN
+F 2 "" H -5500 15300 50  0001 C CNN
+F 3 "" H -5500 15300 50  0001 C CNN
+	1    -5500 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5500 15300 -5500 15250
+Connection ~ -5500 15250
+Wire Wire Line
+	-5500 15250 -5250 15250
+$Comp
+L passive_component_rl:capacitor C36
+U 1 1 6429E869
+P -4550 15000
+F 0 "C36" V -4596 15110 50  0000 L CNN
+F 1 "100nF" V -4505 15110 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -4550 15000 50  0001 C CNN
+F 3 "" H -4550 15000 50  0001 C CNN
+	1    -4550 15000
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C39
+U 1 1 6429E873
+P -4050 15000
+F 0 "C39" V -4096 15110 50  0000 L CNN
+F 1 "1uF" V -4005 15110 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -4050 15000 50  0001 C CNN
+F 3 "" H -4050 15000 50  0001 C CNN
+	1    -4050 15000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4550 15150 -4550 15250
+Wire Wire Line
+	-4550 15250 -4300 15250
+Wire Wire Line
+	-4050 15250 -4050 15150
+Wire Wire Line
+	-4550 14850 -4550 14750
+Wire Wire Line
+	-4550 14750 -4300 14750
+Wire Wire Line
+	-4050 14750 -4050 14850
+$Comp
+L power_rl:+5V #PWR0290
+U 1 1 6429E883
+P -4300 14700
+F 0 "#PWR0290" H -4300 14600 50  0001 C CNN
+F 1 "+5V" H -4300 14873 50  0000 C CNN
+F 2 "" H -4300 14700 50  0001 C CNN
+F 3 "" H -4300 14700 50  0001 C CNN
+	1    -4300 14700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4300 14700 -4300 14750
+Connection ~ -4300 14750
+Wire Wire Line
+	-4300 14750 -4050 14750
+$Comp
+L power_rl:GND #PWR0291
+U 1 1 6429E890
+P -4300 15350
+F 0 "#PWR0291" H -4300 15150 50  0001 C CNN
+F 1 "GND" H -4295 15227 50  0000 C CNN
+F 2 "" H -4300 15350 50  0001 C CNN
+F 3 "" H -4300 15350 50  0001 C CNN
+	1    -4300 15350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4300 15300 -4300 15250
+Connection ~ -4300 15250
+Wire Wire Line
+	-4300 15250 -4050 15250
+$Comp
+L passive_component_rl:capacitor C19
+U 1 1 647C22FB
+P -12000 15150
+F 0 "C19" V -12046 15260 50  0000 L CNN
+F 1 "100nF" V -11955 15260 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -12000 15150 50  0001 C CNN
+F 3 "" H -12000 15150 50  0001 C CNN
+	1    -12000 15150
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C22
+U 1 1 647C2301
+P -11500 15150
+F 0 "C22" V -11546 15260 50  0000 L CNN
+F 1 "1uF" V -11455 15260 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -11500 15150 50  0001 C CNN
+F 3 "" H -11500 15150 50  0001 C CNN
+	1    -11500 15150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-12000 15300 -12000 15400
+Wire Wire Line
+	-12000 15400 -11750 15400
+Wire Wire Line
+	-11500 15400 -11500 15300
+Wire Wire Line
+	-12000 15000 -12000 14900
+Wire Wire Line
+	-12000 14900 -11750 14900
+Wire Wire Line
+	-11500 14900 -11500 15000
+Connection ~ -11750 14900
+Wire Wire Line
+	-11750 14900 -11500 14900
+$Comp
+L power_rl:GND_A #PWR0292
+U 1 1 647C2316
+P -11750 15450
+F 0 "#PWR0292" H -11750 15250 50  0001 C CNN
+F 1 "GND_A" H -11745 15277 50  0000 C CNN
+F 2 "" H -11750 15450 50  0001 C CNN
+F 3 "" H -11750 15450 50  0001 C CNN
+	1    -11750 15450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-11750 15450 -11750 15400
+Connection ~ -11750 15400
+Wire Wire Line
+	-11750 15400 -11500 15400
+$Comp
+L passive_component_rl:capacitor C25
+U 1 1 647C231F
+P -10800 15150
+F 0 "C25" V -10846 15260 50  0000 L CNN
+F 1 "100nF" V -10755 15260 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -10800 15150 50  0001 C CNN
+F 3 "" H -10800 15150 50  0001 C CNN
+	1    -10800 15150
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C28
+U 1 1 647C2325
+P -10300 15150
+F 0 "C28" V -10346 15260 50  0000 L CNN
+F 1 "1uF" V -10255 15260 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -10300 15150 50  0001 C CNN
+F 3 "" H -10300 15150 50  0001 C CNN
+	1    -10300 15150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-10800 15300 -10800 15400
+Wire Wire Line
+	-10800 15400 -10550 15400
+Wire Wire Line
+	-10300 15400 -10300 15300
+Wire Wire Line
+	-10800 15000 -10800 14900
+Wire Wire Line
+	-10800 14900 -10550 14900
+Wire Wire Line
+	-10300 14900 -10300 15000
+$Comp
+L power_rl:+5V #PWR0293
+U 1 1 647C2331
+P -10550 14850
+F 0 "#PWR0293" H -10550 14750 50  0001 C CNN
+F 1 "+5V" H -10550 15023 50  0000 C CNN
+F 2 "" H -10550 14850 50  0001 C CNN
+F 3 "" H -10550 14850 50  0001 C CNN
+	1    -10550 14850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10550 14850 -10550 14900
+Connection ~ -10550 14900
+Wire Wire Line
+	-10550 14900 -10300 14900
+$Comp
+L power_rl:GND #PWR0294
+U 1 1 647C233A
+P -10550 15500
+F 0 "#PWR0294" H -10550 15300 50  0001 C CNN
+F 1 "GND" H -10545 15377 50  0000 C CNN
+F 2 "" H -10550 15500 50  0001 C CNN
+F 3 "" H -10550 15500 50  0001 C CNN
+	1    -10550 15500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10550 15450 -10550 15400
+Connection ~ -10550 15400
+Wire Wire Line
+	-10550 15400 -10300 15400
+$Comp
+L passive_component_rl:capacitor C2
+U 1 1 64961064
+P -15000 16800
+F 0 "C2" V -15046 16910 50  0000 L CNN
+F 1 "100nF" V -14955 16910 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -15000 16800 50  0001 C CNN
+F 3 "" H -15000 16800 50  0001 C CNN
+	1    -15000 16800
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C5
+U 1 1 6496106A
+P -14500 16800
+F 0 "C5" V -14546 16910 50  0000 L CNN
+F 1 "1uF" V -14455 16910 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -14500 16800 50  0001 C CNN
+F 3 "" H -14500 16800 50  0001 C CNN
+	1    -14500 16800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-15000 16950 -15000 17050
+Wire Wire Line
+	-15000 17050 -14750 17050
+Wire Wire Line
+	-14500 17050 -14500 16950
+Wire Wire Line
+	-15000 16650 -15000 16550
+Wire Wire Line
+	-15000 16550 -14750 16550
+Wire Wire Line
+	-14500 16550 -14500 16650
+$Comp
+L power_rl:+24V_A #PWR0295
+U 1 1 64961076
+P -14750 16500
+F 0 "#PWR0295" H -14750 16400 50  0001 C CNN
+F 1 "+24V_A" H -14750 16673 50  0000 C CNN
+F 2 "" H -14750 16500 50  0001 C CNN
+F 3 "" H -14750 16500 50  0001 C CNN
+	1    -14750 16500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-14750 16500 -14750 16550
+Connection ~ -14750 16550
+Wire Wire Line
+	-14750 16550 -14500 16550
+$Comp
+L power_rl:GND_A #PWR0296
+U 1 1 6496107F
+P -14750 17100
+F 0 "#PWR0296" H -14750 16900 50  0001 C CNN
+F 1 "GND_A" H -14745 16927 50  0000 C CNN
+F 2 "" H -14750 17100 50  0001 C CNN
+F 3 "" H -14750 17100 50  0001 C CNN
+	1    -14750 17100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-14750 17100 -14750 17050
+Connection ~ -14750 17050
+Wire Wire Line
+	-14750 17050 -14500 17050
+$Comp
+L passive_component_rl:capacitor C13
+U 1 1 64961088
+P -13800 16800
+F 0 "C13" V -13846 16910 50  0000 L CNN
+F 1 "100nF" V -13755 16910 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -13800 16800 50  0001 C CNN
+F 3 "" H -13800 16800 50  0001 C CNN
+	1    -13800 16800
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C16
+U 1 1 6496108E
+P -13300 16800
+F 0 "C16" V -13346 16910 50  0000 L CNN
+F 1 "1uF" V -13255 16910 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -13300 16800 50  0001 C CNN
+F 3 "" H -13300 16800 50  0001 C CNN
+	1    -13300 16800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13800 16950 -13800 17050
+Wire Wire Line
+	-13800 17050 -13550 17050
+Wire Wire Line
+	-13300 17050 -13300 16950
+Wire Wire Line
+	-13800 16650 -13800 16550
+Wire Wire Line
+	-13800 16550 -13550 16550
+Wire Wire Line
+	-13300 16550 -13300 16650
+$Comp
+L power_rl:+5V #PWR0297
+U 1 1 6496109A
+P -13550 16500
+F 0 "#PWR0297" H -13550 16400 50  0001 C CNN
+F 1 "+5V" H -13550 16673 50  0000 C CNN
+F 2 "" H -13550 16500 50  0001 C CNN
+F 3 "" H -13550 16500 50  0001 C CNN
+	1    -13550 16500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13550 16500 -13550 16550
+Connection ~ -13550 16550
+Wire Wire Line
+	-13550 16550 -13300 16550
+$Comp
+L power_rl:GND #PWR0298
+U 1 1 649610A3
+P -13550 17150
+F 0 "#PWR0298" H -13550 16950 50  0001 C CNN
+F 1 "GND" H -13545 17027 50  0000 C CNN
+F 2 "" H -13550 17150 50  0001 C CNN
+F 3 "" H -13550 17150 50  0001 C CNN
+	1    -13550 17150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13550 17100 -13550 17050
+Connection ~ -13550 17050
+Wire Wire Line
+	-13550 17050 -13300 17050
+$Comp
+L passive_component_rl:capacitor C20
+U 1 1 64B1074B
+P -12000 16800
+F 0 "C20" V -12046 16910 50  0000 L CNN
+F 1 "100nF" V -11955 16910 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -12000 16800 50  0001 C CNN
+F 3 "" H -12000 16800 50  0001 C CNN
+	1    -12000 16800
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C23
+U 1 1 64B10751
+P -11500 16800
+F 0 "C23" V -11546 16910 50  0000 L CNN
+F 1 "1uF" V -11455 16910 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -11500 16800 50  0001 C CNN
+F 3 "" H -11500 16800 50  0001 C CNN
+	1    -11500 16800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-12000 16950 -12000 17050
+Wire Wire Line
+	-12000 17050 -11750 17050
+Wire Wire Line
+	-11500 17050 -11500 16950
+Wire Wire Line
+	-12000 16650 -12000 16550
+Wire Wire Line
+	-12000 16550 -11750 16550
+Wire Wire Line
+	-11500 16550 -11500 16650
+$Comp
+L power_rl:+24V_A #PWR0299
+U 1 1 64B1075D
+P -11750 16500
+F 0 "#PWR0299" H -11750 16400 50  0001 C CNN
+F 1 "+24V_A" H -11750 16673 50  0000 C CNN
+F 2 "" H -11750 16500 50  0001 C CNN
+F 3 "" H -11750 16500 50  0001 C CNN
+	1    -11750 16500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-11750 16500 -11750 16550
+Connection ~ -11750 16550
+Wire Wire Line
+	-11750 16550 -11500 16550
+$Comp
+L power_rl:GND_A #PWR0300
+U 1 1 64B10766
+P -11750 17100
+F 0 "#PWR0300" H -11750 16900 50  0001 C CNN
+F 1 "GND_A" H -11745 16927 50  0000 C CNN
+F 2 "" H -11750 17100 50  0001 C CNN
+F 3 "" H -11750 17100 50  0001 C CNN
+	1    -11750 17100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-11750 17100 -11750 17050
+Connection ~ -11750 17050
+Wire Wire Line
+	-11750 17050 -11500 17050
+$Comp
+L passive_component_rl:capacitor C26
+U 1 1 64B1076F
+P -10800 16800
+F 0 "C26" V -10846 16910 50  0000 L CNN
+F 1 "100nF" V -10755 16910 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -10800 16800 50  0001 C CNN
+F 3 "" H -10800 16800 50  0001 C CNN
+	1    -10800 16800
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C29
+U 1 1 64B10775
+P -10300 16800
+F 0 "C29" V -10346 16910 50  0000 L CNN
+F 1 "1uF" V -10255 16910 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -10300 16800 50  0001 C CNN
+F 3 "" H -10300 16800 50  0001 C CNN
+	1    -10300 16800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-10800 16950 -10800 17050
+Wire Wire Line
+	-10800 17050 -10550 17050
+Wire Wire Line
+	-10300 17050 -10300 16950
+Wire Wire Line
+	-10800 16650 -10800 16550
+Wire Wire Line
+	-10800 16550 -10550 16550
+Wire Wire Line
+	-10300 16550 -10300 16650
+$Comp
+L power_rl:+5V #PWR0301
+U 1 1 64B10781
+P -10550 16500
+F 0 "#PWR0301" H -10550 16400 50  0001 C CNN
+F 1 "+5V" H -10550 16673 50  0000 C CNN
+F 2 "" H -10550 16500 50  0001 C CNN
+F 3 "" H -10550 16500 50  0001 C CNN
+	1    -10550 16500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10550 16500 -10550 16550
+Connection ~ -10550 16550
+Wire Wire Line
+	-10550 16550 -10300 16550
+$Comp
+L power_rl:GND #PWR0302
+U 1 1 64B1078A
+P -10550 17150
+F 0 "#PWR0302" H -10550 16950 50  0001 C CNN
+F 1 "GND" H -10545 17027 50  0000 C CNN
+F 2 "" H -10550 17150 50  0001 C CNN
+F 3 "" H -10550 17150 50  0001 C CNN
+	1    -10550 17150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10550 17100 -10550 17050
+Connection ~ -10550 17050
+Wire Wire Line
+	-10550 17050 -10300 17050
+$Comp
+L passive_component_rl:capacitor C3
+U 1 1 64CD0B96
+P -15000 18250
+F 0 "C3" V -15046 18360 50  0000 L CNN
+F 1 "100nF" V -14955 18360 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -15000 18250 50  0001 C CNN
+F 3 "" H -15000 18250 50  0001 C CNN
+	1    -15000 18250
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C6
+U 1 1 64CD0B9C
+P -14500 18250
+F 0 "C6" V -14546 18360 50  0000 L CNN
+F 1 "1uF" V -14455 18360 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -14500 18250 50  0001 C CNN
+F 3 "" H -14500 18250 50  0001 C CNN
+	1    -14500 18250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-15000 18400 -15000 18500
+Wire Wire Line
+	-15000 18500 -14750 18500
+Wire Wire Line
+	-14500 18500 -14500 18400
+Wire Wire Line
+	-15000 18100 -15000 18000
+Wire Wire Line
+	-15000 18000 -14750 18000
+Wire Wire Line
+	-14500 18000 -14500 18100
+$Comp
+L power_rl:+24V_A #PWR0303
+U 1 1 64CD0BA8
+P -14750 17950
+F 0 "#PWR0303" H -14750 17850 50  0001 C CNN
+F 1 "+24V_A" H -14750 18123 50  0000 C CNN
+F 2 "" H -14750 17950 50  0001 C CNN
+F 3 "" H -14750 17950 50  0001 C CNN
+	1    -14750 17950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-14750 17950 -14750 18000
+Connection ~ -14750 18000
+Wire Wire Line
+	-14750 18000 -14500 18000
+$Comp
+L power_rl:GND_A #PWR0304
+U 1 1 64CD0BB1
+P -14750 18550
+F 0 "#PWR0304" H -14750 18350 50  0001 C CNN
+F 1 "GND_A" H -14745 18377 50  0000 C CNN
+F 2 "" H -14750 18550 50  0001 C CNN
+F 3 "" H -14750 18550 50  0001 C CNN
+	1    -14750 18550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-14750 18550 -14750 18500
+Connection ~ -14750 18500
+Wire Wire Line
+	-14750 18500 -14500 18500
+$Comp
+L passive_component_rl:capacitor C14
+U 1 1 64CD0BBA
+P -13800 18250
+F 0 "C14" V -13846 18360 50  0000 L CNN
+F 1 "100nF" V -13755 18360 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -13800 18250 50  0001 C CNN
+F 3 "" H -13800 18250 50  0001 C CNN
+	1    -13800 18250
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C17
+U 1 1 64CD0BC0
+P -13300 18250
+F 0 "C17" V -13346 18360 50  0000 L CNN
+F 1 "1uF" V -13255 18360 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -13300 18250 50  0001 C CNN
+F 3 "" H -13300 18250 50  0001 C CNN
+	1    -13300 18250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13800 18400 -13800 18500
+Wire Wire Line
+	-13800 18500 -13550 18500
+Wire Wire Line
+	-13300 18500 -13300 18400
+Wire Wire Line
+	-13800 18100 -13800 18000
+Wire Wire Line
+	-13800 18000 -13550 18000
+Wire Wire Line
+	-13300 18000 -13300 18100
+$Comp
+L power_rl:+5V #PWR0305
+U 1 1 64CD0BCC
+P -13550 17950
+F 0 "#PWR0305" H -13550 17850 50  0001 C CNN
+F 1 "+5V" H -13550 18123 50  0000 C CNN
+F 2 "" H -13550 17950 50  0001 C CNN
+F 3 "" H -13550 17950 50  0001 C CNN
+	1    -13550 17950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13550 17950 -13550 18000
+Connection ~ -13550 18000
+Wire Wire Line
+	-13550 18000 -13300 18000
+$Comp
+L power_rl:GND #PWR0306
+U 1 1 64CD0BD5
+P -13550 18600
+F 0 "#PWR0306" H -13550 18400 50  0001 C CNN
+F 1 "GND" H -13545 18477 50  0000 C CNN
+F 2 "" H -13550 18600 50  0001 C CNN
+F 3 "" H -13550 18600 50  0001 C CNN
+	1    -13550 18600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13550 18550 -13550 18500
+Connection ~ -13550 18500
+Wire Wire Line
+	-13550 18500 -13300 18500
+$Comp
+L passive_component_rl:capacitor C18
+U 1 1 64EA2141
+P -12150 18250
+F 0 "C18" V -12196 18360 50  0000 L CNN
+F 1 "100nF" V -12105 18360 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -12150 18250 50  0001 C CNN
+F 3 "" H -12150 18250 50  0001 C CNN
+	1    -12150 18250
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C21
+U 1 1 64EA2147
+P -11650 18250
+F 0 "C21" V -11696 18360 50  0000 L CNN
+F 1 "1uF" V -11605 18360 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -11650 18250 50  0001 C CNN
+F 3 "" H -11650 18250 50  0001 C CNN
+	1    -11650 18250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-12150 18400 -12150 18500
+Wire Wire Line
+	-12150 18500 -11900 18500
+Wire Wire Line
+	-11650 18500 -11650 18400
+Wire Wire Line
+	-12150 18100 -12150 18000
+Wire Wire Line
+	-12150 18000 -11900 18000
+Wire Wire Line
+	-11650 18000 -11650 18100
+$Comp
+L power_rl:+24V_A #PWR0307
+U 1 1 64EA2153
+P -11900 17950
+F 0 "#PWR0307" H -11900 17850 50  0001 C CNN
+F 1 "+24V_A" H -11900 18123 50  0000 C CNN
+F 2 "" H -11900 17950 50  0001 C CNN
+F 3 "" H -11900 17950 50  0001 C CNN
+	1    -11900 17950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-11900 17950 -11900 18000
+Connection ~ -11900 18000
+Wire Wire Line
+	-11900 18000 -11650 18000
+$Comp
+L power_rl:GND_A #PWR0308
+U 1 1 64EA215C
+P -11900 18550
+F 0 "#PWR0308" H -11900 18350 50  0001 C CNN
+F 1 "GND_A" H -11895 18377 50  0000 C CNN
+F 2 "" H -11900 18550 50  0001 C CNN
+F 3 "" H -11900 18550 50  0001 C CNN
+	1    -11900 18550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-11900 18550 -11900 18500
+Connection ~ -11900 18500
+Wire Wire Line
+	-11900 18500 -11650 18500
+$Comp
+L passive_component_rl:capacitor C24
+U 1 1 64EA2165
+P -10950 18250
+F 0 "C24" V -10996 18360 50  0000 L CNN
+F 1 "100nF" V -10905 18360 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -10950 18250 50  0001 C CNN
+F 3 "" H -10950 18250 50  0001 C CNN
+	1    -10950 18250
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C27
+U 1 1 64EA216B
+P -10450 18250
+F 0 "C27" V -10496 18360 50  0000 L CNN
+F 1 "1uF" V -10405 18360 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -10450 18250 50  0001 C CNN
+F 3 "" H -10450 18250 50  0001 C CNN
+	1    -10450 18250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-10950 18400 -10950 18500
+Wire Wire Line
+	-10950 18500 -10700 18500
+Wire Wire Line
+	-10450 18500 -10450 18400
+Wire Wire Line
+	-10950 18100 -10950 18000
+Wire Wire Line
+	-10950 18000 -10700 18000
+Wire Wire Line
+	-10450 18000 -10450 18100
+$Comp
+L power_rl:+5V #PWR0309
+U 1 1 64EA2177
+P -10700 17950
+F 0 "#PWR0309" H -10700 17850 50  0001 C CNN
+F 1 "+5V" H -10700 18123 50  0000 C CNN
+F 2 "" H -10700 17950 50  0001 C CNN
+F 3 "" H -10700 17950 50  0001 C CNN
+	1    -10700 17950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10700 17950 -10700 18000
+Connection ~ -10700 18000
+Wire Wire Line
+	-10700 18000 -10450 18000
+$Comp
+L power_rl:GND #PWR0310
+U 1 1 64EA2180
+P -10700 18600
+F 0 "#PWR0310" H -10700 18400 50  0001 C CNN
+F 1 "GND" H -10695 18477 50  0000 C CNN
+F 2 "" H -10700 18600 50  0001 C CNN
+F 3 "" H -10700 18600 50  0001 C CNN
+	1    -10700 18600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10700 18550 -10700 18500
+Connection ~ -10700 18500
+Wire Wire Line
+	-10700 18500 -10450 18500
+$Comp
+L passive_component_rl:capacitor C43
+U 1 1 653D62D6
+P -2950 14950
+F 0 "C43" V -2996 15060 50  0000 L CNN
+F 1 "100nF" V -2905 15060 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -2950 14950 50  0001 C CNN
+F 3 "" H -2950 14950 50  0001 C CNN
+	1    -2950 14950
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C46
+U 1 1 653D62DC
+P -2450 14950
+F 0 "C46" V -2496 15060 50  0000 L CNN
+F 1 "1uF" V -2405 15060 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -2450 14950 50  0001 C CNN
+F 3 "" H -2450 14950 50  0001 C CNN
+	1    -2450 14950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2950 15100 -2950 15200
+Wire Wire Line
+	-2950 15200 -2700 15200
+Wire Wire Line
+	-2450 15200 -2450 15100
+Wire Wire Line
+	-2950 14800 -2950 14700
+Wire Wire Line
+	-2950 14700 -2700 14700
+Wire Wire Line
+	-2450 14700 -2450 14800
+$Comp
+L power_rl:+24V_B #PWR0311
+U 1 1 653D62E8
+P -2700 14650
+F 0 "#PWR0311" H -2700 14550 50  0001 C CNN
+F 1 "+24V_B" H -2700 14823 50  0000 C CNN
+F 2 "" H -2700 14650 50  0001 C CNN
+F 3 "" H -2700 14650 50  0001 C CNN
+	1    -2700 14650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2700 14650 -2700 14700
+Connection ~ -2700 14700
+Wire Wire Line
+	-2700 14700 -2450 14700
+$Comp
+L power_rl:GND_B #PWR0312
+U 1 1 653D62F1
+P -2700 15250
+F 0 "#PWR0312" H -2700 15050 50  0001 C CNN
+F 1 "GND_B" H -2695 15077 50  0000 C CNN
+F 2 "" H -2700 15250 50  0001 C CNN
+F 3 "" H -2700 15250 50  0001 C CNN
+	1    -2700 15250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2700 15250 -2700 15200
+Connection ~ -2700 15200
+Wire Wire Line
+	-2700 15200 -2450 15200
+$Comp
+L passive_component_rl:capacitor C49
+U 1 1 653D62FA
+P -1750 14950
+F 0 "C49" V -1796 15060 50  0000 L CNN
+F 1 "100nF" V -1705 15060 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -1750 14950 50  0001 C CNN
+F 3 "" H -1750 14950 50  0001 C CNN
+	1    -1750 14950
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C52
+U 1 1 653D6300
+P -1250 14950
+F 0 "C52" V -1296 15060 50  0000 L CNN
+F 1 "1uF" V -1205 15060 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -1250 14950 50  0001 C CNN
+F 3 "" H -1250 14950 50  0001 C CNN
+	1    -1250 14950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-1750 15100 -1750 15200
+Wire Wire Line
+	-1750 15200 -1500 15200
+Wire Wire Line
+	-1250 15200 -1250 15100
+Wire Wire Line
+	-1750 14800 -1750 14700
+Wire Wire Line
+	-1750 14700 -1500 14700
+Wire Wire Line
+	-1250 14700 -1250 14800
+$Comp
+L power_rl:+5V #PWR0313
+U 1 1 653D630C
+P -1500 14650
+F 0 "#PWR0313" H -1500 14550 50  0001 C CNN
+F 1 "+5V" H -1500 14823 50  0000 C CNN
+F 2 "" H -1500 14650 50  0001 C CNN
+F 3 "" H -1500 14650 50  0001 C CNN
+	1    -1500 14650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1500 14650 -1500 14700
+Connection ~ -1500 14700
+Wire Wire Line
+	-1500 14700 -1250 14700
+$Comp
+L power_rl:GND #PWR0314
+U 1 1 653D6315
+P -1500 15300
+F 0 "#PWR0314" H -1500 15100 50  0001 C CNN
+F 1 "GND" H -1495 15177 50  0000 C CNN
+F 2 "" H -1500 15300 50  0001 C CNN
+F 3 "" H -1500 15300 50  0001 C CNN
+	1    -1500 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1500 15250 -1500 15200
+Connection ~ -1500 15200
+Wire Wire Line
+	-1500 15200 -1250 15200
+$Comp
+L passive_component_rl:capacitor C31
+U 1 1 6557E399
+P -5700 16650
+F 0 "C31" V -5746 16760 50  0000 L CNN
+F 1 "100nF" V -5655 16760 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -5700 16650 50  0001 C CNN
+F 3 "" H -5700 16650 50  0001 C CNN
+	1    -5700 16650
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C34
+U 1 1 6557E39F
+P -5200 16650
+F 0 "C34" V -5246 16760 50  0000 L CNN
+F 1 "1uF" V -5155 16760 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -5200 16650 50  0001 C CNN
+F 3 "" H -5200 16650 50  0001 C CNN
+	1    -5200 16650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5700 16800 -5700 16900
+Wire Wire Line
+	-5700 16900 -5450 16900
+Wire Wire Line
+	-5200 16900 -5200 16800
+Wire Wire Line
+	-5700 16500 -5700 16400
+Wire Wire Line
+	-5700 16400 -5450 16400
+Wire Wire Line
+	-5200 16400 -5200 16500
+$Comp
+L power_rl:+24V_B #PWR0315
+U 1 1 6557E3AB
+P -5450 16350
+F 0 "#PWR0315" H -5450 16250 50  0001 C CNN
+F 1 "+24V_B" H -5450 16523 50  0000 C CNN
+F 2 "" H -5450 16350 50  0001 C CNN
+F 3 "" H -5450 16350 50  0001 C CNN
+	1    -5450 16350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5450 16350 -5450 16400
+Connection ~ -5450 16400
+Wire Wire Line
+	-5450 16400 -5200 16400
+$Comp
+L power_rl:GND_B #PWR0316
+U 1 1 6557E3B4
+P -5450 16950
+F 0 "#PWR0316" H -5450 16750 50  0001 C CNN
+F 1 "GND_B" H -5445 16777 50  0000 C CNN
+F 2 "" H -5450 16950 50  0001 C CNN
+F 3 "" H -5450 16950 50  0001 C CNN
+	1    -5450 16950
+	1    0    0    -1  
+$EndComp
+Connection ~ -5450 16900
+Wire Wire Line
+	-5450 16900 -5200 16900
+$Comp
+L passive_component_rl:capacitor C37
+U 1 1 6557E3BD
+P -4500 16650
+F 0 "C37" V -4546 16760 50  0000 L CNN
+F 1 "100nF" V -4455 16760 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -4500 16650 50  0001 C CNN
+F 3 "" H -4500 16650 50  0001 C CNN
+	1    -4500 16650
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C40
+U 1 1 6557E3C3
+P -4000 16650
+F 0 "C40" V -4046 16760 50  0000 L CNN
+F 1 "1uF" V -3955 16760 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -4000 16650 50  0001 C CNN
+F 3 "" H -4000 16650 50  0001 C CNN
+	1    -4000 16650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4500 16800 -4500 16900
+Wire Wire Line
+	-4500 16900 -4250 16900
+Wire Wire Line
+	-4000 16900 -4000 16800
+Wire Wire Line
+	-4500 16500 -4500 16400
+Wire Wire Line
+	-4500 16400 -4250 16400
+Wire Wire Line
+	-4000 16400 -4000 16500
+$Comp
+L power_rl:+5V #PWR0317
+U 1 1 6557E3CF
+P -4250 16350
+F 0 "#PWR0317" H -4250 16250 50  0001 C CNN
+F 1 "+5V" H -4250 16523 50  0000 C CNN
+F 2 "" H -4250 16350 50  0001 C CNN
+F 3 "" H -4250 16350 50  0001 C CNN
+	1    -4250 16350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4250 16350 -4250 16400
+Connection ~ -4250 16400
+Wire Wire Line
+	-4250 16400 -4000 16400
+$Comp
+L power_rl:GND #PWR0318
+U 1 1 6557E3D8
+P -4250 17000
+F 0 "#PWR0318" H -4250 16800 50  0001 C CNN
+F 1 "GND" H -4245 16877 50  0000 C CNN
+F 2 "" H -4250 17000 50  0001 C CNN
+F 3 "" H -4250 17000 50  0001 C CNN
+	1    -4250 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4250 16950 -4250 16900
+Connection ~ -4250 16900
+Wire Wire Line
+	-4250 16900 -4000 16900
+$Comp
+L passive_component_rl:capacitor C42
+U 1 1 6573367E
+P -3000 16700
+F 0 "C42" V -3046 16810 50  0000 L CNN
+F 1 "100nF" V -2955 16810 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -3000 16700 50  0001 C CNN
+F 3 "" H -3000 16700 50  0001 C CNN
+	1    -3000 16700
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C45
+U 1 1 65733684
+P -2500 16700
+F 0 "C45" V -2546 16810 50  0000 L CNN
+F 1 "1uF" V -2455 16810 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -2500 16700 50  0001 C CNN
+F 3 "" H -2500 16700 50  0001 C CNN
+	1    -2500 16700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-3000 16850 -3000 16950
+Wire Wire Line
+	-3000 16950 -2750 16950
+Wire Wire Line
+	-2500 16950 -2500 16850
+Wire Wire Line
+	-3000 16550 -3000 16450
+Wire Wire Line
+	-3000 16450 -2750 16450
+Wire Wire Line
+	-2500 16450 -2500 16550
+$Comp
+L power_rl:+24V_B #PWR0319
+U 1 1 65733690
+P -2750 16400
+F 0 "#PWR0319" H -2750 16300 50  0001 C CNN
+F 1 "+24V_B" H -2750 16573 50  0000 C CNN
+F 2 "" H -2750 16400 50  0001 C CNN
+F 3 "" H -2750 16400 50  0001 C CNN
+	1    -2750 16400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2750 16400 -2750 16450
+Connection ~ -2750 16450
+Wire Wire Line
+	-2750 16450 -2500 16450
+$Comp
+L power_rl:GND_B #PWR0320
+U 1 1 65733699
+P -2750 17000
+F 0 "#PWR0320" H -2750 16800 50  0001 C CNN
+F 1 "GND_B" H -2745 16827 50  0000 C CNN
+F 2 "" H -2750 17000 50  0001 C CNN
+F 3 "" H -2750 17000 50  0001 C CNN
+	1    -2750 17000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2750 17000 -2750 16950
+Connection ~ -2750 16950
+Wire Wire Line
+	-2750 16950 -2500 16950
+$Comp
+L passive_component_rl:capacitor C48
+U 1 1 657336A2
+P -1800 16700
+F 0 "C48" V -1846 16810 50  0000 L CNN
+F 1 "100nF" V -1755 16810 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -1800 16700 50  0001 C CNN
+F 3 "" H -1800 16700 50  0001 C CNN
+	1    -1800 16700
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C51
+U 1 1 657336A8
+P -1300 16700
+F 0 "C51" V -1346 16810 50  0000 L CNN
+F 1 "1uF" V -1255 16810 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -1300 16700 50  0001 C CNN
+F 3 "" H -1300 16700 50  0001 C CNN
+	1    -1300 16700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-1800 16850 -1800 16950
+Wire Wire Line
+	-1800 16950 -1550 16950
+Wire Wire Line
+	-1300 16950 -1300 16850
+Wire Wire Line
+	-1800 16550 -1800 16450
+Wire Wire Line
+	-1800 16450 -1550 16450
+Wire Wire Line
+	-1300 16450 -1300 16550
+$Comp
+L power_rl:+5V #PWR0321
+U 1 1 657336B4
+P -1550 16400
+F 0 "#PWR0321" H -1550 16300 50  0001 C CNN
+F 1 "+5V" H -1550 16573 50  0000 C CNN
+F 2 "" H -1550 16400 50  0001 C CNN
+F 3 "" H -1550 16400 50  0001 C CNN
+	1    -1550 16400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1550 16400 -1550 16450
+Connection ~ -1550 16450
+Wire Wire Line
+	-1550 16450 -1300 16450
+$Comp
+L power_rl:GND #PWR0322
+U 1 1 657336BD
+P -1550 17050
+F 0 "#PWR0322" H -1550 16850 50  0001 C CNN
+F 1 "GND" H -1545 16927 50  0000 C CNN
+F 2 "" H -1550 17050 50  0001 C CNN
+F 3 "" H -1550 17050 50  0001 C CNN
+	1    -1550 17050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1550 17000 -1550 16950
+Connection ~ -1550 16950
+Wire Wire Line
+	-1550 16950 -1300 16950
+$Comp
+L passive_component_rl:capacitor C32
+U 1 1 658F76C9
+P -5650 18300
+F 0 "C32" V -5696 18410 50  0000 L CNN
+F 1 "100nF" V -5605 18410 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -5650 18300 50  0001 C CNN
+F 3 "" H -5650 18300 50  0001 C CNN
+	1    -5650 18300
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C35
+U 1 1 658F76CF
+P -5150 18300
+F 0 "C35" V -5196 18410 50  0000 L CNN
+F 1 "1uF" V -5105 18410 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -5150 18300 50  0001 C CNN
+F 3 "" H -5150 18300 50  0001 C CNN
+	1    -5150 18300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5650 18450 -5650 18550
+Wire Wire Line
+	-5650 18550 -5400 18550
+Wire Wire Line
+	-5150 18550 -5150 18450
+Wire Wire Line
+	-5650 18150 -5650 18050
+Wire Wire Line
+	-5650 18050 -5400 18050
+Wire Wire Line
+	-5150 18050 -5150 18150
+$Comp
+L power_rl:+24V_B #PWR0323
+U 1 1 658F76DB
+P -5400 18000
+F 0 "#PWR0323" H -5400 17900 50  0001 C CNN
+F 1 "+24V_B" H -5400 18173 50  0000 C CNN
+F 2 "" H -5400 18000 50  0001 C CNN
+F 3 "" H -5400 18000 50  0001 C CNN
+	1    -5400 18000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5400 18000 -5400 18050
+Connection ~ -5400 18050
+Wire Wire Line
+	-5400 18050 -5150 18050
+$Comp
+L power_rl:GND_B #PWR0324
+U 1 1 658F76E4
+P -5400 18600
+F 0 "#PWR0324" H -5400 18400 50  0001 C CNN
+F 1 "GND_B" H -5395 18427 50  0000 C CNN
+F 2 "" H -5400 18600 50  0001 C CNN
+F 3 "" H -5400 18600 50  0001 C CNN
+	1    -5400 18600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-5400 18600 -5400 18550
+Connection ~ -5400 18550
+Wire Wire Line
+	-5400 18550 -5150 18550
+$Comp
+L passive_component_rl:capacitor C38
+U 1 1 658F76ED
+P -4450 18300
+F 0 "C38" V -4496 18410 50  0000 L CNN
+F 1 "100nF" V -4405 18410 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -4450 18300 50  0001 C CNN
+F 3 "" H -4450 18300 50  0001 C CNN
+	1    -4450 18300
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C41
+U 1 1 658F76F3
+P -3950 18300
+F 0 "C41" V -3996 18410 50  0000 L CNN
+F 1 "1uF" V -3905 18410 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -3950 18300 50  0001 C CNN
+F 3 "" H -3950 18300 50  0001 C CNN
+	1    -3950 18300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4450 18450 -4450 18550
+Wire Wire Line
+	-4450 18550 -4200 18550
+Wire Wire Line
+	-3950 18550 -3950 18450
+Wire Wire Line
+	-4450 18150 -4450 18050
+Wire Wire Line
+	-4450 18050 -4200 18050
+Wire Wire Line
+	-3950 18050 -3950 18150
+$Comp
+L power_rl:+5V #PWR0325
+U 1 1 658F76FF
+P -4200 18000
+F 0 "#PWR0325" H -4200 17900 50  0001 C CNN
+F 1 "+5V" H -4200 18173 50  0000 C CNN
+F 2 "" H -4200 18000 50  0001 C CNN
+F 3 "" H -4200 18000 50  0001 C CNN
+	1    -4200 18000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4200 18000 -4200 18050
+Connection ~ -4200 18050
+Wire Wire Line
+	-4200 18050 -3950 18050
+$Comp
+L power_rl:GND #PWR0326
+U 1 1 658F7708
+P -4200 18650
+F 0 "#PWR0326" H -4200 18450 50  0001 C CNN
+F 1 "GND" H -4195 18527 50  0000 C CNN
+F 2 "" H -4200 18650 50  0001 C CNN
+F 3 "" H -4200 18650 50  0001 C CNN
+	1    -4200 18650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4200 18600 -4200 18550
+Connection ~ -4200 18550
+Wire Wire Line
+	-4200 18550 -3950 18550
+$Comp
+L passive_component_rl:capacitor C44
+U 1 1 65AC84CE
+P -2950 18250
+F 0 "C44" V -2996 18360 50  0000 L CNN
+F 1 "100nF" V -2905 18360 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -2950 18250 50  0001 C CNN
+F 3 "" H -2950 18250 50  0001 C CNN
+	1    -2950 18250
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C47
+U 1 1 65AC84D4
+P -2450 18250
+F 0 "C47" V -2496 18360 50  0000 L CNN
+F 1 "1uF" V -2405 18360 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -2450 18250 50  0001 C CNN
+F 3 "" H -2450 18250 50  0001 C CNN
+	1    -2450 18250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2950 18400 -2950 18500
+Wire Wire Line
+	-2950 18500 -2700 18500
+Wire Wire Line
+	-2450 18500 -2450 18400
+Wire Wire Line
+	-2950 18100 -2950 18000
+Wire Wire Line
+	-2950 18000 -2700 18000
+Wire Wire Line
+	-2450 18000 -2450 18100
+$Comp
+L power_rl:+24V_B #PWR0327
+U 1 1 65AC84E0
+P -2700 17950
+F 0 "#PWR0327" H -2700 17850 50  0001 C CNN
+F 1 "+24V_B" H -2700 18123 50  0000 C CNN
+F 2 "" H -2700 17950 50  0001 C CNN
+F 3 "" H -2700 17950 50  0001 C CNN
+	1    -2700 17950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2700 17950 -2700 18000
+Connection ~ -2700 18000
+Wire Wire Line
+	-2700 18000 -2450 18000
+$Comp
+L power_rl:GND_B #PWR0328
+U 1 1 65AC84E9
+P -2700 18550
+F 0 "#PWR0328" H -2700 18350 50  0001 C CNN
+F 1 "GND_B" H -2695 18377 50  0000 C CNN
+F 2 "" H -2700 18550 50  0001 C CNN
+F 3 "" H -2700 18550 50  0001 C CNN
+	1    -2700 18550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2700 18550 -2700 18500
+Connection ~ -2700 18500
+Wire Wire Line
+	-2700 18500 -2450 18500
+$Comp
+L passive_component_rl:capacitor C50
+U 1 1 65AC84F2
+P -1750 18250
+F 0 "C50" V -1796 18360 50  0000 L CNN
+F 1 "100nF" V -1705 18360 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -1750 18250 50  0001 C CNN
+F 3 "" H -1750 18250 50  0001 C CNN
+	1    -1750 18250
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:capacitor C53
+U 1 1 65AC84F8
+P -1250 18250
+F 0 "C53" V -1296 18360 50  0000 L CNN
+F 1 "1uF" V -1205 18360 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -1250 18250 50  0001 C CNN
+F 3 "" H -1250 18250 50  0001 C CNN
+	1    -1250 18250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-1750 18400 -1750 18500
+Wire Wire Line
+	-1750 18500 -1500 18500
+Wire Wire Line
+	-1250 18500 -1250 18400
+Wire Wire Line
+	-1750 18100 -1750 18000
+Wire Wire Line
+	-1750 18000 -1500 18000
+Wire Wire Line
+	-1250 18000 -1250 18100
+$Comp
+L power_rl:+5V #PWR0329
+U 1 1 65AC8504
+P -1500 17950
+F 0 "#PWR0329" H -1500 17850 50  0001 C CNN
+F 1 "+5V" H -1500 18123 50  0000 C CNN
+F 2 "" H -1500 17950 50  0001 C CNN
+F 3 "" H -1500 17950 50  0001 C CNN
+	1    -1500 17950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1500 17950 -1500 18000
+Connection ~ -1500 18000
+Wire Wire Line
+	-1500 18000 -1250 18000
+$Comp
+L power_rl:GND #PWR0330
+U 1 1 65AC850D
+P -1500 18600
+F 0 "#PWR0330" H -1500 18400 50  0001 C CNN
+F 1 "GND" H -1495 18477 50  0000 C CNN
+F 2 "" H -1500 18600 50  0001 C CNN
+F 3 "" H -1500 18600 50  0001 C CNN
+	1    -1500 18600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1500 18550 -1500 18500
+Connection ~ -1500 18500
+Wire Wire Line
+	-1500 18500 -1250 18500
+$Comp
+L 74xx_rl:SN74HCS21-Q1 U28
+U 1 1 65CE1D38
+P 10700 2250
+F 0 "U28" H 10700 2625 50  0000 C CNN
+F 1 "SN74HCS21-Q1" H 10700 2534 50  0000 C CNN
+F 2 "package_tssop_rl:tssop_14" H 10700 2250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74hcs21-q1.pdf?ts=1655128947146&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DSN74HCS21QDRQ1%2526nr%253D2" H 10700 2250 50  0001 C CNN
+	1    10700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_rl:SN74HCS21-Q1 U28
+U 2 1 65CE541C
+P 10700 2950
+F 0 "U28" H 10700 3325 50  0000 C CNN
+F 1 "SN74HCS21-Q1" H 10700 3234 50  0000 C CNN
+F 2 "package_tssop_rl:tssop_14" H 10700 2950 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74hcs21-q1.pdf?ts=1655128947146&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DSN74HCS21QDRQ1%2526nr%253D2" H 10700 2950 50  0001 C CNN
+	2    10700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_rl:SN74HCS21-Q1 U28
+U 3 1 65CE87A9
+P 10600 4400
+F 0 "U28" H 10830 4446 50  0000 L CNN
+F 1 "SN74HCS21-Q1" H 10830 4355 50  0000 L CNN
+F 2 "package_tssop_rl:tssop_14" H 10600 4400 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74hcs21-q1.pdf?ts=1655128947146&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DSN74HCS21QDRQ1%2526nr%253D2" H 10600 4400 50  0001 C CNN
+	3    10600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_rl:SN74HCS21-Q1 U29
+U 1 1 62D1E7C0
+P 10800 6450
+F 0 "U29" H 10800 6825 50  0000 C CNN
+F 1 "SN74HCS21-Q1" H 10800 6734 50  0000 C CNN
+F 2 "package_tssop_rl:tssop_14" H 10800 6450 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74hcs21-q1.pdf?ts=1655128947146&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DSN74HCS21QDRQ1%2526nr%253D2" H 10800 6450 50  0001 C CNN
+	1    10800 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_rl:SN74HCS21-Q1 U29
+U 2 1 62D22056
+P 10800 7150
+F 0 "U29" H 10800 7525 50  0000 C CNN
+F 1 "SN74HCS21-Q1" H 10800 7434 50  0000 C CNN
+F 2 "package_tssop_rl:tssop_14" H 10800 7150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74hcs21-q1.pdf?ts=1655128947146&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DSN74HCS21QDRQ1%2526nr%253D2" H 10800 7150 50  0001 C CNN
+	2    10800 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_rl:SN74HCS21-Q1 U29
+U 3 1 62D225BA
+P 10700 8650
+F 0 "U29" H 10930 8696 50  0000 L CNN
+F 1 "SN74HCS21-Q1" H 10930 8605 50  0000 L CNN
+F 2 "package_tssop_rl:tssop_14" H 10700 8650 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74hcs21-q1.pdf?ts=1655128947146&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DSN74HCS21QDRQ1%2526nr%253D2" H 10700 8650 50  0001 C CNN
+	3    10700 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 3850 10600 3900
+Wire Wire Line
+	11600 4250 11600 4300
+$Comp
+L power_rl:+5V #PWR0331
+U 1 1 6378E5A2
+P 11900 4200
+F 0 "#PWR0331" H 11910 4140 50  0001 C CNN
+F 1 "+5V" H 11900 4373 50  0000 C CNN
+F 2 "" H 11900 4200 50  0001 C CNN
+F 3 "" H 11900 4200 50  0001 C CNN
+	1    11900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 8100 10700 8150
+Wire Wire Line
+	11700 8500 12000 8500
+Wire Wire Line
+	11700 8500 11700 8550
+$Comp
+L power_rl:+5V #PWR0332
+U 1 1 63D26DF3
+P 12000 8450
+F 0 "#PWR0332" H 12010 8390 50  0001 C CNN
+F 1 "+5V" H 12000 8623 50  0000 C CNN
+F 2 "" H 12000 8450 50  0001 C CNN
+F 3 "" H 12000 8450 50  0001 C CNN
+	1    12000 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 8450 12000 8500
+Connection ~ 12000 8500
+Wire Wire Line
+	12000 8500 12300 8500
+Wire Wire Line
+	19550 2500 19550 2550
+Wire Wire Line
+	19550 2550 19850 2550
+Wire Wire Line
+	20100 2550 20100 2500
+Wire Wire Line
+	19850 2600 19850 2550
+Connection ~ 19850 2550
+Wire Wire Line
+	19850 2550 20100 2550
+Wire Wire Line
+	19550 2200 19550 2150
+Wire Wire Line
+	19550 2150 19850 2150
+Wire Wire Line
+	20100 2150 20100 2200
+$Comp
+L power_rl:+5V #PWR0333
+U 1 1 658C72A5
+P 19850 2100
+F 0 "#PWR0333" H 19860 2040 50  0001 C CNN
+F 1 "+5V" H 19850 2273 50  0000 C CNN
+F 2 "" H 19850 2100 50  0001 C CNN
+F 3 "" H 19850 2100 50  0001 C CNN
+	1    19850 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19850 2100 19850 2150
+Connection ~ 19850 2150
+Wire Wire Line
+	19850 2150 20100 2150
+Wire Wire Line
+	11600 4600 11600 4650
+Wire Wire Line
+	11600 4650 11900 4650
+Wire Wire Line
+	12200 4650 12200 4600
+Wire Wire Line
+	11900 4700 11900 4650
+Connection ~ 11900 4650
+Wire Wire Line
+	11900 4650 12200 4650
+Wire Wire Line
+	11600 4250 11900 4250
+Wire Wire Line
+	11900 4200 11900 4250
+Connection ~ 11900 4250
+Wire Wire Line
+	11900 4250 12200 4250
+Wire Wire Line
+	11700 8900 12000 8900
+Wire Wire Line
+	11700 8900 11700 8850
+Wire Wire Line
+	12000 8950 12000 8900
+Connection ~ 12000 8900
+Wire Wire Line
+	12000 8900 12300 8900
+Wire Wire Line
+	19000 2750 19000 2800
+$Comp
+L power_rl:+24V_A #PWR0334
+U 1 1 647C230D
+P -11750 14850
+F 0 "#PWR0334" H -11750 14750 50  0001 C CNN
+F 1 "+24V_A" H -11750 15023 50  0000 C CNN
+F 2 "" H -11750 14850 50  0001 C CNN
+F 3 "" H -11750 14850 50  0001 C CNN
+	1    -11750 14850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-11750 14850 -11750 14900
+Wire Wire Line
+	-5450 16900 -5450 16950
+Wire Wire Line
+	14550 7300 14550 6700
+Wire Wire Line
+	14550 6700 15900 6700
+$Comp
+L power_rl:GND_B #PWR0335
+U 1 1 6366A4F5
+P 100 -8050
+F 0 "#PWR0335" H 100 -8250 50  0001 C CNN
+F 1 "GND_B" H 105 -8223 50  0000 C CNN
+F 2 "" H 100 -8050 50  0001 C CNN
+F 3 "" H 100 -8050 50  0001 C CNN
+	1    100  -8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:PWR_FLAG #FLG0101
+U 1 1 6FD4BB4A
+P 20350 7600
+F 0 "#FLG0101" H 20350 7675 50  0001 C CNN
+F 1 "PWR_FLAG" H 20350 7773 50  0000 C CNN
+F 2 "" H 20350 7600 50  0001 C CNN
+F 3 "~" H 20350 7600 50  0001 C CNN
+	1    20350 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20000 7800 20350 7800
+Wire Wire Line
+	20350 7800 20350 7600
+Connection ~ 20000 7800
+$Comp
+L power_rl:GND #PWR0336
+U 1 1 70FCBB8A
+P 13150 2400
+F 0 "#PWR0336" H 13150 2200 50  0001 C CNN
+F 1 "GND" H 13155 2277 50  0000 C CNN
+F 2 "" H 13150 2400 50  0001 C CNN
+F 3 "" H 13150 2400 50  0001 C CNN
+	1    13150 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 2350 13150 2300
+Connection ~ 13150 2300
+Text Notes -2550 -9200 0    50   ~ 0
+Green LED\n24 V - 3 V (typ.) = 21 V\nI = 21 V / 0.0045 A = 4 666 R
+Wire Wire Line
+	7850 7750 8500 7750
+Connection ~ 8500 7750
+Wire Wire Line
+	6350 7750 7200 7750
+Connection ~ 7200 7750
+Text Notes 4950 7400 0    50   ~ 0
+Green LED\n5 V - 1.55 V (typ.) = 3.45 V\nI = 3.45 V / 0.005 A = 690 R\n
+Text Notes 2650 12500 0    50   ~ 0
+Green LED\n5 V - 1.55 V (typ.) = 3.45 V\nI = 3.45 V / 0.005 A = 690 R\n
+$Comp
+L diode_rl:LED D42
+U 1 1 62B1A7F5
+P 6350 7500
+F 0 "D42" V 6389 7382 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V 6298 7382 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H 6350 7500 50  0001 C CNN
+F 3 "~" H 6350 7500 50  0001 C CNN
+	1    6350 7500
+	0    -1   -1   0   
+$EndComp
+Text Notes 4900 14200 0    50   ~ 0
+Active low:\n(All turn off)             1 => 0 => X\n(One of vave is turn on) 0 => 1 => X\n
+Text Notes 6850 14200 0    50   ~ 0
+Active high:\n(All turn off)             1 => X => 1\n(One of vave is turn on) 0 => X => 0\n
+$Comp
+L passive_component_rl:resistor_us R84
+U 1 1 724B6B7E
+P 12400 12900
+F 0 "R84" H 12350 12800 50  0000 L CNN
+F 1 "10R/0.5W" H 12200 13000 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 12400 12900 50  0001 C CNN
+F 3 "" H 12400 12900 50  0001 C CNN
+	1    12400 12900
+	-1   0    0    1   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R15
+U 1 1 73B107EB
+P -14400 -4600
+F 0 "R15" H -14400 -4700 50  0000 L CNN
+F 1 "1k" H -14450 -4500 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -14400 -4600 50  0001 C CNN
+F 3 "" H -14400 -4600 50  0001 C CNN
+	1    -14400 -4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R16
+U 1 1 742732C2
+P -14450 -450
+F 0 "R16" H -14450 -550 50  0000 L CNN
+F 1 "1k" H -14500 -350 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -14450 -450 50  0001 C CNN
+F 3 "" H -14450 -450 50  0001 C CNN
+	1    -14450 -450
+	-1   0    0    1   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R17
+U 1 1 74273812
+P -14450 3550
+F 0 "R17" H -14450 3450 50  0000 L CNN
+F 1 "1k" H -14500 3650 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -14450 3550 50  0001 C CNN
+F 3 "" H -14450 3550 50  0001 C CNN
+	1    -14450 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R18
+U 1 1 749E5763
+P -14250 8000
+F 0 "R18" H -14250 7900 50  0000 L CNN
+F 1 "1k" H -14300 8100 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -14250 8000 50  0001 C CNN
+F 3 "" H -14250 8000 50  0001 C CNN
+	1    -14250 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R19
+U 1 1 749E5BCC
+P -14250 12150
+F 0 "R19" H -14250 12050 50  0000 L CNN
+F 1 "1k" H -14300 12250 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -14250 12150 50  0001 C CNN
+F 3 "" H -14250 12150 50  0001 C CNN
+	1    -14250 12150
+	-1   0    0    1   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R43
+U 1 1 74F83CFD
+P -5050 -8600
+F 0 "R43" H -5050 -8700 50  0000 L CNN
+F 1 "1k" H -5100 -8500 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -5050 -8600 50  0001 C CNN
+F 3 "" H -5050 -8600 50  0001 C CNN
+	1    -5050 -8600
+	-1   0    0    1   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R44
+U 1 1 756F65E7
+P -5100 -4450
+F 0 "R44" H -5100 -4550 50  0000 L CNN
+F 1 "1k" H -5150 -4350 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -5100 -4450 50  0001 C CNN
+F 3 "" H -5100 -4450 50  0001 C CNN
+	1    -5100 -4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R53
+U 1 1 756F6A1E
+P -5150 -550
+F 0 "R53" H -5150 -650 50  0000 L CNN
+F 1 "1k" H -5200 -450 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -5150 -550 50  0001 C CNN
+F 3 "" H -5150 -550 50  0001 C CNN
+	1    -5150 -550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-5600 -8600 -5350 -8600
+Wire Wire Line
+	-5650 -4450 -5450 -4450
+$Comp
+L passive_component_rl:resistor_us R54
+U 1 1 76B877A3
+P -5200 3400
+F 0 "R54" H -5200 3300 50  0000 L CNN
+F 1 "1k" H -5250 3500 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -5200 3400 50  0001 C CNN
+F 3 "" H -5200 3400 50  0001 C CNN
+	1    -5200 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-5700 -550 -5500 -550
+Wire Wire Line
+	-5750 3400 -5550 3400
+$Comp
+L passive_component_rl:resistor_us R55
+U 1 1 78018CC3
+P -5200 7500
+F 0 "R55" H -5200 7400 50  0000 L CNN
+F 1 "1k" H -5250 7600 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -5200 7500 50  0001 C CNN
+F 3 "" H -5200 7500 50  0001 C CNN
+	1    -5200 7500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-5750 7500 -5550 7500
+$Comp
+L passive_component_rl:resistor_us R56
+U 1 1 785B87AA
+P -5100 12050
+F 0 "R56" H -5100 11950 50  0000 L CNN
+F 1 "1k" H -5150 12150 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -5100 12050 50  0001 C CNN
+F 3 "" H -5100 12050 50  0001 C CNN
+	1    -5100 12050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-5650 12050 -5450 12050
+Wire Wire Line
+	-6150 3000 -6150 2950
+Wire Wire Line
+	-14900 -4600 -14700 -4600
+Wire Wire Line
+	-14950 -450 -14750 -450
+Wire Wire Line
+	-14950 3550 -14750 3550
+Wire Wire Line
+	-14750 8000 -14550 8000
+Wire Wire Line
+	-14750 12150 -14550 12150
+Wire Wire Line
+	-14250 -4600 -14100 -4600
+Connection ~ -14700 -4600
+Wire Wire Line
+	-14700 -4600 -14550 -4600
+Wire Wire Line
+	-14300 -450 -14150 -450
+Connection ~ -14750 -450
+Wire Wire Line
+	-14750 -450 -14600 -450
+Connection ~ -14750 3550
+Wire Wire Line
+	-14750 3550 -14600 3550
+Wire Wire Line
+	-14100 8000 -13950 8000
+Connection ~ -14550 8000
+Wire Wire Line
+	-14550 8000 -14400 8000
+Wire Wire Line
+	-14100 12150 -13950 12150
+Connection ~ -14550 12150
+Wire Wire Line
+	-14550 12150 -14400 12150
+Wire Wire Line
+	-4900 -8600 -4750 -8600
+Connection ~ -5350 -8600
+Wire Wire Line
+	-5350 -8600 -5200 -8600
+Wire Wire Line
+	-4950 -4450 -4800 -4450
+Connection ~ -5450 -4450
+Wire Wire Line
+	-5450 -4450 -5250 -4450
+Wire Wire Line
+	-5050 3400 -4900 3400
+Connection ~ -5550 3400
+Wire Wire Line
+	-5550 3400 -5350 3400
+Wire Wire Line
+	-5050 7500 -4900 7500
+Connection ~ -5550 7500
+Wire Wire Line
+	-5550 7500 -5350 7500
+Wire Wire Line
+	-4950 12050 -4800 12050
+Connection ~ -5450 12050
+Wire Wire Line
+	-5450 12050 -5250 12050
+Wire Wire Line
+	-5000 -550 -4850 -550
+Connection ~ -5500 -550
+Wire Wire Line
+	-5500 -550 -5300 -550
+Wire Wire Line
+	-13850 -5350 -13850 -5250
+$Comp
+L diode_rl:schottky_diode D3
+U 1 1 83128487
+P -14000 -5050
+F 0 "D3" V -14050 -5300 50  0000 L CNN
+F 1 "STPS160A" V -13950 -5600 50  0000 L CNN
+F 2 "diode_smd_rl:sma" H -14000 -5050 50  0001 C CNN
+F 3 "" H -14000 -5050 50  0001 C CNN
+	1    -14000 -5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13850 -4850 -14000 -4850
+Wire Wire Line
+	-14000 -4850 -14000 -4900
+Wire Wire Line
+	-14000 -5200 -14000 -5250
+Wire Wire Line
+	-14000 -5250 -13850 -5250
+Connection ~ -13850 -5250
+Wire Wire Line
+	-13850 -5250 -13850 -5050
+$Comp
+L diode_rl:schottky_diode D5
+U 1 1 836EE1C6
+P -14050 3100
+F 0 "D5" V -14100 2850 50  0000 L CNN
+F 1 "STPS160A" V -14000 2550 50  0000 L CNN
+F 2 "diode_smd_rl:sma" H -14050 3100 50  0001 C CNN
+F 3 "" H -14050 3100 50  0001 C CNN
+	1    -14050 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13900 3300 -14050 3300
+Wire Wire Line
+	-14050 3300 -14050 3250
+Wire Wire Line
+	-14050 2950 -14050 2900
+Wire Wire Line
+	-14050 2900 -13900 2900
+Connection ~ -13900 2900
+Wire Wire Line
+	-13900 2900 -13900 3100
+$Comp
+L diode_rl:schottky_diode D6
+U 1 1 83CBEE29
+P -13850 7550
+F 0 "D6" V -13900 7300 50  0000 L CNN
+F 1 "STPS160A" V -13800 7000 50  0000 L CNN
+F 2 "diode_smd_rl:sma" H -13850 7550 50  0001 C CNN
+F 3 "" H -13850 7550 50  0001 C CNN
+	1    -13850 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13700 7750 -13850 7750
+Wire Wire Line
+	-13850 7750 -13850 7700
+Wire Wire Line
+	-13850 7400 -13850 7350
+Wire Wire Line
+	-13850 7350 -13700 7350
+Connection ~ -13700 7350
+Wire Wire Line
+	-13700 7350 -13700 7550
+$Comp
+L diode_rl:schottky_diode D7
+U 1 1 84490EE7
+P -13850 11700
+F 0 "D7" V -13900 11450 50  0000 L CNN
+F 1 "STPS160A" V -13800 11150 50  0000 L CNN
+F 2 "diode_smd_rl:sma" H -13850 11700 50  0001 C CNN
+F 3 "" H -13850 11700 50  0001 C CNN
+	1    -13850 11700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13700 11900 -13850 11900
+Wire Wire Line
+	-13850 11900 -13850 11850
+Wire Wire Line
+	-13850 11550 -13850 11500
+Wire Wire Line
+	-13850 11500 -13700 11500
+Connection ~ -13700 11500
+Wire Wire Line
+	-13700 11500 -13700 11700
+$Comp
+L diode_rl:schottky_diode D20
+U 1 1 84C766BE
+P -4650 -9050
+F 0 "D20" V -4700 -9300 50  0000 L CNN
+F 1 "STPS160A" V -4600 -9600 50  0000 L CNN
+F 2 "diode_smd_rl:sma" H -4650 -9050 50  0001 C CNN
+F 3 "" H -4650 -9050 50  0001 C CNN
+	1    -4650 -9050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4500 -8850 -4650 -8850
+Wire Wire Line
+	-4650 -8850 -4650 -8900
+Wire Wire Line
+	-4650 -9200 -4650 -9250
+Wire Wire Line
+	-4650 -9250 -4500 -9250
+Connection ~ -4500 -9250
+Wire Wire Line
+	-4500 -9250 -4500 -9050
+$Comp
+L diode_rl:schottky_diode D21
+U 1 1 8526D530
+P -4700 -4900
+F 0 "D21" V -4750 -5150 50  0000 L CNN
+F 1 "STPS160A" V -4650 -5450 50  0000 L CNN
+F 2 "diode_smd_rl:sma" H -4700 -4900 50  0001 C CNN
+F 3 "" H -4700 -4900 50  0001 C CNN
+	1    -4700 -4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4550 -4700 -4700 -4700
+Wire Wire Line
+	-4700 -4700 -4700 -4750
+Wire Wire Line
+	-4700 -5050 -4700 -5100
+Wire Wire Line
+	-4700 -5100 -4550 -5100
+Connection ~ -4550 -5100
+Wire Wire Line
+	-4550 -5100 -4550 -4900
+$Comp
+L diode_rl:schottky_diode D22
+U 1 1 85871385
+P -4750 -1000
+F 0 "D22" V -4800 -1250 50  0000 L CNN
+F 1 "STPS160A" V -4700 -1550 50  0000 L CNN
+F 2 "diode_smd_rl:sma" H -4750 -1000 50  0001 C CNN
+F 3 "" H -4750 -1000 50  0001 C CNN
+	1    -4750 -1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4600 -800 -4750 -800
+Wire Wire Line
+	-4750 -800 -4750 -850
+Wire Wire Line
+	-4750 -1150 -4750 -1200
+Wire Wire Line
+	-4750 -1200 -4600 -1200
+Connection ~ -4600 -1200
+Wire Wire Line
+	-4600 -1200 -4600 -1000
+$Comp
+L diode_rl:schottky_diode D23
+U 1 1 860842F0
+P -4800 2950
+F 0 "D23" V -4850 2700 50  0000 L CNN
+F 1 "STPS160A" V -4750 2400 50  0000 L CNN
+F 2 "diode_smd_rl:sma" H -4800 2950 50  0001 C CNN
+F 3 "" H -4800 2950 50  0001 C CNN
+	1    -4800 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4650 3150 -4800 3150
+Wire Wire Line
+	-4800 3150 -4800 3100
+Wire Wire Line
+	-4800 2800 -4800 2750
+Wire Wire Line
+	-4800 2750 -4650 2750
+Connection ~ -4650 2750
+Wire Wire Line
+	-4650 2750 -4650 2950
+$Comp
+L diode_rl:schottky_diode D24
+U 1 1 868A683D
+P -4800 7050
+F 0 "D24" V -4850 6800 50  0000 L CNN
+F 1 "STPS160A" V -4750 6500 50  0000 L CNN
+F 2 "diode_smd_rl:sma" H -4800 7050 50  0001 C CNN
+F 3 "" H -4800 7050 50  0001 C CNN
+	1    -4800 7050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4650 7250 -4800 7250
+Wire Wire Line
+	-4800 7250 -4800 7200
+Wire Wire Line
+	-4800 6900 -4800 6850
+Wire Wire Line
+	-4800 6850 -4650 6850
+Connection ~ -4650 6850
+Wire Wire Line
+	-4650 6850 -4650 7050
+$Comp
+L diode_rl:schottky_diode D25
+U 1 1 870D8C23
+P -4700 11600
+F 0 "D25" V -4750 11350 50  0000 L CNN
+F 1 "STPS160A" V -4650 11050 50  0000 L CNN
+F 2 "diode_smd_rl:sma" H -4700 11600 50  0001 C CNN
+F 3 "" H -4700 11600 50  0001 C CNN
+	1    -4700 11600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4550 11800 -4700 11800
+Wire Wire Line
+	-4700 11800 -4700 11750
+Wire Wire Line
+	-4700 11450 -4700 11400
+Wire Wire Line
+	-4700 11400 -4550 11400
+Connection ~ -4550 11400
+Wire Wire Line
+	-4550 11400 -4550 11600
+$Comp
+L diode_rl:schottky_diode D4
+U 1 1 87B2BCD5
+P -14050 -900
+F 0 "D4" V -14100 -1150 50  0000 L CNN
+F 1 "STPS160A" V -14000 -1450 50  0000 L CNN
+F 2 "diode_smd_rl:sma" H -14050 -900 50  0001 C CNN
+F 3 "" H -14050 -900 50  0001 C CNN
+	1    -14050 -900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13900 -700 -14050 -700
+Wire Wire Line
+	-14050 -700 -14050 -750
+Wire Wire Line
+	-14050 -1050 -14050 -1100
+Wire Wire Line
+	-14050 -1100 -13900 -1100
+Connection ~ -13900 -1100
+Wire Wire Line
+	-13900 -1100 -13900 -900
+Text Notes 19050 8650 0    50   ~ 0
+Red LED\n5 V - 2 V (typ.) = 3 V\nI = 3 V / 0.005 A = 600 R\n
+$Comp
+L diode_rl:LED D17
+U 1 1 60DD9CA7
+P 18250 8550
+F 0 "D17" V 18289 8432 50  0000 R CNN
+F 1 "LL-503VC1E-4C" V 18198 8432 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H 18250 8550 50  0001 C CNN
+F 3 "~" H 18250 8550 50  0001 C CNN
+	1    18250 8550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power_management_rl:LM5069 U27
+U 1 1 63018392
+P 6950 19600
+F 0 "U27" H 6350 20000 50  0000 L CNN
+F 1 "LM5069" H 7300 19200 50  0000 L CNN
+F 2 "package_vssop_rl:vssop_10" H 6950 19600 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm5069.pdf?ts=1659343821266&ref_url=https%253A%252F%252Fwww.google.it%252F" H 6950 19600 50  0001 C CNN
+	1    6950 19600
+	1    0    0    -1  
+$EndComp
+$Comp
+L diode_rl:bidir_transil D39
+U 1 1 630278BE
+P 3300 18950
+F 0 "D39" H 3394 19046 50  0000 L CNN
+F 1 "SMBJ24CA-TR" H 3394 18955 50  0000 L CNN
+F 2 "diode_smd_rl:smb" H 3300 18950 50  0001 C CNN
+F 3 "" H 3300 18950 50  0001 C CNN
+	1    3300 18950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR01
+U 1 1 6302824F
+P 3300 19150
+F 0 "#PWR01" H 3300 18900 50  0001 C CNN
+F 1 "GND_A" H 3305 18977 50  0000 C CNN
+F 2 "" H 3300 19150 50  0001 C CNN
+F 3 "" H 3300 19150 50  0001 C CNN
+	1    3300 19150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 19150 3300 19100
+$Comp
+L connector_rl:1x2_screw_term_block J13
+U 1 1 634580D3
+P 11900 16900
+F 0 "J13" V 11864 16762 50  0000 R CNN
+F 1 "EBBA-02-C-SS-BU" V 11773 16762 50  0000 R CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H 11900 16900 50  0001 C CNN
+F 3 "" H 11900 16900 50  0001 C CNN
+	1    11900 16900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power_rl:PWR_FLAG #FLG02
+U 1 1 634580DD
+P 13050 17250
+F 0 "#FLG02" H 13050 17325 50  0001 C CNN
+F 1 "PWR_FLAG" H 13050 17423 50  0000 C CNN
+F 2 "" H 13050 17250 50  0001 C CNN
+F 3 "~" H 13050 17250 50  0001 C CNN
+	1    13050 17250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13050 17200 13050 17250
+Wire Wire Line
+	11850 17100 11850 17200
+Wire Wire Line
+	11950 17100 11950 17200
+Wire Wire Line
+	12300 17200 12300 17250
+$Comp
+L power_rl:GND_A #PWR08
+U 1 1 634580EC
+P 12300 17250
+F 0 "#PWR08" H 12300 17000 50  0001 C CNN
+F 1 "GND_A" H 12300 17100 50  0000 C CNN
+F 2 "" H 12300 17250 50  0001 C CNN
+F 3 "" H 12300 17250 50  0001 C CNN
+	1    12300 17250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11950 17200 12300 17200
+Wire Wire Line
+	11350 17200 11850 17200
+Text Notes 11800 16800 0    50   ~ 0
+Input\nvoltage \n+24 V
+$Comp
+L passive_component_rl:resistor_us R73
+U 1 1 63893A88
+P 5100 19100
+F 0 "R73" V 5054 19168 50  0000 L CNN
+F 1 "47k5" V 5145 19168 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 5100 19100 50  0001 C CNN
+F 3 "" H 5100 19100 50  0001 C CNN
+	1    5100 19100
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R70
+U 1 1 63897642
+P 4650 19600
+F 0 "R70" V 4604 19668 50  0000 L CNN
+F 1 "24k" V 4695 19668 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 4650 19600 50  0001 C CNN
+F 3 "" H 4650 19600 50  0001 C CNN
+	1    4650 19600
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R74
+U 1 1 6389AC91
+P 5100 19500
+F 0 "R74" V 5054 19568 50  0000 L CNN
+F 1 "9k76" V 5145 19568 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 5100 19500 50  0001 C CNN
+F 3 "" H 5100 19500 50  0001 C CNN
+	1    5100 19500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 20600 6150 19900
+Wire Wire Line
+	6150 19900 6250 19900
+$Comp
+L passive_component_rl:resistor_us R78
+U 1 1 66BC7ABD
+P 6750 20300
+F 0 "R78" V 6700 20050 50  0000 L CNN
+F 1 "14k3" V 6800 20000 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 6750 20300 50  0001 C CNN
+F 3 "" H 6750 20300 50  0001 C CNN
+	1    6750 20300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 20150 6750 20050
+Wire Wire Line
+	6150 20600 6750 20600
+Wire Wire Line
+	6750 20600 6750 20450
+Connection ~ 6150 20600
+$Comp
+L passive_component_rl:capacitor C56
+U 1 1 67241E6A
+P 7150 20300
+F 0 "C56" V 7104 20410 50  0000 L CNN
+F 1 "33nF" V 7195 20410 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 7150 20300 50  0001 C CNN
+F 3 "" H 7150 20300 50  0001 C CNN
+	1    7150 20300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 20150 7150 20050
+Wire Wire Line
+	6750 20600 7150 20600
+Wire Wire Line
+	7150 20600 7150 20450
+Connection ~ 6750 20600
+$Comp
+L diode_rl:rectifier_diode D41
+U 1 1 676998B7
+P 6150 20800
+F 0 "D41" V 6196 20720 50  0000 R CNN
+F 1 "BAV20WS-DC" V 6105 20720 50  0000 R CNN
+F 2 "package_sod_rl:sod_323" H 6150 20800 50  0001 C CNN
+F 3 "" H 6150 20800 50  0001 C CNN
+	1    6150 20800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 20650 6150 20600
+$Comp
+L power_rl:GND_A #PWR03
+U 1 1 678C8A4B
+P 6150 21000
+F 0 "#PWR03" H 6150 20750 50  0001 C CNN
+F 1 "GND_A" H 6155 20827 50  0000 C CNN
+F 2 "" H 6150 21000 50  0001 C CNN
+F 3 "" H 6150 21000 50  0001 C CNN
+	1    6150 21000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 21000 6150 20950
+$Comp
+L passive_component_rl:resistor_us R75
+U 1 1 67AF5F22
+P 6200 18650
+F 0 "R75" H 6200 18445 50  0000 C CNN
+F 1 "25m" H 6200 18536 50  0000 C CNN
+F 2 "resistor_smd_rl:r_1206" H 6200 18650 50  0001 C CNN
+F 3 "" H 6200 18650 50  0001 C CNN
+	1    6200 18650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 18650 6400 18650
+Wire Wire Line
+	6600 19150 6600 18900
+Wire Wire Line
+	6600 18900 6400 18900
+Wire Wire Line
+	6400 18900 6400 18650
+Connection ~ 6400 18650
+Wire Wire Line
+	6000 18650 6050 18650
+Wire Wire Line
+	6000 19450 6250 19450
+Wire Wire Line
+	6000 18650 5600 18650
+Connection ~ 6000 18650
+$Comp
+L passive_component_rl:resistor_us R76
+U 1 1 6B3D780C
+P 6200 19100
+F 0 "R76" H 6200 18895 50  0000 C CNN
+F 1 "1M" H 6200 18986 50  0000 C CNN
+F 2 "resistor_smd_rl:r_1206" H 6200 19100 50  0001 C CNN
+F 3 "" H 6200 19100 50  0001 C CNN
+	1    6200 19100
+	-1   0    0    1   
+$EndComp
+$Comp
+L diode_rl:rectifier_diode D40
+U 1 1 6B3D8E71
+P 5600 18900
+F 0 "D40" V 5554 18980 50  0000 L CNN
+F 1 "BAV20WS-DC" H 5400 18800 50  0000 L CNN
+F 2 "package_sod_rl:sod_323" H 5600 18900 50  0001 C CNN
+F 3 "" H 5600 18900 50  0001 C CNN
+	1    5600 18900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 19100 5600 19100
+Wire Wire Line
+	5600 19100 5600 19050
+Wire Wire Line
+	5600 18750 5600 18650
+Connection ~ 5600 18650
+Wire Wire Line
+	6950 19150 6950 19100
+Wire Wire Line
+	6950 19100 6350 19100
+Connection ~ 6950 19100
+$Comp
+L passive_component_rl:capacitor C55
+U 1 1 6DB6CD14
+P 5600 20100
+F 0 "C55" V 5646 19990 50  0000 R CNN
+F 1 "1000pF" V 5555 19990 50  0000 R CNN
+F 2 "capacitor_smd_rl:c_1206" H 5600 20100 50  0001 C CNN
+F 3 "" H 5600 20100 50  0001 C CNN
+	1    5600 20100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 19950 5600 19450
+Wire Wire Line
+	5600 20250 5600 20600
+Wire Wire Line
+	5600 20600 6150 20600
+Wire Wire Line
+	6950 19100 7700 19100
+Wire Wire Line
+	7300 19150 7300 18950
+$Comp
+L passive_component_rl:resistor_us R83
+U 1 1 6FAA2A99
+P 9450 19400
+F 0 "R83" V 9404 19468 50  0000 L CNN
+F 1 "4k7" V 9495 19468 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 9450 19400 50  0001 C CNN
+F 3 "" H 9450 19400 50  0001 C CNN
+	1    9450 19400
+	0    1    1    0   
+$EndComp
+$Comp
+L diode_rl:LED D45
+U 1 1 6FAA3763
+P 9450 19750
+F 0 "D45" V 9489 19632 50  0000 R CNN
+F 1 "LL-503VC1E-4C" V 9398 19632 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H 9450 19750 50  0001 C CNN
+F 3 "~" H 9450 19750 50  0001 C CNN
+	1    9450 19750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9450 19600 9450 19550
+Connection ~ 7150 20600
+$Comp
+L passive_component_rl:resistor_us R81
+U 1 1 72361D7C
+P 7800 19400
+F 0 "R81" V 7750 19500 50  0000 L CNN
+F 1 "100k" V 7850 19500 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 7800 19400 50  0001 C CNN
+F 3 "" H 7800 19400 50  0001 C CNN
+	1    7800 19400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7650 19600 7800 19600
+Wire Wire Line
+	7800 19550 7800 19600
+Wire Wire Line
+	7800 19200 7800 18950
+Wire Wire Line
+	7800 19200 7800 19250
+Connection ~ 7800 19200
+Text Notes 10300 19900 0    50   ~ 0
+Red LED\n24 V - 2 V (typ.) = 22 V\nI = 22 V / 0.0047 A = 4 700 R\n
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q18
+U 1 1 73A156D8
+P 8350 20150
+F 0 "Q18" H 8455 20196 50  0000 L CNN
+F 1 "PMV213SN,215" H 8455 20105 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H 8350 20150 50  0001 C CNN
+F 3 "" H 8350 20150 50  0001 C CNN
+	1    8350 20150
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q19
+U 1 1 740E7B38
+P 9450 20150
+F 0 "Q19" H 9555 20196 50  0000 L CNN
+F 1 "PMV213SN,215" H 9555 20105 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H 9450 20150 50  0001 C CNN
+F 3 "" H 9450 20150 50  0001 C CNN
+	1    9450 20150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 20150 9050 20150
+Wire Wire Line
+	9450 20600 9450 20350
+Wire Wire Line
+	9450 19950 9450 19900
+Wire Wire Line
+	9450 19200 9450 19250
+Wire Wire Line
+	7150 20600 7400 20600
+Wire Wire Line
+	7800 19200 8350 19200
+Connection ~ 8350 20600
+Wire Wire Line
+	8350 20600 9450 20600
+Wire Wire Line
+	8350 20350 8350 20600
+$Comp
+L passive_component_rl:resistor_us R82
+U 1 1 75E96AE5
+P 8350 19400
+F 0 "R82" V 8300 19500 50  0000 L CNN
+F 1 "100k" V 8400 19500 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 8350 19400 50  0001 C CNN
+F 3 "" H 8350 19400 50  0001 C CNN
+	1    8350 19400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 19950 8350 19750
+Wire Wire Line
+	8350 19250 8350 19200
+Connection ~ 8350 19200
+Wire Wire Line
+	7800 19600 7800 20150
+Wire Wire Line
+	7800 20150 8100 20150
+Connection ~ 7800 19600
+Wire Wire Line
+	8350 19750 9050 19750
+Connection ~ 8350 19750
+Wire Wire Line
+	8350 19750 8350 19550
+Wire Wire Line
+	9050 19750 9050 20150
+Wire Wire Line
+	8350 19200 9450 19200
+$Comp
+L passive_component_rl:capacitor C54
+U 1 1 7833233C
+P 4150 18850
+F 0 "C54" V 4104 18960 50  0000 L CNN
+F 1 "10uF" V 4195 18960 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 4150 18850 50  0001 C CNN
+F 3 "" H 4150 18850 50  0001 C CNN
+	1    4150 18850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 18700 3300 18650
+$Comp
+L power_rl:GND_A #PWR02
+U 1 1 787CBA08
+P 4150 19150
+F 0 "#PWR02" H 4150 18900 50  0001 C CNN
+F 1 "GND_A" H 4155 18977 50  0000 C CNN
+F 2 "" H 4150 19150 50  0001 C CNN
+F 3 "" H 4150 19150 50  0001 C CNN
+	1    4150 19150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 19150 4150 19000
+$Comp
+L passive_component_rl:capacitor C58
+U 1 1 78EB74FB
+P 10250 18850
+F 0 "C58" V 10204 18960 50  0000 L CNN
+F 1 "10uF" V 10295 18960 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 10250 18850 50  0001 C CNN
+F 3 "" H 10250 18850 50  0001 C CNN
+	1    10250 18850
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR05
+U 1 1 78EB7501
+P 10250 19150
+F 0 "#PWR05" H 10250 18900 50  0001 C CNN
+F 1 "GND_A" H 10255 18977 50  0000 C CNN
+F 2 "" H 10250 19150 50  0001 C CNN
+F 3 "" H 10250 19150 50  0001 C CNN
+	1    10250 19150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 19150 10250 19000
+Wire Wire Line
+	10250 18700 10250 18650
+Wire Wire Line
+	3300 18650 4150 18650
+Wire Wire Line
+	4150 18700 4150 18650
+Connection ~ 4150 18650
+$Comp
+L diode_rl:zener_diode D43
+U 1 1 79CA4122
+P 7700 20400
+F 0 "D43" V 7654 20480 50  0000 L CNN
+F 1 "TZMB27-GS08" V 7745 20480 50  0000 L CNN
+F 2 "package_sod_rl:minimelf_sod_80" H 7700 20400 50  0001 C CNN
+F 3 "" H 7700 20400 50  0001 C CNN
+	1    7700 20400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7700 20550 7700 20600
+Connection ~ 7700 20600
+Wire Wire Line
+	7700 20600 8350 20600
+Wire Wire Line
+	7700 20250 7700 19100
+Wire Wire Line
+	11050 18650 11050 18500
+Wire Wire Line
+	10650 18500 10650 18650
+$Comp
+L power_rl:PWR_FLAG #FLG01
+U 1 1 7A155835
+P 11050 18500
+F 0 "#FLG01" H 11050 18575 50  0001 C CNN
+F 1 "PWR_FLAG" H 11050 18673 50  0000 C CNN
+F 2 "" H 11050 18500 50  0001 C CNN
+F 3 "~" H 11050 18500 50  0001 C CNN
+	1    11050 18500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR06
+U 1 1 7A15583F
+P 10650 18500
+F 0 "#PWR06" H 10650 18400 50  0001 C CNN
+F 1 "+24V_A" H 10650 18673 50  0000 C CNN
+F 2 "" H 10650 18500 50  0001 C CNN
+F 3 "" H 10650 18500 50  0001 C CNN
+	1    10650 18500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10650 18650
+Wire Wire Line
+	10650 18650 11050 18650
+Text Label 11350 17200 2    50   ~ 0
+INPUT_24V
+Text Label 3100 18650 2    50   ~ 0
+INPUT_24V
+Wire Wire Line
+	3100 18650 3300 18650
+Connection ~ 3300 18650
+Text Notes 7800 20700 0    50   ~ 0
+27 V
+Text Notes 5900 18350 0    50   ~ 0
+Ilimit(nominal) = 2.2 A\nIlimit(min) = 1.94 A\nIlimit(max) = 2.46 A
+Connection ~ 10250 18650
+Wire Wire Line
+	10250 18650 10650 18650
+Wire Wire Line
+	5100 18950 5100 18650
+Wire Wire Line
+	5100 18650 5600 18650
+Wire Wire Line
+	5100 19650 5100 20600
+Wire Wire Line
+	5100 20600 5600 20600
+Connection ~ 5600 20600
+$Comp
+L passive_component_rl:resistor_us R71
+U 1 1 7B4247BA
+P 4650 20000
+F 0 "R71" V 4604 20068 50  0000 L CNN
+F 1 "2k67" V 4695 20068 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 4650 20000 50  0001 C CNN
+F 3 "" H 4650 20000 50  0001 C CNN
+	1    4650 20000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 19250 5100 19300
+Wire Wire Line
+	6250 19700 5450 19700
+Wire Wire Line
+	5450 19700 5450 19300
+Wire Wire Line
+	5450 19300 5100 19300
+Connection ~ 5100 19300
+Wire Wire Line
+	5100 19300 5100 19350
+Wire Wire Line
+	4650 19800 4650 19750
+Wire Wire Line
+	4650 19800 6250 19800
+Wire Wire Line
+	4650 19850 4650 19800
+Connection ~ 4650 19800
+Wire Wire Line
+	4650 20150 4650 20600
+Wire Wire Line
+	4650 20600 5100 20600
+Connection ~ 5100 20600
+Wire Wire Line
+	4650 19450 4650 18650
+Wire Wire Line
+	4150 18650 4650 18650
+Connection ~ 5100 18650
+Connection ~ 4650 18650
+Wire Wire Line
+	4650 18650 5100 18650
+Wire Wire Line
+	7300 18950 7800 18950
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q15
+U 1 1 7CDC2BE0
+P 6950 18650
+F 0 "Q15" V 7192 18650 50  0000 C CNN
+F 1 "AOB1608L" V 7101 18650 50  0000 C CNN
+F 2 "package_to_rl:to_263_2" H 6950 18650 50  0001 C CNN
+F 3 "" H 6950 18650 50  0001 C CNN
+	1    6950 18650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 18900 6950 19100
+Wire Wire Line
+	6400 18650 6750 18650
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q17
+U 1 1 7D2703C6
+P 7700 18650
+F 0 "Q17" V 7942 18650 50  0000 C CNN
+F 1 "AOB1608L" V 7851 18650 50  0000 C CNN
+F 2 "package_to_rl:to_263_2" H 7700 18650 50  0001 C CNN
+F 3 "" H 7700 18650 50  0001 C CNN
+	1    7700 18650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7900 18650 10250 18650
+Wire Wire Line
+	7700 18900 7700 19100
+Connection ~ 7700 19100
+Text Notes 3850 20000 0    50   ~ 0
+Uuvh = 15.6 V\nUuvl = 14.6 V\n\nUovh = 25 V\nUovl = 24.5 V
+Text Notes 6400 20550 1    50   ~ 0
+Max. 4.72 W
+Text Notes 7000 20550 1    50   ~ 0
+Timer: 1.55 ms
+Wire Wire Line
+	6000 19450 5600 19450
+Connection ~ 6000 19450
+Wire Wire Line
+	6000 18650 6000 19450
+Text Notes 8750 19700 0    50   ~ 0
+Fault: log. 0
+$Comp
+L power_management_rl:LM5069 U30
+U 1 1 80621108
+P 17200 19600
+F 0 "U30" H 16600 20000 50  0000 L CNN
+F 1 "LM5069" H 17550 19200 50  0000 L CNN
+F 2 "package_vssop_rl:vssop_10" H 17200 19600 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm5069.pdf?ts=1659343821266&ref_url=https%253A%252F%252Fwww.google.it%252F" H 17200 19600 50  0001 C CNN
+	1    17200 19600
+	1    0    0    -1  
+$EndComp
+$Comp
+L diode_rl:bidir_transil D48
+U 1 1 8062110E
+P 13550 18950
+F 0 "D48" H 13644 19046 50  0000 L CNN
+F 1 "SMBJ24CA-TR" H 13644 18955 50  0000 L CNN
+F 2 "diode_smd_rl:smb" H 13550 18950 50  0001 C CNN
+F 3 "" H 13550 18950 50  0001 C CNN
+	1    13550 18950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR09
+U 1 1 80621114
+P 13550 19150
+F 0 "#PWR09" H 13550 18900 50  0001 C CNN
+F 1 "GND_B" H 13555 18977 50  0000 C CNN
+F 2 "" H 13550 19150 50  0001 C CNN
+F 3 "" H 13550 19150 50  0001 C CNN
+	1    13550 19150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 19150 13550 19100
+$Comp
+L passive_component_rl:resistor_us R89
+U 1 1 8062111B
+P 15350 19100
+F 0 "R89" V 15304 19168 50  0000 L CNN
+F 1 "47k5" V 15395 19168 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 15350 19100 50  0001 C CNN
+F 3 "" H 15350 19100 50  0001 C CNN
+	1    15350 19100
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R87
+U 1 1 80621121
+P 14900 19600
+F 0 "R87" V 14854 19668 50  0000 L CNN
+F 1 "24k" V 14945 19668 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 14900 19600 50  0001 C CNN
+F 3 "" H 14900 19600 50  0001 C CNN
+	1    14900 19600
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R90
+U 1 1 80621127
+P 15350 19500
+F 0 "R90" V 15304 19568 50  0000 L CNN
+F 1 "9k76" V 15395 19568 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 15350 19500 50  0001 C CNN
+F 3 "" H 15350 19500 50  0001 C CNN
+	1    15350 19500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16400 20600 16400 19900
+Wire Wire Line
+	16400 19900 16500 19900
+$Comp
+L passive_component_rl:resistor_us R93
+U 1 1 8062112F
+P 17000 20300
+F 0 "R93" V 16950 20050 50  0000 L CNN
+F 1 "14k3" V 17050 20000 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 17000 20300 50  0001 C CNN
+F 3 "" H 17000 20300 50  0001 C CNN
+	1    17000 20300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17000 20150 17000 20050
+Wire Wire Line
+	16400 20600 17000 20600
+Wire Wire Line
+	17000 20600 17000 20450
+Connection ~ 16400 20600
+$Comp
+L passive_component_rl:capacitor C65
+U 1 1 80621139
+P 17400 20300
+F 0 "C65" V 17354 20410 50  0000 L CNN
+F 1 "33nF" V 17445 20410 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 17400 20300 50  0001 C CNN
+F 3 "" H 17400 20300 50  0001 C CNN
+	1    17400 20300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17400 20150 17400 20050
+Wire Wire Line
+	17000 20600 17400 20600
+Wire Wire Line
+	17400 20600 17400 20450
+Connection ~ 17000 20600
+$Comp
+L diode_rl:rectifier_diode D51
+U 1 1 80621143
+P 16400 20800
+F 0 "D51" V 16446 20720 50  0000 R CNN
+F 1 "BAV20WS-DC" V 16355 20720 50  0000 R CNN
+F 2 "package_sod_rl:sod_323" H 16400 20800 50  0001 C CNN
+F 3 "" H 16400 20800 50  0001 C CNN
+	1    16400 20800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16400 20650 16400 20600
+$Comp
+L power_rl:GND_B #PWR011
+U 1 1 8062114A
+P 16400 21000
+F 0 "#PWR011" H 16400 20750 50  0001 C CNN
+F 1 "GND_B" H 16405 20827 50  0000 C CNN
+F 2 "" H 16400 21000 50  0001 C CNN
+F 3 "" H 16400 21000 50  0001 C CNN
+	1    16400 21000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16400 21000 16400 20950
+$Comp
+L passive_component_rl:resistor_us R91
+U 1 1 80621151
+P 16450 18650
+F 0 "R91" H 16450 18445 50  0000 C CNN
+F 1 "25m" H 16450 18536 50  0000 C CNN
+F 2 "resistor_smd_rl:r_1206" H 16450 18650 50  0001 C CNN
+F 3 "" H 16450 18650 50  0001 C CNN
+	1    16450 18650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16600 18650 16650 18650
+Wire Wire Line
+	16850 19150 16850 18900
+Wire Wire Line
+	16850 18900 16650 18900
+Wire Wire Line
+	16650 18900 16650 18650
+Connection ~ 16650 18650
+Wire Wire Line
+	16250 18650 16300 18650
+Wire Wire Line
+	16250 18650 15850 18650
+Connection ~ 16250 18650
+$Comp
+L passive_component_rl:resistor_us R92
+U 1 1 80621160
+P 16450 19100
+F 0 "R92" H 16450 18895 50  0000 C CNN
+F 1 "1M" H 16450 18986 50  0000 C CNN
+F 2 "resistor_smd_rl:r_1206" H 16450 19100 50  0001 C CNN
+F 3 "" H 16450 19100 50  0001 C CNN
+	1    16450 19100
+	-1   0    0    1   
+$EndComp
+$Comp
+L diode_rl:rectifier_diode D49
+U 1 1 80621166
+P 15850 18900
+F 0 "D49" V 15804 18980 50  0000 L CNN
+F 1 "BAV20WS-DC" H 15650 18800 50  0000 L CNN
+F 2 "package_sod_rl:sod_323" H 15850 18900 50  0001 C CNN
+F 3 "" H 15850 18900 50  0001 C CNN
+	1    15850 18900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16300 19100 15850 19100
+Wire Wire Line
+	15850 19100 15850 19050
+Wire Wire Line
+	15850 18750 15850 18650
+Connection ~ 15850 18650
+Wire Wire Line
+	17200 19150 17200 19100
+Wire Wire Line
+	17200 19100 16600 19100
+Connection ~ 17200 19100
+$Comp
+L passive_component_rl:capacitor C64
+U 1 1 80621173
+P 15850 20100
+F 0 "C64" V 15896 19990 50  0000 R CNN
+F 1 "1000pF" V 15805 19990 50  0000 R CNN
+F 2 "capacitor_smd_rl:c_1206" H 15850 20100 50  0001 C CNN
+F 3 "" H 15850 20100 50  0001 C CNN
+	1    15850 20100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15850 19950 15850 19450
+Wire Wire Line
+	15850 20250 15850 20600
+Wire Wire Line
+	15850 20600 16400 20600
+Wire Wire Line
+	17200 19100 17950 19100
+Wire Wire Line
+	17550 19150 17550 18950
+$Comp
+L passive_component_rl:resistor_us R102
+U 1 1 8062117E
+P 19700 19400
+F 0 "R102" V 19654 19468 50  0000 L CNN
+F 1 "4k7" V 19745 19468 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 19700 19400 50  0001 C CNN
+F 3 "" H 19700 19400 50  0001 C CNN
+	1    19700 19400
+	0    1    1    0   
+$EndComp
+$Comp
+L diode_rl:LED D54
+U 1 1 80621184
+P 19700 19750
+F 0 "D54" V 19739 19632 50  0000 R CNN
+F 1 "LL-503VC1E-4C" V 19648 19632 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H 19700 19750 50  0001 C CNN
+F 3 "~" H 19700 19750 50  0001 C CNN
+	1    19700 19750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19700 19600 19700 19550
+Connection ~ 17400 20600
+$Comp
+L passive_component_rl:resistor_us R98
+U 1 1 8062118C
+P 18050 19400
+F 0 "R98" V 18000 19500 50  0000 L CNN
+F 1 "100k" V 18100 19500 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 18050 19400 50  0001 C CNN
+F 3 "" H 18050 19400 50  0001 C CNN
+	1    18050 19400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17900 19600 18050 19600
+Wire Wire Line
+	18050 19550 18050 19600
+Wire Wire Line
+	18050 19200 18050 18950
+Wire Wire Line
+	18050 19200 18050 19250
+Connection ~ 18050 19200
+Text Notes 20550 19900 0    50   ~ 0
+Red LED\n24 V - 2 V (typ.) = 22 V\nI = 22 V / 0.0047 A = 4 700 R\n
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q22
+U 1 1 80621198
+P 18600 20150
+F 0 "Q22" H 18705 20196 50  0000 L CNN
+F 1 "PMV213SN,215" H 18705 20105 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H 18600 20150 50  0001 C CNN
+F 3 "" H 18600 20150 50  0001 C CNN
+	1    18600 20150
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q23
+U 1 1 8062119E
+P 19700 20150
+F 0 "Q23" H 19805 20196 50  0000 L CNN
+F 1 "PMV213SN,215" H 19805 20105 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H 19700 20150 50  0001 C CNN
+F 3 "" H 19700 20150 50  0001 C CNN
+	1    19700 20150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19450 20150 19300 20150
+Wire Wire Line
+	19700 20600 19700 20350
+Wire Wire Line
+	19700 19950 19700 19900
+Wire Wire Line
+	19700 19200 19700 19250
+Wire Wire Line
+	17400 20600 17650 20600
+Wire Wire Line
+	18050 19200 18600 19200
+Connection ~ 18600 20600
+Wire Wire Line
+	18600 20600 19700 20600
+Wire Wire Line
+	18600 20350 18600 20600
+$Comp
+L passive_component_rl:resistor_us R99
+U 1 1 806211AD
+P 18600 19400
+F 0 "R99" V 18550 19500 50  0000 L CNN
+F 1 "100k" V 18650 19500 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 18600 19400 50  0001 C CNN
+F 3 "" H 18600 19400 50  0001 C CNN
+	1    18600 19400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18600 19950 18600 19750
+Wire Wire Line
+	18600 19250 18600 19200
+Connection ~ 18600 19200
+Wire Wire Line
+	18050 19600 18050 20150
+Wire Wire Line
+	18050 20150 18350 20150
+Connection ~ 18050 19600
+Wire Wire Line
+	18600 19750 19300 19750
+Connection ~ 18600 19750
+Wire Wire Line
+	18600 19750 18600 19550
+Wire Wire Line
+	19300 19750 19300 20150
+Wire Wire Line
+	18600 19200 19700 19200
+$Comp
+L passive_component_rl:capacitor C63
+U 1 1 806211BE
+P 14400 18850
+F 0 "C63" V 14354 18960 50  0000 L CNN
+F 1 "10uF" V 14445 18960 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 14400 18850 50  0001 C CNN
+F 3 "" H 14400 18850 50  0001 C CNN
+	1    14400 18850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13550 18700 13550 18650
+Wire Wire Line
+	14400 19150 14400 19000
+$Comp
+L passive_component_rl:capacitor C69
+U 1 1 806211CC
+P 20500 18850
+F 0 "C69" V 20454 18960 50  0000 L CNN
+F 1 "10uF" V 20545 18960 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H 20500 18850 50  0001 C CNN
+F 3 "" H 20500 18850 50  0001 C CNN
+	1    20500 18850
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_B #PWR013
+U 1 1 806211D2
+P 20500 19150
+F 0 "#PWR013" H 20500 18900 50  0001 C CNN
+F 1 "GND_B" H 20505 18977 50  0000 C CNN
+F 2 "" H 20500 19150 50  0001 C CNN
+F 3 "" H 20500 19150 50  0001 C CNN
+	1    20500 19150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20500 19150 20500 19000
+Wire Wire Line
+	20500 18700 20500 18650
+Wire Wire Line
+	13550 18650 14400 18650
+Wire Wire Line
+	14400 18700 14400 18650
+Connection ~ 14400 18650
+$Comp
+L diode_rl:zener_diode D53
+U 1 1 806211DD
+P 17950 20400
+F 0 "D53" V 17904 20480 50  0000 L CNN
+F 1 "TZMB27-GS08" V 17995 20480 50  0000 L CNN
+F 2 "package_sod_rl:minimelf_sod_80" H 17950 20400 50  0001 C CNN
+F 3 "" H 17950 20400 50  0001 C CNN
+	1    17950 20400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17950 20550 17950 20600
+Connection ~ 17950 20600
+Wire Wire Line
+	17950 20600 18600 20600
+Wire Wire Line
+	17950 20250 17950 19100
+Wire Wire Line
+	21300 18650 21300 18500
+Wire Wire Line
+	20900 18500 20900 18650
+$Comp
+L power_rl:PWR_FLAG #FLG03
+U 1 1 806211E9
+P 21300 18500
+F 0 "#FLG03" H 21300 18575 50  0001 C CNN
+F 1 "PWR_FLAG" H 21300 18673 50  0000 C CNN
+F 2 "" H 21300 18500 50  0001 C CNN
+F 3 "~" H 21300 18500 50  0001 C CNN
+	1    21300 18500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR014
+U 1 1 806211EF
+P 20900 18500
+F 0 "#PWR014" H 20900 18400 50  0001 C CNN
+F 1 "+24V_B" H 20900 18673 50  0000 C CNN
+F 2 "" H 20900 18500 50  0001 C CNN
+F 3 "" H 20900 18500 50  0001 C CNN
+	1    20900 18500
+	1    0    0    -1  
+$EndComp
+Connection ~ 20900 18650
+Wire Wire Line
+	20900 18650 21300 18650
+Text Label 13350 18650 2    50   ~ 0
+INPUT_24V
+Wire Wire Line
+	13350 18650 13550 18650
+Connection ~ 13550 18650
+Text Notes 18050 20700 0    50   ~ 0
+27 V
+Text Notes 16150 18350 0    50   ~ 0
+Ilimit(nominal) = 2.2 A\nIlimit(min) = 1.94 A\nIlimit(max) = 2.46 A
+Connection ~ 20500 18650
+Wire Wire Line
+	20500 18650 20900 18650
+Wire Wire Line
+	15350 18950 15350 18650
+Wire Wire Line
+	15350 18650 15850 18650
+Wire Wire Line
+	15350 19650 15350 20600
+Wire Wire Line
+	15350 20600 15850 20600
+Connection ~ 15850 20600
+$Comp
+L passive_component_rl:resistor_us R88
+U 1 1 80621203
+P 14900 20000
+F 0 "R88" V 14854 20068 50  0000 L CNN
+F 1 "2k67" V 14945 20068 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 14900 20000 50  0001 C CNN
+F 3 "" H 14900 20000 50  0001 C CNN
+	1    14900 20000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15350 19250 15350 19300
+Wire Wire Line
+	16500 19700 15700 19700
+Wire Wire Line
+	15700 19700 15700 19300
+Wire Wire Line
+	15700 19300 15350 19300
+Connection ~ 15350 19300
+Wire Wire Line
+	15350 19300 15350 19350
+Wire Wire Line
+	14900 19800 14900 19750
+Wire Wire Line
+	14900 19800 16500 19800
+Wire Wire Line
+	14900 19850 14900 19800
+Connection ~ 14900 19800
+Wire Wire Line
+	14900 20150 14900 20600
+Wire Wire Line
+	14900 20600 15350 20600
+Connection ~ 15350 20600
+Wire Wire Line
+	14900 19450 14900 18650
+Wire Wire Line
+	14400 18650 14900 18650
+Connection ~ 15350 18650
+Connection ~ 14900 18650
+Wire Wire Line
+	14900 18650 15350 18650
+Wire Wire Line
+	17550 18950 18050 18950
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q20
+U 1 1 8062121C
+P 17200 18650
+F 0 "Q20" V 17442 18650 50  0000 C CNN
+F 1 "AOB1608L" V 17351 18650 50  0000 C CNN
+F 2 "package_to_rl:to_263_2" H 17200 18650 50  0001 C CNN
+F 3 "" H 17200 18650 50  0001 C CNN
+	1    17200 18650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17200 18900 17200 19100
+Wire Wire Line
+	16650 18650 17000 18650
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q21
+U 1 1 80621224
+P 17950 18650
+F 0 "Q21" V 18192 18650 50  0000 C CNN
+F 1 "AOB1608L" V 18101 18650 50  0000 C CNN
+F 2 "package_to_rl:to_263_2" H 17950 18650 50  0001 C CNN
+F 3 "" H 17950 18650 50  0001 C CNN
+	1    17950 18650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	18150 18650 20500 18650
+Wire Wire Line
+	17950 18900 17950 19100
+Connection ~ 17950 19100
+Text Notes 14100 20000 0    50   ~ 0
+Uuvh = 15.6 V\nUuvl = 14.6 V\n\nUovh = 25 V\nUovl = 24.5 V
+Text Notes 16650 20550 1    50   ~ 0
+Max. 4.72 W
+Text Notes 17250 20550 1    50   ~ 0
+Timer: 1.55 ms
+Wire Wire Line
+	16250 19450 15850 19450
+Wire Wire Line
+	16250 18650 16250 19450
+Text Notes 19000 19700 0    50   ~ 0
+Fault: log. 0
+$Comp
+L power_rl:GND_B #PWR010
+U 1 1 806211C5
+P 14400 19150
+F 0 "#PWR010" H 14400 18900 50  0001 C CNN
+F 1 "GND_B" H 14405 18977 50  0000 C CNN
+F 2 "" H 14400 19150 50  0001 C CNN
+F 3 "" H 14400 19150 50  0001 C CNN
+	1    14400 19150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 16250 13850
+NoConn ~ 16250 13950
+NoConn ~ 16250 14050
+NoConn ~ 16250 14150
+$Comp
+L diode_rl:undir_transil D44
+U 1 1 6648937C
+P 7850 8000
+F 0 "D44" H 7944 8046 50  0000 L CNN
+F 1 "UCLAMP0501H.TCT" H 7944 7955 50  0000 L CNN
+F 2 "package_sod_rl:sod_523" H 7850 8000 50  0001 C CNN
+F 3 "" H 7850 8000 50  0001 C CNN
+	1    7850 8000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 16150 15650
+NoConn ~ 16450 15650
+NoConn ~ 16350 15650
+NoConn ~ 16250 15650
+Text Notes 8500 8850 0    50   ~ 0
+Manual turn on/off pump
+$Comp
+L power_rl:GND1 #PWR04
+U 1 1 631A3E79
+P 7400 21050
+F 0 "#PWR04" H 7400 20800 50  0001 C CNN
+F 1 "GND1" H 7400 20950 50  0000 C CNN
+F 2 "" H 7400 21050 50  0001 C CNN
+F 3 "" H 7400 21050 50  0001 C CNN
+	1    7400 21050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 21000 7400 20950
+Connection ~ 7400 20600
+Wire Wire Line
+	7400 20600 7700 20600
+$Comp
+L power_rl:GND2 #PWR012
+U 1 1 637E0655
+P 17650 21100
+F 0 "#PWR012" H 17650 20850 50  0001 C CNN
+F 1 "GND2" H 17650 21000 50  0000 C CNN
+F 2 "" H 17650 21100 50  0001 C CNN
+F 3 "" H 17650 21100 50  0001 C CNN
+	1    17650 21100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17650 21050 17650 21000
+Connection ~ 17650 20600
+Wire Wire Line
+	17650 20600 17950 20600
+Wire Wire Line
+	5050 13100 5200 13100
+Wire Wire Line
+	1900 13350 2050 13350
+$Comp
+L passive_component_rl:capacitor C71
+U 1 1 63E0F9F1
+P -12750 -5450
+F 0 "C71" H -12800 -5600 50  0000 L CNN
+F 1 "100nF" H -12900 -5300 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -12750 -5450 50  0001 C CNN
+F 3 "" H -12750 -5450 50  0001 C CNN
+	1    -12750 -5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0117
+U 1 1 63E0F9F7
+P -12500 -5350
+F 0 "#PWR0117" H -12500 -5600 50  0001 C CNN
+F 1 "GND_A" H -12495 -5523 50  0000 C CNN
+F 2 "" H -12500 -5350 50  0001 C CNN
+F 3 "" H -12500 -5350 50  0001 C CNN
+	1    -12500 -5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12600 -5450 -12500 -5450
+Wire Wire Line
+	-12500 -5450 -12500 -5350
+Wire Wire Line
+	-13100 -4850 -13100 -5450
+Wire Wire Line
+	-13100 -5450 -12900 -5450
+$Comp
+L passive_component_rl:capacitor C72
+U 1 1 640223FF
+P -12800 -1300
+F 0 "C72" H -12850 -1450 50  0000 L CNN
+F 1 "100nF" H -12950 -1150 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -12800 -1300 50  0001 C CNN
+F 3 "" H -12800 -1300 50  0001 C CNN
+	1    -12800 -1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0142
+U 1 1 64022405
+P -12550 -1200
+F 0 "#PWR0142" H -12550 -1450 50  0001 C CNN
+F 1 "GND_A" H -12545 -1373 50  0000 C CNN
+F 2 "" H -12550 -1200 50  0001 C CNN
+F 3 "" H -12550 -1200 50  0001 C CNN
+	1    -12550 -1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12650 -1300 -12550 -1300
+Wire Wire Line
+	-12550 -1300 -12550 -1200
+Wire Wire Line
+	-13150 -700 -13150 -1300
+Wire Wire Line
+	-13150 -1300 -12950 -1300
+$Comp
+L passive_component_rl:capacitor C73
+U 1 1 64238475
+P -12800 2700
+F 0 "C73" H -12850 2550 50  0000 L CNN
+F 1 "100nF" H -12950 2850 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -12800 2700 50  0001 C CNN
+F 3 "" H -12800 2700 50  0001 C CNN
+	1    -12800 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0143
+U 1 1 6423847B
+P -12550 2800
+F 0 "#PWR0143" H -12550 2550 50  0001 C CNN
+F 1 "GND_A" H -12545 2627 50  0000 C CNN
+F 2 "" H -12550 2800 50  0001 C CNN
+F 3 "" H -12550 2800 50  0001 C CNN
+	1    -12550 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12650 2700 -12550 2700
+Wire Wire Line
+	-12550 2700 -12550 2800
+Wire Wire Line
+	-13150 3300 -13150 2700
+Wire Wire Line
+	-13150 2700 -12950 2700
+$Comp
+L passive_component_rl:capacitor C74
+U 1 1 64452025
+P -12600 7150
+F 0 "C74" H -12650 7000 50  0000 L CNN
+F 1 "100nF" H -12750 7300 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -12600 7150 50  0001 C CNN
+F 3 "" H -12600 7150 50  0001 C CNN
+	1    -12600 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0144
+U 1 1 6445202B
+P -12350 7250
+F 0 "#PWR0144" H -12350 7000 50  0001 C CNN
+F 1 "GND_A" H -12345 7077 50  0000 C CNN
+F 2 "" H -12350 7250 50  0001 C CNN
+F 3 "" H -12350 7250 50  0001 C CNN
+	1    -12350 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12450 7150 -12350 7150
+Wire Wire Line
+	-12350 7150 -12350 7250
+Wire Wire Line
+	-12950 7750 -12950 7150
+Wire Wire Line
+	-12950 7150 -12750 7150
+$Comp
+L passive_component_rl:capacitor C75
+U 1 1 6466F6E7
+P -12600 11300
+F 0 "C75" H -12650 11150 50  0000 L CNN
+F 1 "100nF" H -12750 11450 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -12600 11300 50  0001 C CNN
+F 3 "" H -12600 11300 50  0001 C CNN
+	1    -12600 11300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0145
+U 1 1 6466F6ED
+P -12350 11400
+F 0 "#PWR0145" H -12350 11150 50  0001 C CNN
+F 1 "GND_A" H -12345 11227 50  0000 C CNN
+F 2 "" H -12350 11400 50  0001 C CNN
+F 3 "" H -12350 11400 50  0001 C CNN
+	1    -12350 11400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12450 11300 -12350 11300
+Wire Wire Line
+	-12350 11300 -12350 11400
+Wire Wire Line
+	-12950 11900 -12950 11300
+Wire Wire Line
+	-12950 11300 -12750 11300
+$Comp
+L passive_component_rl:capacitor C77
+U 1 1 64890B17
+P -3400 -9450
+F 0 "C77" H -3450 -9600 50  0000 L CNN
+F 1 "100nF" H -3550 -9300 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -3400 -9450 50  0001 C CNN
+F 3 "" H -3400 -9450 50  0001 C CNN
+	1    -3400 -9450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0146
+U 1 1 64890B1D
+P -3150 -9350
+F 0 "#PWR0146" H -3150 -9600 50  0001 C CNN
+F 1 "GND_A" H -3145 -9523 50  0000 C CNN
+F 2 "" H -3150 -9350 50  0001 C CNN
+F 3 "" H -3150 -9350 50  0001 C CNN
+	1    -3150 -9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3250 -9450 -3150 -9450
+Wire Wire Line
+	-3150 -9450 -3150 -9350
+Wire Wire Line
+	-3750 -8850 -3750 -9450
+Wire Wire Line
+	-3750 -9450 -3550 -9450
+$Comp
+L passive_component_rl:capacitor C78
+U 1 1 64AB50D3
+P -3450 -5300
+F 0 "C78" H -3500 -5450 50  0000 L CNN
+F 1 "100nF" H -3600 -5150 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -3450 -5300 50  0001 C CNN
+F 3 "" H -3450 -5300 50  0001 C CNN
+	1    -3450 -5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0147
+U 1 1 64AB50D9
+P -3200 -5200
+F 0 "#PWR0147" H -3200 -5450 50  0001 C CNN
+F 1 "GND_A" H -3195 -5373 50  0000 C CNN
+F 2 "" H -3200 -5200 50  0001 C CNN
+F 3 "" H -3200 -5200 50  0001 C CNN
+	1    -3200 -5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3300 -5300 -3200 -5300
+Wire Wire Line
+	-3200 -5300 -3200 -5200
+Wire Wire Line
+	-3800 -4700 -3800 -5300
+Wire Wire Line
+	-3800 -5300 -3600 -5300
+$Comp
+L passive_component_rl:capacitor C79
+U 1 1 64CDC5ED
+P -3500 -1400
+F 0 "C79" H -3550 -1550 50  0000 L CNN
+F 1 "100nF" H -3650 -1250 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -3500 -1400 50  0001 C CNN
+F 3 "" H -3500 -1400 50  0001 C CNN
+	1    -3500 -1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0148
+U 1 1 64CDC5F3
+P -3250 -1300
+F 0 "#PWR0148" H -3250 -1550 50  0001 C CNN
+F 1 "GND_A" H -3245 -1473 50  0000 C CNN
+F 2 "" H -3250 -1300 50  0001 C CNN
+F 3 "" H -3250 -1300 50  0001 C CNN
+	1    -3250 -1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3350 -1400 -3250 -1400
+Wire Wire Line
+	-3250 -1400 -3250 -1300
+Wire Wire Line
+	-3850 -800 -3850 -1400
+Wire Wire Line
+	-3850 -1400 -3650 -1400
+$Comp
+L passive_component_rl:capacitor C80
+U 1 1 64F06DBD
+P -3550 2550
+F 0 "C80" H -3600 2400 50  0000 L CNN
+F 1 "100nF" H -3700 2700 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -3550 2550 50  0001 C CNN
+F 3 "" H -3550 2550 50  0001 C CNN
+	1    -3550 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0149
+U 1 1 64F06DC3
+P -3300 2650
+F 0 "#PWR0149" H -3300 2400 50  0001 C CNN
+F 1 "GND_A" H -3295 2477 50  0000 C CNN
+F 2 "" H -3300 2650 50  0001 C CNN
+F 3 "" H -3300 2650 50  0001 C CNN
+	1    -3300 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3400 2550 -3300 2550
+Wire Wire Line
+	-3300 2550 -3300 2650
+Wire Wire Line
+	-3900 3150 -3900 2550
+Wire Wire Line
+	-3900 2550 -3700 2550
+$Comp
+L passive_component_rl:capacitor C81
+U 1 1 6513496B
+P -3550 6650
+F 0 "C81" H -3600 6500 50  0000 L CNN
+F 1 "100nF" H -3700 6800 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -3550 6650 50  0001 C CNN
+F 3 "" H -3550 6650 50  0001 C CNN
+	1    -3550 6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0337
+U 1 1 65134971
+P -3300 6750
+F 0 "#PWR0337" H -3300 6500 50  0001 C CNN
+F 1 "GND_A" H -3295 6577 50  0000 C CNN
+F 2 "" H -3300 6750 50  0001 C CNN
+F 3 "" H -3300 6750 50  0001 C CNN
+	1    -3300 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3400 6650 -3300 6650
+Wire Wire Line
+	-3300 6650 -3300 6750
+Wire Wire Line
+	-3900 7250 -3900 6650
+Wire Wire Line
+	-3900 6650 -3700 6650
+$Comp
+L passive_component_rl:capacitor C82
+U 1 1 653652A1
+P -3450 11200
+F 0 "C82" H -3500 11050 50  0000 L CNN
+F 1 "100nF" H -3600 11350 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -3450 11200 50  0001 C CNN
+F 3 "" H -3450 11200 50  0001 C CNN
+	1    -3450 11200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0338
+U 1 1 653652A7
+P -3200 11300
+F 0 "#PWR0338" H -3200 11050 50  0001 C CNN
+F 1 "GND_A" H -3195 11127 50  0000 C CNN
+F 2 "" H -3200 11300 50  0001 C CNN
+F 3 "" H -3200 11300 50  0001 C CNN
+	1    -3200 11300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3300 11200 -3200 11200
+Wire Wire Line
+	-3200 11200 -3200 11300
+Wire Wire Line
+	-3800 11800 -3800 11200
+Wire Wire Line
+	-3800 11200 -3600 11200
+Connection ~ -3800 11800
+Wire Wire Line
+	-3800 11800 -3550 11800
+Connection ~ -3900 7250
+Wire Wire Line
+	-3900 7250 -3650 7250
+Connection ~ -3900 3150
+Wire Wire Line
+	-3900 3150 -3650 3150
+Connection ~ -3800 -4700
+Wire Wire Line
+	-3800 -4700 -3550 -4700
+Connection ~ -3850 -800
+Wire Wire Line
+	-3850 -800 -3600 -800
+Connection ~ -13150 -700
+Wire Wire Line
+	-13150 -700 -12900 -700
+Connection ~ -13150 3300
+Wire Wire Line
+	-13150 3300 -12900 3300
+Connection ~ -12950 11900
+Wire Wire Line
+	-12950 11900 -12700 11900
+Connection ~ -13100 -4850
+Wire Wire Line
+	-13100 -4850 -12850 -4850
+Connection ~ -3750 -8850
+Wire Wire Line
+	-3750 -8850 -3500 -8850
+$Comp
+L power_rl:GND_B #PWR0339
+U 1 1 63688A16
+P 12600 17250
+F 0 "#PWR0339" H 12600 17000 50  0001 C CNN
+F 1 "GND_B" H 12600 17100 50  0000 C CNN
+F 2 "" H 12600 17250 50  0001 C CNN
+F 3 "" H 12600 17250 50  0001 C CNN
+	1    12600 17250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 17200 12600 17200
+Connection ~ 12300 17200
+Wire Wire Line
+	12600 17250 12600 17200
+Connection ~ 12600 17200
+Wire Wire Line
+	12600 17200 13050 17200
+Wire Wire Line
+	-14300 3550 -14150 3550
+$Comp
+L power_rl:PWR_FLAG #FLG0102
+U 1 1 63D540CD
+P 14550 6550
+F 0 "#FLG0102" H 14550 6625 50  0001 C CNN
+F 1 "PWR_FLAG" H 14550 6723 50  0000 C CNN
+F 2 "" H 14550 6550 50  0001 C CNN
+F 3 "~" H 14550 6550 50  0001 C CNN
+	1    14550 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14550 6700 14550 6550
+Connection ~ 14550 6700
+NoConn ~ 19700 4600
+NoConn ~ 19700 4500
+NoConn ~ 19700 4400
+NoConn ~ 19700 4300
+$Comp
+L power_rl:Earth_Protective #PWR0340
+U 1 1 648862DC
+P -13650 -10300
+F 0 "#PWR0340" H -13400 -10550 50  0001 C CNN
+F 1 "Earth_Protective" H -13200 -10450 50  0001 C CNN
+F 2 "" H -13650 -10400 50  0001 C CNN
+F 3 "~" H -13650 -10400 50  0001 C CNN
+	1    -13650 -10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:PWR_FLAG #FLG0103
+U 1 1 64887025
+P -13350 -10250
+F 0 "#FLG0103" H -13350 -10175 50  0001 C CNN
+F 1 "PWR_FLAG" H -13350 -10077 50  0000 C CNN
+F 2 "" H -13350 -10250 50  0001 C CNN
+F 3 "~" H -13350 -10250 50  0001 C CNN
+	1    -13350 -10250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-13650 -10300 -13650 -10350
+Wire Wire Line
+	-13650 -10350 -13500 -10350
+Wire Wire Line
+	-13350 -10350 -13350 -10250
+Wire Wire Line
+	16500 19450 16250 19450
+Connection ~ 16250 19450
+Connection ~ -12950 7750
+Wire Wire Line
+	-12950 7750 -12700 7750
+$Comp
+L power_rl:PWR_FLAG #FLG0104
+U 1 1 63D88EBC
+P 7800 21000
+F 0 "#FLG0104" H 7800 21075 50  0001 C CNN
+F 1 "PWR_FLAG" H 7800 21173 50  0000 C CNN
+F 2 "" H 7800 21000 50  0001 C CNN
+F 3 "~" H 7800 21000 50  0001 C CNN
+	1    7800 21000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 21000 7800 20950
+Wire Wire Line
+	7800 20950 7400 20950
+Connection ~ 7400 20950
+Wire Wire Line
+	7400 20950 7400 20600
+$Comp
+L power_rl:PWR_FLAG #FLG0105
+U 1 1 63FD711F
+P 18050 21050
+F 0 "#FLG0105" H 18050 21125 50  0001 C CNN
+F 1 "PWR_FLAG" H 18050 21223 50  0000 C CNN
+F 2 "" H 18050 21050 50  0001 C CNN
+F 3 "~" H 18050 21050 50  0001 C CNN
+	1    18050 21050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	18050 21050 18050 21000
+Wire Wire Line
+	18050 21000 17650 21000
+Connection ~ 17650 21000
+Wire Wire Line
+	17650 21000 17650 20600
+Wire Wire Line
+	-13550 -10450 -13550 -10400
+Wire Wire Line
+	-13550 -10400 -13500 -10400
+Wire Wire Line
+	-13450 -10400 -13450 -10450
+Wire Wire Line
+	-13500 -10400 -13500 -10350
+Connection ~ -13500 -10400
+Wire Wire Line
+	-13500 -10400 -13450 -10400
+Connection ~ -13500 -10350
+Wire Wire Line
+	-13500 -10350 -13350 -10350
+$Comp
+L connector_rl:1x2_screw_term_block J19
+U 1 1 634F6C3B
+P -13500 -10650
+F 0 "J19" V -13536 -10788 50  0000 R CNN
+F 1 "EBBA-02-C-SS-BU" V -13627 -10788 50  0000 R CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -13500 -10650 50  0001 C CNN
+F 3 "" H -13500 -10650 50  0001 C CNN
+	1    -13500 -10650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-13250 -8650 -13000 -8650
+Connection ~ -13250 -8650
+Wire Wire Line
+	-13250 -9250 -13050 -9250
+Wire Wire Line
+	-13250 -8650 -13250 -9250
+Wire Wire Line
+	-12650 -9250 -12650 -9150
+Wire Wire Line
+	-12750 -9250 -12650 -9250
+$Comp
+L power_rl:GND_A #PWR0116
+U 1 1 633BDF39
+P -12650 -9150
+F 0 "#PWR0116" H -12650 -9400 50  0001 C CNN
+F 1 "GND_A" H -12645 -9323 50  0000 C CNN
+F 2 "" H -12650 -9150 50  0001 C CNN
+F 3 "" H -12650 -9150 50  0001 C CNN
+	1    -12650 -9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:capacitor C76
+U 1 1 633BC95E
+P -12900 -9250
+F 0 "C76" H -12950 -9400 50  0000 L CNN
+F 1 "100nF" H -13050 -9100 50  0000 L CNN
+F 2 "capacitor_smd_rl:c_1206" H -12900 -9250 50  0001 C CNN
+F 3 "" H -12900 -9250 50  0001 C CNN
+	1    -12900 -9250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-14000 -9050 -14000 -8850
+Connection ~ -14000 -9050
+Wire Wire Line
+	-14000 -9150 -14000 -9050
+Wire Wire Line
+	-14150 -9050 -14000 -9050
+Wire Wire Line
+	-14150 -9000 -14150 -9050
+Wire Wire Line
+	-14150 -8650 -14150 -8700
+Wire Wire Line
+	-14000 -8650 -14150 -8650
+$Comp
+L diode_rl:schottky_diode D2
+U 1 1 81688401
+P -14150 -8850
+F 0 "D2" V -14200 -9100 50  0000 L CNN
+F 1 "STPS160A" V -14100 -9400 50  0000 L CNN
+F 2 "diode_smd_rl:sma" H -14150 -8850 50  0001 C CNN
+F 3 "" H -14150 -8850 50  0001 C CNN
+	1    -14150 -8850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-14850 -8400 -14700 -8400
+Connection ~ -14850 -8400
+Wire Wire Line
+	-14400 -8400 -14250 -8400
+Wire Wire Line
+	-15050 -8400 -14850 -8400
+$Comp
+L passive_component_rl:resistor_us R14
+U 1 1 73583B8D
+P -14550 -8400
+F 0 "R14" H -14550 -8500 50  0000 L CNN
+F 1 "1k" H -14600 -8300 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -14550 -8400 50  0001 C CNN
+F 3 "" H -14550 -8400 50  0001 C CNN
+	1    -14550 -8400
+	-1   0    0    1   
+$EndComp
+Text Notes -12100 -8800 0    50   ~ 0
+Green LED\n24 V - 3 V (typ.) = 21 V\nI = 21 V / 0.0045 A = 4 666 R\n
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q1
+U 1 1 5FA08F52
+P -14000 -8400
+F 0 "Q1" H -13900 -8350 50  0000 L CNN
+F 1 "AOD458" H -13900 -8450 50  0000 L CNN
+F 2 "package_to_rl:to_252_2" H -13800 -8300 50  0001 C CNN
+F 3 "~" H -14000 -8400 50  0001 C CNN
+	1    -14000 -8400
+	1    0    0    -1  
+$EndComp
+Text Notes -16850 -8950 0    50   ~ 0
+5 V - 1.55 V (typ.) = 3.45 V\nI = 3,45 V / 0.003 A = 1 150 R
+Wire Wire Line
+	-16250 -8600 -16400 -8600
+Wire Wire Line
+	-15950 -8600 -15850 -8600
+$Comp
+L passive_component_rl:resistor_us R2
+U 1 1 6397258D
+P -16100 -8600
+F 0 "R2" H -16100 -8700 50  0000 L CNN
+F 1 "1k15" H -16200 -8500 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -16100 -8600 50  0001 C CNN
+F 3 "" H -16100 -8600 50  0001 C CNN
+	1    -16100 -8600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-15950 -8200 -15950 -7900
+Wire Wire Line
+	-15850 -8200 -15950 -8200
+$Comp
+L power_rl:GND #PWR0128
+U 1 1 62EB117D
+P -15950 -7850
+F 0 "#PWR0128" H -15950 -8050 50  0001 C CNN
+F 1 "GND" H -15945 -7973 50  0000 C CNN
+F 2 "" H -15950 -7850 50  0001 C CNN
+F 3 "" H -15950 -7850 50  0001 C CNN
+	1    -15950 -7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15450 -7900 -15450 -8000
+$Comp
+L power_rl:GND_A #PWR0127
+U 1 1 62C8100F
+P -15450 -7900
+F 0 "#PWR0127" H -15450 -8150 50  0001 C CNN
+F 1 "GND_A" H -15445 -8073 50  0000 C CNN
+F 2 "" H -15450 -7900 50  0001 C CNN
+F 3 "" H -15450 -7900 50  0001 C CNN
+	1    -15450 -7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15450 -8800 -15450 -9000
+$Comp
+L power_rl:+24V_A #PWR0126
+U 1 1 62B70BEC
+P -15450 -9000
+F 0 "#PWR0126" H -15450 -9100 50  0001 C CNN
+F 1 "+24V_A" H -15450 -8827 50  0000 C CNN
+F 2 "" H -15450 -9000 50  0001 C CNN
+F 3 "" H -15450 -9000 50  0001 C CNN
+	1    -15450 -9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L optocoupler_rl:TLP2345 U1
+U 1 1 62A57CB3
+P -15450 -8400
+F 0 "U1" H -15750 -8000 50  0000 L CNN
+F 1 "TLP2345" H -15400 -8750 50  0000 L CNN
+F 2 "package_so_rl:so_6" H -15450 -8400 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4012b.pdf?ts=1650811358380&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4012BE" H -15450 -8400 50  0001 C CNN
+	1    -15450 -8400
+	1    0    0    -1  
+$EndComp
+Connection ~ -13450 -8650
+Wire Wire Line
+	-13450 -8750 -13450 -8650
+Text Label -13450 -8750 1    50   ~ 0
+LED0_24V
+Wire Wire Line
+	-14000 -8750 -14000 -8650
+Wire Wire Line
+	-12800 -8650 -12800 -8600
+Wire Wire Line
+	-12600 -8650 -12600 -8150
+Wire Wire Line
+	-12600 -8650 -12800 -8650
+Wire Wire Line
+	-13000 -8600 -13000 -8650
+Wire Wire Line
+	-14000 -8650 -14000 -8600
+Connection ~ -14000 -8650
+Wire Wire Line
+	-12900 -8150 -12600 -8150
+Connection ~ -12900 -8150
+Wire Wire Line
+	-12900 -8200 -12900 -8150
+Wire Wire Line
+	-12700 -8000 -12700 -8200
+Wire Wire Line
+	-14000 -8150 -12900 -8150
+Wire Wire Line
+	-13100 -8200 -13100 -8000
+Wire Wire Line
+	-12900 -8000 -12700 -8000
+Connection ~ -12900 -8000
+Wire Wire Line
+	-12900 -7950 -12900 -8000
+Wire Wire Line
+	-13100 -8000 -12900 -8000
+$Comp
+L switch_rl:SMTS-102-2C2T SW1
+U 1 1 626E5F46
+P -12900 -8450
+F 0 "SW1" V -12650 -8450 50  0000 C CNN
+F 1 "SMTS-102-2C2T" V -12550 -8450 50  0000 C CNN
+F 2 "switch_tht_rl:SMTS-102-2C2T" H -12900 -8450 50  0001 C CNN
+F 3 "https://www.gme.cz/data/attachments/dsh.631-528.1.pdf" H -12900 -8450 50  0001 C CNN
+	1    -12900 -8450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0101
+U 1 1 61FCA9E0
+P -12300 -9150
+F 0 "#PWR0101" H -12300 -9250 50  0001 C CNN
+F 1 "+24V_A" H -12300 -8977 50  0000 C CNN
+F 2 "" H -12300 -9150 50  0001 C CNN
+F 3 "" H -12300 -9150 50  0001 C CNN
+	1    -12300 -9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0130
+U 1 1 607A9F1B
+P -14000 -7900
+F 0 "#PWR0130" H -14000 -8150 50  0001 C CNN
+F 1 "GND_A" H -13995 -8073 50  0000 C CNN
+F 2 "" H -14000 -7900 50  0001 C CNN
+F 3 "" H -14000 -7900 50  0001 C CNN
+	1    -14000 -7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_A #PWR0118
+U 1 1 605B4783
+P -14000 -9150
+F 0 "#PWR0118" H -14000 -9250 50  0001 C CNN
+F 1 "+24V_A" H -14000 -8977 50  0000 C CNN
+F 2 "" H -14000 -9150 50  0001 C CNN
+F 3 "" H -14000 -9150 50  0001 C CNN
+	1    -14000 -9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:Earth_Protective #PWR0103
+U 1 1 6058F3E5
+P -12900 -7950
+F 0 "#PWR0103" H -12650 -8200 50  0001 C CNN
+F 1 "Earth_Protective" H -12450 -8100 50  0001 C CNN
+F 2 "" H -12900 -8050 50  0001 C CNN
+F 3 "~" H -12900 -8050 50  0001 C CNN
+	1    -12900 -7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR07
+U 1 1 61FA5C42
+P -14850 -7900
+F 0 "#PWR07" H -14850 -8150 50  0001 C CNN
+F 1 "GND_A" H -14845 -8073 50  0000 C CNN
+F 2 "" H -14850 -7900 50  0001 C CNN
+F 3 "" H -14850 -7900 50  0001 C CNN
+	1    -14850 -7900
+	1    0    0    -1  
+$EndComp
+Text Label -16400 -8600 2    50   ~ 0
+LED0
+Wire Wire Line
+	-12300 -8300 -12300 -8400
+$Comp
+L diode_rl:LED D1
+U 1 1 5FC918CE
+P -12300 -8150
+F 0 "D1" V -12261 -8268 50  0000 R CNN
+F 1 "LL-504PGC1E-G5-2B" V -12352 -8268 50  0000 R CNN
+F 2 "led_tht_rl:led_d5mm_2.54mm" H -12300 -8150 50  0001 C CNN
+F 3 "~" H -12300 -8150 50  0001 C CNN
+	1    -12300 -8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-12300 -8700 -12300 -9150
+$Comp
+L passive_component_rl:resistor_us R1
+U 1 1 5FC7A4B9
+P -12300 -8550
+F 0 "R1" V -12346 -8482 50  0000 L CNN
+F 1 "4k7" V -12255 -8482 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -12300 -8550 50  0001 C CNN
+F 3 "" H -12300 -8550 50  0001 C CNN
+	1    -12300 -8550
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R10
+U 1 1 5FA0DE9E
+P -14850 -8150
+F 0 "R10" V -14896 -8082 50  0000 L CNN
+F 1 "NC (10k)" V -14805 -8082 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -14850 -8150 50  0001 C CNN
+F 3 "" H -14850 -8150 50  0001 C CNN
+	1    -14850 -8150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-14850 -8400 -14850 -8300
+Wire Wire Line
+	-14850 -7900 -14850 -8000
+$Comp
+L connector_rl:1x2_screw_term_block J1
+U 1 1 5FA20064
+P -13800 -8800
+F 0 "J1" H -13700 -8800 50  0000 L CNN
+F 1 "EBBA-02-C-SS-BU" V -13800 -8650 50  0000 L CNN
+F 2 "terminal_block_tht_rl:EBBA-02-C-SS-BU" H -13800 -8800 50  0001 C CNN
+F 3 "" H -13800 -8800 50  0001 C CNN
+	1    -13800 -8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-14000 -7900 -14000 -8150
+Connection ~ -14000 -8150
+Wire Wire Line
+	-14000 -8150 -14000 -8200
+Wire Wire Line
+	12600 12850 12600 12900
+Wire Wire Line
+	12100 12900 12100 13050
+Connection ~ 12100 12900
+Wire Wire Line
+	12100 12900 12250 12900
+Wire Wire Line
+	12550 12900 12600 12900
+Connection ~ 12600 12900
+Wire Wire Line
+	12600 12900 12600 12950
+$Comp
+L passive_component_rl:resistor_us R79
+U 1 1 67771E2A
+P 7400 1700
+F 0 "R79" V 7354 1768 50  0000 L CNN
+F 1 "NC (10k)" V 7445 1768 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 7400 1700 50  0001 C CNN
+F 3 "" H 7400 1700 50  0001 C CNN
+	1    7400 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 1850 7400 2000
+$Comp
+L power_rl:+5V #PWR0122
+U 1 1 67771E31
+P 7400 1450
+F 0 "#PWR0122" H 7410 1390 50  0001 C CNN
+F 1 "+5V" H 7400 1623 50  0000 C CNN
+F 2 "" H 7400 1450 50  0001 C CNN
+F 3 "" H 7400 1450 50  0001 C CNN
+	1    7400 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1450 7400 1550
+Text Label 7400 2000 2    50   ~ 0
+LED0_5V
+$Comp
+L passive_component_rl:resistor_us R106
+U 1 1 679C1E91
+P 8050 1700
+F 0 "R106" V 8004 1768 50  0000 L CNN
+F 1 "NC (10k)" V 8095 1768 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 8050 1700 50  0001 C CNN
+F 3 "" H 8050 1700 50  0001 C CNN
+	1    8050 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 1850 8050 2000
+$Comp
+L power_rl:+5V #PWR0124
+U 1 1 679C1E98
+P 8050 1450
+F 0 "#PWR0124" H 8060 1390 50  0001 C CNN
+F 1 "+5V" H 8050 1623 50  0000 C CNN
+F 2 "" H 8050 1450 50  0001 C CNN
+F 3 "" H 8050 1450 50  0001 C CNN
+	1    8050 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 1450 8050 1550
+$Comp
+L passive_component_rl:resistor_us R110
+U 1 1 67C13A60
+P 8700 1700
+F 0 "R110" V 8654 1768 50  0000 L CNN
+F 1 "NC (10k)" V 8745 1768 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 8700 1700 50  0001 C CNN
+F 3 "" H 8700 1700 50  0001 C CNN
+	1    8700 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8700 1850 8700 2000
+$Comp
+L power_rl:+5V #PWR0341
+U 1 1 67C13A67
+P 8700 1450
+F 0 "#PWR0341" H 8710 1390 50  0001 C CNN
+F 1 "+5V" H 8700 1623 50  0000 C CNN
+F 2 "" H 8700 1450 50  0001 C CNN
+F 3 "" H 8700 1450 50  0001 C CNN
+	1    8700 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1450 8700 1550
+$Comp
+L passive_component_rl:resistor_us R114
+U 1 1 67E66425
+P 9300 1700
+F 0 "R114" V 9254 1768 50  0000 L CNN
+F 1 "NC (10k)" V 9345 1768 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 9300 1700 50  0001 C CNN
+F 3 "" H 9300 1700 50  0001 C CNN
+	1    9300 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 1850 9300 2000
+$Comp
+L power_rl:+5V #PWR0342
+U 1 1 67E6642C
+P 9300 1450
+F 0 "#PWR0342" H 9310 1390 50  0001 C CNN
+F 1 "+5V" H 9300 1623 50  0000 C CNN
+F 2 "" H 9300 1450 50  0001 C CNN
+F 3 "" H 9300 1450 50  0001 C CNN
+	1    9300 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 1450 9300 1550
+Text Label 8050 2000 2    50   ~ 0
+LED1_5V
+Text Label 8700 2000 2    50   ~ 0
+LED2_5V
+Text Label 9300 2000 2    50   ~ 0
+LED3_5V
+$Comp
+L passive_component_rl:resistor_us R103
+U 1 1 680BE64A
+P 7400 2900
+F 0 "R103" V 7354 2968 50  0000 L CNN
+F 1 "NC (10k)" V 7445 2968 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 7400 2900 50  0001 C CNN
+F 3 "" H 7400 2900 50  0001 C CNN
+	1    7400 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 3050 7400 3200
+$Comp
+L power_rl:+5V #PWR0343
+U 1 1 680BE651
+P 7400 2650
+F 0 "#PWR0343" H 7410 2590 50  0001 C CNN
+F 1 "+5V" H 7400 2823 50  0000 C CNN
+F 2 "" H 7400 2650 50  0001 C CNN
+F 3 "" H 7400 2650 50  0001 C CNN
+	1    7400 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2650 7400 2750
+$Comp
+L passive_component_rl:resistor_us R107
+U 1 1 680BE659
+P 8050 2900
+F 0 "R107" V 8004 2968 50  0000 L CNN
+F 1 "NC (10k)" V 8095 2968 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 8050 2900 50  0001 C CNN
+F 3 "" H 8050 2900 50  0001 C CNN
+	1    8050 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 3050 8050 3200
+$Comp
+L power_rl:+5V #PWR0344
+U 1 1 680BE660
+P 8050 2650
+F 0 "#PWR0344" H 8060 2590 50  0001 C CNN
+F 1 "+5V" H 8050 2823 50  0000 C CNN
+F 2 "" H 8050 2650 50  0001 C CNN
+F 3 "" H 8050 2650 50  0001 C CNN
+	1    8050 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2650 8050 2750
+$Comp
+L passive_component_rl:resistor_us R111
+U 1 1 680BE667
+P 8700 2900
+F 0 "R111" V 8654 2968 50  0000 L CNN
+F 1 "NC (10k)" V 8745 2968 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 8700 2900 50  0001 C CNN
+F 3 "" H 8700 2900 50  0001 C CNN
+	1    8700 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8700 3050 8700 3200
+$Comp
+L power_rl:+5V #PWR0345
+U 1 1 680BE66E
+P 8700 2650
+F 0 "#PWR0345" H 8710 2590 50  0001 C CNN
+F 1 "+5V" H 8700 2823 50  0000 C CNN
+F 2 "" H 8700 2650 50  0001 C CNN
+F 3 "" H 8700 2650 50  0001 C CNN
+	1    8700 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2650 8700 2750
+$Comp
+L passive_component_rl:resistor_us R115
+U 1 1 680BE675
+P 9300 2900
+F 0 "R115" V 9254 2968 50  0000 L CNN
+F 1 "NC (10k)" V 9345 2968 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 9300 2900 50  0001 C CNN
+F 3 "" H 9300 2900 50  0001 C CNN
+	1    9300 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 3050 9300 3200
+$Comp
+L power_rl:+5V #PWR0346
+U 1 1 680BE67C
+P 9300 2650
+F 0 "#PWR0346" H 9310 2590 50  0001 C CNN
+F 1 "+5V" H 9300 2823 50  0000 C CNN
+F 2 "" H 9300 2650 50  0001 C CNN
+F 3 "" H 9300 2650 50  0001 C CNN
+	1    9300 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2650 9300 2750
+Text Label 7400 3200 2    50   ~ 0
+LED4_5V
+Text Label 8050 3200 2    50   ~ 0
+LED5_5V
+Text Label 8700 3200 2    50   ~ 0
+LED6_5V
+Text Label 9300 3200 2    50   ~ 0
+LED7_5V
+$Comp
+L passive_component_rl:resistor_us R104
+U 1 1 6831A8CC
+P 7600 5350
+F 0 "R104" V 7554 5418 50  0000 L CNN
+F 1 "NC (10k)" V 7645 5418 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 7600 5350 50  0001 C CNN
+F 3 "" H 7600 5350 50  0001 C CNN
+	1    7600 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 5500 7600 5650
+$Comp
+L power_rl:+5V #PWR0347
+U 1 1 6831A8D3
+P 7600 5100
+F 0 "#PWR0347" H 7610 5040 50  0001 C CNN
+F 1 "+5V" H 7600 5273 50  0000 C CNN
+F 2 "" H 7600 5100 50  0001 C CNN
+F 3 "" H 7600 5100 50  0001 C CNN
+	1    7600 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5100 7600 5200
+$Comp
+L passive_component_rl:resistor_us R108
+U 1 1 6831A8DB
+P 8250 5350
+F 0 "R108" V 8204 5418 50  0000 L CNN
+F 1 "NC (10k)" V 8295 5418 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 8250 5350 50  0001 C CNN
+F 3 "" H 8250 5350 50  0001 C CNN
+	1    8250 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 5500 8250 5650
+$Comp
+L power_rl:+5V #PWR0348
+U 1 1 6831A8E2
+P 8250 5100
+F 0 "#PWR0348" H 8260 5040 50  0001 C CNN
+F 1 "+5V" H 8250 5273 50  0000 C CNN
+F 2 "" H 8250 5100 50  0001 C CNN
+F 3 "" H 8250 5100 50  0001 C CNN
+	1    8250 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5100 8250 5200
+$Comp
+L passive_component_rl:resistor_us R112
+U 1 1 6831A8E9
+P 8900 5350
+F 0 "R112" V 8854 5418 50  0000 L CNN
+F 1 "NC (10k)" V 8945 5418 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 8900 5350 50  0001 C CNN
+F 3 "" H 8900 5350 50  0001 C CNN
+	1    8900 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 5500 8900 5650
+$Comp
+L power_rl:+5V #PWR0349
+U 1 1 6831A8F0
+P 8900 5100
+F 0 "#PWR0349" H 8910 5040 50  0001 C CNN
+F 1 "+5V" H 8900 5273 50  0000 C CNN
+F 2 "" H 8900 5100 50  0001 C CNN
+F 3 "" H 8900 5100 50  0001 C CNN
+	1    8900 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 5100 8900 5200
+$Comp
+L passive_component_rl:resistor_us R116
+U 1 1 6831A8F7
+P 9500 5350
+F 0 "R116" V 9454 5418 50  0000 L CNN
+F 1 "NC (10k)" V 9545 5418 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 9500 5350 50  0001 C CNN
+F 3 "" H 9500 5350 50  0001 C CNN
+	1    9500 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 5500 9500 5650
+$Comp
+L power_rl:+5V #PWR0350
+U 1 1 6831A8FE
+P 9500 5100
+F 0 "#PWR0350" H 9510 5040 50  0001 C CNN
+F 1 "+5V" H 9500 5273 50  0000 C CNN
+F 2 "" H 9500 5100 50  0001 C CNN
+F 3 "" H 9500 5100 50  0001 C CNN
+	1    9500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 5100 9500 5200
+Text Label 7600 5650 2    50   ~ 0
+LED8_5V
+Text Label 8250 5650 2    50   ~ 0
+LED9_5V
+Text Label 8900 5650 2    50   ~ 0
+LED10_5V
+Text Label 9500 5650 2    50   ~ 0
+LED11_5V
+$Comp
+L passive_component_rl:resistor_us R105
+U 1 1 6857CCDC
+P 7600 6200
+F 0 "R105" V 7554 6268 50  0000 L CNN
+F 1 "NC (10k)" V 7645 6268 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 7600 6200 50  0001 C CNN
+F 3 "" H 7600 6200 50  0001 C CNN
+	1    7600 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 6350 7600 6500
+$Comp
+L power_rl:+5V #PWR0351
+U 1 1 6857CCE3
+P 7600 5950
+F 0 "#PWR0351" H 7610 5890 50  0001 C CNN
+F 1 "+5V" H 7600 6123 50  0000 C CNN
+F 2 "" H 7600 5950 50  0001 C CNN
+F 3 "" H 7600 5950 50  0001 C CNN
+	1    7600 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5950 7600 6050
+$Comp
+L passive_component_rl:resistor_us R109
+U 1 1 6857CCEB
+P 8250 6200
+F 0 "R109" V 8204 6268 50  0000 L CNN
+F 1 "NC (10k)" V 8295 6268 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 8250 6200 50  0001 C CNN
+F 3 "" H 8250 6200 50  0001 C CNN
+	1    8250 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 6350 8250 6500
+$Comp
+L power_rl:+5V #PWR0352
+U 1 1 6857CCF2
+P 8250 5950
+F 0 "#PWR0352" H 8260 5890 50  0001 C CNN
+F 1 "+5V" H 8250 6123 50  0000 C CNN
+F 2 "" H 8250 5950 50  0001 C CNN
+F 3 "" H 8250 5950 50  0001 C CNN
+	1    8250 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5950 8250 6050
+$Comp
+L passive_component_rl:resistor_us R113
+U 1 1 6857CCF9
+P 8900 6200
+F 0 "R113" V 8854 6268 50  0000 L CNN
+F 1 "NC (10k)" V 8945 6268 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 8900 6200 50  0001 C CNN
+F 3 "" H 8900 6200 50  0001 C CNN
+	1    8900 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 6350 8900 6500
+$Comp
+L power_rl:+5V #PWR0353
+U 1 1 6857CD00
+P 8900 5950
+F 0 "#PWR0353" H 8910 5890 50  0001 C CNN
+F 1 "+5V" H 8900 6123 50  0000 C CNN
+F 2 "" H 8900 5950 50  0001 C CNN
+F 3 "" H 8900 5950 50  0001 C CNN
+	1    8900 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 5950 8900 6050
+Text Label 7600 6500 2    50   ~ 0
+AND_OUT_0_3
+Text Label 8250 6500 2    50   ~ 0
+AND_OUT_4_7
+Text Label 8900 6500 2    50   ~ 0
+AND_OUT_8_11
+$Comp
+L power_rl:+5V #PWR0354
+U 1 1 6467E3DC
+P 22300 10850
+F 0 "#PWR0354" H 22310 10790 50  0001 C CNN
+F 1 "+5V" H 22300 11023 50  0000 C CNN
+F 2 "" H 22300 10850 50  0001 C CNN
+F 3 "" H 22300 10850 50  0001 C CNN
+	1    22300 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R117
+U 1 1 6467E7A8
+P 22300 11100
+F 0 "R117" V 22254 11168 50  0000 L CNN
+F 1 "210R" V 22345 11168 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 22300 11100 50  0001 C CNN
+F 3 "" H 22300 11100 50  0001 C CNN
+	1    22300 11100
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R118
+U 1 1 64682878
+P 22300 11500
+F 0 "R118" V 22254 11568 50  0000 L CNN
+F 1 "390R" V 22345 11568 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 22300 11500 50  0001 C CNN
+F 3 "" H 22300 11500 50  0001 C CNN
+	1    22300 11500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	22300 11250 22300 11350
+Wire Wire Line
+	22300 10950 22300 10850
+$Comp
+L connector_rl:1x2_pin_header P9
+U 1 1 64B5C4ED
+P 22150 11800
+F 0 "P9" V 22250 11900 50  0000 C CNN
+F 1 "1x2_pin_header" V 22100 12150 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x2_pinheader_2.54mm_vertical" H 22200 11800 50  0001 C CNN
+F 3 "" H 22200 11800 50  0001 C CNN
+	1    22150 11800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R119
+U 1 1 64B605B8
+P 22300 12550
+F 0 "R119" V 22254 12618 50  0000 L CNN
+F 1 "100R/120R" V 22345 12618 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 22300 12550 50  0001 C CNN
+F 3 "" H 22300 12550 50  0001 C CNN
+	1    22300 12550
+	0    1    1    0   
+$EndComp
+$Comp
+L connector_rl:1x2_pin_header P12
+U 1 1 64B60A09
+P 22150 13300
+F 0 "P12" V 22250 13400 50  0000 C CNN
+F 1 "1x2_pin_header" V 22100 13650 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x2_pinheader_2.54mm_vertical" H 22200 13300 50  0001 C CNN
+F 3 "" H 22200 13300 50  0001 C CNN
+	1    22150 13300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22300 11750 22300 11650
+Wire Wire Line
+	22300 11850 22300 12050
+Text Label 22250 12050 2    50   ~ 0
+DSCL_P
+Wire Wire Line
+	22300 12300 22300 12400
+Text Label 22250 13100 2    50   ~ 0
+DSCL_N
+Wire Wire Line
+	22250 13100 22300 13100
+Connection ~ 22300 13100
+Wire Wire Line
+	22300 13100 22300 13250
+$Comp
+L passive_component_rl:resistor_us R120
+U 1 1 659ED725
+P 22300 13600
+F 0 "R120" V 22254 13668 50  0000 L CNN
+F 1 "390R" V 22345 13668 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 22300 13600 50  0001 C CNN
+F 3 "" H 22300 13600 50  0001 C CNN
+	1    22300 13600
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R121
+U 1 1 659EDC20
+P 22300 14000
+F 0 "R121" V 22254 14068 50  0000 L CNN
+F 1 "210R" V 22345 14068 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 22300 14000 50  0001 C CNN
+F 3 "" H 22300 14000 50  0001 C CNN
+	1    22300 14000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	22300 13450 22300 13350
+Wire Wire Line
+	22300 13750 22300 13850
+$Comp
+L power_rl:GND #PWR0355
+U 1 1 65ECDA2E
+P 22300 14300
+F 0 "#PWR0355" H 22300 14100 50  0001 C CNN
+F 1 "GND" H 22305 14177 50  0000 C CNN
+F 2 "" H 22300 14300 50  0001 C CNN
+F 3 "" H 22300 14300 50  0001 C CNN
+	1    22300 14300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22300 14250 22300 14150
+Wire Wire Line
+	22250 12050 22300 12050
+$Comp
+L connector_rl:1x2_pin_header P10
+U 1 1 6661BCCE
+P 22150 12250
+F 0 "P10" V 22250 12350 50  0000 C CNN
+F 1 "1x2_pin_header" V 22100 12600 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x2_pinheader_2.54mm_vertical" H 22200 12250 50  0001 C CNN
+F 3 "" H 22200 12250 50  0001 C CNN
+	1    22150 12250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22300 12200 22300 12050
+Connection ~ 22300 12050
+$Comp
+L connector_rl:1x2_pin_header P11
+U 1 1 66D66025
+P 22150 12850
+F 0 "P11" V 22250 12950 50  0000 C CNN
+F 1 "1x2_pin_header" V 22100 13200 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x2_pinheader_2.54mm_vertical" H 22200 12850 50  0001 C CNN
+F 3 "" H 22200 12850 50  0001 C CNN
+	1    22150 12850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22300 12800 22300 12700
+Wire Wire Line
+	22300 12900 22300 13100
+Text Notes 23100 10700 0    50   ~ 0
+390R-100R-390R\n600R-120R-600R
+$Comp
+L power_rl:+5V #PWR0356
+U 1 1 67730F82
+P 24200 10900
+F 0 "#PWR0356" H 24210 10840 50  0001 C CNN
+F 1 "+5V" H 24200 11073 50  0000 C CNN
+F 2 "" H 24200 10900 50  0001 C CNN
+F 3 "" H 24200 10900 50  0001 C CNN
+	1    24200 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R122
+U 1 1 67730F88
+P 24200 11150
+F 0 "R122" V 24154 11218 50  0000 L CNN
+F 1 "210R" V 24245 11218 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 24200 11150 50  0001 C CNN
+F 3 "" H 24200 11150 50  0001 C CNN
+	1    24200 11150
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R123
+U 1 1 67730F8E
+P 24200 11550
+F 0 "R123" V 24154 11618 50  0000 L CNN
+F 1 "390R" V 24245 11618 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 24200 11550 50  0001 C CNN
+F 3 "" H 24200 11550 50  0001 C CNN
+	1    24200 11550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	24200 11300 24200 11400
+Wire Wire Line
+	24200 11000 24200 10900
+$Comp
+L connector_rl:1x2_pin_header P13
+U 1 1 67730F96
+P 24050 11850
+F 0 "P13" V 24150 11950 50  0000 C CNN
+F 1 "1x2_pin_header" V 24000 12200 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x2_pinheader_2.54mm_vertical" H 24100 11850 50  0001 C CNN
+F 3 "" H 24100 11850 50  0001 C CNN
+	1    24050 11850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R124
+U 1 1 67730F9C
+P 24200 12600
+F 0 "R124" V 24154 12668 50  0000 L CNN
+F 1 "100R/120R" V 24245 12668 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 24200 12600 50  0001 C CNN
+F 3 "" H 24200 12600 50  0001 C CNN
+	1    24200 12600
+	0    1    1    0   
+$EndComp
+$Comp
+L connector_rl:1x2_pin_header P16
+U 1 1 67730FA2
+P 24050 13350
+F 0 "P16" V 24150 13450 50  0000 C CNN
+F 1 "1x2_pin_header" V 24000 13700 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x2_pinheader_2.54mm_vertical" H 24100 13350 50  0001 C CNN
+F 3 "" H 24100 13350 50  0001 C CNN
+	1    24050 13350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24200 11800 24200 11700
+Wire Wire Line
+	24200 11900 24200 12100
+Wire Wire Line
+	24200 12350 24200 12450
+Wire Wire Line
+	24150 13150 24200 13150
+Connection ~ 24200 13150
+Wire Wire Line
+	24200 13150 24200 13300
+$Comp
+L passive_component_rl:resistor_us R125
+U 1 1 67730FB0
+P 24200 13650
+F 0 "R125" V 24154 13718 50  0000 L CNN
+F 1 "390R" V 24245 13718 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 24200 13650 50  0001 C CNN
+F 3 "" H 24200 13650 50  0001 C CNN
+	1    24200 13650
+	0    1    1    0   
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R126
+U 1 1 67730FB6
+P 24200 14050
+F 0 "R126" V 24154 14118 50  0000 L CNN
+F 1 "210R" V 24245 14118 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H 24200 14050 50  0001 C CNN
+F 3 "" H 24200 14050 50  0001 C CNN
+	1    24200 14050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	24200 13500 24200 13400
+Wire Wire Line
+	24200 13800 24200 13900
+$Comp
+L power_rl:GND #PWR0357
+U 1 1 67730FBE
+P 24200 14350
+F 0 "#PWR0357" H 24200 14150 50  0001 C CNN
+F 1 "GND" H 24205 14227 50  0000 C CNN
+F 2 "" H 24200 14350 50  0001 C CNN
+F 3 "" H 24200 14350 50  0001 C CNN
+	1    24200 14350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	24200 14300 24200 14200
+Wire Wire Line
+	24150 12100 24200 12100
+$Comp
+L connector_rl:1x2_pin_header P14
+U 1 1 67730FC6
+P 24050 12300
+F 0 "P14" V 24150 12400 50  0000 C CNN
+F 1 "1x2_pin_header" V 24000 12650 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x2_pinheader_2.54mm_vertical" H 24100 12300 50  0001 C CNN
+F 3 "" H 24100 12300 50  0001 C CNN
+	1    24050 12300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24200 12250 24200 12100
+Connection ~ 24200 12100
+$Comp
+L connector_rl:1x2_pin_header P15
+U 1 1 67730FCE
+P 24050 12900
+F 0 "P15" V 24150 13000 50  0000 C CNN
+F 1 "1x2_pin_header" V 24000 13250 50  0000 C CNN
+F 2 "connector_smd_pinheader_2.54mm_rl:1x2_pinheader_2.54mm_vertical" H 24100 12900 50  0001 C CNN
+F 3 "" H 24100 12900 50  0001 C CNN
+	1    24050 12900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24200 12850 24200 12750
+Wire Wire Line
+	24200 12950 24200 13150
+Text Label 24150 12100 2    50   ~ 0
+DSDA_P
+Text Label 24150 13150 2    50   ~ 0
+DSDA_N
+Wire Wire Line
+	17400 18650 17550 18650
+Wire Wire Line
+	7150 18650 7300 18650
+Wire Wire Line
+	7300 18950 7300 18650
+Connection ~ 7300 18950
+Connection ~ 7300 18650
+Wire Wire Line
+	7300 18650 7500 18650
+Wire Wire Line
+	17550 18950 17550 18650
+Connection ~ 17550 18950
+Connection ~ 17550 18650
+Wire Wire Line
+	17550 18650 17750 18650
+Text Notes 10850 12600 0    50   ~ 0
+Replace the Schottky diode with cable.
+Wire Wire Line
+	9850 12900 12100 12900
+Wire Wire Line
+	-13450 -8650 -13250 -8650
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q29
+U 1 1 6510A462
+P -12300 -6850
+F 0 "Q29" H -12200 -6800 50  0000 L CNN
+F 1 "2N7002A-YAN" H -12200 -6900 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -12100 -6750 50  0001 C CNN
+F 3 "~" H -12300 -6850 50  0001 C CNN
+	1    -12300 -6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q16
+U 1 1 6510B185
+P -13150 -6850
+F 0 "Q16" H -13050 -6800 50  0000 L CNN
+F 1 "2N7002A-YAN" H -13050 -6900 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -12950 -6750 50  0001 C CNN
+F 3 "~" H -13150 -6850 50  0001 C CNN
+	1    -13150 -6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R139
+U 1 1 6510B81C
+P -13150 -7350
+F 0 "R139" V -13196 -7282 50  0000 L CNN
+F 1 "24k" V -13105 -7282 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13150 -7350 50  0001 C CNN
+F 3 "" H -13150 -7350 50  0001 C CNN
+	1    -13150 -7350
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0358
+U 1 1 65384F4E
+P -13150 -6500
+F 0 "#PWR0358" H -13150 -6750 50  0001 C CNN
+F 1 "GND_A" H -13145 -6673 50  0000 C CNN
+F 2 "" H -13150 -6500 50  0001 C CNN
+F 3 "" H -13150 -6500 50  0001 C CNN
+	1    -13150 -6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0359
+U 1 1 6538514B
+P -12300 -6500
+F 0 "#PWR0359" H -12300 -6750 50  0001 C CNN
+F 1 "GND_A" H -12295 -6673 50  0000 C CNN
+F 2 "" H -12300 -6500 50  0001 C CNN
+F 3 "" H -12300 -6500 50  0001 C CNN
+	1    -12300 -6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12300 -6500 -12300 -6650
+Wire Wire Line
+	-13150 -6500 -13150 -6650
+Wire Wire Line
+	-13150 -7050 -13150 -7150
+Wire Wire Line
+	-13150 -7150 -12700 -7150
+Wire Wire Line
+	-12700 -7150 -12700 -6850
+Wire Wire Line
+	-12700 -6850 -12550 -6850
+Connection ~ -13150 -7150
+Wire Wire Line
+	-13150 -7150 -13150 -7200
+$Comp
+L power_rl:+24V_A #PWR0360
+U 1 1 66772EC6
+P -13150 -7600
+F 0 "#PWR0360" H -13150 -7700 50  0001 C CNN
+F 1 "+24V_A" H -13150 -7427 50  0000 C CNN
+F 2 "" H -13150 -7600 50  0001 C CNN
+F 3 "" H -13150 -7600 50  0001 C CNN
+	1    -13150 -7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13150 -7500 -13150 -7600
+Wire Wire Line
+	-13400 -6850 -13500 -6850
+$Comp
+L passive_component_rl:resistor_us R128
+U 1 1 66EFA530
+P -13550 -9450
+F 0 "R128" V -13596 -9382 50  0000 L CNN
+F 1 "5k36" V -13505 -9382 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13550 -9450 50  0001 C CNN
+F 3 "" H -13550 -9450 50  0001 C CNN
+	1    -13550 -9450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13550 -9300 -13550 -8650
+Wire Wire Line
+	-14000 -8650 -13550 -8650
+Connection ~ -13550 -8650
+$Comp
+L power_rl:+24V_A #PWR0361
+U 1 1 671819EF
+P -13550 -9700
+F 0 "#PWR0361" H -13550 -9800 50  0001 C CNN
+F 1 "+24V_A" H -13550 -9527 50  0000 C CNN
+F 2 "" H -13550 -9700 50  0001 C CNN
+F 3 "" H -13550 -9700 50  0001 C CNN
+	1    -13550 -9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13550 -9700 -13550 -9600
+$Comp
+L passive_component_rl:resistor_us R127
+U 1 1 67419F58
+P -13650 -6650
+F 0 "R127" V -13696 -6582 50  0000 L CNN
+F 1 "24k" V -13605 -6582 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13650 -6650 50  0001 C CNN
+F 3 "" H -13650 -6650 50  0001 C CNN
+	1    -13650 -6650
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0362
+U 1 1 6792D1C9
+P -13650 -6450
+F 0 "#PWR0362" H -13650 -6700 50  0001 C CNN
+F 1 "GND_A" H -13645 -6623 50  0000 C CNN
+F 2 "" H -13650 -6450 50  0001 C CNN
+F 3 "" H -13650 -6450 50  0001 C CNN
+	1    -13650 -6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13650 -6450 -13650 -6500
+Connection ~ -13500 -6850
+Wire Wire Line
+	-13500 -6850 -13650 -6850
+Wire Wire Line
+	-13650 -6850 -13650 -6800
+Wire Wire Line
+	-13550 -8650 -13500 -8650
+Wire Wire Line
+	-13500 -8650 -13500 -6850
+Connection ~ -13500 -8650
+Wire Wire Line
+	-13500 -8650 -13450 -8650
+Wire Wire Line
+	-12300 -8000 -12300 -7050
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q32
+U 1 1 65FAFF6D
+P -12150 -2700
+F 0 "Q32" H -12050 -2650 50  0000 L CNN
+F 1 "2N7002A-YAN" H -12050 -2750 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -11950 -2600 50  0001 C CNN
+F 3 "~" H -12150 -2700 50  0001 C CNN
+	1    -12150 -2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q26
+U 1 1 65FAFF73
+P -13000 -2700
+F 0 "Q26" H -12900 -2650 50  0000 L CNN
+F 1 "2N7002A-YAN" H -12900 -2750 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -12800 -2600 50  0001 C CNN
+F 3 "~" H -13000 -2700 50  0001 C CNN
+	1    -13000 -2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R142
+U 1 1 65FAFF79
+P -13000 -3200
+F 0 "R142" V -13046 -3132 50  0000 L CNN
+F 1 "24k" V -12955 -3132 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13000 -3200 50  0001 C CNN
+F 3 "" H -13000 -3200 50  0001 C CNN
+	1    -13000 -3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0363
+U 1 1 65FAFF7F
+P -13000 -2300
+F 0 "#PWR0363" H -13000 -2550 50  0001 C CNN
+F 1 "GND_A" H -12995 -2473 50  0000 C CNN
+F 2 "" H -13000 -2300 50  0001 C CNN
+F 3 "" H -13000 -2300 50  0001 C CNN
+	1    -13000 -2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0364
+U 1 1 65FAFF85
+P -12150 -2300
+F 0 "#PWR0364" H -12150 -2550 50  0001 C CNN
+F 1 "GND_A" H -12145 -2473 50  0000 C CNN
+F 2 "" H -12150 -2300 50  0001 C CNN
+F 3 "" H -12150 -2300 50  0001 C CNN
+	1    -12150 -2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12150 -2300 -12150 -2500
+Wire Wire Line
+	-13000 -2300 -13000 -2500
+Wire Wire Line
+	-13000 -2900 -13000 -3000
+Wire Wire Line
+	-13000 -3000 -12550 -3000
+Wire Wire Line
+	-12550 -3000 -12550 -2700
+Wire Wire Line
+	-12550 -2700 -12400 -2700
+Connection ~ -13000 -3000
+Wire Wire Line
+	-13000 -3000 -13000 -3050
+$Comp
+L power_rl:+24V_A #PWR0365
+U 1 1 65FAFF93
+P -13000 -3450
+F 0 "#PWR0365" H -13000 -3550 50  0001 C CNN
+F 1 "+24V_A" H -13000 -3277 50  0000 C CNN
+F 2 "" H -13000 -3450 50  0001 C CNN
+F 3 "" H -13000 -3450 50  0001 C CNN
+	1    -13000 -3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13000 -3350 -13000 -3450
+Wire Wire Line
+	-13250 -2700 -13350 -2700
+$Comp
+L passive_component_rl:resistor_us R131
+U 1 1 65FAFF9B
+P -13500 -2500
+F 0 "R131" V -13546 -2432 50  0000 L CNN
+F 1 "24k" V -13455 -2432 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13500 -2500 50  0001 C CNN
+F 3 "" H -13500 -2500 50  0001 C CNN
+	1    -13500 -2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0366
+U 1 1 65FAFFA1
+P -13500 -2300
+F 0 "#PWR0366" H -13500 -2550 50  0001 C CNN
+F 1 "GND_A" H -13495 -2473 50  0000 C CNN
+F 2 "" H -13500 -2300 50  0001 C CNN
+F 3 "" H -13500 -2300 50  0001 C CNN
+	1    -13500 -2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13500 -2300 -13500 -2350
+Connection ~ -13350 -2700
+Wire Wire Line
+	-13350 -2700 -13500 -2700
+Wire Wire Line
+	-13500 -2700 -13500 -2650
+Wire Wire Line
+	-12150 -4200 -12150 -2900
+Wire Wire Line
+	-13300 -4850 -13100 -4850
+Wire Wire Line
+	-13350 -4850 -13350 -2700
+Connection ~ -13350 -4850
+Wire Wire Line
+	-13350 -4850 -13300 -4850
+$Comp
+L passive_component_rl:resistor_us R134
+U 1 1 6677FD65
+P -13400 -5650
+F 0 "R134" V -13446 -5582 50  0000 L CNN
+F 1 "5k36" V -13355 -5582 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13400 -5650 50  0001 C CNN
+F 3 "" H -13400 -5650 50  0001 C CNN
+	1    -13400 -5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13400 -5500 -13400 -4850
+$Comp
+L power_rl:+24V_A #PWR0367
+U 1 1 6677FD6C
+P -13400 -5900
+F 0 "#PWR0367" H -13400 -6000 50  0001 C CNN
+F 1 "+24V_A" H -13400 -5727 50  0000 C CNN
+F 2 "" H -13400 -5900 50  0001 C CNN
+F 3 "" H -13400 -5900 50  0001 C CNN
+	1    -13400 -5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13400 -5900 -13400 -5800
+Connection ~ -13400 -4850
+Wire Wire Line
+	-13400 -4850 -13350 -4850
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q30
+U 1 1 67CC77CB
+P -12200 1350
+F 0 "Q30" H -12100 1400 50  0000 L CNN
+F 1 "2N7002A-YAN" H -12100 1300 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -12000 1450 50  0001 C CNN
+F 3 "~" H -12200 1350 50  0001 C CNN
+	1    -12200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q24
+U 1 1 67CC77D1
+P -13050 1350
+F 0 "Q24" H -12950 1400 50  0000 L CNN
+F 1 "2N7002A-YAN" H -12950 1300 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -12850 1450 50  0001 C CNN
+F 3 "~" H -13050 1350 50  0001 C CNN
+	1    -13050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R140
+U 1 1 67CC77D7
+P -13050 850
+F 0 "R140" V -13096 918 50  0000 L CNN
+F 1 "24k" V -13005 918 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13050 850 50  0001 C CNN
+F 3 "" H -13050 850 50  0001 C CNN
+	1    -13050 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0368
+U 1 1 67CC77DD
+P -13050 1750
+F 0 "#PWR0368" H -13050 1500 50  0001 C CNN
+F 1 "GND_A" H -13045 1577 50  0000 C CNN
+F 2 "" H -13050 1750 50  0001 C CNN
+F 3 "" H -13050 1750 50  0001 C CNN
+	1    -13050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0369
+U 1 1 67CC77E3
+P -12200 1750
+F 0 "#PWR0369" H -12200 1500 50  0001 C CNN
+F 1 "GND_A" H -12195 1577 50  0000 C CNN
+F 2 "" H -12200 1750 50  0001 C CNN
+F 3 "" H -12200 1750 50  0001 C CNN
+	1    -12200 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12200 1750 -12200 1550
+Wire Wire Line
+	-13050 1750 -13050 1550
+Wire Wire Line
+	-13050 1150 -13050 1050
+Wire Wire Line
+	-13050 1050 -12600 1050
+Wire Wire Line
+	-12600 1050 -12600 1350
+Wire Wire Line
+	-12600 1350 -12450 1350
+Connection ~ -13050 1050
+Wire Wire Line
+	-13050 1050 -13050 1000
+$Comp
+L power_rl:+24V_A #PWR0370
+U 1 1 67CC77F1
+P -13050 600
+F 0 "#PWR0370" H -13050 500 50  0001 C CNN
+F 1 "+24V_A" H -13050 773 50  0000 C CNN
+F 2 "" H -13050 600 50  0001 C CNN
+F 3 "" H -13050 600 50  0001 C CNN
+	1    -13050 600 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13050 700  -13050 600 
+$Comp
+L passive_component_rl:resistor_us R129
+U 1 1 67CC77F9
+P -13550 1550
+F 0 "R129" V -13596 1618 50  0000 L CNN
+F 1 "24k" V -13505 1618 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13550 1550 50  0001 C CNN
+F 3 "" H -13550 1550 50  0001 C CNN
+	1    -13550 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0371
+U 1 1 67CC77FF
+P -13550 1750
+F 0 "#PWR0371" H -13550 1500 50  0001 C CNN
+F 1 "GND_A" H -13545 1577 50  0000 C CNN
+F 2 "" H -13550 1750 50  0001 C CNN
+F 3 "" H -13550 1750 50  0001 C CNN
+	1    -13550 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13550 1750 -13550 1700
+Wire Wire Line
+	-13550 1350 -13550 1400
+Wire Wire Line
+	-13350 -700 -13150 -700
+Wire Wire Line
+	-12200 1150 -12200 -50 
+Wire Wire Line
+	-13550 1350 -13400 1350
+Wire Wire Line
+	-13400 -700 -13400 1350
+Connection ~ -13400 -700
+Wire Wire Line
+	-13400 -700 -13350 -700
+Connection ~ -13400 1350
+Wire Wire Line
+	-13400 1350 -13300 1350
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q31
+U 1 1 6879BC58
+P -12200 5350
+F 0 "Q31" H -12100 5400 50  0000 L CNN
+F 1 "2N7002A-YAN" H -12100 5300 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -12000 5450 50  0001 C CNN
+F 3 "~" H -12200 5350 50  0001 C CNN
+	1    -12200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q25
+U 1 1 6879BC5E
+P -13050 5350
+F 0 "Q25" H -12950 5400 50  0000 L CNN
+F 1 "2N7002A-YAN" H -12950 5300 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -12850 5450 50  0001 C CNN
+F 3 "~" H -13050 5350 50  0001 C CNN
+	1    -13050 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R141
+U 1 1 6879BC64
+P -13050 4850
+F 0 "R141" V -13096 4918 50  0000 L CNN
+F 1 "24k" V -13005 4918 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13050 4850 50  0001 C CNN
+F 3 "" H -13050 4850 50  0001 C CNN
+	1    -13050 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0372
+U 1 1 6879BC6A
+P -13050 5750
+F 0 "#PWR0372" H -13050 5500 50  0001 C CNN
+F 1 "GND_A" H -13045 5577 50  0000 C CNN
+F 2 "" H -13050 5750 50  0001 C CNN
+F 3 "" H -13050 5750 50  0001 C CNN
+	1    -13050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0373
+U 1 1 6879BC70
+P -12200 5750
+F 0 "#PWR0373" H -12200 5500 50  0001 C CNN
+F 1 "GND_A" H -12195 5577 50  0000 C CNN
+F 2 "" H -12200 5750 50  0001 C CNN
+F 3 "" H -12200 5750 50  0001 C CNN
+	1    -12200 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12200 5750 -12200 5550
+Wire Wire Line
+	-13050 5750 -13050 5550
+Wire Wire Line
+	-13050 5150 -13050 5050
+Wire Wire Line
+	-13050 5050 -12600 5050
+Wire Wire Line
+	-12600 5050 -12600 5350
+Wire Wire Line
+	-12600 5350 -12450 5350
+Connection ~ -13050 5050
+Wire Wire Line
+	-13050 5050 -13050 5000
+$Comp
+L power_rl:+24V_A #PWR0374
+U 1 1 6879BC7E
+P -13050 4600
+F 0 "#PWR0374" H -13050 4500 50  0001 C CNN
+F 1 "+24V_A" H -13050 4773 50  0000 C CNN
+F 2 "" H -13050 4600 50  0001 C CNN
+F 3 "" H -13050 4600 50  0001 C CNN
+	1    -13050 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13050 4700 -13050 4600
+$Comp
+L passive_component_rl:resistor_us R130
+U 1 1 6879BC85
+P -13550 5550
+F 0 "R130" V -13596 5618 50  0000 L CNN
+F 1 "24k" V -13505 5618 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13550 5550 50  0001 C CNN
+F 3 "" H -13550 5550 50  0001 C CNN
+	1    -13550 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0375
+U 1 1 6879BC8B
+P -13550 5750
+F 0 "#PWR0375" H -13550 5500 50  0001 C CNN
+F 1 "GND_A" H -13545 5577 50  0000 C CNN
+F 2 "" H -13550 5750 50  0001 C CNN
+F 3 "" H -13550 5750 50  0001 C CNN
+	1    -13550 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13550 5750 -13550 5700
+Wire Wire Line
+	-13550 5350 -13550 5400
+Wire Wire Line
+	-13550 5350 -13400 5350
+Wire Wire Line
+	-13400 3300 -13400 5350
+Connection ~ -13400 5350
+Wire Wire Line
+	-13400 5350 -13300 5350
+$Comp
+L passive_component_rl:resistor_us R132
+U 1 1 68A52036
+P -13500 -1500
+F 0 "R132" V -13546 -1432 50  0000 L CNN
+F 1 "5k36" V -13455 -1432 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13500 -1500 50  0001 C CNN
+F 3 "" H -13500 -1500 50  0001 C CNN
+	1    -13500 -1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13500 -1350 -13500 -700
+$Comp
+L power_rl:+24V_A #PWR0376
+U 1 1 68A5203D
+P -13500 -1750
+F 0 "#PWR0376" H -13500 -1850 50  0001 C CNN
+F 1 "+24V_A" H -13500 -1577 50  0000 C CNN
+F 2 "" H -13500 -1750 50  0001 C CNN
+F 3 "" H -13500 -1750 50  0001 C CNN
+	1    -13500 -1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13500 -1750 -13500 -1650
+Connection ~ -13500 -700
+Wire Wire Line
+	-13500 -700 -13400 -700
+Connection ~ -13400 3300
+Wire Wire Line
+	-13400 3300 -13350 3300
+$Comp
+L passive_component_rl:resistor_us R133
+U 1 1 6953956E
+P -13500 2500
+F 0 "R133" V -13546 2568 50  0000 L CNN
+F 1 "5k36" V -13455 2568 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13500 2500 50  0001 C CNN
+F 3 "" H -13500 2500 50  0001 C CNN
+	1    -13500 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13500 2650 -13500 3300
+$Comp
+L power_rl:+24V_A #PWR0377
+U 1 1 69539575
+P -13500 2250
+F 0 "#PWR0377" H -13500 2150 50  0001 C CNN
+F 1 "+24V_A" H -13500 2423 50  0000 C CNN
+F 2 "" H -13500 2250 50  0001 C CNN
+F 3 "" H -13500 2250 50  0001 C CNN
+	1    -13500 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13500 2250 -13500 2350
+Connection ~ -13500 3300
+Wire Wire Line
+	-13500 3300 -13400 3300
+Wire Wire Line
+	-13350 3300 -13150 3300
+Wire Wire Line
+	-12200 5150 -12200 3950
+$Comp
+L passive_component_rl:resistor_us R138
+U 1 1 6A038D3C
+P -13250 6950
+F 0 "R138" V -13296 7018 50  0000 L CNN
+F 1 "5k36" V -13205 7018 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13250 6950 50  0001 C CNN
+F 3 "" H -13250 6950 50  0001 C CNN
+	1    -13250 6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13250 7100 -13250 7750
+$Comp
+L power_rl:+24V_A #PWR0378
+U 1 1 6A038D43
+P -13250 6700
+F 0 "#PWR0378" H -13250 6600 50  0001 C CNN
+F 1 "+24V_A" H -13250 6873 50  0000 C CNN
+F 2 "" H -13250 6700 50  0001 C CNN
+F 3 "" H -13250 6700 50  0001 C CNN
+	1    -13250 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13250 6700 -13250 6800
+Connection ~ -13250 7750
+Wire Wire Line
+	-13250 7750 -13200 7750
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q33
+U 1 1 6A5BB5D3
+P -12000 9800
+F 0 "Q33" H -11900 9850 50  0000 L CNN
+F 1 "2N7002A-YAN" H -11900 9750 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -11800 9900 50  0001 C CNN
+F 3 "~" H -12000 9800 50  0001 C CNN
+	1    -12000 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q27
+U 1 1 6A5BB5D9
+P -12850 9800
+F 0 "Q27" H -12750 9850 50  0000 L CNN
+F 1 "2N7002A-YAN" H -12750 9750 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -12650 9900 50  0001 C CNN
+F 3 "~" H -12850 9800 50  0001 C CNN
+	1    -12850 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R143
+U 1 1 6A5BB5DF
+P -12850 9300
+F 0 "R143" V -12896 9368 50  0000 L CNN
+F 1 "24k" V -12805 9368 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -12850 9300 50  0001 C CNN
+F 3 "" H -12850 9300 50  0001 C CNN
+	1    -12850 9300
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0379
+U 1 1 6A5BB5E5
+P -12850 10200
+F 0 "#PWR0379" H -12850 9950 50  0001 C CNN
+F 1 "GND_A" H -12845 10027 50  0000 C CNN
+F 2 "" H -12850 10200 50  0001 C CNN
+F 3 "" H -12850 10200 50  0001 C CNN
+	1    -12850 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0380
+U 1 1 6A5BB5EB
+P -12000 10200
+F 0 "#PWR0380" H -12000 9950 50  0001 C CNN
+F 1 "GND_A" H -11995 10027 50  0000 C CNN
+F 2 "" H -12000 10200 50  0001 C CNN
+F 3 "" H -12000 10200 50  0001 C CNN
+	1    -12000 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12000 10200 -12000 10000
+Wire Wire Line
+	-12850 10200 -12850 10000
+Wire Wire Line
+	-12850 9600 -12850 9500
+Wire Wire Line
+	-12850 9500 -12400 9500
+Wire Wire Line
+	-12400 9500 -12400 9800
+Wire Wire Line
+	-12400 9800 -12250 9800
+Connection ~ -12850 9500
+Wire Wire Line
+	-12850 9500 -12850 9450
+$Comp
+L power_rl:+24V_A #PWR0381
+U 1 1 6A5BB5F9
+P -12850 9050
+F 0 "#PWR0381" H -12850 8950 50  0001 C CNN
+F 1 "+24V_A" H -12850 9223 50  0000 C CNN
+F 2 "" H -12850 9050 50  0001 C CNN
+F 3 "" H -12850 9050 50  0001 C CNN
+	1    -12850 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12850 9150 -12850 9050
+$Comp
+L passive_component_rl:resistor_us R135
+U 1 1 6A5BB600
+P -13350 10000
+F 0 "R135" V -13396 10068 50  0000 L CNN
+F 1 "24k" V -13305 10068 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13350 10000 50  0001 C CNN
+F 3 "" H -13350 10000 50  0001 C CNN
+	1    -13350 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0382
+U 1 1 6A5BB606
+P -13350 10200
+F 0 "#PWR0382" H -13350 9950 50  0001 C CNN
+F 1 "GND_A" H -13345 10027 50  0000 C CNN
+F 2 "" H -13350 10200 50  0001 C CNN
+F 3 "" H -13350 10200 50  0001 C CNN
+	1    -13350 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13350 10200 -13350 10150
+Wire Wire Line
+	-13350 9800 -13350 9850
+Wire Wire Line
+	-13350 9800 -13200 9800
+Wire Wire Line
+	-13200 7750 -13200 9800
+Connection ~ -13200 9800
+Wire Wire Line
+	-13200 9800 -13100 9800
+Wire Wire Line
+	-13150 7750 -12950 7750
+Wire Wire Line
+	-12000 9600 -12000 8400
+Connection ~ -13200 7750
+Wire Wire Line
+	-13200 7750 -13150 7750
+$Comp
+L passive_component_rl:resistor_us R137
+U 1 1 6AE32965
+P -13300 11100
+F 0 "R137" V -13346 11168 50  0000 L CNN
+F 1 "5k36" V -13255 11168 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13300 11100 50  0001 C CNN
+F 3 "" H -13300 11100 50  0001 C CNN
+	1    -13300 11100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-13300 11250 -13300 11900
+$Comp
+L power_rl:+24V_A #PWR0383
+U 1 1 6AE3296C
+P -13300 10850
+F 0 "#PWR0383" H -13300 10750 50  0001 C CNN
+F 1 "+24V_A" H -13300 11023 50  0000 C CNN
+F 2 "" H -13300 10850 50  0001 C CNN
+F 3 "" H -13300 10850 50  0001 C CNN
+	1    -13300 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13300 10850 -13300 10950
+Connection ~ -13300 11900
+Wire Wire Line
+	-13300 11900 -13200 11900
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q34
+U 1 1 6B106552
+P -12000 13950
+F 0 "Q34" H -11900 14000 50  0000 L CNN
+F 1 "2N7002A-YAN" H -11900 13900 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -11800 14050 50  0001 C CNN
+F 3 "~" H -12000 13950 50  0001 C CNN
+	1    -12000 13950
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q28
+U 1 1 6B106558
+P -12850 13950
+F 0 "Q28" H -12750 14000 50  0000 L CNN
+F 1 "2N7002A-YAN" H -12750 13900 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -12650 14050 50  0001 C CNN
+F 3 "~" H -12850 13950 50  0001 C CNN
+	1    -12850 13950
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R144
+U 1 1 6B10655E
+P -12850 13450
+F 0 "R144" V -12896 13518 50  0000 L CNN
+F 1 "24k" V -12805 13518 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -12850 13450 50  0001 C CNN
+F 3 "" H -12850 13450 50  0001 C CNN
+	1    -12850 13450
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0384
+U 1 1 6B106564
+P -12850 14350
+F 0 "#PWR0384" H -12850 14100 50  0001 C CNN
+F 1 "GND_A" H -12845 14177 50  0000 C CNN
+F 2 "" H -12850 14350 50  0001 C CNN
+F 3 "" H -12850 14350 50  0001 C CNN
+	1    -12850 14350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0385
+U 1 1 6B10656A
+P -12000 14350
+F 0 "#PWR0385" H -12000 14100 50  0001 C CNN
+F 1 "GND_A" H -11995 14177 50  0000 C CNN
+F 2 "" H -12000 14350 50  0001 C CNN
+F 3 "" H -12000 14350 50  0001 C CNN
+	1    -12000 14350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12000 14350 -12000 14150
+Wire Wire Line
+	-12850 14350 -12850 14150
+Wire Wire Line
+	-12850 13750 -12850 13650
+Wire Wire Line
+	-12850 13650 -12400 13650
+Wire Wire Line
+	-12400 13650 -12400 13950
+Wire Wire Line
+	-12400 13950 -12250 13950
+Connection ~ -12850 13650
+Wire Wire Line
+	-12850 13650 -12850 13600
+$Comp
+L power_rl:+24V_A #PWR0386
+U 1 1 6B106578
+P -12850 13200
+F 0 "#PWR0386" H -12850 13100 50  0001 C CNN
+F 1 "+24V_A" H -12850 13373 50  0000 C CNN
+F 2 "" H -12850 13200 50  0001 C CNN
+F 3 "" H -12850 13200 50  0001 C CNN
+	1    -12850 13200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12850 13300 -12850 13200
+$Comp
+L passive_component_rl:resistor_us R136
+U 1 1 6B10657F
+P -13350 14150
+F 0 "R136" V -13396 14218 50  0000 L CNN
+F 1 "24k" V -13305 14218 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -13350 14150 50  0001 C CNN
+F 3 "" H -13350 14150 50  0001 C CNN
+	1    -13350 14150
+	0    1    1    0   
+$EndComp
+$Comp
+L power_rl:GND_A #PWR0387
+U 1 1 6B106585
+P -13350 14350
+F 0 "#PWR0387" H -13350 14100 50  0001 C CNN
+F 1 "GND_A" H -13345 14177 50  0000 C CNN
+F 2 "" H -13350 14350 50  0001 C CNN
+F 3 "" H -13350 14350 50  0001 C CNN
+	1    -13350 14350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13350 14350 -13350 14300
+Wire Wire Line
+	-13350 13950 -13350 14000
+Wire Wire Line
+	-13350 13950 -13200 13950
+Wire Wire Line
+	-13200 11900 -13200 13950
+Connection ~ -13200 13950
+Wire Wire Line
+	-13200 13950 -13100 13950
+Wire Wire Line
+	-13150 11900 -12950 11900
+Wire Wire Line
+	-12000 12550 -12000 13750
+Connection ~ -13200 11900
+Wire Wire Line
+	-13200 11900 -13150 11900
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q46
+U 1 1 6CB03A6C
+P -2800 -6850
+F 0 "Q46" H -2700 -6800 50  0000 L CNN
+F 1 "2N7002A-YAN" H -2700 -6900 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -2600 -6750 50  0001 C CNN
+F 3 "~" H -2800 -6850 50  0001 C CNN
+	1    -2800 -6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q40
+U 1 1 6CB03A72
+P -3650 -6850
+F 0 "Q40" H -3550 -6800 50  0000 L CNN
+F 1 "2N7002A-YAN" H -3550 -6900 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -3450 -6750 50  0001 C CNN
+F 3 "~" H -3650 -6850 50  0001 C CNN
+	1    -3650 -6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R162
+U 1 1 6CB03A78
+P -3650 -7350
+F 0 "R162" V -3696 -7282 50  0000 L CNN
+F 1 "24k" V -3605 -7282 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -3650 -7350 50  0001 C CNN
+F 3 "" H -3650 -7350 50  0001 C CNN
+	1    -3650 -7350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2800 -6450 -2800 -6650
+Wire Wire Line
+	-3650 -6450 -3650 -6650
+Wire Wire Line
+	-3650 -7050 -3650 -7150
+Wire Wire Line
+	-3650 -7150 -3200 -7150
+Wire Wire Line
+	-3200 -7150 -3200 -6850
+Wire Wire Line
+	-3200 -6850 -3050 -6850
+Connection ~ -3650 -7150
+Wire Wire Line
+	-3650 -7150 -3650 -7200
+Wire Wire Line
+	-3650 -7500 -3650 -7600
+Wire Wire Line
+	-3900 -6850 -4000 -6850
+$Comp
+L passive_component_rl:resistor_us R152
+U 1 1 6CB03A9A
+P -4150 -6650
+F 0 "R152" V -4196 -6582 50  0000 L CNN
+F 1 "24k" V -4105 -6582 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -4150 -6650 50  0001 C CNN
+F 3 "" H -4150 -6650 50  0001 C CNN
+	1    -4150 -6650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4150 -6450 -4150 -6500
+Connection ~ -4000 -6850
+Wire Wire Line
+	-4000 -6850 -4150 -6850
+Wire Wire Line
+	-4150 -6850 -4150 -6800
+Wire Wire Line
+	-3950 -8850 -3750 -8850
+Wire Wire Line
+	-4000 -8850 -4000 -6850
+Connection ~ -4000 -8850
+Wire Wire Line
+	-4000 -8850 -3950 -8850
+Wire Wire Line
+	-2800 -8200 -2800 -7050
+$Comp
+L passive_component_rl:resistor_us R154
+U 1 1 6D3BD167
+P -4100 -9650
+F 0 "R154" V -4146 -9582 50  0000 L CNN
+F 1 "5k36" V -4055 -9582 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -4100 -9650 50  0001 C CNN
+F 3 "" H -4100 -9650 50  0001 C CNN
+	1    -4100 -9650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4100 -9500 -4100 -8850
+Wire Wire Line
+	-4100 -9900 -4100 -9800
+Connection ~ -4100 -8850
+Wire Wire Line
+	-4100 -8850 -4000 -8850
+$Comp
+L power_rl:+24V_B #PWR0391
+U 1 1 6DC7D4C7
+P -4100 -9900
+F 0 "#PWR0391" H -4100 -10000 50  0001 C CNN
+F 1 "+24V_B" H -4100 -9727 50  0000 C CNN
+F 2 "" H -4100 -9900 50  0001 C CNN
+F 3 "" H -4100 -9900 50  0001 C CNN
+	1    -4100 -9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:+24V_B #PWR0392
+U 1 1 6DC84007
+P -3650 -7600
+F 0 "#PWR0392" H -3650 -7700 50  0001 C CNN
+F 1 "+24V_B" H -3650 -7427 50  0000 C CNN
+F 2 "" H -3650 -7600 50  0001 C CNN
+F 3 "" H -3650 -7600 50  0001 C CNN
+	1    -3650 -7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R155
+U 1 1 6DF868DB
+P -4100 -5500
+F 0 "R155" V -4146 -5432 50  0000 L CNN
+F 1 "5k36" V -4055 -5432 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -4100 -5500 50  0001 C CNN
+F 3 "" H -4100 -5500 50  0001 C CNN
+	1    -4100 -5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4100 -5350 -4100 -4700
+Wire Wire Line
+	-4100 -5750 -4100 -5650
+$Comp
+L power_rl:+24V_B #PWR0393
+U 1 1 6DF868E3
+P -4100 -5750
+F 0 "#PWR0393" H -4100 -5850 50  0001 C CNN
+F 1 "+24V_B" H -4100 -5577 50  0000 C CNN
+F 2 "" H -4100 -5750 50  0001 C CNN
+F 3 "" H -4100 -5750 50  0001 C CNN
+	1    -4100 -5750
+	1    0    0    -1  
+$EndComp
+Connection ~ -4100 -4700
+Wire Wire Line
+	-4100 -4700 -4050 -4700
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q44
+U 1 1 6E278194
+P -2850 -2750
+F 0 "Q44" H -2750 -2700 50  0000 L CNN
+F 1 "2N7002A-YAN" H -2750 -2800 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -2650 -2650 50  0001 C CNN
+F 3 "~" H -2850 -2750 50  0001 C CNN
+	1    -2850 -2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q38
+U 1 1 6E27819A
+P -3700 -2750
+F 0 "Q38" H -3600 -2700 50  0000 L CNN
+F 1 "2N7002A-YAN" H -3600 -2800 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -3500 -2650 50  0001 C CNN
+F 3 "~" H -3700 -2750 50  0001 C CNN
+	1    -3700 -2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R160
+U 1 1 6E2781A0
+P -3700 -3250
+F 0 "R160" V -3746 -3182 50  0000 L CNN
+F 1 "24k" V -3655 -3182 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -3700 -3250 50  0001 C CNN
+F 3 "" H -3700 -3250 50  0001 C CNN
+	1    -3700 -3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2850 -2350 -2850 -2550
+Wire Wire Line
+	-3700 -2350 -3700 -2550
+Wire Wire Line
+	-3700 -2950 -3700 -3050
+Wire Wire Line
+	-3700 -3050 -3250 -3050
+Wire Wire Line
+	-3250 -3050 -3250 -2750
+Wire Wire Line
+	-3250 -2750 -3100 -2750
+Connection ~ -3700 -3050
+Wire Wire Line
+	-3700 -3050 -3700 -3100
+Wire Wire Line
+	-3700 -3400 -3700 -3500
+$Comp
+L passive_component_rl:resistor_us R148
+U 1 1 6E2781BC
+P -4200 -2550
+F 0 "R148" V -4246 -2482 50  0000 L CNN
+F 1 "24k" V -4155 -2482 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -4200 -2550 50  0001 C CNN
+F 3 "" H -4200 -2550 50  0001 C CNN
+	1    -4200 -2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4200 -2350 -4200 -2400
+Wire Wire Line
+	-4200 -2750 -4200 -2700
+$Comp
+L power_rl:+24V_B #PWR0397
+U 1 1 6E2781CE
+P -3700 -3500
+F 0 "#PWR0397" H -3700 -3600 50  0001 C CNN
+F 1 "+24V_B" H -3700 -3327 50  0000 C CNN
+F 2 "" H -3700 -3500 50  0001 C CNN
+F 3 "" H -3700 -3500 50  0001 C CNN
+	1    -3700 -3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4200 -2750 -4050 -2750
+Wire Wire Line
+	-4050 -4700 -4050 -2750
+Connection ~ -4050 -4700
+Wire Wire Line
+	-4050 -4700 -4000 -4700
+Connection ~ -4050 -2750
+Wire Wire Line
+	-4050 -2750 -3950 -2750
+Wire Wire Line
+	-2850 -2950 -2850 -4050
+Wire Wire Line
+	-4000 -4700 -3800 -4700
+$Comp
+L passive_component_rl:resistor_us R153
+U 1 1 6EE75B47
+P -4150 -1600
+F 0 "R153" V -4196 -1532 50  0000 L CNN
+F 1 "5k36" V -4105 -1532 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -4150 -1600 50  0001 C CNN
+F 3 "" H -4150 -1600 50  0001 C CNN
+	1    -4150 -1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4150 -1450 -4150 -800
+Wire Wire Line
+	-4150 -1850 -4150 -1750
+$Comp
+L power_rl:+24V_B #PWR0398
+U 1 1 6EE75B4F
+P -4150 -1850
+F 0 "#PWR0398" H -4150 -1950 50  0001 C CNN
+F 1 "+24V_B" H -4150 -1677 50  0000 C CNN
+F 2 "" H -4150 -1850 50  0001 C CNN
+F 3 "" H -4150 -1850 50  0001 C CNN
+	1    -4150 -1850
+	1    0    0    -1  
+$EndComp
+Connection ~ -4150 -800
+Wire Wire Line
+	-4150 -800 -4100 -800
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q43
+U 1 1 6F174985
+P -2900 1150
+F 0 "Q43" H -2800 1200 50  0000 L CNN
+F 1 "2N7002A-YAN" H -2800 1100 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -2700 1250 50  0001 C CNN
+F 3 "~" H -2900 1150 50  0001 C CNN
+	1    -2900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q37
+U 1 1 6F17498B
+P -3750 1150
+F 0 "Q37" H -3650 1200 50  0000 L CNN
+F 1 "2N7002A-YAN" H -3650 1100 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -3550 1250 50  0001 C CNN
+F 3 "~" H -3750 1150 50  0001 C CNN
+	1    -3750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R159
+U 1 1 6F174991
+P -3750 650
+F 0 "R159" V -3796 718 50  0000 L CNN
+F 1 "24k" V -3705 718 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -3750 650 50  0001 C CNN
+F 3 "" H -3750 650 50  0001 C CNN
+	1    -3750 650 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2900 1550 -2900 1350
+Wire Wire Line
+	-3750 1550 -3750 1350
+Wire Wire Line
+	-3750 950  -3750 850 
+Wire Wire Line
+	-3750 850  -3300 850 
+Wire Wire Line
+	-3300 850  -3300 1150
+Wire Wire Line
+	-3300 1150 -3150 1150
+Connection ~ -3750 850 
+Wire Wire Line
+	-3750 850  -3750 800 
+Wire Wire Line
+	-3750 500  -3750 400 
+$Comp
+L passive_component_rl:resistor_us R147
+U 1 1 6F1749AC
+P -4250 1350
+F 0 "R147" V -4296 1418 50  0000 L CNN
+F 1 "24k" V -4205 1418 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -4250 1350 50  0001 C CNN
+F 3 "" H -4250 1350 50  0001 C CNN
+	1    -4250 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4250 1550 -4250 1500
+Wire Wire Line
+	-4250 1150 -4250 1200
+$Comp
+L power_rl:+24V_B #PWR0402
+U 1 1 6F1749BA
+P -3750 400
+F 0 "#PWR0402" H -3750 300 50  0001 C CNN
+F 1 "+24V_B" H -3750 573 50  0000 C CNN
+F 2 "" H -3750 400 50  0001 C CNN
+F 3 "" H -3750 400 50  0001 C CNN
+	1    -3750 400 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4050 -800 -3850 -800
+Wire Wire Line
+	-4250 1150 -4100 1150
+Wire Wire Line
+	-4100 -800 -4100 1150
+Connection ~ -4100 -800
+Wire Wire Line
+	-4100 -800 -4050 -800
+Connection ~ -4100 1150
+Wire Wire Line
+	-4100 1150 -4000 1150
+Wire Wire Line
+	-2900 950  -2900 -150
+$Comp
+L passive_component_rl:resistor_us R149
+U 1 1 700A9F15
+P -4200 2350
+F 0 "R149" V -4246 2418 50  0000 L CNN
+F 1 "5k36" V -4155 2418 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -4200 2350 50  0001 C CNN
+F 3 "" H -4200 2350 50  0001 C CNN
+	1    -4200 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4200 2500 -4200 3150
+Wire Wire Line
+	-4200 2100 -4200 2200
+$Comp
+L power_rl:+24V_B #PWR0403
+U 1 1 700A9F1D
+P -4200 2100
+F 0 "#PWR0403" H -4200 2000 50  0001 C CNN
+F 1 "+24V_B" H -4200 2273 50  0000 C CNN
+F 2 "" H -4200 2100 50  0001 C CNN
+F 3 "" H -4200 2100 50  0001 C CNN
+	1    -4200 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ -4200 3150
+Wire Wire Line
+	-4200 3150 -4150 3150
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q41
+U 1 1 703B6502
+P -2950 5100
+F 0 "Q41" H -2850 5150 50  0000 L CNN
+F 1 "2N7002A-YAN" H -2850 5050 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -2750 5200 50  0001 C CNN
+F 3 "~" H -2950 5100 50  0001 C CNN
+	1    -2950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q35
+U 1 1 703B6508
+P -3800 5100
+F 0 "Q35" H -3700 5150 50  0000 L CNN
+F 1 "2N7002A-YAN" H -3700 5050 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -3600 5200 50  0001 C CNN
+F 3 "~" H -3800 5100 50  0001 C CNN
+	1    -3800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R157
+U 1 1 703B650E
+P -3800 4600
+F 0 "R157" V -3846 4668 50  0000 L CNN
+F 1 "24k" V -3755 4668 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -3800 4600 50  0001 C CNN
+F 3 "" H -3800 4600 50  0001 C CNN
+	1    -3800 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2950 5500 -2950 5300
+Wire Wire Line
+	-3800 5500 -3800 5300
+Wire Wire Line
+	-3800 4900 -3800 4800
+Wire Wire Line
+	-3800 4800 -3350 4800
+Wire Wire Line
+	-3350 4800 -3350 5100
+Wire Wire Line
+	-3350 5100 -3200 5100
+Connection ~ -3800 4800
+Wire Wire Line
+	-3800 4800 -3800 4750
+Wire Wire Line
+	-3800 4450 -3800 4350
+$Comp
+L passive_component_rl:resistor_us R145
+U 1 1 703B6529
+P -4300 5300
+F 0 "R145" V -4346 5368 50  0000 L CNN
+F 1 "24k" V -4255 5368 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -4300 5300 50  0001 C CNN
+F 3 "" H -4300 5300 50  0001 C CNN
+	1    -4300 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4300 5500 -4300 5450
+Wire Wire Line
+	-4300 5100 -4300 5150
+$Comp
+L power_rl:+24V_B #PWR0407
+U 1 1 703B6537
+P -3800 4350
+F 0 "#PWR0407" H -3800 4250 50  0001 C CNN
+F 1 "+24V_B" H -3800 4523 50  0000 C CNN
+F 2 "" H -3800 4350 50  0001 C CNN
+F 3 "" H -3800 4350 50  0001 C CNN
+	1    -3800 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4300 5100 -4150 5100
+Wire Wire Line
+	-4150 3150 -4150 5100
+Connection ~ -4150 5100
+Wire Wire Line
+	-4150 5100 -4050 5100
+Wire Wire Line
+	-4100 3150 -3900 3150
+Wire Wire Line
+	-2950 4900 -2950 3800
+$Comp
+L passive_component_rl:resistor_us R150
+U 1 1 71027F3D
+P -4200 6450
+F 0 "R150" V -4246 6518 50  0000 L CNN
+F 1 "5k36" V -4155 6518 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -4200 6450 50  0001 C CNN
+F 3 "" H -4200 6450 50  0001 C CNN
+	1    -4200 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4200 6600 -4200 7250
+Wire Wire Line
+	-4200 6200 -4200 6300
+$Comp
+L power_rl:+24V_B #PWR0408
+U 1 1 71027F45
+P -4200 6200
+F 0 "#PWR0408" H -4200 6100 50  0001 C CNN
+F 1 "+24V_B" H -4200 6373 50  0000 C CNN
+F 2 "" H -4200 6200 50  0001 C CNN
+F 3 "" H -4200 6200 50  0001 C CNN
+	1    -4200 6200
+	1    0    0    -1  
+$EndComp
+Connection ~ -4200 7250
+Wire Wire Line
+	-4200 7250 -4150 7250
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q42
+U 1 1 71340049
+P -2950 9200
+F 0 "Q42" H -2850 9250 50  0000 L CNN
+F 1 "2N7002A-YAN" H -2850 9150 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -2750 9300 50  0001 C CNN
+F 3 "~" H -2950 9200 50  0001 C CNN
+	1    -2950 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q36
+U 1 1 7134004F
+P -3800 9200
+F 0 "Q36" H -3700 9250 50  0000 L CNN
+F 1 "2N7002A-YAN" H -3700 9150 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -3600 9300 50  0001 C CNN
+F 3 "~" H -3800 9200 50  0001 C CNN
+	1    -3800 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R158
+U 1 1 71340055
+P -3800 8700
+F 0 "R158" V -3846 8768 50  0000 L CNN
+F 1 "24k" V -3755 8768 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -3800 8700 50  0001 C CNN
+F 3 "" H -3800 8700 50  0001 C CNN
+	1    -3800 8700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2950 9600 -2950 9400
+Wire Wire Line
+	-3800 9600 -3800 9400
+Wire Wire Line
+	-3800 9000 -3800 8900
+Wire Wire Line
+	-3800 8900 -3350 8900
+Wire Wire Line
+	-3350 8900 -3350 9200
+Wire Wire Line
+	-3350 9200 -3200 9200
+Connection ~ -3800 8900
+Wire Wire Line
+	-3800 8900 -3800 8850
+Wire Wire Line
+	-3800 8550 -3800 8450
+$Comp
+L passive_component_rl:resistor_us R146
+U 1 1 71340070
+P -4300 9400
+F 0 "R146" V -4346 9468 50  0000 L CNN
+F 1 "24k" V -4255 9468 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -4300 9400 50  0001 C CNN
+F 3 "" H -4300 9400 50  0001 C CNN
+	1    -4300 9400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4300 9600 -4300 9550
+Wire Wire Line
+	-4300 9200 -4300 9250
+$Comp
+L power_rl:+24V_B #PWR0412
+U 1 1 7134007E
+P -3800 8450
+F 0 "#PWR0412" H -3800 8350 50  0001 C CNN
+F 1 "+24V_B" H -3800 8623 50  0000 C CNN
+F 2 "" H -3800 8450 50  0001 C CNN
+F 3 "" H -3800 8450 50  0001 C CNN
+	1    -3800 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4300 9200 -4150 9200
+Wire Wire Line
+	-4150 7250 -4150 9200
+Connection ~ -4150 9200
+Wire Wire Line
+	-4150 9200 -4050 9200
+Wire Wire Line
+	-4100 7250 -3900 7250
+Wire Wire Line
+	-2950 9000 -2950 7900
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q45
+U 1 1 71982949
+P -2850 13750
+F 0 "Q45" H -2750 13800 50  0000 L CNN
+F 1 "2N7002A-YAN" H -2750 13700 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -2650 13850 50  0001 C CNN
+F 3 "~" H -2850 13750 50  0001 C CNN
+	1    -2850 13750
+	1    0    0    -1  
+$EndComp
+$Comp
+L unipolar_transistor_rl:n_mosfet_gsd Q39
+U 1 1 7198294F
+P -3700 13750
+F 0 "Q39" H -3600 13800 50  0000 L CNN
+F 1 "2N7002A-YAN" H -3600 13700 50  0000 L CNN
+F 2 "package_sot_rl:sot_23" H -3500 13850 50  0001 C CNN
+F 3 "~" H -3700 13750 50  0001 C CNN
+	1    -3700 13750
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive_component_rl:resistor_us R161
+U 1 1 71982955
+P -3700 13250
+F 0 "R161" V -3746 13318 50  0000 L CNN
+F 1 "24k" V -3655 13318 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -3700 13250 50  0001 C CNN
+F 3 "" H -3700 13250 50  0001 C CNN
+	1    -3700 13250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-2850 14150 -2850 13950
+Wire Wire Line
+	-3700 14150 -3700 13950
+Wire Wire Line
+	-3700 13550 -3700 13450
+Wire Wire Line
+	-3700 13450 -3250 13450
+Wire Wire Line
+	-3250 13450 -3250 13750
+Wire Wire Line
+	-3250 13750 -3100 13750
+Connection ~ -3700 13450
+Wire Wire Line
+	-3700 13450 -3700 13400
+Wire Wire Line
+	-3700 13100 -3700 13000
+$Comp
+L passive_component_rl:resistor_us R151
+U 1 1 71982970
+P -4200 13950
+F 0 "R151" V -4246 14018 50  0000 L CNN
+F 1 "24k" V -4155 14018 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -4200 13950 50  0001 C CNN
+F 3 "" H -4200 13950 50  0001 C CNN
+	1    -4200 13950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4200 14150 -4200 14100
+Wire Wire Line
+	-4200 13750 -4200 13800
+$Comp
+L power_rl:+24V_B #PWR0416
+U 1 1 7198297E
+P -3700 13000
+F 0 "#PWR0416" H -3700 12900 50  0001 C CNN
+F 1 "+24V_B" H -3700 13173 50  0000 C CNN
+F 2 "" H -3700 13000 50  0001 C CNN
+F 3 "" H -3700 13000 50  0001 C CNN
+	1    -3700 13000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4200 13750 -4050 13750
+Wire Wire Line
+	-4050 11800 -4050 13750
+Connection ~ -4050 13750
+Wire Wire Line
+	-4050 13750 -3950 13750
+Wire Wire Line
+	-2850 12450 -2850 13550
+Wire Wire Line
+	-4000 11800 -3800 11800
+Connection ~ -4050 11800
+Wire Wire Line
+	-4050 11800 -4000 11800
+$Comp
+L passive_component_rl:resistor_us R156
+U 1 1 71CB2953
+P -4100 11000
+F 0 "R156" V -4146 11068 50  0000 L CNN
+F 1 "5k36" V -4055 11068 50  0000 L CNN
+F 2 "resistor_smd_rl:r_1206" H -4100 11000 50  0001 C CNN
+F 3 "" H -4100 11000 50  0001 C CNN
+	1    -4100 11000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-4100 11150 -4100 11800
+Wire Wire Line
+	-4100 10750 -4100 10850
+$Comp
+L power_rl:+24V_B #PWR0417
+U 1 1 71CB295B
+P -4100 10750
+F 0 "#PWR0417" H -4100 10650 50  0001 C CNN
+F 1 "+24V_B" H -4100 10923 50  0000 C CNN
+F 2 "" H -4100 10750 50  0001 C CNN
+F 3 "" H -4100 10750 50  0001 C CNN
+	1    -4100 10750
+	1    0    0    -1  
+$EndComp
+Connection ~ -4100 11800
+Wire Wire Line
+	-4100 11800 -4050 11800
+$Comp
+L power_rl:GND_B #PWR0388
+U 1 1 65351CFC
+P -4150 -6450
+F 0 "#PWR0388" H -4150 -6700 50  0001 C CNN
+F 1 "GND_B" H -4145 -6623 50  0000 C CNN
+F 2 "" H -4150 -6450 50  0001 C CNN
+F 3 "" H -4150 -6450 50  0001 C CNN
+	1    -4150 -6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0389
+U 1 1 65356876
+P -3650 -6450
+F 0 "#PWR0389" H -3650 -6700 50  0001 C CNN
+F 1 "GND_B" H -3645 -6623 50  0000 C CNN
+F 2 "" H -3650 -6450 50  0001 C CNN
+F 3 "" H -3650 -6450 50  0001 C CNN
+	1    -3650 -6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0390
+U 1 1 65356B30
+P -2800 -6450
+F 0 "#PWR0390" H -2800 -6700 50  0001 C CNN
+F 1 "GND_B" H -2795 -6623 50  0000 C CNN
+F 2 "" H -2800 -6450 50  0001 C CNN
+F 3 "" H -2800 -6450 50  0001 C CNN
+	1    -2800 -6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0394
+U 1 1 65356DDB
+P -4200 -2350
+F 0 "#PWR0394" H -4200 -2600 50  0001 C CNN
+F 1 "GND_B" H -4195 -2523 50  0000 C CNN
+F 2 "" H -4200 -2350 50  0001 C CNN
+F 3 "" H -4200 -2350 50  0001 C CNN
+	1    -4200 -2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0395
+U 1 1 6535764E
+P -3700 -2350
+F 0 "#PWR0395" H -3700 -2600 50  0001 C CNN
+F 1 "GND_B" H -3695 -2523 50  0000 C CNN
+F 2 "" H -3700 -2350 50  0001 C CNN
+F 3 "" H -3700 -2350 50  0001 C CNN
+	1    -3700 -2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0396
+U 1 1 65357896
+P -2850 -2350
+F 0 "#PWR0396" H -2850 -2600 50  0001 C CNN
+F 1 "GND_B" H -2845 -2523 50  0000 C CNN
+F 2 "" H -2850 -2350 50  0001 C CNN
+F 3 "" H -2850 -2350 50  0001 C CNN
+	1    -2850 -2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0399
+U 1 1 65357B65
+P -4250 1550
+F 0 "#PWR0399" H -4250 1300 50  0001 C CNN
+F 1 "GND_B" H -4245 1377 50  0000 C CNN
+F 2 "" H -4250 1550 50  0001 C CNN
+F 3 "" H -4250 1550 50  0001 C CNN
+	1    -4250 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0400
+U 1 1 6535975B
+P -3750 1550
+F 0 "#PWR0400" H -3750 1300 50  0001 C CNN
+F 1 "GND_B" H -3745 1377 50  0000 C CNN
+F 2 "" H -3750 1550 50  0001 C CNN
+F 3 "" H -3750 1550 50  0001 C CNN
+	1    -3750 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0401
+U 1 1 6535994E
+P -2900 1550
+F 0 "#PWR0401" H -2900 1300 50  0001 C CNN
+F 1 "GND_B" H -2895 1377 50  0000 C CNN
+F 2 "" H -2900 1550 50  0001 C CNN
+F 3 "" H -2900 1550 50  0001 C CNN
+	1    -2900 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0404
+U 1 1 65359AE5
+P -4300 5500
+F 0 "#PWR0404" H -4300 5250 50  0001 C CNN
+F 1 "GND_B" H -4295 5327 50  0000 C CNN
+F 2 "" H -4300 5500 50  0001 C CNN
+F 3 "" H -4300 5500 50  0001 C CNN
+	1    -4300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0405
+U 1 1 6535A206
+P -3800 5500
+F 0 "#PWR0405" H -3800 5250 50  0001 C CNN
+F 1 "GND_B" H -3795 5327 50  0000 C CNN
+F 2 "" H -3800 5500 50  0001 C CNN
+F 3 "" H -3800 5500 50  0001 C CNN
+	1    -3800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0406
+U 1 1 6535A435
+P -2950 5500
+F 0 "#PWR0406" H -2950 5250 50  0001 C CNN
+F 1 "GND_B" H -2945 5327 50  0000 C CNN
+F 2 "" H -2950 5500 50  0001 C CNN
+F 3 "" H -2950 5500 50  0001 C CNN
+	1    -2950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0409
+U 1 1 6535A63E
+P -4300 9600
+F 0 "#PWR0409" H -4300 9350 50  0001 C CNN
+F 1 "GND_B" H -4295 9427 50  0000 C CNN
+F 2 "" H -4300 9600 50  0001 C CNN
+F 3 "" H -4300 9600 50  0001 C CNN
+	1    -4300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0410
+U 1 1 6535B364
+P -3800 9600
+F 0 "#PWR0410" H -3800 9350 50  0001 C CNN
+F 1 "GND_B" H -3795 9427 50  0000 C CNN
+F 2 "" H -3800 9600 50  0001 C CNN
+F 3 "" H -3800 9600 50  0001 C CNN
+	1    -3800 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0411
+U 1 1 6535B5F2
+P -2950 9600
+F 0 "#PWR0411" H -2950 9350 50  0001 C CNN
+F 1 "GND_B" H -2945 9427 50  0000 C CNN
+F 2 "" H -2950 9600 50  0001 C CNN
+F 3 "" H -2950 9600 50  0001 C CNN
+	1    -2950 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0413
+U 1 1 6535B879
+P -4200 14150
+F 0 "#PWR0413" H -4200 13900 50  0001 C CNN
+F 1 "GND_B" H -4195 13977 50  0000 C CNN
+F 2 "" H -4200 14150 50  0001 C CNN
+F 3 "" H -4200 14150 50  0001 C CNN
+	1    -4200 14150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0414
+U 1 1 6535C13D
+P -3700 14150
+F 0 "#PWR0414" H -3700 13900 50  0001 C CNN
+F 1 "GND_B" H -3695 13977 50  0000 C CNN
+F 2 "" H -3700 14150 50  0001 C CNN
+F 3 "" H -3700 14150 50  0001 C CNN
+	1    -3700 14150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_rl:GND_B #PWR0415
+U 1 1 6535C3E5
+P -2850 14150
+F 0 "#PWR0415" H -2850 13900 50  0001 C CNN
+F 1 "GND_B" H -2845 13977 50  0000 C CNN
+F 2 "" H -2850 14150 50  0001 C CNN
+F 3 "" H -2850 14150 50  0001 C CNN
+	1    -2850 14150
+	1    0    0    -1  
+$EndComp
+Connection ~ -4150 3150
+Wire Wire Line
+	-4150 3150 -4100 3150
+Connection ~ -4150 7250
+Wire Wire Line
+	-4150 7250 -4100 7250
+$EndSCHEMATC
