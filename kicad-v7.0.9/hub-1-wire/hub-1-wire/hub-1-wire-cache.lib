@@ -1,0 +1,234 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# connector_rl_1x3_screw_term_block
+#
+DEF connector_rl_1x3_screw_term_block J 0 40 Y N 1 F N
+F0 "J" 0 250 50 H V C CNN
+F1 "connector_rl_1x3_screw_term_block" 0 -250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+C 0 100 25 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -21 113 13 80 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+P 2 1 1 6 -14 120 20 87 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# connector_rl_rj45
+#
+DEF connector_rl_rj45 J 0 40 Y Y 1 F N
+F0 "J" -250 600 50 H V C CNN
+F1 "connector_rl_rj45" 0 -500 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 300 500 -300 -400 1 1 10 f
+P 2 1 1 0 -200 175 -250 175 N
+P 2 1 1 0 -200 225 -250 225 N
+P 3 1 1 0 -250 -125 -200 -125 -200 -125 N
+P 3 1 1 0 -250 -75 -200 -75 -200 -75 N
+P 3 1 1 0 -250 -25 -200 -25 -200 -25 N
+P 3 1 1 0 -250 25 -200 25 -200 25 N
+P 3 1 1 0 -250 75 -200 75 -200 75 N
+P 3 1 1 0 -200 125 -250 125 -250 125 N
+P 14 1 1 0 -250 -175 -250 275 150 275 150 175 200 175 200 125 250 125 250 -25 200 -25 200 -75 150 -75 150 -175 -250 -175 -250 -175 N
+X ~ 1 400 -300 100 L 50 50 1 1 P
+X ~ 2 400 -200 100 L 50 50 1 1 P
+X ~ 3 400 -100 100 L 50 50 1 1 P
+X ~ 4 400 0 100 L 50 50 1 1 P
+X ~ 5 400 100 100 L 50 50 1 1 P
+X ~ 6 400 200 100 L 50 50 1 1 P
+X ~ 7 400 300 100 L 50 50 1 1 P
+X ~ 8 400 400 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode_rl_DS9503_us
+#
+DEF diode_rl_DS9503_us D 0 40 Y N 1 F N
+F0 "D" -80 210 50 H V C CNN
+F1 "diode_rl_DS9503_us" 90 -250 50 H V C CNN
+F2 "" 50 50 50 H I C CNN
+F3 "" 50 50 50 H I C CNN
+DRAW
+C 50 -120 10 0 1 0 F
+C 50 100 10 0 1 0 F
+S 300 170 -100 170 0 1 0 N
+P 2 0 1 0 -110 100 -80 100 N
+P 2 0 1 0 -100 -190 -100 170 N
+P 2 0 1 0 0 60 100 60 N
+P 2 0 1 0 50 100 -90 100 N
+P 2 0 1 0 50 100 50 60 N
+P 2 0 1 8 50 100 50 100 N
+P 2 0 1 8 50 100 50 100 N
+P 2 0 1 0 80 -120 90 -120 N
+P 2 0 1 0 90 100 30 100 N
+P 2 0 1 0 100 50 110 40 N
+P 2 0 1 0 210 -120 250 -120 N
+P 2 0 1 0 210 100 250 100 N
+P 2 0 1 0 250 100 300 100 N
+P 2 0 1 0 300 -190 -100 -190 N
+P 2 0 1 0 300 -190 300 170 N
+P 3 0 1 0 100 60 105 60 115 50 N
+P 3 0 1 0 250 -120 250 0 300 0 N
+P 4 0 1 0 50 -20 50 -120 60 -120 80 -120 N
+P 5 0 1 0 50 -120 20 -120 -50 -120 -50 0 -100 0 N
+P 2 1 1 0 50 -50 50 50 N
+P 2 1 1 0 100 50 0 50 N
+P 4 1 1 0 100 -50 0 -50 50 50 100 -50 N
+P 5 1 1 0 90 -120 105 -80 120 -120 135 -160 150 -120 N
+P 5 1 1 0 90 100 105 140 120 100 135 60 150 100 N
+P 5 1 1 0 150 -120 165 -80 180 -120 195 -160 210 -120 N
+P 5 1 1 0 150 100 165 140 180 100 195 60 210 100 N
+X ~ 3 -200 -100 100 R 50 50 0 0 N N
+X ~ 4 400 -100 100 L 50 50 0 0 N N
+X A 5 400 0 100 L 50 50 0 0 P
+X K 6 400 100 100 L 50 50 0 0 P
+X K 1 -200 100 100 R 50 50 1 1 P
+X A 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode_rl_bidir_transil
+#
+DEF diode_rl_bidir_transil D 0 40 Y N 1 F N
+F0 "D" -100 150 50 H V C CNN
+F1 "diode_rl_bidir_transil" -300 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 8 -50 50 -65 35 N
+P 2 1 1 0 0 -50 0 50 N
+P 2 1 1 0 0 150 0 50 N
+P 2 1 1 8 50 50 -50 50 N
+P 2 1 1 8 50 50 65 65 N
+P 4 1 1 8 -50 150 50 150 0 50 -50 150 N
+P 4 1 1 8 50 -50 -50 -50 0 50 50 -50 N
+X K 1 0 250 100 D 50 50 1 1 P
+X A 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode_rl_undir_transil
+#
+DEF diode_rl_undir_transil D 0 40 N N 1 F N
+F0 "D" -50 150 50 H V C CNN
+F1 "diode_rl_undir_transil" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 8 -50 50 -65 35 N
+P 2 0 1 8 50 50 65 65 N
+P 2 1 1 0 0 -50 0 50 N
+P 2 1 1 8 50 50 -50 50 N
+P 4 1 1 8 50 -50 -50 -50 0 50 50 -50 N
+X K 1 0 150 100 D 50 50 1 1 P
+X A 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# passive_component_rl_capacitor
+#
+DEF passive_component_rl_capacitor C 0 40 N N 1 F N
+F0 "C" 0 150 50 H V C CNN
+F1 "passive_component_rl_capacitor" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 1 1 10 -30 -80 -30 80 N
+P 2 1 1 10 30 -80 30 80 N
+X ~ 1 -150 0 114 R 50 50 1 1 P
+X ~ 2 150 0 114 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# passive_component_rl_resistor_us
+#
+DEF passive_component_rl_resistor_us R 0 20 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "passive_component_rl_resistor_us" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 2 1 1 0 -90 0 -100 0 N
+P 2 1 1 0 90 0 100 0 N
+P 5 1 1 0 -90 0 -75 40 -60 0 -45 -40 -30 0 N
+P 5 1 1 0 -30 0 -15 40 0 0 15 -40 30 0 N
+P 5 1 1 0 30 0 45 40 60 0 75 -40 90 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# unipolar_transistor_rl_p_mosfet_gsd
+#
+DEF unipolar_transistor_rl_p_mosfet_gsd Q 0 40 Y N 1 F N
+F0 "Q" 0 200 50 H V C CNN
+F1 "unipolar_transistor_rl_p_mosfet_gsd" 300 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 65 0 110 1 1 10 N
+C 100 -70 10 1 1 0 F
+C 100 70 10 1 1 0 F
+P 2 1 1 0 10 0 -100 0 N
+P 2 1 1 10 10 75 10 -75 N
+P 2 1 1 10 30 -50 30 -90 N
+P 2 1 1 10 30 20 30 -20 N
+P 2 1 1 10 30 90 30 50 N
+P 2 1 1 0 100 100 100 70 N
+P 3 1 1 0 100 -100 100 0 30 0 N
+P 4 1 1 0 30 70 130 70 130 -70 30 -70 N
+P 4 1 1 0 90 0 50 15 50 -15 90 0 F
+P 4 1 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 1 1 0 130 -15 115 10 145 10 130 -15 N
+X G 1 -150 0 100 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
