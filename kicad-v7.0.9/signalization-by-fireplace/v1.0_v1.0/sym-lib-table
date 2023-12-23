@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "signalization-by-fireplace-rescue")(type "KiCad")(uri "${KIPRJMOD}/signalization-by-fireplace-rescue.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,668 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# connector_rl_1x2_pin_header
+#
+DEF connector_rl_1x2_pin_header P 0 40 Y N 1 F N
+F0 "P" 0 100 50 H V C CNN
+F1 "connector_rl_1x2_pin_header" 50 -200 50 H V C CNN
+F2 "" 50 0 50 H I C CNN
+F3 "" 50 0 50 H I C CNN
+DRAW
+C -50 -10 10 0 1 18 N
+C 50 -10 10 0 1 18 N
+P 2 0 1 10 -100 -50 -100 30 N
+P 2 0 1 10 -100 -50 100 -50 N
+P 2 0 1 6 -50 -50 -50 -10 N
+P 2 0 1 6 50 -50 50 -10 N
+P 3 0 1 10 100 -50 100 30 -100 30 N
+X 1 1 -50 -150 100 U 50 50 1 1 P
+X 2 2 50 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# connector_rl_1x2_screw_term_block
+#
+DEF connector_rl_1x2_screw_term_block J 0 40 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "connector_rl_1x2_screw_term_block" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -50 25 1 1 6 N
+C 0 50 25 1 1 6 N
+S -50 100 50 -100 1 1 10 f
+P 2 1 1 6 -21 -37 13 -70 N
+P 2 1 1 6 -21 63 13 30 N
+P 2 1 1 6 -14 -30 20 -63 N
+P 2 1 1 6 -14 70 20 37 N
+X 1 1 -200 50 150 R 50 50 1 1 P
+X 2 2 -200 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# connector_rl_1x3_pin_header
+#
+DEF connector_rl_1x3_pin_header P 0 40 Y N 1 F N
+F0 "P" -100 100 50 H V C CNN
+F1 "connector_rl_1x3_pin_header" 0 -250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -100 -10 10 1 1 18 N
+C 0 -10 10 1 1 18 N
+C 100 -10 10 1 1 18 N
+P 2 1 1 10 -150 -50 -150 30 N
+P 2 1 1 10 -150 -50 50 -50 N
+P 2 1 1 6 -100 -50 -100 -10 N
+P 2 1 1 6 0 -50 0 -10 N
+P 2 1 1 6 100 -50 100 -10 N
+P 4 1 1 10 -50 -50 150 -50 150 30 -150 30 N
+X 1 1 -100 -150 100 U 50 50 1 1 P
+X 2 2 0 -150 100 U 50 50 1 1 P
+X 3 3 100 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# connector_rl_1x3_screw_term_block
+#
+DEF connector_rl_1x3_screw_term_block J 0 40 Y N 1 F N
+F0 "J" 0 250 50 H V C CNN
+F1 "connector_rl_1x3_screw_term_block" 0 -250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+C 0 100 25 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -21 113 13 80 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+P 2 1 1 6 -14 120 20 87 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# connector_rl_1x4_idc_lsa
+#
+DEF connector_rl_1x4_idc_lsa J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "connector_rl_1x4_idc_lsa" 450 0 50 H V C CNN
+F2 "" -50 0 50 V I C CNN
+F3 "" -50 0 50 V I C CNN
+DRAW
+S -200 -50 200 50 1 1 10 f
+S -155 -50 -145 0 1 1 6 N
+S -55 -50 -45 0 1 1 6 N
+S 45 -50 55 0 1 1 6 N
+S 145 -50 155 0 1 1 6 N
+X 1 1 -150 -200 150 U 50 50 1 1 P
+X 2 2 -50 -200 150 U 50 50 1 1 P
+X 3 3 50 -200 150 U 50 50 1 1 P
+X 4 4 150 -200 150 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# connector_rl_1x4_pin_socket
+#
+DEF connector_rl_1x4_pin_socket P 0 40 Y N 1 F N
+F0 "P" 0 100 50 H V C CNN
+F1 "connector_rl_1x4_pin_socket" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -150 -10 10 1 1 18 N
+C -50 -10 10 1 1 18 N
+C 50 -10 10 1 1 18 N
+C 150 -10 10 1 1 18 N
+P 2 1 1 10 -200 -50 -200 30 N
+P 2 1 1 10 -200 -50 0 -50 N
+P 2 1 1 6 -150 -50 -150 -10 N
+P 2 1 1 6 -50 -50 -50 -10 N
+P 2 1 1 6 50 -50 50 -10 N
+P 2 1 1 6 150 -50 150 -10 N
+P 4 1 1 10 0 -50 200 -50 200 30 -200 30 N
+X 1 1 -150 -150 100 U 50 50 1 1 P
+X 2 2 -50 -150 100 U 50 50 1 1 P
+X 3 3 50 -150 100 U 50 50 1 1 P
+X 4 4 150 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# connector_rl_rj45
+#
+DEF connector_rl_rj45 J 0 40 Y Y 1 F N
+F0 "J" -250 600 50 H V C CNN
+F1 "connector_rl_rj45" 0 -500 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 300 500 -300 -400 1 1 10 f
+P 2 1 1 0 -200 175 -250 175 N
+P 2 1 1 0 -200 225 -250 225 N
+P 3 1 1 0 -250 -125 -200 -125 -200 -125 N
+P 3 1 1 0 -250 -75 -200 -75 -200 -75 N
+P 3 1 1 0 -250 -25 -200 -25 -200 -25 N
+P 3 1 1 0 -250 25 -200 25 -200 25 N
+P 3 1 1 0 -250 75 -200 75 -200 75 N
+P 3 1 1 0 -200 125 -250 125 -250 125 N
+P 14 1 1 0 -250 -175 -250 275 150 275 150 175 200 175 200 125 250 125 250 -25 200 -25 200 -75 150 -75 150 -175 -250 -175 -250 -175 N
+X ~ 1 400 -300 100 L 50 50 1 1 P
+X ~ 2 400 -200 100 L 50 50 1 1 P
+X ~ 3 400 -100 100 L 50 50 1 1 P
+X ~ 4 400 0 100 L 50 50 1 1 P
+X ~ 5 400 100 100 L 50 50 1 1 P
+X ~ 6 400 200 100 L 50 50 1 1 P
+X ~ 7 400 300 100 L 50 50 1 1 P
+X ~ 8 400 400 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode_rl_DS9503_us
+#
+DEF diode_rl_DS9503_us D 0 40 Y N 1 F N
+F0 "D" -80 210 50 H V C CNN
+F1 "diode_rl_DS9503_us" 90 -250 50 H V C CNN
+F2 "" 50 50 50 H I C CNN
+F3 "" 50 50 50 H I C CNN
+DRAW
+C 50 -120 10 0 1 0 F
+C 50 100 10 0 1 0 F
+S 300 170 -100 170 0 1 0 N
+P 2 0 1 0 -110 100 -80 100 N
+P 2 0 1 0 -100 -190 -100 170 N
+P 2 0 1 0 0 60 100 60 N
+P 2 0 1 0 50 100 -90 100 N
+P 2 0 1 0 50 100 50 60 N
+P 2 0 1 8 50 100 50 100 N
+P 2 0 1 8 50 100 50 100 N
+P 2 0 1 0 80 -120 90 -120 N
+P 2 0 1 0 90 100 30 100 N
+P 2 0 1 0 100 50 110 40 N
+P 2 0 1 0 210 -120 250 -120 N
+P 2 0 1 0 210 100 250 100 N
+P 2 0 1 0 250 100 300 100 N
+P 2 0 1 0 300 -190 -100 -190 N
+P 2 0 1 0 300 -190 300 170 N
+P 3 0 1 0 100 60 105 60 115 50 N
+P 3 0 1 0 250 -120 250 0 300 0 N
+P 4 0 1 0 50 -20 50 -120 60 -120 80 -120 N
+P 5 0 1 0 50 -120 20 -120 -50 -120 -50 0 -100 0 N
+P 2 1 1 0 50 -50 50 50 N
+P 2 1 1 0 100 50 0 50 N
+P 4 1 1 0 100 -50 0 -50 50 50 100 -50 N
+P 5 1 1 0 90 -120 105 -80 120 -120 135 -160 150 -120 N
+P 5 1 1 0 90 100 105 140 120 100 135 60 150 100 N
+P 5 1 1 0 150 -120 165 -80 180 -120 195 -160 210 -120 N
+P 5 1 1 0 150 100 165 140 180 100 195 60 210 100 N
+X ~ 3 -200 -100 100 R 50 50 0 0 N N
+X ~ 4 400 -100 100 L 50 50 0 0 N N
+X A 5 400 0 100 L 50 50 0 0 P
+X K 6 400 100 100 L 50 50 0 0 P
+X K 1 -200 100 100 R 50 50 1 1 P
+X A 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode_rl_ESD16VHYFHT116
+#
+DEF diode_rl_ESD16VHYFHT116 D 0 40 Y N 1 F N
+F0 "D" 150 150 50 H V C CNN
+F1 "diode_rl_ESD16VHYFHT116" 350 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -175 100 175 -100 1 1 10 f
+P 2 1 1 0 -100 100 -100 25 N
+P 2 1 1 0 0 -50 0 -100 N
+P 2 1 1 0 100 100 100 25 N
+P 4 1 1 0 -150 50 -125 25 -75 25 -50 0 N
+P 4 1 1 0 -100 25 -100 -50 100 -50 100 25 N
+P 4 1 1 0 -100 25 -75 -25 -125 -25 -100 25 N
+P 4 1 1 0 100 25 75 -25 125 -25 100 25 N
+P 4 1 1 0 100 25 125 75 75 75 100 25 N
+P 5 1 1 0 -100 25 -125 75 -75 75 -100 25 -100 50 N
+P 5 1 1 0 50 50 75 25 100 25 125 25 150 0 N
+X K 1 -100 200 100 D 50 50 1 1 P
+X K 2 100 200 100 D 50 50 1 1 P
+X A 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode_rl_LED
+#
+DEF diode_rl_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "diode_rl_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode_rl_SMDA05CDR2G
+#
+DEF diode_rl_SMDA05CDR2G D 0 40 Y N 1 F N
+F0 "D" 200 150 50 H V C CNN
+F1 "diode_rl_SMDA05CDR2G" 450 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 100 250 -50 0 1 0 f
+P 2 1 1 0 -150 50 -150 -50 N
+P 2 1 1 0 -150 100 -150 25 N
+P 2 1 1 0 -50 50 -50 -50 N
+P 2 1 1 0 -50 100 -50 25 N
+P 2 1 1 0 50 50 50 -50 N
+P 2 1 1 0 50 100 50 25 N
+P 2 1 1 0 150 50 150 -50 N
+P 2 1 1 0 150 100 150 25 N
+P 4 1 1 0 -150 25 -175 -25 -125 -25 -150 25 N
+P 4 1 1 0 -150 25 -125 75 -175 75 -150 25 N
+P 4 1 1 0 -100 50 -75 25 -25 25 0 0 N
+P 4 1 1 0 -50 25 -25 -25 -75 -25 -50 25 N
+P 4 1 1 0 50 25 25 -25 75 -25 50 25 N
+P 4 1 1 0 50 25 75 75 25 75 50 25 N
+P 4 1 1 0 100 50 125 25 175 25 200 0 N
+P 4 1 1 0 150 25 175 -25 125 -25 150 25 N
+P 5 1 1 0 -200 50 -175 25 -150 25 -125 25 -100 0 N
+P 5 1 1 0 -50 25 -75 75 -25 75 -50 25 -50 50 N
+P 5 1 1 0 0 50 25 25 50 25 75 25 100 0 N
+P 5 1 1 0 150 25 125 75 175 75 150 25 150 50 N
+X A 1 150 200 100 D 50 50 1 1 P
+X A 2 50 200 100 D 50 50 1 1 P
+X A 3 -50 200 100 D 50 50 1 1 P
+X A 4 -150 200 100 D 50 50 1 1 P
+X A 5 -150 -150 100 U 50 50 1 1 P
+X A 6 -50 -150 100 U 50 50 1 1 P
+X A 7 50 -150 100 U 50 50 1 1 P
+X A 8 150 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode_rl_bidir_transil
+#
+DEF diode_rl_bidir_transil D 0 40 Y N 1 F N
+F0 "D" -100 150 50 H V C CNN
+F1 "diode_rl_bidir_transil" -300 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 8 -50 50 -65 35 N
+P 2 1 1 0 0 -50 0 50 N
+P 2 1 1 0 0 150 0 50 N
+P 2 1 1 8 50 50 -50 50 N
+P 2 1 1 8 50 50 65 65 N
+P 4 1 1 8 -50 150 50 150 0 50 -50 150 N
+P 4 1 1 8 50 -50 -50 -50 0 50 50 -50 N
+X K 1 0 250 100 D 50 50 1 1 P
+X A 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode_rl_undir_transil
+#
+DEF diode_rl_undir_transil D 0 40 N N 1 F N
+F0 "D" -50 150 50 H V C CNN
+F1 "diode_rl_undir_transil" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 8 -50 50 -65 35 N
+P 2 0 1 8 50 50 65 65 N
+P 2 1 1 0 0 -50 0 50 N
+P 2 1 1 8 50 50 -50 50 N
+P 4 1 1 8 50 -50 -50 -50 0 50 50 -50 N
+X K 1 0 150 100 D 50 50 1 1 P
+X A 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# interface_i2c_rl_PCA9615
+#
+DEF interface_i2c_rl_PCA9615 U? 0 40 Y Y 1 F N
+F0 "U?" -300 300 50 H V C CNN
+F1 "interface_i2c_rl_PCA9615" 100 300 50 H V C CNN
+F2 "" -200 400 50 H I C CNN
+F3 "" -200 400 50 H I C CNN
+F4 "NXP Semiconductors" 0 0 50 H I C CNN "Manufacture"
+DRAW
+S -350 250 350 -250 0 1 0 f
+X VDD(A) 1 -450 200 100 R 50 50 1 1 W
+X VDD(B) 10 450 200 100 L 50 50 1 1 W
+X SDA 2 -450 100 100 R 50 50 1 1 B
+X EN 3 -450 0 100 R 50 50 1 1 I
+X SCL 4 -450 -100 100 R 50 50 1 1 B
+X GND 5 -450 -200 100 R 50 50 1 1 W
+X DSCLM 6 450 -200 100 L 50 50 1 1 B
+X DSCLP 7 450 -100 100 L 50 50 1 1 B
+X DSDAP 8 450 0 100 L 50 50 1 1 B
+X DSDAM 9 450 100 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# passive_component_rl_capacitor
+#
+DEF passive_component_rl_capacitor C 0 40 N N 1 F N
+F0 "C" 0 150 50 H V C CNN
+F1 "passive_component_rl_capacitor" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 1 1 10 -30 -80 -30 80 N
+P 2 1 1 10 30 -80 30 80 N
+X ~ 1 -150 0 114 R 50 50 1 1 P
+X ~ 2 150 0 114 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# passive_component_rl_inductor
+#
+DEF passive_component_rl_inductor L 0 40 N N 1 F N
+F0 "L" 0 100 50 H V C CNN
+F1 "passive_component_rl_inductor" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -75 0 25 1 1799 1 1 0 N -50 0 -100 0
+A -25 0 25 1 1799 1 1 0 N 0 0 -50 0
+A 25 0 25 1 1799 1 1 0 N 50 0 0 0
+A 75 0 25 1 1799 1 1 0 N 100 0 50 0
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# passive_component_rl_resistor_us
+#
+DEF passive_component_rl_resistor_us R 0 20 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "passive_component_rl_resistor_us" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 2 1 1 0 -90 0 -100 0 N
+P 2 1 1 0 90 0 100 0 N
+P 5 1 1 0 -90 0 -75 40 -60 0 -45 -40 -30 0 N
+P 5 1 1 0 -30 0 -15 40 0 0 15 -40 30 0 N
+P 5 1 1 0 30 0 45 40 60 0 75 -40 90 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# passive_component_rl_resistor_variable_us
+#
+DEF passive_component_rl_resistor_variable_us R 0 40 Y N 1 F N
+F0 "R" -20 135 50 H V C CNN
+F1 "passive_component_rl_resistor_variable_us" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 -90 0 -100 0 N
+P 2 1 1 0 90 0 100 0 N
+P 5 1 1 6 -90 0 -75 40 -60 0 -45 -40 -30 0 N
+P 5 1 1 6 -60 90 -100 100 -90 60 -100 100 100 -100 N
+P 5 1 1 0 -30 0 -15 40 0 0 15 -40 30 0 N
+P 5 1 1 0 30 0 45 40 60 0 75 -40 90 0 N
+X ~ 1 150 0 50 L 50 50 1 1 P
+X ~ 2 150 -100 50 L 50 50 1 1 P
+X ~ 3 -150 0 50 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# power_management_rl_TPS26600
+#
+DEF power_management_rl_TPS26600 U 0 40 Y Y 1 F N
+F0 "U" -300 300 50 H V C CNN
+F1 "power_management_rl_TPS26600" 0 -600 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 250 350 -550 1 1 0 f
+X IN 1 -450 200 100 R 50 50 1 1 W
+X IMON 10 450 -400 100 L 50 50 1 1 O
+X ILIM 11 450 -300 100 L 50 50 1 1 B
+X dVdT 12 450 -200 100 L 50 50 1 1 B
+X NC 13 450 -100 100 L 50 50 1 1 N X
+X FLT 14 450 0 100 L 50 50 1 1 O I
+X OUT 15 450 100 100 L 50 50 1 1 w
+X OUT 16 450 200 100 L 50 50 1 1 w
+X IN 2 -450 100 100 R 50 50 1 1 W
+X UVLO 3 -450 0 100 R 50 50 1 1 I
+X NC 4 -450 -100 100 R 50 50 1 1 N X
+X OVP 5 -450 -200 100 R 50 50 1 1 I
+X MODE 6 -450 -300 100 R 50 50 1 1 I
+X SHDN 7 -450 -400 100 R 50 50 1 1 I I
+X PowerPad 8 50 -600 100 L 50 50 1 1 U NX
+X RTN 8 -450 -500 100 R 50 50 1 1 w
+X GND 9 450 -500 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# power_management_rl_XC6206P332MR-G
+#
+DEF power_management_rl_XC6206P332MR-G U 0 40 Y Y 1 F N
+F0 "U" -150 150 50 H V C CNN
+F1 "power_management_rl_XC6206P332MR-G" 300 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 75 200 -200 1 1 10 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X VO 2 300 0 100 L 50 50 1 1 w
+X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# power_rl_+3V3
+#
+DEF power_rl_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 10 -60 50 H I C CNN
+F1 "power_rl_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 -30 50 0 100 N
+P 2 1 1 0 0 0 0 100 N
+P 2 1 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_rl_+5V
+#
+DEF power_rl_+5V #PWR 0 0 N Y 1 F P
+F0 "#PWR" 10 -60 50 H I C CNN
+F1 "power_rl_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 -30 50 0 100 N
+P 2 1 1 0 0 0 0 100 N
+P 2 1 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_rl_GND
+#
+DEF power_rl_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "power_rl_GND" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 1 1 0 0 50 0 0 50 0 0 -50 -50 0 0 0 N
+X GND 1 0 50 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_rl_GND1
+#
+DEF power_rl_GND1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "power_rl_GND1" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 1 1 0 0 50 0 0 50 0 0 -50 -50 0 0 0 N
+X GND1 1 0 50 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_rl_GND2
+#
+DEF power_rl_GND2 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "power_rl_GND2" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 1 1 0 0 50 0 0 50 0 0 -50 -50 0 0 0 N
+X GND2 1 0 50 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_rl_GND3
+#
+DEF power_rl_GND3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "power_rl_GND3" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 1 1 0 0 50 0 0 50 0 0 -50 -50 0 0 0 N
+X GND3 1 0 50 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_rl_GND4
+#
+DEF power_rl_GND4 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "power_rl_GND4" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 1 1 0 0 50 0 0 50 0 0 -50 -50 0 0 0 N
+X GND4 1 0 50 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# signalization-by-fireplace-rescue_n_mosfet_gsd-unipolar_transistor_rl
+#
+DEF signalization-by-fireplace-rescue_n_mosfet_gsd-unipolar_transistor_rl Q 0 20 Y N 1 F N
+F0 "Q" 150 50 50 H V C CNN
+F1 "signalization-by-fireplace-rescue_n_mosfet_gsd-unipolar_transistor_rl" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -35 0 110 1 1 10 N
+C 0 -70 10 1 1 0 F
+C 0 70 10 1 1 0 F
+P 2 1 1 0 -90 0 -200 0 N
+P 2 1 1 10 -90 75 -90 -75 N
+P 2 1 1 10 -70 -50 -70 -90 N
+P 2 1 1 10 -70 20 -70 -20 N
+P 2 1 1 10 -70 90 -70 50 N
+P 2 1 1 0 0 100 0 70 N
+P 3 1 1 0 0 -100 0 0 -70 0 N
+P 4 1 1 0 -70 -70 30 -70 30 70 -70 70 N
+P 4 1 1 0 -60 0 -20 15 -20 -15 -60 0 F
+P 4 1 1 0 10 20 15 15 45 15 50 10 N
+P 4 1 1 0 30 15 15 -10 45 -10 30 15 N
+X G 1 -300 0 100 R 50 50 1 1 I
+X S 2 0 -200 100 U 50 50 1 1 P
+X D 3 0 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# signalization-by-fireplace-rescue_p_mosfet_gsd-unipolar_transistor_rl
+#
+DEF signalization-by-fireplace-rescue_p_mosfet_gsd-unipolar_transistor_rl Q 0 40 Y N 1 F N
+F0 "Q" 0 200 50 H V C CNN
+F1 "signalization-by-fireplace-rescue_p_mosfet_gsd-unipolar_transistor_rl" 300 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 65 0 110 1 1 10 N
+C 100 -70 10 1 1 0 F
+C 100 70 10 1 1 0 F
+P 2 1 1 0 10 0 -100 0 N
+P 2 1 1 10 10 75 10 -75 N
+P 2 1 1 10 30 -50 30 -90 N
+P 2 1 1 10 30 20 30 -20 N
+P 2 1 1 10 30 90 30 50 N
+P 2 1 1 0 100 100 100 70 N
+P 3 1 1 0 100 -100 100 0 30 0 N
+P 4 1 1 0 30 70 130 70 130 -70 30 -70 N
+P 4 1 1 0 90 0 50 15 50 -15 90 0 F
+P 4 1 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 1 1 0 130 -15 115 10 145 10 130 -15 N
+X G 1 -200 0 100 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# thermocouple_rl_MAX31850K_rl
+#
+DEF thermocouple_rl_MAX31850K_rl U 0 40 Y Y 1 F N
+F0 "U" -300 300 50 H V C CNN
+F1 "thermocouple_rl_MAX31850K_rl" 100 300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 250 350 -250 1 1 0 f
+X GND 1 -450 200 100 R 50 50 1 1 W
+X DNC 10 450 200 100 L 50 50 1 1 N
+X EP 11 0 -350 100 U 50 50 1 1 w
+X T- 2 -450 100 100 R 50 50 1 1 I
+X T+ 3 -450 0 100 R 50 50 1 1 I
+X VDD 4 -450 -100 100 R 50 50 1 1 W
+X DQ 5 -450 -200 100 R 50 50 1 1 B
+X AD0 6 450 -200 100 L 50 50 1 1 I
+X AD1 7 450 -100 100 L 50 50 1 1 I
+X AD2 8 450 0 100 L 50 50 1 1 I
+X AD3 9 450 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
