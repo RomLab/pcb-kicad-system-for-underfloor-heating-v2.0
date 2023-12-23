@@ -1,0 +1,502 @@
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-B_Mask.gbs' ----   Thu Dec 21 15:01:56 2023
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D20   --> D109
+D21   --> D110
+D22   --> D111
+D23   --> D112
+D24   --> D113
+D25   --> D114
+D26   --> D115
+D27   --> D116
+D28   --> D117
+D29   --> D118
+D30   --> D119
+D31   --> D120
+D32   --> D121
+D33   --> D122
+D34   --> D123
+D35   --> D124
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-B_Paste.gbp' ----   Thu Dec 21 15:01:56 2023
+
+D10   --> D125
+D11   --> D126
+D12   --> D127
+D13   --> D128
+D14   --> D129
+D15   --> D130
+D16   --> D131
+D17   --> D132
+D18   --> D133
+D19   --> D134
+D20   --> D135
+D21   --> D136
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-B_Silkscreen.gbo' ----   Thu Dec 21 15:01:56 2023
+
+D10   --> D137
+D11   --> D138
+D12   --> D139
+D13   --> D140
+D14   --> D141
+D15   --> D142
+D16   --> D143
+D17   --> D144
+D18   --> D145
+D19   --> D146
+D20   --> D147
+D21   --> D148
+D22   --> D149
+D23   --> D150
+D24   --> D151
+D25   --> D152
+D26   --> D153
+D27   --> D154
+D28   --> D155
+D29   --> D156
+D30   --> D157
+D31   --> D158
+D32   --> D159
+D33   --> D160
+D34   --> D161
+D35   --> D162
+D36   --> D163
+D37   --> D164
+D38   --> D165
+D39   --> D166
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-Edge_Cuts.gm1' ----   Thu Dec 21 15:01:56 2023
+
+D10   --> D167
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-F_Cu.gtl' ----   Thu Dec 21 15:01:56 2023
+
+D10   --> D168
+D11   --> D169
+D12   --> D170
+D13   --> D171
+D14   --> D172
+D15   --> D173
+D16   --> D174
+D17   --> D175
+D18   --> D176
+D19   --> D177
+D21   --> D178
+D22   --> D179
+D23   --> D180
+D24   --> D181
+D25   --> D182
+D26   --> D183
+D27   --> D184
+D28   --> D185
+D29   --> D186
+D30   --> D187
+D31   --> D188
+D32   --> D189
+D33   --> D190
+D34   --> D191
+D35   --> D192
+D36   --> D193
+D37   --> D194
+D38   --> D195
+D39   --> D196
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-F_Mask.gts' ----   Thu Dec 21 15:01:56 2023
+
+D10   --> D197
+D11   --> D198
+D12   --> D199
+D13   --> D200
+D14   --> D201
+D15   --> D202
+D16   --> D203
+D17   --> D204
+D18   --> D205
+D19   --> D206
+D20   --> D207
+D21   --> D208
+D22   --> D209
+D23   --> D210
+D24   --> D211
+D25   --> D212
+D26   --> D213
+D27   --> D214
+D28   --> D215
+D29   --> D216
+D30   --> D217
+D31   --> D218
+D32   --> D219
+D33   --> D220
+D34   --> D221
+D35   --> D222
+D36   --> D223
+D37   --> D224
+D38   --> D225
+D39   --> D226
+D40   --> D227
+D41   --> D228
+D42   --> D229
+D43   --> D230
+D44   --> D231
+D45   --> D232
+D46   --> D233
+D47   --> D234
+D48   --> D235
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-F_Paste.gtp' ----   Thu Dec 21 15:01:56 2023
+
+D10   --> D236
+D11   --> D237
+D12   --> D238
+D13   --> D239
+D14   --> D240
+D15   --> D241
+D16   --> D242
+D17   --> D243
+D18   --> D244
+D19   --> D245
+D20   --> D246
+D21   --> D247
+D22   --> D248
+D23   --> D249
+D24   --> D250
+D25   --> D251
+D26   --> D252
+D27   --> D253
+D28   --> D254
+D29   --> D255
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-F_Silkscreen.gto' ----   Thu Dec 21 15:01:56 2023
+
+D10   --> D256
+D11   --> D257
+D12   --> D258
+D13   --> D259
+D14   --> D260
+D15   --> D261
+D16   --> D262
+D17   --> D263
+D18   --> D264
+D19   --> D265
+D20   --> D266
+D21   --> D267
+D22   --> D268
+D23   --> D269
+D24   --> D270
+D25   --> D271
+D26   --> D272
+D27   --> D273
+D28   --> D274
+D29   --> D275
+D30   --> D276
+D31   --> D277
+D32   --> D278
+D33   --> D279
+D34   --> D280
+D35   --> D281
+D36   --> D282
+D37   --> D283
+D38   --> D284
+D39   --> D285
+D40   --> D286
+D41   --> D287
+D42   --> D288
+D43   --> D289
+D44   --> D290
+D45   --> D291
+D46   --> D292
+D47   --> D293
+D48   --> D294
+D49   --> D295
+D50   --> D296
+D51   --> D297
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-B_Mask.gbs' ----   Thu Dec 21 15:02:49 2023
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D20   --> D109
+D21   --> D110
+D22   --> D111
+D23   --> D112
+D24   --> D113
+D25   --> D114
+D26   --> D115
+D27   --> D116
+D28   --> D117
+D29   --> D118
+D30   --> D119
+D31   --> D120
+D32   --> D121
+D33   --> D122
+D34   --> D123
+D35   --> D124
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-B_Paste.gbp' ----   Thu Dec 21 15:02:49 2023
+
+D10   --> D125
+D11   --> D126
+D12   --> D127
+D13   --> D128
+D14   --> D129
+D15   --> D130
+D16   --> D131
+D17   --> D132
+D18   --> D133
+D19   --> D134
+D20   --> D135
+D21   --> D136
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-B_Silkscreen.gbo' ----   Thu Dec 21 15:02:49 2023
+
+D10   --> D137
+D11   --> D138
+D12   --> D139
+D13   --> D140
+D14   --> D141
+D15   --> D142
+D16   --> D143
+D17   --> D144
+D18   --> D145
+D19   --> D146
+D20   --> D147
+D21   --> D148
+D22   --> D149
+D23   --> D150
+D24   --> D151
+D25   --> D152
+D26   --> D153
+D27   --> D154
+D28   --> D155
+D29   --> D156
+D30   --> D157
+D31   --> D158
+D32   --> D159
+D33   --> D160
+D34   --> D161
+D35   --> D162
+D36   --> D163
+D37   --> D164
+D38   --> D165
+D39   --> D166
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-Edge_Cuts.gm1' ----   Thu Dec 21 15:02:49 2023
+
+D10   --> D167
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-F_Cu.gtl' ----   Thu Dec 21 15:02:49 2023
+
+D10   --> D168
+D11   --> D169
+D12   --> D170
+D13   --> D171
+D14   --> D172
+D15   --> D173
+D16   --> D174
+D17   --> D175
+D18   --> D176
+D19   --> D177
+D21   --> D178
+D22   --> D179
+D23   --> D180
+D24   --> D181
+D25   --> D182
+D26   --> D183
+D27   --> D184
+D28   --> D185
+D29   --> D186
+D30   --> D187
+D31   --> D188
+D32   --> D189
+D33   --> D190
+D34   --> D191
+D35   --> D192
+D36   --> D193
+D37   --> D194
+D38   --> D195
+D39   --> D196
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-F_Mask.gts' ----   Thu Dec 21 15:02:49 2023
+
+D10   --> D197
+D11   --> D198
+D12   --> D199
+D13   --> D200
+D14   --> D201
+D15   --> D202
+D16   --> D203
+D17   --> D204
+D18   --> D205
+D19   --> D206
+D20   --> D207
+D21   --> D208
+D22   --> D209
+D23   --> D210
+D24   --> D211
+D25   --> D212
+D26   --> D213
+D27   --> D214
+D28   --> D215
+D29   --> D216
+D30   --> D217
+D31   --> D218
+D32   --> D219
+D33   --> D220
+D34   --> D221
+D35   --> D222
+D36   --> D223
+D37   --> D224
+D38   --> D225
+D39   --> D226
+D40   --> D227
+D41   --> D228
+D42   --> D229
+D43   --> D230
+D44   --> D231
+D45   --> D232
+D46   --> D233
+D47   --> D234
+D48   --> D235
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-F_Paste.gtp' ----   Thu Dec 21 15:02:49 2023
+
+D10   --> D236
+D11   --> D237
+D12   --> D238
+D13   --> D239
+D14   --> D240
+D15   --> D241
+D16   --> D242
+D17   --> D243
+D18   --> D244
+D19   --> D245
+D20   --> D246
+D21   --> D247
+D22   --> D248
+D23   --> D249
+D24   --> D250
+D25   --> D251
+D26   --> D252
+D27   --> D253
+D28   --> D254
+D29   --> D255
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-F_Silkscreen.gto' ----   Thu Dec 21 15:02:49 2023
+
+D10   --> D256
+D11   --> D257
+D12   --> D258
+D13   --> D259
+D14   --> D260
+D15   --> D261
+D16   --> D262
+D17   --> D263
+D18   --> D264
+D19   --> D265
+D20   --> D266
+D21   --> D267
+D22   --> D268
+D23   --> D269
+D24   --> D270
+D25   --> D271
+D26   --> D272
+D27   --> D273
+D28   --> D274
+D29   --> D275
+D30   --> D276
+D31   --> D277
+D32   --> D278
+D33   --> D279
+D34   --> D280
+D35   --> D281
+D36   --> D282
+D37   --> D283
+D38   --> D284
+D39   --> D285
+D40   --> D286
+D41   --> D287
+D42   --> D288
+D43   --> D289
+D44   --> D290
+D45   --> D291
+D46   --> D292
+D47   --> D293
+D48   --> D294
+D49   --> D295
+D50   --> D296
+D51   --> D297
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-NPTH-drl_map.gbr' ----   Thu Dec 21 15:02:49 2023
+
+D10   --> D298
+D11   --> D299
+D12   --> D300
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-PTH-drl_map.gbr' ----   Thu Dec 21 15:02:49 2023
+
+D10   --> D301
+D11   --> D302
+D12   --> D303
+D13   --> D304
+D14   --> D305
+D15   --> D306
+D16   --> D307
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas-thermostat\v2.0\kicad_v7\zone-controller\v10.0_v2.0_reference\export\gerber-data\zone-controller-PTH.drl' ----   Thu Dec 21 15:02:59 2023
+
+T1   --> T2
+-----------------------------------------------------------------
