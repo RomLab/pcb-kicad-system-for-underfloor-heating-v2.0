@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "wall-sensor-of-room-temperature-rescue")(type "Legacy")(uri "${KIPRJMOD}/wall-sensor-of-room-temperature-rescue.lib")(options "")(descr ""))
+  (lib (name "wall-mounted-room-temperature-sensor-ethernet-rescue")(type "KiCad")(uri "${KIPRJMOD}/wall-mounted-room-temperature-sensor-ethernet-rescue.kicad_sym")(options "")(descr ""))
+)
