@@ -1,0 +1,189 @@
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\wall-sensor-of-room-temperature-wifi\wall-sensor-of-room-temperature_v2\export\gerber\wall-sensor-of-room-temperature-B_Mask.gbs' ----   Wed Jun 16 15:59:44 2021
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D20   --> D110
+D21   --> D111
+D22   --> D112
+D23   --> D113
+D24   --> D114
+D25   --> D115
+D26   --> D116
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\wall-sensor-of-room-temperature-wifi\wall-sensor-of-room-temperature_v2\export\gerber\wall-sensor-of-room-temperature-B_Paste.gbp' ----   Wed Jun 16 15:59:44 2021
+
+D10   --> D117
+D11   --> D118
+D12   --> D119
+D13   --> D120
+D14   --> D121
+D15   --> D122
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\wall-sensor-of-room-temperature-wifi\wall-sensor-of-room-temperature_v2\export\gerber\wall-sensor-of-room-temperature-B_SilkS.gbo' ----   Wed Jun 16 15:59:44 2021
+
+D10   --> D123
+D11   --> D124
+D12   --> D125
+D13   --> D126
+D14   --> D127
+D15   --> D128
+D16   --> D129
+D17   --> D130
+D18   --> D131
+D19   --> D132
+D20   --> D133
+D21   --> D134
+D22   --> D135
+D23   --> D136
+D24   --> D137
+D25   --> D138
+D26   --> D139
+D27   --> D140
+D28   --> D141
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\wall-sensor-of-room-temperature-wifi\wall-sensor-of-room-temperature_v2\export\gerber\wall-sensor-of-room-temperature-Edge_Cuts.gm1' ----   Wed Jun 16 15:59:44 2021
+
+D10   --> D142
+D11   --> D143
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\wall-sensor-of-room-temperature-wifi\wall-sensor-of-room-temperature_v2\export\gerber\wall-sensor-of-room-temperature-F_Cu.gtl' ----   Wed Jun 16 15:59:44 2021
+
+D13   --> D144
+D14   --> D145
+D15   --> D146
+D16   --> D147
+D17   --> D148
+D18   --> D149
+D19   --> D150
+D20   --> D151
+D21   --> D152
+D22   --> D153
+D23   --> D154
+D24   --> D155
+D25   --> D156
+D26   --> D157
+D27   --> D158
+D28   --> D159
+D29   --> D160
+D30   --> D161
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\wall-sensor-of-room-temperature-wifi\wall-sensor-of-room-temperature_v2\export\gerber\wall-sensor-of-room-temperature-F_Mask.gts' ----   Wed Jun 16 15:59:44 2021
+
+D10   --> D162
+D11   --> D163
+D12   --> D164
+D13   --> D165
+D14   --> D166
+D15   --> D167
+D16   --> D168
+D17   --> D169
+D18   --> D170
+D19   --> D171
+D20   --> D172
+D21   --> D173
+D22   --> D174
+D23   --> D175
+D24   --> D176
+D25   --> D177
+D26   --> D178
+D27   --> D179
+D28   --> D180
+D29   --> D181
+D30   --> D182
+D31   --> D183
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\wall-sensor-of-room-temperature-wifi\wall-sensor-of-room-temperature_v2\export\gerber\wall-sensor-of-room-temperature-F_Paste.gtp' ----   Wed Jun 16 15:59:44 2021
+
+D10   --> D184
+D11   --> D185
+D12   --> D186
+D13   --> D187
+D14   --> D188
+D15   --> D189
+D16   --> D190
+D17   --> D191
+D18   --> D192
+D19   --> D193
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\wall-sensor-of-room-temperature-wifi\wall-sensor-of-room-temperature_v2\export\gerber\wall-sensor-of-room-temperature-F_SilkS.gto' ----   Wed Jun 16 15:59:44 2021
+
+D10   --> D194
+D11   --> D195
+D12   --> D196
+D13   --> D197
+D15   --> D198
+D16   --> D199
+D17   --> D200
+D18   --> D201
+D19   --> D202
+D20   --> D203
+D21   --> D204
+D22   --> D205
+D23   --> D206
+D24   --> D207
+D25   --> D208
+D26   --> D209
+D27   --> D210
+D28   --> D211
+D29   --> D212
+D30   --> D213
+D31   --> D214
+D32   --> D215
+D33   --> D216
+D34   --> D217
+D35   --> D218
+D36   --> D219
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\wall-sensor-of-room-temperature-wifi\wall-sensor-of-room-temperature_v2\export\gerber\wall-sensor-of-room-temperature-NPTH-drl_map.gbr' ----   Wed Jun 16 15:59:44 2021
+
+D10   --> D220
+D11   --> D221
+D12   --> D222
+D13   --> D223
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\wall-sensor-of-room-temperature-wifi\wall-sensor-of-room-temperature_v2\export\gerber\wall-sensor-of-room-temperature-PTH.drl' ----   Wed Jun 16 15:59:44 2021
+
+T1   --> T3
+T2   --> T4
+T3   --> T5
+T4   --> T6
+T5   --> T7
+T6   --> T8
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\kicad\thomas_thermostat\wall-sensor-of-room-temperature-wifi\wall-sensor-of-room-temperature_v2\export\gerber\wall-sensor-of-room-temperature-PTH-drl_map.gbr' ----   Wed Jun 16 15:59:44 2021
+
+D10   --> D224
+D11   --> D225
+D12   --> D226
+D13   --> D227
+-----------------------------------------------------------------
