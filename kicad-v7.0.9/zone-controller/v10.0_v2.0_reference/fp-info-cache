@@ -1,4 +1,11 @@
-10038109981523
+15185384143086
+mounting_hole_pad_rl
+mountig_hole_pad_0.8x1.5mm
+
+
+0
+1
+1
 mounting_hole_pad_rl
 mountig_hole_pad_1.6x3mm
 Mounting hole with pad 1.6 drill, 3 diameter
@@ -28,6 +35,13 @@ mountig hole pad 1.6x4
 1
 1
 mounting_hole_pad_rl
+mounting_hole_pad_1x3.5mm
+Mounting hole with pad 1 drill, 3.5 diameter
+mountig hole pad 1x3.5
+0
+1
+1
+mounting_hole_pad_rl
 mounting_hole_pad_3.2x5.5mm
 Mounting hole with pad 3.2 drill, 5.5 diameter
 mountig hole pad 3.2x5.5
@@ -35,8 +49,15 @@ mountig hole pad 3.2x5.5
 1
 1
 mounting_hole_pad_rl
+mounting_hole_pad_3.2x5mm
+Mounting hole with pad 3.2 mm drill, 5 mm diameter
+mountig hole pad 3.2x5
+0
+1
+1
+mounting_hole_pad_rl
 mounting_hole_pad_3.2x6mm
-Mounting hole with pad 3.2 drill, 6 diameter
+Mounting hole with pad 3.2 mm drill, 6 mm diameter
 mountig hole pad 3.2x6
 0
 1
