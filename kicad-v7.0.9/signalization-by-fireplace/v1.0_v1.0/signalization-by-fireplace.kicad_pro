@@ -409,7 +409,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "esp32_rl"
+    ]
   },
   "meta": {
     "filename": "signalization-by-fireplace.kicad_pro",
