@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -67,8 +67,8 @@
       39,
       40
     ],
-    "visible_layers": "000b2ff_80000001",
-    "zone_display_mode": 0
+    "visible_layers": "000b2ba_80000001",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "wall-mounted-room-temperature-sensor-ethernet.kicad_prl",
