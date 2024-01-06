@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name wall-sensor-of-room-temperature-rescue)(type Legacy)(uri ${KIPRJMOD}/wall-sensor-of-room-temperature-rescue.lib)(options "")(descr ""))
-  (lib (name wall-mounted-room-temperature-sensor-wifi-rescue)(type Legacy)(uri "${KIPRJMOD}/wall-mounted-room-temperature sensor-wifi-rescue.lib")(options "")(descr ""))
-)
