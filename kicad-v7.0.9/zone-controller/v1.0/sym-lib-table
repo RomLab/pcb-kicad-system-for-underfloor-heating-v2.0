@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name zone-controller-rescue)(type Legacy)(uri ${KIPRJMOD}/zone-controller-rescue.lib)(options "")(descr ""))
-)

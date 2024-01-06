@@ -1,4 +1,0 @@
-*SRC=BAV20WS;DI_BAV20WS;Diodes;Si;  150V  0.400A  50.0ns   Diodes Inc.
-Switching Diode
-.MODEL DI_BAV20WS D  ( IS=1.09u RS=0.105 BV=150 IBV=100n
-+ CJO=5.00p  M=0.333 N=3.29 TT=72.0n )
