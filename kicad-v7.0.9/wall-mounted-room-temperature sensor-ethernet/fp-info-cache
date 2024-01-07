@@ -1,4 +1,4 @@
-22687720853457116
+22674034354892633
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92560,7 +92560,14 @@ c_elec_1210
 0
 2
 2
-connector_idc_rl
+connector_idc_lsa_tht_rl
+1x4_idc_lsa_connector_general
+General IDC/LSA connector
+idc lsa connector
+0
+4
+4
+connector_idc_tht_rl
 2x3_MLW06A
 IDC connector 2x3 MLW06A
 idc connector 2x3 MLW06A
@@ -92574,6 +92581,188 @@ connector Molex CLIK-Mate side entry
 0
 2
 2
+connector_pin_header_2.54mm_smd_rl
+1x2_pin_header_2.54mm_vertical
+SMD straight pin header, 1x2, 2.54mm pitch, single row
+smd pin header THT 1x2 2.54mm single row
+0
+2
+2
+connector_pin_header_2.54mm_smd_rl
+1x3_pin_header_2.54mm_vertical
+SMD straight pin header, 1x3, 2.54mm pitch, single row
+smd pin header THT 1x3 2.54mm single row
+0
+3
+3
+connector_pin_header_2.54mm_smd_rl
+1x10_pin_header_2.54mm_vertical
+SMD straight pin header, 1x10, 2.54mm pitch, single row
+smd pin header THT 1x10 2.54mm single row
+0
+10
+10
+connector_pin_header_2.54mm_smd_rl
+1x16_pin_header_2.54mm_vertical
+SMD straight pin header, 1x16, 2.54mm pitch, single row
+smd pin header THT 1x16 2.54mm single row
+0
+16
+16
+connector_pin_header_2.54mm_smd_rl
+2x10_pin_header_2.54mm_vertical
+SMD straight pin header, 2x10, 2.54mm pitch, double row
+smd pin header THT 2x10 2.54mm double row
+0
+20
+20
+connector_pin_header_2.54mm_tht_rl
+1x2_pin_header_2.54mm_vertical
+Through hole straight pin header, 1x2, 2.54mm pitch, single row
+Through hole pin header THT 1x2 2.54mm single row
+0
+2
+2
+connector_pin_header_2.54mm_tht_rl
+1x3_pin_header_2.54mm_vertical
+Through hole straight pin header, 1x3, 2.54mm pitch, single row
+Through hole pin header THT 1x3 2.54mm single row
+0
+3
+3
+connector_pin_header_2.54mm_tht_rl
+1x4_pin_header_2.54mm_vertical
+Through hole straight pin header, 1x4, 2.54mm pitch, single row
+Through hole pin header THT 1x4 2.54mm single row
+0
+4
+4
+connector_pin_header_2.54mm_tht_rl
+1x7_pin_header_2.54mm_vertical
+Through hole straight pin header, 1x7, 2.54mm pitch, single row
+Through hole pin header THT 1x7 2.54mm single row
+0
+7
+7
+connector_pin_header_2.54mm_tht_rl
+1x16_pin_header_2.54mm_vertical
+Through hole straight pin header, 1x16, 2.54mm pitch, single row
+Through hole pin header THT 1x16 2.54mm single row
+0
+16
+16
+connector_pin_header_2.54mm_tht_rl
+1x20_pin_header_2.54mm_vertical
+Through hole straight pin header, 1x20, 2.54mm pitch, single row
+Through hole pin header THT 1x20 2.54mm single row
+0
+20
+20
+connector_pin_header_2.54mm_tht_rl
+2x20_pin_header_2.54mm_vertical
+Through hole straight pin header, 2x20, 2.54mm pitch, double row
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
+connector_pin_socket_2.54mm_tht_rl
+1x3_pin_socket_2.54mm_vertical_8.4mm
+1x3 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
+1x3 pin socket 8.4 mm
+0
+3
+3
+connector_pin_socket_2.54mm_tht_rl
+1x3_pin_socket_2.54mm_vertical_8.5mm
+1x3 pin socket, spacing 2.54 mm, vertical, vertical 8.5 mm
+1x3 pin socket 8.5 mm
+0
+3
+3
+connector_pin_socket_2.54mm_tht_rl
+1x4_pin_socket_2.54mm_vertical_8.4mm
+1x4 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
+1x4 pin socket 8.4 mm
+0
+4
+4
+connector_pin_socket_2.54mm_tht_rl
+1x4_pin_socket_2.54mm_vertical_8.5mm
+1x4 pin socket, spacing 2.54 mm, vertical, vertical 8.5 mm
+1x4 pin socket 8.5 mm
+0
+4
+4
+connector_pin_socket_2.54mm_tht_rl
+1x9_pin_socket_2.54mm_vertical_8.5mm
+1x9 pin socket, spacing 2.54 mm, vertical, vertical 8.5 mm
+1x9 pin socket 8.5 mm
+0
+9
+9
+connector_pin_socket_2.54mm_tht_rl
+1x10_pin_socket_2.54mm_vertical_8.4mm
+1x10 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
+1x10 pin socket 8.4 mm
+0
+10
+10
+connector_pin_socket_2.54mm_tht_rl
+1x10_pin_socket_2.54mm_vertical_8.5mm
+1x10 pin socket, spacing 2.54 mm, vertical, vertical 8.5 mm
+1x10 pin socket 8.5 mm
+0
+10
+10
+connector_pin_socket_2.54mm_tht_rl
+1x16_pin_socket_2.54mm_vertical_8.5mm
+Through hole straight pin socket, 1x16, 2.54mm pitch, single row, vertical 8.5 mm
+Through hole pin socket THT 1x16 2.54mm single row
+0
+16
+16
+connector_pin_socket_2.54mm_tht_rl
+1x20_pin_socket_2.54mm_vertical_7mm
+1x20 pin socket, spacing 2.54 mm, vertical 7 mm
+1x20 pin socket 7 mm
+0
+20
+20
+connector_pin_socket_2.54mm_tht_rl
+1x20_pin_socket_2.54mm_vertical_8.5mm
+1x20 pin socket, spacing 2.54 mm, vertical 8.5 mm
+1x20 pin socket 8.5 mm
+0
+20
+20
+connector_pin_socket_2.54mm_tht_rl
+2x20_pin_socket_2.54mm_vertical_7mm
+Through hole straight pin socket 2x20, 2.54mm pitch, double row, vertical 7 mm
+Through hole pin socket THT 2x20 2.54mm double row 7 mm
+0
+40
+40
+connector_pin_socket_2.54mm_tht_rl
+2x20_pin_socket_2.54mm_vertical_8.5mm
+Through hole straight pin socket 2x20, 2.54mm pitch, double row, vertical 8.5 mm
+Through hole pin socket THT 2x20 2.54mm double row 8.5 mm
+0
+40
+40
+connector_rj45_smd_rl
+rj45_molex_95501_6889
+RJ45 Molex 95501-6889 with 8P8C, https://www.molex.com/webdocs/datasheets/pdf/en-us/0955016889_MODULAR_JACKS_PLUG.pdf
+rj45 molex 95501-6889
+0
+8
+8
+connector_rj45_tht_rl
+1x4_rj45_MC001523
+
+
+0
+53
+13
 connector_rj45_tht_rl
 54601-908WPLF
 RJ45 54601-908WPLF
@@ -92581,251 +92770,13 @@ rj45 908wplf
 0
 8
 8
-connector_rl
-1x2_v_header_pins
-
-
-0
-2
-2
-connector_rl
-1x4_idc_lsa_connector_general
-General IDC/LSA connector
-idc lsa connector
-0
-4
-4
-connector_rl
-1x4_rj45_MC001523
-
-
-0
-53
-13
-connector_rl
-1x5_pin_header
-
-
-0
-5
-5
-connector_rl
-1x8_v_pin_header
-
-
-0
-8
-8
-connector_rl
-1x9_v_pin_header
-Pin header 1x9
-pi header 1x9
-0
-9
-9
-connector_rl
-1x10_pin_header
-Pin header 1x10
-pin header 1x10
-0
-10
-10
-connector_rl
-2x20_pinheader_2.54mm_rpi_rl
-2x20 pin header for Raspberry pi
-2x20 pin header raspberry pi
-0
-40
-40
-connector_rl
-rj45_54601-908WPLF
-RJ45 54601-908WPLF (https://www.amphenol-icc.com/modular-jack-54601908wplf.html)
-rj45 908wplf
-0
-8
-8
-connector_rl
+connector_rj45_tht_rl
 rj45_amphenol_icc_rjhse_5080
 
 
 0
 8
 8
-connector_rl
-rj45_molex_95501_6889
-RJ45 Molex 95501-6889 with 8P8C, https://www.molex.com/webdocs/datasheets/pdf/en-us/0955016889_MODULAR_JACKS_PLUG.pdf
-rj45 molex 95501-6889
-0
-8
-8
-connector_smd_pinheader_2.54mm_rl
-1x2_pinheader_2.54mm_vertical
-SMD straight pin header, 1x2, 2.54mm pitch, single row
-smd pin header THT 1x2 2.54mm single row
-0
-2
-2
-connector_smd_pinheader_2.54mm_rl
-1x3_pinheader_2.54mm_vertical
-SMD straight pin header, 1x3, 2.54mm pitch, single row
-smd pin header THT 1x3 2.54mm single row
-0
-3
-3
-connector_smd_pinheader_2.54mm_rl
-1x10_pinheader_2.54mm_vertical
-SMD straight pin header, 1x10, 2.54mm pitch, single row
-smd pin header THT 1x10 2.54mm single row
-0
-10
-10
-connector_smd_pinheader_2.54mm_rl
-1x16_pinheader_2.54mm_vertical
-SMD straight pin header, 1x16, 2.54mm pitch, single row
-smd pin header THT 1x16 2.54mm single row
-0
-16
-16
-connector_smd_pinheader_2.54mm_rl
-2x10_pinheader_2.54mm_vertical
-SMD straight pin header, 2x10, 2.54mm pitch, double row
-smd pin header THT 2x10 2.54mm double row
-0
-20
-20
-connector_tht_pinheader_2.54mm_rl
-1x2_pinheader_2.54mm_vertical
-Through hole straight pin header, 1x2, 2.54mm pitch, single row
-Through hole pin header THT 1x2 2.54mm single row
-0
-2
-2
-connector_tht_pinheader_2.54mm_rl
-1x3_pinheader_2.54mm_vertical
-Through hole straight pin header, 1x3, 2.54mm pitch, single row
-Through hole pin header THT 1x3 2.54mm single row
-0
-3
-3
-connector_tht_pinheader_2.54mm_rl
-1x4_pinheader_2.54mm_vertical
-Through hole straight pin header, 1x4, 2.54mm pitch, single row
-Through hole pin header THT 1x4 2.54mm single row
-0
-4
-4
-connector_tht_pinheader_2.54mm_rl
-1x7_pinheader_2.54mm_vertical
-Through hole straight pin header, 1x7, 2.54mm pitch, single row
-Through hole pin header THT 1x7 2.54mm single row
-0
-7
-7
-connector_tht_pinheader_2.54mm_rl
-1x16_pinheader_2.54mm_vertical
-Through hole straight pin header, 1x16, 2.54mm pitch, single row
-Through hole pin header THT 1x16 2.54mm single row
-0
-16
-16
-connector_tht_pinheader_2.54mm_rl
-1x20_pinheader_2.54mm_vertical
-Through hole straight pin header, 1x20, 2.54mm pitch, single row
-Through hole pin header THT 1x20 2.54mm single row
-0
-20
-20
-connector_tht_pinheader_2.54mm_rl
-2x20_pinheader_2.54mm_vertical
-Through hole straight pin header, 2x20, 2.54mm pitch, double row
-Through hole pin header THT 2x20 2.54mm double row
-0
-40
-40
-connector_tht_pinsocket_2.54mm_rl
-1x3_pinsocket_2.54mm_vertical_8.4mm
-1x3 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
-1x3 pin socket 8.4 mm
-0
-3
-3
-connector_tht_pinsocket_2.54mm_rl
-1x3_pinsocket_2.54mm_vertical_8.5mm
-1x3 pin socket, spacing 2.54 mm, vertical, vertical 8.5 mm
-1x3 pin socket 8.5 mm
-0
-3
-3
-connector_tht_pinsocket_2.54mm_rl
-1x4_pinsocket_2.54mm_vertical_8.4mm
-1x4 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
-1x4 pin socket 8.4 mm
-0
-4
-4
-connector_tht_pinsocket_2.54mm_rl
-1x4_pinsocket_2.54mm_vertical_8.5mm
-1x4 pin socket, spacing 2.54 mm, vertical, vertical 8.5 mm
-1x4 pin socket 8.5 mm
-0
-4
-4
-connector_tht_pinsocket_2.54mm_rl
-1x9_pinsocket_2.54mm_vertical_8.5mm
-1x9 pin socket, spacing 2.54 mm, vertical, vertical 8.5 mm
-1x9 pin socket 8.5 mm
-0
-9
-9
-connector_tht_pinsocket_2.54mm_rl
-1x10_pinsocket_2.54mm_vertical_8.4mm
-1x10 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
-1x10 pin socket 8.4 mm
-0
-10
-10
-connector_tht_pinsocket_2.54mm_rl
-1x10_pinsocket_2.54mm_vertical_8.5mm
-1x10 pin socket, spacing 2.54 mm, vertical, vertical 8.5 mm
-1x10 pin socket 8.5 mm
-0
-10
-10
-connector_tht_pinsocket_2.54mm_rl
-1x16_pinsocket_2.54mm_vertical_8.5mm
-Through hole straight pin socket, 1x16, 2.54mm pitch, single row, vertical 8.5 mm
-Through hole pin socket THT 1x16 2.54mm single row
-0
-16
-16
-connector_tht_pinsocket_2.54mm_rl
-1x20_pinsocket_2.54mm_vertical_7mm
-1x20 pin socket, spacing 2.54 mm, vertical 7 mm
-1x20 pin socket 7 mm
-0
-20
-20
-connector_tht_pinsocket_2.54mm_rl
-1x20_pinsocket_2.54mm_vertical_8.5mm
-1x20 pin socket, spacing 2.54 mm, vertical 8.5 mm
-1x20 pin socket 8.5 mm
-0
-20
-20
-connector_tht_pinsocket_2.54mm_rl
-2x20_pinsocket_2.54mm_vertical_7mm
-Through hole straight pin socket 2x20, 2.54mm pitch, double row, vertical 7 mm
-Through hole pin socket THT 2x20 2.54mm double row 7 mm
-0
-40
-40
-connector_tht_pinsocket_2.54mm_rl
-2x20_pinsocket_2.54mm_vertical_8.5mm
-Through hole straight pin socket 2x20, 2.54mm pitch, double row, vertical 8.5 mm
-Through hole pin socket THT 2x20 2.54mm double row 8.5 mm
-0
-40
-40
 connector_usb_rl
 USB-A-S-RA
 USB connector type A female (https://app.adam-tech.com/products/download/data_sheet/195865/usb-a-s-ra-data-sheet.pdf)
@@ -93033,20 +92984,6 @@ mounting_hole_pad_rl
 mounting_hole_pad_3.2x6mm
 Mounting hole with pad 3.2 mm drill, 6 mm diameter
 mountig hole pad 3.2x6
-0
-1
-1
-mounting_hole_pad_without_connection_rl
-pad_3x5mm
-Pad 3x5mm THT
-pad 3x5mm tht
-0
-1
-1
-mounting_hole_pad_without_connection_rl
-pad_3x6mm
-Pad 3x6mm THT
-pad 3x6mm tht
 0
 1
 1
