@@ -1,57 +1,8 @@
-13625575560123
-connector_tht_pinsocket_2.54mm_rl
-1x3_pinsocket_2.54mm_vertical_8.4mm
-1x3 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
-1x3 pin socket 8.4 mm
+1703510036067
+connector_idc_tht_rl
+2x3_MLW06A
+IDC connector 2x3 MLW06A
+idc connector 2x3 MLW06A
 0
-3
-3
-connector_tht_pinsocket_2.54mm_rl
-1x4_pinsocket_2.54mm_vertical_8.4mm
-1x4 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
-1x4 pin socket 8.4 mm
-0
-4
-4
-connector_tht_pinsocket_2.54mm_rl
-1x9_pinsocket_2.54mm_vertical_8.4mm
-1x9 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
-1x9 pin socket 8.4 mm
-0
-9
-9
-connector_tht_pinsocket_2.54mm_rl
-1x10_pinsocket_2.54mm_vertical_8.4mm
-1x10 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
-1x10 pin socket 8.4 mm
-0
-10
-10
-connector_tht_pinsocket_2.54mm_rl
-1x20_pinsocket_2.54mm_vertical_7mm
-1x20 pin socket, spacing 2.54 mm, vertical 7 mm
-1x20 pin socket 7 mm
-0
-20
-20
-connector_tht_pinsocket_2.54mm_rl
-1x20_pinsocket_2.54mm_vertical_8.5mm
-1x20 pin socket, spacing 2.54 mm, vertical 8.5 mm
-1x20 pin socket 8.5 mm
-0
-20
-20
-connector_tht_pinsocket_2.54mm_rl
-2x20_pinsocket_2.54mm_vertical_7mm
-Through hole straight pin socket 2x20, 2.54mm pitch, double row, vertical 7 mm
-Through hole pin socket THT 2x20 2.54mm double row 7 mm
-0
-40
-40
-connector_tht_pinsocket_2.54mm_rl
-2x20_pinsocket_2.54mm_vertical_8.5mm
-Through hole straight pin socket 2x20, 2.54mm pitch, double row, vertical 8.5 mm
-Through hole pin socket THT 2x20 2.54mm double row 8.5 mm
-0
-40
-40
+6
+6

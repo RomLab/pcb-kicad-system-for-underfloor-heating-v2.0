@@ -559,8 +559,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "export/3d-model/usb-to-uart-converter-with-module.step",
+      "vrml": "export/3d-model/usb-to-uart-converter-with-module.wrl"
     },
     "page_layout_descr_file": ""
   },
