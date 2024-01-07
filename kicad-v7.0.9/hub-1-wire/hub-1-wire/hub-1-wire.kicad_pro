@@ -464,8 +464,8 @@
       "idf": "",
       "netlist": "esd_protection_1_wire_end_devices.net",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "export/3d-model/hu-1-wire.step",
+      "vrml": "export/3d-model/hub-1-wire.wrl"
     },
     "page_layout_descr_file": ""
   },
