@@ -1,4 +1,4 @@
-22680856346278703
+22687722100847553
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92567,7 +92567,7 @@ idc connector 2x3 MLW06A
 0
 6
 6
-connector_molex_rl
+connector_molex_tht_rl
 molex_kk_254_1x02_2.54mm_22112022_vertical
 Molex KK-254 Interconnect System, old/engineering part number: 22112022 example for new part number: 22112022, 2 Pins (https://www.molex.com/webdocs/datasheets/pdf/en-us/0022112022_PCB_HEADERS.pdf)
 connector Molex CLIK-Mate side entry
@@ -92750,6 +92750,13 @@ connector_tht_pinsocket_2.54mm_rl
 3
 3
 connector_tht_pinsocket_2.54mm_rl
+1x3_pinsocket_2.54mm_vertical_8.5mm
+1x3 pin socket, spacing 2.54 mm, vertical, vertical 8.5 mm
+1x3 pin socket 8.5 mm
+0
+3
+3
+connector_tht_pinsocket_2.54mm_rl
 1x4_pinsocket_2.54mm_vertical_8.4mm
 1x4 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
 1x4 pin socket 8.4 mm
@@ -92757,9 +92764,16 @@ connector_tht_pinsocket_2.54mm_rl
 4
 4
 connector_tht_pinsocket_2.54mm_rl
-1x9_pinsocket_2.54mm_vertical_8.4mm
-1x9 pin socket, spacing 2.54 mm, vertical, vertical 8.4 mm
-1x9 pin socket 8.4 mm
+1x4_pinsocket_2.54mm_vertical_8.5mm
+1x4 pin socket, spacing 2.54 mm, vertical, vertical 8.5 mm
+1x4 pin socket 8.5 mm
+0
+4
+4
+connector_tht_pinsocket_2.54mm_rl
+1x9_pinsocket_2.54mm_vertical_8.5mm
+1x9 pin socket, spacing 2.54 mm, vertical, vertical 8.5 mm
+1x9 pin socket 8.5 mm
 0
 9
 9
@@ -92770,6 +92784,20 @@ connector_tht_pinsocket_2.54mm_rl
 0
 10
 10
+connector_tht_pinsocket_2.54mm_rl
+1x10_pinsocket_2.54mm_vertical_8.5mm
+1x10 pin socket, spacing 2.54 mm, vertical, vertical 8.5 mm
+1x10 pin socket 8.5 mm
+0
+10
+10
+connector_tht_pinsocket_2.54mm_rl
+1x16_pinsocket_2.54mm_vertical_8.5mm
+Through hole straight pin socket, 1x16, 2.54mm pitch, single row, vertical 8.5 mm
+Through hole pin socket THT 1x16 2.54mm single row
+0
+16
+16
 connector_tht_pinsocket_2.54mm_rl
 1x20_pinsocket_2.54mm_vertical_7mm
 1x20 pin socket, spacing 2.54 mm, vertical 7 mm
@@ -93429,8 +93457,8 @@ trimer t93yb
 3
 3
 trimmer_tht_rl
-trimmer_t910y
-Trimmer T910Y (https://www.tme.eu/Document/46e9ecf29426285f0ed14cb1dbb4a9ca/SR_Passives-T910.pdf)
+T910Y
+Trimmer T910Y
 trimmer t910y
 0
 3
