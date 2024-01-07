@@ -557,8 +557,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "export/3d-model/testing-board.step",
+      "vrml": "export/3d-model/testing-board.wrl"
     },
     "page_layout_descr_file": ""
   },
