@@ -492,8 +492,8 @@
       "idf": "",
       "netlist": "esd_protection_1_wire_end_devices.net",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "export/3d-model/connecting-connector-1-wire.step",
+      "vrml": "connecting-connector-1-wire.wrl"
     },
     "page_layout_descr_file": ""
   },
